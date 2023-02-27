@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>the thunder guy or whatever</title>
+
+<!-- css sheet and javascript -->
+    <link href="style_mintyverse.css" rel="stylesheet" type="text/css" media="all">
+    <script src="script_mintyverse.js"></script>
+
+  </head>
+
+  <body>
+
+    <noscript>
+    <header>
+	    <b>oh. this is awkward lols. you disabled javascript, which is how i load in my header/nav. use the <a href="sitemap.html">sitemap</a> to get around.</b>
+    </header>
+    </noscript>
+
+    <div include-header-html="header_content.html"></div>
+    <script>insertHeader();</script>
+
+    <main>
+
+<!-- section 1 - buttons -->
+    <div class="grid-box" style="align-items: center">
+      <div onClick="openModal();currentSlide(1)">
+        <img class="pointer" src="https://cdn.discordapp.com/attachments/1005534288609022013/1078052034005176331/fotw_sketch_.png" style="width: 100%" onClick="currentSlide(1)" alt="Sketch of Lychee, Kim and Minty">
+      </div>
+      <div onClick="openModal();currentSlide(2)">
+        <img class="pointer" src="https://cdn.discordapp.com/attachments/1005534288609022013/1078052512973721760/image.png" style="width: 100%" onClick="currentSlide(2)" alt="Tentative map of in-game locations">
+      </div>
+      <div onClick="openModal();currentSlide(3)">
+        <img class="pointer" src="https://f2.toyhou.se/file/f2-toyhou-se/images/55580821_QzADYGOxOlcP8Gn.png" style="width: 100%" onClick="currentSlide(3)" alt="Minty looking cool">
+      </div>
+    </div>
+<!-- section 2 - modal -->
+    <div id="galleryModal" class="modal">
+      <span class="close pointer" onClick="closeModal()">&times;</span>
+      <div class="modal-content">
+        <div class="slides">
+          <img src="https://cdn.discordapp.com/attachments/1005534288609022013/1078052034005176331/fotw_sketch_.png" style="width:100%">
+        </div>
+        <div class="slides">
+          <img src="https://cdn.discordapp.com/attachments/1005534288609022013/1078052512973721760/image.png" style="width:100%">
+        </div>
+        <div class="slides">
+          <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/55580821_QzADYGOxOlcP8Gn.png" style="width:100%">
+        </div>
+
+        <a class="prev" onClick="moveSlide(-1)"><img src="res/utl_left.png" width="30px"></a>
+        <a class="next" onClick="moveSlide(1)"><img src="res/utl_right.png" width="30px"></a>
+
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+
+<!-- section 3 - nav within modal -->
+        <div class="grid-box" style="align-items: center">
+          <div class="pointer" onClick="openModal();currentSlide(1)">
+            <img class="captioned" src="https://cdn.discordapp.com/attachments/1005534288609022013/1078052034005176331/fotw_sketch_.png" style="width: 100%" onClick="currentSlide(1)" alt="Sketch of Lychee, Kim and Minty">
+          </div>
+          <div class="pointer" onClick="openModal();currentSlide(2)">
+            <img class="captioned" src="https://cdn.discordapp.com/attachments/1005534288609022013/1078052512973721760/image.png" style="width: 100%" onClick="currentSlide(2)" alt="Tentative map of in-game locations">
+          </div>
+          <div class="pointer" onClick="openModal();currentSlide(3)">
+            <img class="captioned" src="https://f2.toyhou.se/file/f2-toyhou-se/images/55580821_QzADYGOxOlcP8Gn.png" style="width: 100%" onClick="currentSlide(3)" alt="Minty looking cool">
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    </main>
+
+    <footer>
+      <div style="text-align:center; padding:5px">
+        <a href="../index.html" style="font-weight:bold">Back to main page</a>
+      </div>
+    </footer>
+
+    <p style="margin-top:25px; color:#53C770; text-align: center;">&#169; rakuraikou | <a href="../sitemap.html">sitemap</a></p>
+  </body>
+</html>
