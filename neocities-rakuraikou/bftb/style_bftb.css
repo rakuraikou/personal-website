@@ -540,6 +540,10 @@ a:hover {
 
 @media (max-width: 700px) {
 
+  .nav {
+    padding: 15px 25px;
+  }
+
   .drop-button {
     font-size: 1.4rem;
   }
