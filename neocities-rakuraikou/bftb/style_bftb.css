@@ -5,7 +5,7 @@ body {
 }
 header {
   max-width: 900px;
-  background-image:url('/bftb/res/party_banner.png');
+  background-image:url('res/party_banner.png');
   margin: 25px auto 0px auto;
   padding: 110px 15px 1px 15px;
   border-radius: 15px 15px 0px 0px;
@@ -43,6 +43,8 @@ nav {
   box-shadow: -10px 10px 5px rgba(13, 9, 10, 0.5);
   outline: 2px solid #62709c;
   outline-offset: -8px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 /* Headings */
@@ -115,7 +117,6 @@ h5.alt {
 }
 
 h2.page-heading {
-  color: #593d20;
   text-align:center;
   letter-spacing:0.8rem;
   font-size: 2.0rem;
@@ -125,6 +126,26 @@ h2.page-heading {
   position:relative;
   top:0px;
   left:0px
+}
+
+.char-box h2, .char-box h3, .char-box h4, .char-box h5 {
+  color: #593d20;
+}
+
+.toggle-header {
+  color: #593d20;
+  font-size: 1.7rem;
+  font-weight: normal;
+  font-variant-caps: all-small-caps;
+  cursor: pointer;
+}
+
+details > summary {
+  list-style-type: '✦';
+}
+
+details[open] > summary {
+  list-style-type: '✧';
 }
 
 /* Links */
@@ -160,30 +181,54 @@ a:hover {
   color: #b5e3f5;
 }
 
-.navgrid {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 10px;
+.top-link {
+  color: #de8e26;
+  text-decoration: none;
 }
 
-.navlinks {
-  display:flex; 
-  flex-direction:row;
-  justify-content:space-around;
-  padding:5px;
+.top-link:hover {
+  cursor: pointer;
+  color: #8eb1de;
 }
 
-.navlinks h5 {
-  margin-bottom:-3px;
-  margin-top:-10px;
+.dropdown-btn {
+  border: none;
+  cursor: default;
 }
 
-.navcol {
-  background-color:#36436e;
-  text-align: center;
-  padding: 5px;
-  outline: 2px solid #62709c;
-  outline-offset: -8px;
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #62709c;
+  outline: 2px solid #a7b5e2;
+  outline-offset: -6px;
+  padding: 6px 0px;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 12;
+}
+
+.dropdown-content a {
+  padding: 15px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #36436e;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropdown-btn {
+  color: #ffbd38;
 }
 
 .georgia {
@@ -266,7 +311,7 @@ a:hover {
   z-index: 5;
 }
 
-.lined-text {
+.char-box p, .char-box li, .lined-text {
   background: linear-gradient(0deg, rgba(92, 57, 30, 0.7) 1.92%, transparent 1.92%, transparent 50%, rgba(92, 57, 30, 0.7) 50%, rgba(92, 57, 30, 0.7) 51.92%, transparent 51.92%, transparent 100%);
   background-size: 42.00px 42.00px;
   line-height: 21px
@@ -374,6 +419,10 @@ a:hover {
   background-position: center;
   z-index:9;
   transform: scaleX(-1);
+}
+
+.left-decor.larger, .right-decor.larger {
+  width: 200px;
 }
 
 .char-decor {
@@ -561,13 +610,13 @@ a:hover {
     color:#e7bf82;
   }
 
-  .right-decor {
+  .right-decor, .right-decor.larger {
     left: 65%;
     top: 15px;
     width: 110px;
   }
 
-  .left-decor {
+  .left-decor, .left-decor.larger {
     right: 65%;
     top: 15px;
     width: 110px;
@@ -577,7 +626,7 @@ a:hover {
     height: initial
   }
   
-.sidebar-link {
+.sidebar-mobile-fix {
   display: flex;
   justify-content: space-between;
   padding: 0px 40px

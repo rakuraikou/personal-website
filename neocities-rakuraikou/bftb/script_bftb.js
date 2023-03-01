@@ -57,3 +57,8 @@ function openChar(evt, charName) {
   document.getElementById(charName).style.display = "block";
   evt.currentTarget.className += " active";
 }
+
+function goToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
