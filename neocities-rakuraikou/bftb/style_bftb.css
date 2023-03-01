@@ -219,15 +219,15 @@ a:hover {
   display: block;
 }
 
-.dropdown-content a:hover {
+.dropdown-content a:hover, .dropdown-content a:active {
   background-color: #36436e;
 }
 
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content, .dropdown:active .dropdown-content {
   display: block;
 }
 
-.dropdown:hover .dropdown-btn {
+.dropdown:hover .dropdown-btn, .dropdown:active .dropdown-btn {
   color: #ffbd38;
 }
 
