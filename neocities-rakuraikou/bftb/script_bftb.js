@@ -27,7 +27,7 @@ function insertHeader() {
 }
 
 function openCollapse() {
-  var coll = document.querySelectorAll(".collapse,.sidebar-collapse");
+  var coll = document.querySelectorAll(".sidebar-collapse");
   var i;
 
   for (i = 0; i < coll.length; i++) {
