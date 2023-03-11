@@ -185,13 +185,32 @@ a:hover {
   overflow: auto;
   font-size:0.85rem;
 }
-
+/* TABS */
+.tab-content {
+  display: none;
+}
+.active.tab-content {
+  display: block;
+}
+.tab-link {
+  cursor: pointer;
+  text-decoration: none;
+}
+.bd-tab-img {
+  border: 2px #ffffff solid;
+  width: 200px
+}
+.tab-row {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: center
+}
 /* MOBILE ONLY */
 @media (max-width: 768px) {
   .grid-mobile-col,.grid-notfound {
     grid-template-columns: auto;
   }
-
   .grid-interests, .grid-interests-2 {
     grid-template-columns: 80%;
     justify-content: center;
@@ -207,6 +226,9 @@ a:hover {
   .navlinks h5 {
   margin-bottom:0px;
   margin-top:0px;
+  }
+  .bd-tab-img {
+    width: 95px
   }
 }
 
