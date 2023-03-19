@@ -1,3 +1,43 @@
+var nonSpoilers = document.getElementsByClassName("nonspoiler");
+var spoilers = document.getElementsByClassName("spoiler");
+
+//element that tracks if spoilers are currently on
+var spoilersOn = false;
+
+function toggleSpoilers(){
+  if (spoilersOn) {
+    //if spoilers are on, turn them off
+    for (let i = 0; i < nonSpoilers.length; i++) {
+      nonSpoilers[i].style.display = "block";
+    }; 
+    for (let i = 0; i < spoilers.length; i++) {
+      spoilers[i].style.display = "none";
+    }; 
+  
+    //set the tracking variable
+    spoilersOn = false;
+  
+    //change the text on the spoiler button
+    //spoilerbtn.innerHTML = "turn spoilers ON";
+    spoilerbtn.style.backgroundImage = "url('https://cdn.discordapp.com/attachments/712123731367165953/1086860354350493786/Illustration.png')";
+  } else {
+    //if spoilers are off, turn them on
+    for (let i = 0; i < nonSpoilers.length; i++) {
+      nonSpoilers[i].style.display = "none";
+    }; 
+    for (let i = 0; i < spoilers.length; i++) {
+      spoilers[i].style.display = "block";
+    }; 
+  
+    //set the tracking variable
+    spoilersOn = true;
+  
+    //change the text on the spoiler button
+    //spoilerbtn.innerHTML = "turn spoilers OFF";
+    spoilerbtn.style.backgroundImage = "url('https://cdn.discordapp.com/attachments/712123731367165953/1086860330342301756/Illustration.png')";
+  };
+};
+
 function insertHeader() {
   var z, i, elmnt, file, xhttp;
   /* Loop through a collection of all HTML elements: */

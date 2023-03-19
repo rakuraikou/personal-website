@@ -464,6 +464,11 @@ details[open] > summary {
 .info-height {
   height: 72%;
 }
+/* SPOILER TEXT SWAP */
+.spoiler {
+  display: none;
+}
+
 /* MOBILE ONLY */
 @media (max-width: 768px) {
   .drop-button {
