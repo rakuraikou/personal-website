@@ -1,25 +1,46 @@
+var spoilerButton = document.getElementById("spoilerbtn");
 var nonSpoilers = document.getElementsByClassName("nonspoiler");
 var spoilers = document.getElementsByClassName("spoiler");
+//var that tracks if spoilers are currently on
+var spoilersOn;
 
-//element that tracks if spoilers are currently on
-var spoilersOn = false;
+function checkSpoilers(){
+  //set spoilersOn based on the local storage on page load
+  if (localStorage.getItem("spoilers") == "on"){
+	spoilersOn = true;
+	
+	for (let i = 0; i < nonSpoilers.length; i++) {
+		nonSpoilers[i].style.display = "none";
+	}; 
+	for (let i = 0; i < spoilers.length; i++) {
+		spoilers[i].style.display = "block";
+	};
+  //spoilerbtn.innerHTML = "turn spoilers OFF"; 
+	spoilerbtn.style.backgroundImage = "url('res/spoilers_on.png')";
+	
+  } else {
+	spoilersOn = false;
+  };
+};
 
-function toggleSpoilers(){
-  if (spoilersOn) {
-    //if spoilers are on, turn them off
-    for (let i = 0; i < nonSpoilers.length; i++) {
-      nonSpoilers[i].style.display = "block";
-    }; 
-    for (let i = 0; i < spoilers.length; i++) {
-      spoilers[i].style.display = "none";
-    }; 
-  
-    //set the tracking variable
-    spoilersOn = false;
+
+ function toggleSpoilers(){
+	if (spoilersOn) {
+		//if spoilers are on, turn them off
+		for (let i = 0; i < nonSpoilers.length; i++) {
+			nonSpoilers[i].style.display = "block";
+		}; 
+		for (let i = 0; i < spoilers.length; i++) {
+			spoilers[i].style.display = "none";
+		}; 
+		
+		//set the tracking variable
+		spoilersOn = false;
+		localStorage.setItem("spoilers", "off");
   
     //change the text on the spoiler button
     //spoilerbtn.innerHTML = "turn spoilers ON";
-    spoilerbtn.style.backgroundImage = "url('https://cdn.discordapp.com/attachments/712123731367165953/1086860354350493786/Illustration.png')";
+    spoilerbtn.style.backgroundImage = "url('res/spoilers_off.png')";
   } else {
     //if spoilers are off, turn them on
     for (let i = 0; i < nonSpoilers.length; i++) {
@@ -31,10 +52,11 @@ function toggleSpoilers(){
   
     //set the tracking variable
     spoilersOn = true;
+    localStorage.setItem("spoilers", "on");
   
     //change the text on the spoiler button
     //spoilerbtn.innerHTML = "turn spoilers OFF";
-    spoilerbtn.style.backgroundImage = "url('https://cdn.discordapp.com/attachments/712123731367165953/1086860330342301756/Illustration.png')";
+    spoilerbtn.style.backgroundImage = "url('res/spoilers_on.png')";
   };
 };
 
@@ -62,8 +84,9 @@ function insertHeader() {
       xhttp.send();
       /* Exit the function: */
       return;
-    }
-  }
+    };
+  };
+  checkSpoilers();
 }
 
 function openCollapse() {
