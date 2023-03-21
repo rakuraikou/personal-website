@@ -13,9 +13,8 @@ function checkSpoilers(){
 		nonSpoilers[i].style.display = "none";
 	}; 
 	for (let i = 0; i < spoilers.length; i++) {
-		spoilers[i].style.display = "block";
+		spoilers[i].style.display = "inherit";
 	};
-  //spoilerbtn.innerHTML = "turn spoilers OFF"; 
 	spoilerbtn.style.backgroundImage = "url('res/spoilers_on.png')";
 	
   } else {
@@ -28,7 +27,7 @@ function checkSpoilers(){
 	if (spoilersOn) {
 		//if spoilers are on, turn them off
 		for (let i = 0; i < nonSpoilers.length; i++) {
-			nonSpoilers[i].style.display = "block";
+			nonSpoilers[i].style.display = "inherit";
 		}; 
 		for (let i = 0; i < spoilers.length; i++) {
 			spoilers[i].style.display = "none";
@@ -39,7 +38,6 @@ function checkSpoilers(){
 		localStorage.setItem("spoilers", "off");
   
     //change the text on the spoiler button
-    //spoilerbtn.innerHTML = "turn spoilers ON";
     spoilerbtn.style.backgroundImage = "url('res/spoilers_off.png')";
   } else {
     //if spoilers are off, turn them on
@@ -47,7 +45,7 @@ function checkSpoilers(){
       nonSpoilers[i].style.display = "none";
     }; 
     for (let i = 0; i < spoilers.length; i++) {
-      spoilers[i].style.display = "block";
+      spoilers[i].style.display = "inherit";
     }; 
   
     //set the tracking variable
@@ -55,34 +53,33 @@ function checkSpoilers(){
     localStorage.setItem("spoilers", "on");
   
     //change the text on the spoiler button
-    //spoilerbtn.innerHTML = "turn spoilers OFF";
     spoilerbtn.style.backgroundImage = "url('res/spoilers_on.png')";
   };
 };
 
 function insertHeader() {
   var z, i, elmnt, file, xhttp;
-  /* Loop through a collection of all HTML elements: */
+  //Loop through a collection of all HTML elements:
   z = document.getElementsByTagName("*");
   for (i = 0; i < z.length; i++) {
     elmnt = z[i];
-    /*search for elements with a certain atrribute:*/
+    //search for elements with a certain atrribute:
     file = elmnt.getAttribute("include-header-html");
     if (file) {
-      /* Make an HTTP request using the attribute value as the file name: */
+      //Make an HTTP request using the attribute value as the file name:
       xhttp = new XMLHttpRequest();
       xhttp.onreadystatechange = function() {
         if (this.readyState == 4) {
           if (this.status == 200) {elmnt.innerHTML = this.responseText;}
           if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
-          /* Remove the attribute, and call this function once more: */
+          //Remove the attribute, and call this function once more:
           elmnt.removeAttribute("include-header-html");
           insertHeader();
         }
       }
       xhttp.open("GET", file, true);
       xhttp.send();
-      /* Exit the function: */
+      //Exit the function:
       return;
     };
   };
