@@ -1,0 +1,142 @@
+.content {
+  box-shadow: -10px 10px 5px rgba(13, 9, 10, 0.5);
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+  background-color: #7e6c3b;
+  font-family: Ubuntu-Mono;
+  font-size: 1.1em;
+  color: #4e3c1a;
+}
+header {
+  background-color: #b8b6aa;
+  padding: 30px 15px 1px 15px;
+  border-radius: 0px;
+  background-size:cover;
+  background-position:80% 22%;
+  background-repeat:no-repeat;
+}
+nav {
+  background-color: #f1f0e7;
+  width: 300px;
+  position: fixed;
+  top:30px;
+  left:50px;
+  padding: 10px;
+  box-shadow: -10px 10px 5px rgba(13, 9, 10, 0.5);
+  border-radius: 0px;
+  border: 5px solid #b8b6aa;
+}
+main {
+  background-color: #f1f0e7;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  border-radius: 0px;
+  border: 5px solid #b8b6aa;
+}
+footer {
+  background-color: #b8b6aa;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  border-radius: 0px;
+}
+/* HEADINGS */
+h1 {
+  color: #611010;
+  font-size: 2.0em;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+h2 {
+  color: #4e2d1a;
+  font-size: 1.8em;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+h3 {
+  color: #4e3c1a;
+  font-size: 1.6em;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+h4 {
+  color: #4d4e1a;
+  font-size: 1.4em;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+h5 {
+  color: #80764b;
+  font-size: 1.2em;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+a {
+  color: #810808;
+  text-decoration: none;
+}
+a:hover {
+  color: #c22929;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.cfb-header {
+  display: flex;
+  justify-content:
+  space-between;
+  align-items: center;
+  padding-bottom: 10px;
+  gap: 10px;
+}
+
+.entry {
+  border: 2px solid #b8b6aa;
+  border-radius: 0px;
+  padding: 5px;
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px
+}
+
+.entry p {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 0;
+}
+
+.warning {
+  color:#615b4f;
+  font-size: 1.0em;
+  font-style: italic;
+}
+
+.blockquote {
+  border-left: 3px #615b4f solid;
+  font-style: italic;
+  padding-left: 5px;
+}
+
+@media (max-width: 768px) {
+  .cfb-header {
+    display: initial;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  nav {
+    position: initial;
+    box-shadow: none;
+    width: initial;
+  }
+}
+
+/* FONT */
+@font-face {
+  font-family: Ubuntu-Mono;
+  src: url(res/font_ubunto_mono/UbuntuMono-Regular.ttf);
+}
