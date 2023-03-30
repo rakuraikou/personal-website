@@ -127,9 +127,9 @@ a:hover {
     padding-bottom: 10px;
   }
   nav {
-    position: initial;
-    box-shadow: none;
-    width: initial;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
   }
 }
 
