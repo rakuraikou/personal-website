@@ -2,7 +2,7 @@ body {
   background-color: #29191f;
   background-image: url('res/tiled_bg.png');
   background-repeat: repeat;
-  background-size: 18%;
+  background-size: 300px;
   color: #FFFFFF;
   font-family: Verdana;
 }
@@ -168,12 +168,19 @@ details[open] > summary {
   color: #b5e3f5;
 }
 /* HEADER CLASSES */
-.drop-button {
+.drop-button{
   border: none;
   color: #db8523;
   background-color: transparent;
   font-size: 1.7rem;
   font-variant-caps: all-small-caps;
+}
+.drop-button a{
+  color: #db8523;
+  text-decoration: none;
+}
+.drop-button a:hover{
+  color: #ffbd38;
 }
 .dropdown {
   position: relative;
@@ -188,9 +195,13 @@ details[open] > summary {
   padding: 6px 0px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 12;
+  left: 50% !important;
+  right: auto !important;
+  text-align: center !important;
+  transform: translate(-50%, 0) !important;
 }
 .dropdown-content a {
-  padding: 15px;
+  padding: 5px 10px;
   text-decoration: none;
   display: block;
 }
@@ -205,6 +216,13 @@ details[open] > summary {
 }
 .georgia {
   font-family: Georgia;
+}
+/* FOOTER CLASSES */
+.signature {
+  margin-top:25px;
+  font-weight: bold;
+  color:#40ccff;
+  text-align: center;
 }
 /* TOP CRUMB */
 .crumb {
@@ -483,7 +501,10 @@ details[open] > summary {
 /* MOBILE ONLY */
 @media (max-width: 768px) {
   .drop-button {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+  }
+  .dropdown-content a {
+    font-size: 0.8rem;
   }
   .img-mobile {
     width: 75%;
