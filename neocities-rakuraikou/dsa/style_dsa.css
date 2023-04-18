@@ -1,0 +1,206 @@
+/* MAIN SITE */
+body {
+  background-color: #2b2d31;
+  color: #FFFFFF;
+  font-family: 'Trebuchet MS';
+}
+header {
+  max-width: 1200px;
+  background-image: url('https://cdn.discordapp.com/attachments/1005534288609022013/1096656019708461184/Untitled.png');
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 150px 15px 15px 15px;
+  border-radius: 15px 15px 0px 0px;
+  box-shadow: -10px 10px 5px rgba(8, 17, 68, 0.5)
+}
+main {
+  max-width: 1200px;
+  background-color: #315dcd;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  border-radius: 0px 0px 15px 15px;
+  box-shadow: -10px 10px 5px rgba(32, 23, 65, 0.5);
+}
+nav {
+  max-width: 1200px;
+  background-color: #472068;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  box-shadow: -10px 10px 5px rgba(8, 17, 68, 0.5);
+}
+
+/* HEADINGS */
+h1, h1 a {
+  color: #e23f3f;
+  font-size: 2.5rem;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-weight: normal;
+  font-variant-caps: all-small-caps;
+}
+h2 {
+  color: #ff6c52;
+  font-size: 2.3rem;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-weight: normal;
+  font-variant-caps: all-small-caps;
+}
+h3 {
+  color: #fdbd8f;
+  font-size: 2.0rem;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-weight: normal;
+  font-variant-caps: all-small-caps;
+}
+h4 {
+  color: #fcfca4;
+  font-size: 1.7rem;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-weight: normal;
+  font-variant-caps: all-small-caps;
+}
+h5 {
+  color: #fcfca4;
+  font-size: 1.4rem;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-weight: normal;
+  font-variant-caps: all-small-caps;
+}
+
+/* LINKS */
+a {
+  color: #fdbd8f;
+}
+a:hover {
+  color: #fcfca4;
+}
+
+/* CLASSES */
+.navlinks {
+  display:flex; 
+  flex-direction:row;
+  justify-content:space-around;
+  padding:5px;
+}
+.navlinks h5 {
+  margin-bottom:-3px;
+  margin-top:-10px;
+}
+.signature {
+  margin-top: 25px;
+  color: #16A6FF;
+  text-align: center;
+}
+.img-border {
+  border:3px #fcfca4 solid;
+}
+/* GRIDS */
+.grid-home {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.grid-minecraft {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+  gap: 5px;
+}
+.grid-mc-side {
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+  width: 100%;
+}
+.grid-mc-text {
+  grid-column: 2 / 4;
+  grid-row: 1 / 2;
+}
+.grid-mc-img-1 {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  width: 100%;
+}
+.grid-mc-img-2 {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+  width: 100%;
+}
+
+/* TABS */
+.tab-content {
+  display: none;
+}
+.active.tab-content {
+  display: block;
+}
+.tab-link {
+  cursor: pointer;
+  text-decoration: none;
+}
+.tab-row {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: center
+}
+/* MOBILE ONLY */
+@media (max-width: 768px) {
+  .grid-minecraft {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 5px;
+  }
+  .grid-mc-side {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+  .grid-mc-text {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+  }
+  .grid-mc-img-1 {
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .grid-mc-img-2 {
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #081144;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #ffab4a;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ffd494;
+}
+
+/* FONT */
+@font-face {
+  font-family: Rubik;
+  src: url(res/font_rubik/Rubik-VariableFont_wght.ttf);
+}
