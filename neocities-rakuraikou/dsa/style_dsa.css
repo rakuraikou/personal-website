@@ -104,6 +104,74 @@ a:hover {
 .img-border {
   border:3px #fcfca4 solid;
 }
+.blockquote {
+  border-left: 3px #2ebacf solid;
+  font-style: italic;
+  padding-left: 5px;
+}
+.evt-banner {
+  width: 50%;
+  transition: transform 0.25s ease;
+  border:3px #fcfca4 solid;
+  background-color: #2ebacf6b;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fcfca46b;
+}
+.evt-banner p {
+  margin: 0px;
+  background-color: #fcfca4;
+  color: #2ebacf;
+}
+.evt-banner a {
+  color: #315dcd
+}
+.evt-banner a:hover {
+  color: #2ebacf
+}
+.gallery-img {
+  height: 220px;
+  width: fit-content;
+  transition: transform 0.25s ease;
+  text-align: center;
+  border: 3px solid #2ebacf;
+  background-color: #2ebacf6b;
+  margin-bottom: 20px;
+}
+.gallery-img:hover, .evt-banner:hover {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+.gallery-img img {
+  height: 100%;
+  width: auto;
+}
+.evt-banner img {
+  width: 100%;
+}
+.gallery-img p {
+  margin: 0px;
+  background-color: #2ebacf;
+}
+.hr-light {
+  height: 1px;
+  border: 0px;
+  background-color: #fcfca4;
+}
+.tag {
+  font-style: italic;
+  color: #fdbd8f;
+}
+.trophy-list li+li {
+  margin-top: 5px;
+}
+.scrollbox {
+  overflow-y: scroll;
+  padding: 10px;
+  background-color: #472068;
+  border-radius: 10px;
+}
 /* GRIDS */
 .grid-home {
   display: grid;
@@ -136,6 +204,21 @@ a:hover {
   width: 100%;
 }
 
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.mar-event {
+  display: flex;
+  flex-direction: row;
+}
+
+.mar-event .evt-banner {
+  width: 40%;
+}
+
 /* TABS */
 .tab-content {
   display: none;
@@ -155,6 +238,14 @@ a:hover {
 }
 /* MOBILE ONLY */
 @media (max-width: 768px) {
+
+  .navlinks {
+    display:flex; 
+    flex-direction:column;
+    gap: 20px;
+    padding:5px;
+    text-align: center;
+  }
   .grid-minecraft {
     display: grid;
     grid-template-columns: auto auto;
@@ -181,6 +272,30 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
   }
+
+  .gallery-img {
+    height: 150px;
+    width: fit-content;
+    transition: transform 0.25s ease;
+    text-align: center;
+    border: 3px solid #2ebacf;
+    background-color: #2ebacf6b;
+    margin-bottom: 20px;
+  }
+  
+  .evt-banner {
+    width: 100%;
+  }
+
+  .mar-event {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .mar-event .evt-banner {
+    width: 100%;
+  }
+  
 }
 
 /* SCROLLBAR */
