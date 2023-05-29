@@ -1,0 +1,305 @@
+/*
+fake TVTropes layout CSS by squidknees @ neocities.
+some of this CSS is pulled from tvtropes.com, used, edited, & distributed under a CC BY-NC-SA 3.0 license.
+*/
+
+/*colour variables; comment out the set of the theme you don't use*/
+/*dark theme*/
+:root{
+	--bodybg: #000;
+	--mainbg: #1D1D1D;
+	--headerbg: #2F2F2F;
+	--pillbg: #0061A0;
+	--actionbarbg: #28323F;
+	
+	--text: #DEDEDE;
+	--link: #008FEC;
+	--pilllink: #008FEC;
+	--spoilerlink: #006BB1;
+	--actionbar: #CCCDCB;
+	--actionhover: #ffffff;
+	
+	--border: #444;
+	--spoilerborder: #7F7F7F;
+	--foldericon: #EADA98;
+}
+/*
+.light{
+	--bodybg: #E7E7E8;
+	--mainbg: #FFF;
+	--headerbg: #CACDD1;
+	--pillbg: #3c4b5e;
+	--actionbarbg: #28323F;
+	
+	--text: #333;
+	--link: #006BB1;
+	--pilllink: #3c4b5e;
+	--spoilerlink: #006BB1
+	--actionbar: #CCCDCB;
+	--actionhover: #ffffff;
+	
+	--border: #AEB3BA;
+	--spoilerborder: #7F7F7F;
+	--foldericon: #EADA98;
+}
+*/
+
+/*basic styles*/
+body {
+    background: var(--bodybg);
+	font-size:16px;
+	font-family:sans-serif;
+	line-height:24px;
+}
+.container{
+    max-width:880px; 
+    margin:auto; 
+    min-height:100vh; 
+    display:flex;
+    flex-direction:column;
+}
+main {
+    padding: 5px 20px;
+    flex:1;
+    background-color:var(--mainbg);
+	color: var(--text);
+}
+a{
+	color: var(--link);
+	text-decoration:none;
+	cursor: pointer;
+}
+a:hover{text-decoration:underline;}
+
+/*action bar*/
+.actionbar{
+	background-color: var(--actionbarbg);
+	padding: 0 9px 0 18px;
+	line-height: 40px;
+	display: flex;
+	flex-direction: row;
+}
+.actionbar.top{
+	border-radius: 6px 6px 0 0;
+	margin-top: 18px;
+}
+.actionbar.bottom{
+	border-radius: 0 0 6px 6px;
+	margin-bottom: 18px;
+}
+.actionbar ul{
+	margin: 0;
+	padding: 0;
+	flex: 1;
+}
+.actionbar li{
+	display: inline-block;
+	margin: 0 18px 0 0;
+}
+.actionbar a{
+	color: var(--actionbar);
+	font-weight: lighter;
+	font-size: 0.84em;
+	text-decoration:none;
+}
+.actionbar a:hover{
+	color: var(--actionhover);
+}
+.actionbar .topbtn{
+	text-align:right;
+	position: relative;
+	right: 0;
+	align-self: flex-end;
+}
+
+/*page title*/
+h1{
+	box-shadow: inset 0 -1px 0 0 var(--border);
+	margin-bottom:9px;
+	padding-bottom:18px;
+	font-size:2.5em;
+	font-weight:700;
+	line-height:35px;
+}
+strong{
+	font-weight:300;
+}
+
+/*quote*/
+.indent{
+	font-size:.84em;
+	margin-left:18px;
+}
+
+/*horizontal rule*/
+hr{
+	border-bottom:1px solid var(--border);
+}
+/*small header*/
+h2{
+	background:var(--headerbg);
+	border-radius:4px 4px 0 0;
+	clear:both;
+	font-size:1em;
+	font-weight:700;
+	padding:3px 8px 2px;
+	margin:18px 0 4px;
+}
+
+/*imgbox*/
+.quoteright{
+	width:300px;
+	background: var(--mainbg);
+    border-color: var(--mainbg);
+    box-shadow: 0 0 0 1px var(--border);
+	clear: right;
+	float: right;
+	font-size: .84em;
+	line-height: 1.512em;
+	margin: 1px 1px 5px 13.5px;
+	max-width: 350px;
+	padding: 6px;
+	position: relative;
+	text-align: center;
+	z-index: 2;
+}
+.quoteright img{max-width:100%;}
+
+
+/*trope list*/
+main ul{    
+	margin-bottom: 18px;
+	list-style-type: disc;
+	list-style-position: outside;
+	margin-left: 18px;
+	padding: 0;
+}
+main li{
+	margin:8px 0;
+}
+main ul ul{
+	border-left: 1px dotted hsla(0,0%,50%,.5);
+	margin-left: -14.4px;
+	padding-left: 36px;
+    list-style-type: circle;
+	margin-bottom:0;
+}
+
+/*notes*/
+/*note toggle <sup>*/
+.notetoggle{
+	font-size: smaller;
+	vertical-align: super;
+	cursor: pointer;
+}
+/*note text*/
+.notetext{
+	cursor: pointer;
+	font-size: .84em;
+}
+
+/*spoilers*/
+.spoiler{
+    border: 1px dotted var(--spoilerborder);
+	border-top: none;
+	cursor: pointer;
+	background: hsla(0,0%,75%,.13);
+	color: transparent;
+}
+.spoiler a{color:transparent; pointer-events:none;}
+/*open spoiler*/
+.on{
+	background: none;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	color: inherit;
+}
+.on a{color:var(--spoilerlink); pointer-events:auto;}
+
+/*nav pills*/
+.menu{
+	margin-bottom:18px;
+	list-style:none;
+	margin-left:0;
+}
+.menu li{
+	display:inline-block;
+	margin:0;
+}
+.pill{
+	color: var(--pilllink);
+	margin-right:1px;
+	border: 2px solid var(--pillbg);
+	border-radius: 20px;
+	display: block;
+	font-size: .84em;
+	margin-bottom: 7px;
+	opacity: .8;
+	padding: 6px 8px;
+	text-decoration: none;
+	line-height:1em;
+}
+.pill:hover{opacity:1; text-decoration:none;}
+/*pill for current page*/
+.activepill{
+	background: var(--pillbg);
+	color:white;
+	opacity:1;
+}
+
+/*folders*/
+.folder{
+	border: 1px solid var(--border);
+	border-radius: 4px;
+	clear:both;
+	margin-top:15px;
+	cursor:pointer;
+	padding:8px;
+}
+.openfolder{
+	background: var(--headerbg);
+}
+/*"open/close all folders" btn*/
+#allbtn{
+	border: 1px solid var(--border);
+	border-radius: 4px;
+	clear:both;
+	margin-top:15px;
+	cursor:pointer;
+	padding:8px;
+	display:inline-block;
+	margin-bottom:15px;
+	padding: 4px 6px;
+	width:auto;
+}
+/*folder content*/
+.content{
+	margin-top:13.5px;
+	padding-bottom:14px;
+	transition:max-height .45s ease-in-out;
+	overflow: hidden;
+	padding-left: 36px;
+}
+.fa-folder, .fa-folder-open{
+	color:var(--foldericon);
+	margin-right:4px;
+	margin-left:2px;
+}
+
+/*mobile*/
+@media (max-width: 768px){
+	.quoteright{
+		float:none;
+		margin:auto;
+	}
+	h1{
+		font-size:2em;
+	}
+	.content{
+		padding-left:0px;
+	}
+	.actionbar.top, .actionbar.bottom{
+		margin:0; 
+		border-radius: 0;
+	}
+}
