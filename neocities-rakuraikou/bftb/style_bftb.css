@@ -286,6 +286,38 @@ details[open] > summary {
 .mobile-collapse {
   display: initial;
 }
+
+/* GALLERY */
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.gallery-img {
+  height: 200px;
+  width: fit-content;
+  transition: transform 0.25s ease;
+  text-align: center;
+  outline: 3px solid #36436e;
+  outline-offset: -3px;
+  background-color: #29191f6e;
+  margin-bottom: 20px;
+}
+.gallery-img:hover {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+.gallery-img img {
+  height: 100%;
+  width: auto;
+}
+.gallery-img p {
+  margin: 0px;
+  padding: 0px;
+  background-color: #36436e;
+}
+
 /* CHARACTER TAB FORMATTING */
 .tab-content {
   display: none;
@@ -577,6 +609,10 @@ details[open] > summary {
     height: 100%;
     width: 100%;
   }
+  .gallery-img {
+    height: 150px;
+  }
+  
 }
 /* SCROLLBAR */
 ::-webkit-scrollbar {
