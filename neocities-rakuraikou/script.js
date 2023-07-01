@@ -39,3 +39,20 @@ function openTab(evt, tabName) {
   document.getElementById(tabName).style.display = "block";
   evt.currentTarget.className += " active";
 }
+
+
+function taglines() {
+  var tags = [
+    'what the . web site?!',
+    'BLUNDERDRAG!!!',
+    'girl machine 2000',
+    'you know the drill!',
+    'stay curious',
+    'it&apos;s our responsibility as humans to love each other!',
+    'how did you get here??',
+    '...'
+  ];
+
+  var picktag = Math.floor(Math.random() * tags.length);
+  document.getElementById('tagline').innerHTML = tags[picktag]
+}
