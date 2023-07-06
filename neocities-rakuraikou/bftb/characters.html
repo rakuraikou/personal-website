@@ -36,49 +36,54 @@
           </div>
           <div class="mobile-collapse">
             <ul class="sidebar-list">
-              <li class="sidebar-link sidebar-mobile-fix" onClick="openChar(event, 'raiden')">
-                <span>No.001&nbsp;&nbsp;&nbsp;</span>
+              <li class="sidebar-link sidebar-mobile" onClick="openChar(event, 'raiden')">
+                No.001&ensp;
                 <span style="font-size:1.0rem">Raiden</span>
               </li>
-              <hr style="background-color:#a3875a; height: 2px; border: 0; margin: 5px 0px">
-              <li class="sidebar-link sidebar-mobile-fix" onClick="openChar(event, 'araceli')">
-                No.002&nbsp;&nbsp;&nbsp;
+              <hr class="hr-char">
+              <li class="sidebar-link sidebar-mobile" onClick="openChar(event, 'araceli')">
+                No.002&ensp;
                 <span style="font-size:1.0rem">Araceli</span>
               </li>
-              <hr style="background-color:#a3875a; height: 2px; border: 0; margin: 5px 0px">
-              <li class="sidebar-link sidebar-mobile-fix" onClick="openChar(event, 'saffron')">
-                No.003&nbsp;&nbsp;&nbsp;
+              <hr class="hr-char">
+              <li class="sidebar-link sidebar-mobile" onClick="openChar(event, 'saffron')">
+                No.003&ensp;
                 <span style="font-size:1.0rem">Saffron</span>
               </li>
-              <hr style="background-color:#a3875a; height: 2px; border: 0; margin: 5px 0px">
-              <li class="sidebar-link sidebar-mobile-fix" onClick="openChar(event, 'cole')">
-                No.004&nbsp;&nbsp;&nbsp;
+              <hr class="hr-char">
+              <li class="sidebar-link sidebar-mobile" onClick="openChar(event, 'cole')">
+                No.004&ensp;
                 <span style="font-size:1.0rem">Cole</span>
               </li>
-              <hr style="background-color:#a3875a; height: 2px; border: 0; margin: 5px 0px">
-              <li class="sidebar-link sidebar-mobile-fix" onClick="openChar(event, 'mari')">
-                No.005&nbsp;&nbsp;&nbsp;
+              <hr class="hr-char">
+              <li class="sidebar-link sidebar-mobile" onClick="openChar(event, 'mari')">
+                No.005&ensp;
                 <span style="font-size:1.0rem">Mariangela</span>
               </li>
-              <hr style="background-color:#a3875a; height: 2px; border: 0; margin: 5px 0px">
-              <li class="sidebar-link sidebar-mobile-fix" onClick="openChar(event, 'rhys')">
-                No.006&nbsp;&nbsp;&nbsp;
+              <hr class="hr-char">
+              <li class="sidebar-link sidebar-mobile" onClick="openChar(event, 'rhys')">
+                No.006&ensp;
                 <span style="font-size:1.0rem">Rhys</span>
               </li>
-              <hr style="background-color:#a3875a; height: 2px; border: 0; margin: 5px 0px">
-              <li class="sidebar-link sidebar-mobile-fix" onClick="openChar(event, 'bijou')">
-                No.007&nbsp;&nbsp;&nbsp;
+              <hr class="hr-char">
+              <li class="sidebar-link sidebar-mobile" onClick="openChar(event, 'bijou')">
+                No.007&ensp;
                 <span style="font-size:1.0rem">Bijou</span>
               </li>
-              <hr style="background-color:#a3875a; height: 2px; border: 0; margin: 5px 0px">
-              <li class="sidebar-link sidebar-mobile-fix" onClick="openChar(event, 'xenaro')">
-                No.008&nbsp;&nbsp;&nbsp;
+              <hr class="hr-char">
+              <li class="sidebar-link sidebar-mobile" onClick="openChar(event, 'xenaro')">
+                No.008&ensp;
                 <span style="font-size:1.0rem">Xenaro</span>
               </li>
-              <hr style="background-color:#a3875a; height: 2px; border: 0; margin: 5px 0px">
-              <li class="sidebar-link sidebar-mobile-fix" onClick="openChar(event, 'fossil')">
-                No.009&nbsp;&nbsp;&nbsp;
+              <hr class="hr-char">
+              <li class="sidebar-link sidebar-mobile" onClick="openChar(event, 'fossil')">
+                No.009&ensp;
                 <span style="font-size:1.0rem">Fossil</span>
+              </li>
+              <hr class="hr-char">
+              <li class="sidebar-link sidebar-mobile" onClick="openChar(event, 'mochi')">
+                No.010&ensp;
+                <span style="font-size:1.0rem">Mochi</span>
               </li>
             </ul>
           </div>
@@ -114,7 +119,7 @@
                 </div>
               </div>
               <div class="button-swap-bg">
-                <a class="sidebar-link" onClick="openChar(event, 'raiden-stats')" style="font-size:1.6rem;">✦</a>
+                <a class="sidebar-link" onClick="openChar(event, 'raiden-stats')" style="font-size:1.6rem; color:#cfbba1">✦</a>
               </div>
             </div>
           </div>
@@ -129,11 +134,17 @@
               <div class="info-height">
 <!-- section a -->
               <div class="stat-grid-1">
-                <div class="profile-img-mobile">
+                <div class="profile-img-mobile" style="grid-row-start:1; grid-row-end: 3">
                   <div class="tape tape-side"></div>
                   <div class="img-taped" style="padding: 0px">
                     <img src="https://cdn.discordapp.com/attachments/1005534288609022013/1071103619027451975/Untitled_4_2.png" style="margin-bottom: -4px; max-width: 100%" alt="raiden profile icon">
                   </div>
+                </div>
+                <div class="stat-name" style="padding: 0px 20px">
+                  <p class="stat">
+                    <span style="font-weight:bold">Name</span>
+                    <span>Raiden</span>
+                  </p>
                 </div>
                 <div style="padding: 0px 20px">
                   <p class="stat">
@@ -221,7 +232,7 @@
               </div>
             </div>
               <div class="button-swap-bg">
-                <a class="sidebar-link" onClick="openChar(event, 'raiden')" style="font-size:1.6rem;">✧</a>
+                <a class="sidebar-link" onClick="openChar(event, 'raiden')" style="font-size:1.6rem; color:#cfbba1">✧</a>
               </div>
             </div>
           </div>
@@ -249,7 +260,7 @@
                 </div>
               </div>
               <div class="button-swap-bg">
-                <a class="sidebar-link" onClick="openChar(event, 'araceli-stats')" style="font-size:1.6rem;">✦</a>
+                <a class="sidebar-link" onClick="openChar(event, 'araceli-stats')" style="font-size:1.6rem; color:#cfbba1">✦</a>
               </div>
             </div>
           </div>
@@ -264,11 +275,17 @@
               <div class="info-height">
           <!-- section a -->
               <div class="stat-grid-1">
-                <div class="profile-img-mobile">
+                <div class="profile-img-mobile" style="grid-row-start:1; grid-row-end: 3">
                   <div class="tape tape-side"></div>
                   <div class="img-taped" style="padding:0px">
                     <img src="https://f2.toyhou.se/file/f2-toyhou-se/characters/9242148?1664901510" style="margin-bottom: -4px; max-width: 100%" alt="araceli profile icon">
                   </div>
+                </div>
+                <div class="stat-name" style="padding: 0px 20px">
+                  <p class="stat">
+                    <span style="font-weight:bold">Name</span>
+                    <span>Araceli Fuentes de Luna</span>
+                  </p>
                 </div>
                 <div style="padding: 0px 20px">
                   <p class="stat">
@@ -353,7 +370,7 @@
               </div>
             </div>
               <div class="button-swap-bg">
-                <a class="sidebar-link" onClick="openChar(event, 'araceli')" style="font-size:1.6rem;">✧</a>
+                <a class="sidebar-link" onClick="openChar(event, 'araceli')" style="font-size:1.6rem; color:#cfbba1">✧</a>
               </div>
             </div>
           </div>
@@ -381,7 +398,7 @@
                 </div>
               </div>
               <div class="button-swap-bg">
-                <a class="sidebar-link" onClick="openChar(event, 'saffron-stats')" style="font-size:1.6rem;">✦</a>
+                <a class="sidebar-link" onClick="openChar(event, 'saffron-stats')" style="font-size:1.6rem; color:#cfbba1">✦</a>
               </div>
             </div>
           </div>
@@ -396,11 +413,17 @@
               <div class="info-height">
               <!-- section a -->
               <div class="stat-grid-1">
-                <div class="profile-img-mobile">
+                <div class="profile-img-mobile" style="grid-row-start:1; grid-row-end: 3">
                   <div class="tape tape-side"></div>
                   <div class="img-taped" style="padding:0px">
                     <img src="https://f2.toyhou.se/file/f2-toyhou-se/characters/9397925?1664901529" style="margin-bottom: -4px; max-width: 100%" alt="saffron profile icon">
                   </div>
+                </div>
+                <div class="stat-name" style="padding: 0px 20px">
+                  <p class="stat">
+                    <span style="font-weight:bold">Name</span>
+                    <span>Saffron Infiaco</span>
+                  </p>
                 </div>
                 <div style="padding: 0px 20px">
                   <p class="stat">
@@ -485,7 +508,7 @@
               </div>
             </div>
               <div class="button-swap-bg">
-                <a class="sidebar-link" onClick="openChar(event, 'saffron')" style="font-size:1.6rem;">✧</a>
+                <a class="sidebar-link" onClick="openChar(event, 'saffron')" style="font-size:1.6rem; color:#cfbba1">✧</a>
               </div>
             </div>
           </div>
@@ -516,7 +539,7 @@
                 </div>
               </div>
               <div class="button-swap-bg">
-                <a class="sidebar-link" onClick="openChar(event, 'cole-stats')" style="font-size:1.6rem;">✦</a>
+                <a class="sidebar-link" onClick="openChar(event, 'cole-stats')" style="font-size:1.6rem; color:#cfbba1">✦</a>
               </div>
             </div>
           </div>
@@ -531,11 +554,17 @@
               <div class="info-height">
               <!-- section a -->
               <div class="stat-grid-1">
-                <div class="profile-img-mobile">
+                <div class="profile-img-mobile" style="grid-row-start:1; grid-row-end: 3">
                   <div class="tape tape-side"></div>
                   <div class="img-taped" style="padding:0px">
                     <img src="https://f2.toyhou.se/file/f2-toyhou-se/characters/9442913?1664901548" style="margin-bottom: -4px; max-width: 100%" alt="cole profile icon">
                   </div>
+                </div>
+                <div class="stat-name" style="padding: 0px 20px">
+                  <p class="stat">
+                    <span style="font-weight:bold">Name</span>
+                    <span>Colwyn Fulrisk</span>
+                  </p>
                 </div>
                 <div style="padding: 0px 20px">
                   <p class="stat">
@@ -620,7 +649,7 @@
               </div>
             </div>
               <div class="button-swap-bg">
-                <a class="sidebar-link" onClick="openChar(event, 'cole')" style="font-size:1.6rem;">✧</a>
+                <a class="sidebar-link" onClick="openChar(event, 'cole')" style="font-size:1.6rem; color:#cfbba1">✧</a>
               </div>
             </div>
           </div>
@@ -648,7 +677,7 @@
                 </div>
               </div>
               <div class="button-swap-bg">
-                <a class="sidebar-link" onClick="openChar(event, 'mari-stats')" style="font-size:1.6rem;">✦</a>
+                <a class="sidebar-link" onClick="openChar(event, 'mari-stats')" style="font-size:1.6rem; color:#cfbba1">✦</a>
               </div>
             </div>
           </div>
@@ -663,11 +692,17 @@
               <div class="info-height">
               <!-- section a -->
               <div class="stat-grid-1">
-                <div class="profile-img-mobile">
+                <div class="profile-img-mobile" style="grid-row-start:1; grid-row-end: 3">
                   <div class="tape tape-side"></div>
                   <div class="img-taped" style="padding:0px">
                     <img src="https://f2.toyhou.se/file/f2-toyhou-se/characters/12573799?1665030025" style="margin-bottom: -4px; max-width: 100%" alt="mari profile icon">
                   </div>
+                </div>
+                <div class="stat-name" style="padding: 0px 20px">
+                  <p class="stat">
+                    <span style="font-weight:bold">Name</span>
+                    <span>Mariangela Gushiken</span>
+                  </p>
                 </div>
                 <div style="padding: 0px 20px">
                   <p class="stat">
@@ -752,7 +787,7 @@
               </div>
             </div>
               <div class="button-swap-bg">
-                <a class="sidebar-link" onClick="openChar(event, 'mari')" style="font-size:1.6rem;">✧</a>
+                <a class="sidebar-link" onClick="openChar(event, 'mari')" style="font-size:1.6rem; color:#cfbba1">✧</a>
               </div>
             </div>
           </div>
@@ -780,7 +815,7 @@
                 </div>
               </div>
               <div class="button-swap-bg">
-                <a class="sidebar-link" onClick="openChar(event, 'rhys-stats')" style="font-size:1.6rem;">✦</a>
+                <a class="sidebar-link" onClick="openChar(event, 'rhys-stats')" style="font-size:1.6rem; color:#cfbba1">✦</a>
               </div>
             </div>
           </div>
@@ -795,11 +830,17 @@
               <div class="info-height">
               <!-- section a -->
               <div class="stat-grid-1">
-                <div class="profile-img-mobile">
+                <div class="profile-img-mobile" style="grid-row-start:1; grid-row-end: 3">
                   <div class="tape tape-side"></div>
                   <div class="img-taped" style="padding:0px">
                     <img src="https://f2.toyhou.se/file/f2-toyhou-se/characters/10243704?1666848414" style="margin-bottom: -4px; max-width: 100%" alt="rhys profile icon">
                   </div>
+                </div>
+                <div class="stat-name" style="padding: 0px 20px">
+                  <p class="stat">
+                    <span style="font-weight:bold">Name</span>
+                    <span>Rhys</span>
+                  </p>
                 </div>
                 <div style="padding: 0px 20px">
                   <p class="stat">
@@ -884,7 +925,7 @@
               </div>
             </div>
               <div class="button-swap-bg">
-                <a class="sidebar-link" onClick="openChar(event, 'rhys')" style="font-size:1.6rem;">✧</a>
+                <a class="sidebar-link" onClick="openChar(event, 'rhys')" style="font-size:1.6rem; color:#cfbba1">✧</a>
               </div>
             </div>
           </div>
@@ -914,7 +955,7 @@
                 </div>
               </div>
               <div class="button-swap-bg">
-                <a class="sidebar-link" onClick="openChar(event, 'bijou-stats')" style="font-size:1.6rem;">✦</a>
+                <a class="sidebar-link" onClick="openChar(event, 'bijou-stats')" style="font-size:1.6rem; color:#cfbba1">✦</a>
               </div>
             </div>
           </div>
@@ -929,11 +970,17 @@
               <div class="info-height">
               <!-- section a -->
               <div class="stat-grid-1">
-                <div class="profile-img-mobile">
+                <div class="profile-img-mobile" style="grid-row-start:1; grid-row-end: 3">
                   <div class="tape tape-side"></div>
                   <div class="img-taped" style="padding:0px">
                     <img src="https://f2.toyhou.se/file/f2-toyhou-se/characters/11620840?1669701119" style="margin-bottom: -4px; max-width: 100%" alt="bijou profile icon">
                   </div>
+                </div>
+                <div class="stat-name" style="padding: 0px 20px">
+                  <p class="stat">
+                    <span style="font-weight:bold">Name</span>
+                    <span>Bijou</span>
+                  </p>
                 </div>
                 <div style="padding: 0px 20px">
                   <p class="stat">
@@ -1018,7 +1065,7 @@
               </div>
             </div>
               <div class="button-swap-bg">
-                <a class="sidebar-link" onClick="openChar(event, 'bijou')" style="font-size:1.6rem;">✧</a>
+                <a class="sidebar-link" onClick="openChar(event, 'bijou')" style="font-size:1.6rem; color:#cfbba1">✧</a>
               </div>
             </div>
           </div>
@@ -1048,7 +1095,7 @@
                 </div>
               </div>
               <div class="button-swap-bg">
-                <a class="sidebar-link" onClick="openChar(event, 'xenaro-stats')" style="font-size:1.6rem;">✦</a>
+                <a class="sidebar-link" onClick="openChar(event, 'xenaro-stats')" style="font-size:1.6rem; color:#cfbba1">✦</a>
               </div>
             </div>
           </div>
@@ -1063,11 +1110,17 @@
               <div class="info-height">
               <!-- section a -->
               <div class="stat-grid-1">
-                <div class="profile-img-mobile">
+                <div class="profile-img-mobile" style="grid-row-start:1; grid-row-end: 3">
                   <div class="tape tape-side"></div>
                   <div class="img-taped" style="padding:0px">
                     <img src="https://f2.toyhou.se/file/f2-toyhou-se/characters/18241172?1664901603" style="margin-bottom: -4px; max-width: 100%" alt="xenaro profile icon">
                   </div>
+                </div>
+                <div class="stat-name" style="padding: 0px 20px">
+                  <p class="stat">
+                    <span style="font-weight:bold">Name</span>
+                    <span>Xenaro</span>
+                  </p>
                 </div>
                 <div style="padding: 0px 20px">
                   <p class="stat">
@@ -1152,7 +1205,7 @@
               </div>
             </div>
               <div class="button-swap-bg">
-                <a class="sidebar-link" onClick="openChar(event, 'xenaro')" style="font-size:1.6rem;">✧</a>
+                <a class="sidebar-link" onClick="openChar(event, 'xenaro')" style="font-size:1.6rem; color:#cfbba1">✧</a>
               </div>
             </div>
           </div>
@@ -1182,7 +1235,7 @@
                 </div>
               </div>
               <div class="button-swap-bg">
-                <a class="sidebar-link" onClick="openChar(event, 'fossil-stats')" style="font-size:1.6rem;">✦</a>
+                <a class="sidebar-link" onClick="openChar(event, 'fossil-stats')" style="font-size:1.6rem; color:#cfbba1">✦</a>
               </div>
             </div>
           </div>
@@ -1197,11 +1250,17 @@
               <div class="info-height">
               <!-- section a -->
               <div class="stat-grid-1">
-                <div class="profile-img-mobile">
+                <div class="profile-img-mobile" style="grid-row-start:1; grid-row-end: 3">
                   <div class="tape tape-side"></div>
                   <div class="img-taped" style="padding:0px">
                     <img src="https://f2.toyhou.se/file/f2-toyhou-se/characters/10766899?1669702381" style="margin-bottom: -4px; max-width: 100%" alt="fossil profile icon">
                   </div>
+                </div>
+                <div class="stat-name" style="padding: 0px 20px">
+                  <p class="stat">
+                    <span style="font-weight:bold">Name</span>
+                    <span>Fossil</span>
+                  </p>
                 </div>
                 <div style="padding: 0px 20px">
                   <p class="stat">
@@ -1286,11 +1345,11 @@
               </div>
             </div>
               <div class="button-swap-bg">
-                <a class="sidebar-link" onClick="openChar(event, 'fossil')" style="font-size:1.6rem;">✧</a>
+                <a class="sidebar-link" onClick="openChar(event, 'fossil')" style="font-size:1.6rem; color:#cfbba1">✧</a>
               </div>
             </div>
           </div>
-        <!-- xenaro end -->
+        <!-- fossil end -->
 
 <!-- char info above this point -->
       </div>

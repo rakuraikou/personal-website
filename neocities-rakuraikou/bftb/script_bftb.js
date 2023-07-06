@@ -122,3 +122,106 @@ function goToTop() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+// LIGHTBOX MODALS
+// Open the Modal
+function openModal(id) {
+  document.getElementById(id).style.display = "block";
+  document.getElementById("spoilerBox").style.display = "none";
+}
+// Close the Modal
+function closeModal(id) {
+  document.getElementById(id).style.display = "none";
+  document.getElementById("spoilerBox").style.display = "block";
+}
+var slideIndex = 1;
+showSlides('myArt', slideIndex);
+showSlides('otherArt', slideIndex);
+// Next/previous controls
+function plusSlides(id, n) {
+  showSlides(id, slideIndex -= n);
+}
+// Thumbnail image controls
+function currentSlide(id, n) {
+  showSlides(id, slideIndex = n);
+}
+function showSlides(id, n) {
+  var i;
+  var modalContainer = document.getElementById(id);
+  var slides = modalContainer.getElementsByClassName("slide");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slides[slideIndex-1].style.display = "block";
+}
+
+
+/*
+// listener
+var i;
+var images = document.getElementsByClassName(".gallery-img");
+for (i = 0; i < images.length; i++) {
+  images[i].setAttribute("data-number", j);
+  images[i].addEventListener("click", openModal);
+}
+// modals and inside functions
+var modals = document.querySelectorAll(".modal");
+var modal, close, prev, next;
+for(i = 0; i < modals.length; i++) {
+  modal = modals[i];
+  //close
+  close = modal.querySelector(".close");
+  close. addEventListener("click", closeModal);
+  //next
+  next = modal.querySelector(".next");
+  next.addEventListener("click", nextSlide);
+  //prev
+  prev = modal.querySelector(".prev");
+  prev.addEventListener("click", prevSlide);
+}
+
+function openModal(e) {
+  var image = e.currentTarget;
+  var modal = image.parentNode.nextElementSibling;
+  modal.style.display = "block";
+  // slide
+  if(image.hasAttribute("data-number")) {
+    var slideNum = image.getAttribute("data-number");
+    showSlide(modal, slideNum);
+  }
+}
+
+function closeModal(e) {
+  var modal = e.currentTarget.parentNode;
+  modal.style.display = "none";
+}
+
+function nextSlide(e) {
+  var modal = e.currentTarget.parentNode;
+  var num = modal.getAttribute("data-slide");
+  if(!num) num = 0;
+  num++;
+  showSlide(modal, num);
+}
+
+function prevSlide(e) {
+  var modal = e.currentTarget.parentNode;
+  var num = modal.getAttribute("data-slide");
+  if(!num) num = 0;
+  num--;
+  showSlide(modal, num);
+}
+
+function showSlide(modal, num) {
+  var slides = modal.getElementsByClassName("slide");
+  if (num >= slides.length) { num = 0 }
+  if (num < 0) {num = slides.length - 1}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slides[num].style.display = "block";
+  modal.setAttribute("data-slide", num);
+}
+*/
