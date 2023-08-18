@@ -4,6 +4,13 @@ var spoilers = document.getElementsByClassName("spoiler");
 //var that tracks if spoilers are currently on
 var spoilersOn;
 
+var links = [
+  "raiden",
+  "araceli",
+  "saffron",
+  "cole"
+];
+
 function checkSpoilers(){
   //set spoilersOn based on the local storage on page load
   if (localStorage.getItem("spoilers") == "on"){
@@ -15,7 +22,7 @@ function checkSpoilers(){
 	for (let i = 0; i < spoilers.length; i++) {
 		spoilers[i].style.display = "inherit";
 	};
-	spoilerbtn.style.backgroundImage = "url('res/spoilers_on.png')";
+	spoilerbtn.style.backgroundImage = "url('/bftb/res/spoilers_on.png')";
 	
   } else {
 	spoilersOn = false;
@@ -38,7 +45,7 @@ function checkSpoilers(){
 		localStorage.setItem("spoilers", "off");
   
     //change the text on the spoiler button
-    spoilerbtn.style.backgroundImage = "url('res/spoilers_off.png')";
+    spoilerbtn.style.backgroundImage = "url('/bftb/res/spoilers_off.png')";
   } else {
     //if spoilers are off, turn them on
     for (let i = 0; i < nonSpoilers.length; i++) {
@@ -53,7 +60,7 @@ function checkSpoilers(){
     localStorage.setItem("spoilers", "on");
   
     //change the text on the spoiler button
-    spoilerbtn.style.backgroundImage = "url('res/spoilers_on.png')";
+    spoilerbtn.style.backgroundImage = "url('/bftb/res/spoilers_on.png')";
   };
 };
 
@@ -157,71 +164,37 @@ function showSlides(id, n) {
   slides[slideIndex-1].style.display = "block";
 }
 
-
-/*
-// listener
-var i;
-var images = document.getElementsByClassName(".gallery-img");
-for (i = 0; i < images.length; i++) {
-  images[i].setAttribute("data-number", j);
-  images[i].addEventListener("click", openModal);
-}
-// modals and inside functions
-var modals = document.querySelectorAll(".modal");
-var modal, close, prev, next;
-for(i = 0; i < modals.length; i++) {
-  modal = modals[i];
-  //close
-  close = modal.querySelector(".close");
-  close. addEventListener("click", closeModal);
-  //next
-  next = modal.querySelector(".next");
-  next.addEventListener("click", nextSlide);
-  //prev
-  prev = modal.querySelector(".prev");
-  prev.addEventListener("click", prevSlide);
+function randomChar() {
+  var random = Math.random() * links.length;
+  random = parseInt(random, 10);
+  //console.log(random)
+  var link = links[random] + '.html';
+  parent.location = link
 }
 
-function openModal(e) {
-  var image = e.currentTarget;
-  var modal = image.parentNode.nextElementSibling;
-  modal.style.display = "block";
-  // slide
-  if(image.hasAttribute("data-number")) {
-    var slideNum = image.getAttribute("data-number");
-    showSlide(modal, slideNum);
+function nextChar() {
+  var link = window.location.href;
+  var last = link.split("/").at(-1);
+  var index = last.replace(".html", "");
+  var next = links.indexOf(index) + 1;
+  if (links[next]) {
+    link = links[next] + '.html';
+    parent.location = link;
+  } else {
+    link = links[0] + '.html';
+    parent.location = link;
   }
 }
 
-function closeModal(e) {
-  var modal = e.currentTarget.parentNode;
-  modal.style.display = "none";
+function prevChar() {
+  var link = window.location.href;
+  var last = link.split("/").at(-1);
+  var index = last.replace(".html", "");
+  var prev = links.indexOf(index) - 1;
+  if (links[prev]) {
+    link = links[prev] + '.html';
+    parent.location = link;
+  } else {
+    parent.location = links.pop() + '.html';
+  } 
 }
-
-function nextSlide(e) {
-  var modal = e.currentTarget.parentNode;
-  var num = modal.getAttribute("data-slide");
-  if(!num) num = 0;
-  num++;
-  showSlide(modal, num);
-}
-
-function prevSlide(e) {
-  var modal = e.currentTarget.parentNode;
-  var num = modal.getAttribute("data-slide");
-  if(!num) num = 0;
-  num--;
-  showSlide(modal, num);
-}
-
-function showSlide(modal, num) {
-  var slides = modal.getElementsByClassName("slide");
-  if (num >= slides.length) { num = 0 }
-  if (num < 0) {num = slides.length - 1}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slides[num].style.display = "block";
-  modal.setAttribute("data-slide", num);
-}
-*/
