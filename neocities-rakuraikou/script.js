@@ -50,7 +50,14 @@ function taglines() {
     'stay curious',
     'it&apos;s our responsibility as humans to love each other!',
     'how did you get here??',
-    '...'
+    '...',
+    'they don&apos;t call me guy of the century for nothin&apos;...',
+    'guy of the century, awarded 00',
+    'the girlies in my stomach aren&apos;t going to like this one...',
+    'hey, wait what?!',
+    'certified girl help moment',
+    'maybe *don&apos;t* stay curious...',
+    'guh'
   ];
 
   var picktag = Math.floor(Math.random() * tags.length);
