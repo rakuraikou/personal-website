@@ -108,7 +108,7 @@ h5 a {
   text-decoration: underline #ffffff dashed;
 }
 h5 a:hover {
-  color: #c2fffa;
+  color: #d0fffb;
 }
 a {
   color: #f8428e;
@@ -157,6 +157,7 @@ a:hover {
 .collect-item {
   margin-bottom: 15px;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
 }
 .interests {
@@ -219,6 +220,11 @@ a:hover {
   gap: 15px;
   justify-content: center
 }
+
+.btn-link img:hover{
+  translate: 0px 2px;
+}
+
 /* MOBILE ONLY */
 @media (max-width: 768px) {
   .grid-mobile-col,.grid-notfound,.grid-index {

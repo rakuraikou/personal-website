@@ -508,6 +508,13 @@ details[open] > summary {
   line-height: 30px
 }
 
+/* LUNCHTIME */
+.lunchtime-char {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px
+}
+
 /* GALLERY */
 .gallery {
   display: flex;
@@ -813,6 +820,11 @@ img.hover-shadow {
     top: 10%;
     font-size: 0.8em;
   }
+
+  .lunchtime-char {
+    grid-template-columns: auto;
+  }
+  
 }
 /* SCROLLBAR */
 ::-webkit-scrollbar {

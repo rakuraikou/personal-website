@@ -57,7 +57,20 @@ function taglines() {
     'hey, wait what?!',
     'certified girl help moment',
     'maybe *don&apos;t* stay curious...',
-    'guh'
+    'guh',
+    'i think i&apos;m being preyed upon!',
+    'doctors love her',
+    'we&apos;re all just slip n&apos; slidin&apos;',
+    'narsty',
+    'oww',
+    'live good die great',
+    'bad butch next door type of thing',
+    'auhauh',
+    'me if i was real',
+    'america&apos;s next top guy!',
+    'not immortal...but not quite mortal either',
+    'eat eat eat',
+    'hrghhh'
   ];
 
   var picktag = Math.floor(Math.random() * tags.length);
