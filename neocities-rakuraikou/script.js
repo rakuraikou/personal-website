@@ -76,3 +76,11 @@ function taglines() {
   var picktag = Math.floor(Math.random() * tags.length);
   document.getElementById('tagline').innerHTML = tags[picktag]
 }
+
+function spsjsGif(img) {
+  img.src = img.src.replace('png', 'gif');
+}
+
+function spsjsPng(img) {
+  img.src = img.src.replace('gif', 'png');
+}
