@@ -186,18 +186,14 @@ a:hover {
   overflow: auto;
   font-size:0.85rem;
 }
-.index-text {
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
 .index-image {
-  width: 55%;
+  width: 100%;
 }
 .grid-index {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 60% 40%;
   gap: 10px;
+  align-items: center;
 }
 /* TABS */
 .tab-content {
@@ -251,9 +247,6 @@ a:hover {
   }
   .bd-tab-img {
     width: 95px
-  }
-  .index-image {
-    width: 100%;
   }
 
   .collect-item img {
