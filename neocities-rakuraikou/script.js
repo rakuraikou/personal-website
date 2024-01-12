@@ -70,7 +70,10 @@ function taglines() {
     'america&apos;s next top guy!',
     'not immortal...but not quite mortal either',
     'eat eat eat',
-    'hrghhh'
+    'hrghhh',
+    'scamp/butch enjoyer',
+    'how to charge?',
+    'shrimpgame survivor'
   ];
 
   var picktag = Math.floor(Math.random() * tags.length);
