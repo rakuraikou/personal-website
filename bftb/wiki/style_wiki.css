@@ -74,7 +74,7 @@ h2 {
 }
 h3 {
   color: #1fccc1;
-  font-size: 2.0rem;
+  font-size: 1.9rem;
   margin: 0;
   font-weight: normal;
   font-variant-caps: all-small-caps;
@@ -233,12 +233,6 @@ details[open] > summary {
   font-style: italic;
   padding-left: 10px;
 }
-.captioned {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
-
 .grid-index {
   display: grid;
   grid-template-columns: auto auto auto auto;
@@ -272,6 +266,38 @@ details[open] > summary {
 }
 
 /* CHARACTER PAGES */
+.char-toc {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  border: 2px solid var(--field);
+  width: fit-content;
+}
+.char-toc ul{
+  list-style: lower-roman;
+}
+.char-toc ul li{
+  margin-bottom: 5px;
+}
+.char-side {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  gap: 5px;
+  float: right;
+  border: 2px solid var(--field);
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+.side-table {
+  border-bottom: 2px solid var(--field);
+  border-collapse: collapse;
+}
+.side-table td{
+  border-bottom: 2px solid var(--field);
+  padding: 5px;
+}
+
 .grid-charbook {
   display: grid;
   grid-template-columns: auto max-content;
@@ -734,6 +760,19 @@ img.hover-shadow {
   }
   .lore-box p{
     width: 144px;
+  }
+  .char-toc {
+    margin: auto;
+  }
+  .char-side {
+    margin: auto;
+    float: initial;
+  }
+  h1 {
+    font-size: 2.3rem;
+  }
+  h2 {
+    font-size: 2.15rem;
   }
   .char-page {
     height: initial;

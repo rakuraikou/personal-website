@@ -18,38 +18,27 @@
 
   </head>
   <body>
-    <noscript>
-    <header>
-	    <b>Hey! You have JavaScript disabled, which is what I use for my headers/navs. If you don't want to turn it on, I understand - use the <a href="/sitemap.html">sitemap</a> to get around!</b>
-    </header>
-    </noscript>
-    
-    <div include-html="/bftb/wiki/header_content.html"></div>
+    <?php include 'header_content.html'; ?>
     <main>
-      <!--
-      <a class="captioned" href="magic.html" style="max-width: 200px">
-        <img src="../res/200.jpg">
-        <span>
-          Magic
-        </span>
-      </a>
-      -->
+      <h1>
+        Lore
+      </h1>
       <ul>
-        <li>
-          <a href="magic.html">Magic</a>
-        </li>
         <li>
           <a href="biota.html">Biota</a>
         </li>
         <li>
+          <a href="magic.html">Magic</a>
+        </li>
+        <li>
           <a href="people.html">People</a>
         </li>
+        <li>
+          <a href="world.html">World</a>
+        </li>
       </ul>
-    
     </main>
-    
-    <div include-html="/bftb/wiki/footer_content.html"></div>
-    <script>insertHtml();</script>
+    <?php include 'footer_content.html'; ?>
 
   </body>
 </html>
