@@ -18,7 +18,7 @@
 
   </head>
   <body>
-    <?php include 'header_content.html'; ?>
+    <?php include '../header_content.html'; ?>
     <main>
       <h1>
         Lore
@@ -38,7 +38,7 @@
         </li>
       </ul>
     </main>
-    <?php include 'footer_content.html'; ?>
+    <?php include '../footer_content.html'; ?>
 
   </body>
 </html>

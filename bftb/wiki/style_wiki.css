@@ -266,6 +266,23 @@ details[open] > summary {
 }
 
 /* CHARACTER PAGES */
+.char-select {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+.char-link {
+  flex-direction: column;
+  text-align: center;
+}
+.char-link img {
+  max-height: 140px;
+}
+.protag {
+  max-height: 160px !important;
+}
 .char-toc {
   display: flex;
   flex-direction: column;
