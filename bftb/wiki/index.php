@@ -24,7 +24,7 @@
     </header>
     </noscript>
     
-    <div include-html="header_content.html"></div>
+    <?php include 'header_content.html'; ?>
     <main>
       <div class="field">
         <h2 class="field-heading">
@@ -40,8 +40,7 @@
     
     </main>
     
-    <div include-html="footer_content.html"></div>
-    <script>insertHtml();</script>
+    <?php include 'footer_content.html'; ?>
 
   </body>
 </html>

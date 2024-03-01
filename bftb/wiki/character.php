@@ -15,8 +15,8 @@
     <main>
       <?php
       $servername = "localhost:3306";
-      $username = "rkrkidgb_len";
-      $password = "Palomita_0901";
+      $username = "rkrkidgb_user";
+      $password = "XSR%2T%)c%Wk";
       $database = "rkrkidgb_bftb";
 
       $conn = new mysqli($servername, $username, $password, $database);

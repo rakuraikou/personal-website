@@ -3,13 +3,14 @@
 	--link: #ecbd3b;
 	--linkhover: #b5e3f5;
   --navlink: #739ec7;
-  --header: #40ccff;
-  --header2: #5172df;
+  --header: #48ceff;
+  --header2: #608be7;
 	
-  --field: #567ca0;
+  --field: #5f8ab3;
 	
 	--bodybg: #29191f;
 	--mainbg: #242b42;
+  --notebg: #404f81;
 }
 
 body {
@@ -73,7 +74,7 @@ h2 {
   font-variant-caps: all-small-caps;
 }
 h3 {
-  color: #1fccc1;
+  color: var(--field);
   font-size: 1.9rem;
   margin: 0;
   font-weight: normal;
@@ -125,7 +126,7 @@ h2 a:hover {
   color: #6287ff;
 }
 h3 a {
-  color: #1fccc1;
+  color: var(--field);
 }
 h3 a:hover {
   color: #76e9fd;
@@ -224,6 +225,13 @@ details[open] > summary {
   margin: 0;
 }
 
+.notebox {
+  max-width: 80%;
+  margin: auto;
+  background-color: var(--notebg);
+  padding: 10px;
+  border: 2px solid var(--field);
+}
 .whisper {
   color: #bfbdcc;
   font-style: italic;
@@ -274,6 +282,7 @@ details[open] > summary {
   justify-content: center;
 }
 .char-link {
+  display: flex;
   flex-direction: column;
   text-align: center;
 }

@@ -23,18 +23,40 @@
       <h1>
         Lore
       </h1>
+      <hr>
+      <h2>
+        Fundamental Concepts
+      </h2>
+      <hr>
       <ul>
         <li>
-          <a href="biota.html">Biota</a>
+          Light (WIP)
         </li>
         <li>
-          <a href="magic.html">Magic</a>
+          <a href="magic.php">Magic</a>
+        </li>
+      </ul>
+      <h2>
+        Inhabitants
+      </h2>
+      <hr>
+      <ul>
+        <li>
+          <a href="beastlords.php">Beastlords</a>
         </li>
         <li>
-          <a href="people.html">People</a>
+          <a href="biota.php">Biota</a>
         </li>
         <li>
-          <a href="world.html">World</a>
+          <a href="people.php">People</a>
+        </li>
+        <ul>
+          <li>
+            <a href="keepers.php">Keepers</a>
+          </li>
+        </ul>
+        <li>
+          World (WIP)
         </li>
       </ul>
     </main>
