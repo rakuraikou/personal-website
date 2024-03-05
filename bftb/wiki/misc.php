@@ -91,7 +91,7 @@
           hours of popping open the inspector on <a href="https://squidknees.neocities.org/" target="_blank">squid's</a> site lols and also their <a href="https://squidknees.neocities.org/themes/tvtropes-preview/">TVTropes template</a>
         </li>
         <li>
-          Marvin over at <a href="https://numbersstory.com//" target="_blank">Numbers Story</a> for advice on database organization and .htaccess stuff...thanks dude!
+          Marvin over at <a href="https://numbersstory.com/" target="_blank">Numbers Story</a> for advice on database organization and .htaccess stuff...thanks dude!
         </li>
         <li>
           gf for sniffing everything I write and making sure it's decent
