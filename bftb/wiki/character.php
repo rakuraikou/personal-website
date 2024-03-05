@@ -154,7 +154,22 @@
                 echo "Invalid character ID!";
             }
         } else {
-          include 'character_index.html';
+          //include 'character_index.html';
+          if ($result->num_rows > 0) {
+            $result->data_seek(0);
+            while ($row = $result->fetch_assoc()) {
+              echo "
+              <h1>Characters</h1>
+              <hr>
+              <h2 style='text-align: center'>Main Characters</h2>
+              <div class='char-select'>
+                <a href='?id=" . $row["id"] . "'>" . $row["name"] . "
+                <img src='res/200.jpg'>
+                </a>
+              </div>
+              ";
+            }
+          }
         }
         $conn->close();
         ?>
