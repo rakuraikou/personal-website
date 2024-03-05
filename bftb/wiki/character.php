@@ -109,12 +109,30 @@
                   <h2 id='abilities'>Abilities</h2>
                   <hr>
                   <p>" . $row["abilities"] . "</p>
-                  <h2 id='story'>Story</h2>
+                  <h3 id='" . $row["sub_ability_1"] . "'>" . $row["sub_ability_1"] . "</h3>
+                  <p>" . $row["sub_ability_1_desc"] . "</p>
+                  <h2 id='story'>History</h2>
                   <hr>
                   <h3 id='storybefore'>Prior to Story</h3>
                   <p>" . $row["story_before"] . "</p>
-                  <h3 id='storymain'>During <i>Bolt from the Blue</i></h3>
+                  <h3 id='storymain'><i>Bolt from the Blue</i></h3>
                   <p>" . $row["story_main"] . "</p>";
+
+                  $rel_sql = "SELECT * FROM relationships WHERE character_id = '$id'";
+                  $rel_result = $conn->query($rel_sql);
+                  if ($rel_result->num_rows > 0) {
+                    echo "
+                    <h2 id='rel'>Relationships</h2>
+                    <hr>";
+                    while ($rel_row = $rel_result->fetch_assoc()) {
+                      echo "
+                      <h3>" . $row["rel_name"] . "</h3>
+                      <p>" . $row["rel_info"] . "</p>
+                      ";
+                    }
+                  } else {
+                    echo "Nothing here yet! Sorry!";
+                  }
               }
             } else {
                 echo "Invalid character ID!";
