@@ -97,6 +97,23 @@
                           <a href='#storymain'>During <i>Bolt from the Blue</i></a>
                         </li>
                       </ul>
+                      <li>
+                        <a href='#rel'>Relationships</a>
+                      </li>
+                      <ul>";
+                $rel_sql = "SELECT * FROM relationships WHERE char_id = '$id'";
+                $rel_result = $conn->query($rel_sql);
+                if ($rel_result->num_rows > 0) {
+                  while ($rel_row = $rel_result->fetch_assoc()) {
+                    echo "
+                        <li>
+                          <a href='" . $rel_row["rel_link"] . "'>" . $rel_row["rel_name"] . "</a>
+                        </li>
+                    ";
+                  }
+                }
+                echo "
+                      </ul>
                     </ul>
                   </div>
                 </div>
@@ -121,12 +138,10 @@
                   <hr>
                   ";
 
-                  $rel_sql = "SELECT * FROM relationships WHERE char_id = '$id'";
-                  $rel_result = $conn->query($rel_sql);
                   if ($rel_result->num_rows > 0) {
                     while ($rel_row = $rel_result->fetch_assoc()) {
                       echo "
-                      <h3>" . $rel_row["rel_name"] . "</h3>
+                      <a id='" . $rel_row["rel_link"] . "' class='rel_link' href='?id=" . $rel_row["rel_link"] . "'><h3>" . $rel_row["rel_name"] . "</h3></a>
                       <p>" . $rel_row["rel_info"] . "</p>
                       ";
                     }
