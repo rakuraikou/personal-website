@@ -121,7 +121,7 @@
                   <hr>
                   ";
 
-                  $rel_sql = "SELECT * FROM relationships WHERE char_id = '$char_id'";
+                  $rel_sql = "SELECT * FROM relationships WHERE char_id = '$id'";
                   $rel_result = $conn->query($rel_sql);
                   if ($rel_result->num_rows > 0) {
                     while ($rel_row = $rel_result->fetch_assoc()) {
