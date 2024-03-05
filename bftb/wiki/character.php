@@ -156,7 +156,6 @@
         } else {
           //include 'character_index.html';
           if ($result->num_rows > 0) {
-            $result->data_seek(0);
             while ($row = $result->fetch_assoc()) {
               echo "
               <h1>Characters</h1>
@@ -169,6 +168,8 @@
               </div>
               ";
             }
+          } else {
+            echo "No characters found";
           }
         }
         $conn->close();
