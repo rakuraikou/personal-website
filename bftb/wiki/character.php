@@ -142,7 +142,7 @@
                     $rel_result->data_seek(0);
                     while ($rel_row = $rel_result->fetch_assoc()) {
                       echo "
-                      <h3><a id='" . $rel_row["rel_link"] . "' class='rel_link' href='?id=" . $rel_row["rel_link"] . "'>" . $rel_row["rel_name"] . "></a></h3
+                      <h3><a id='" . $rel_row["rel_link"] . "' class='rel_link' href='?id=" . $rel_row["rel_link"] . "'>" . $rel_row["rel_name"] . "</a></h3>
                       <p>" . $rel_row["rel_info"] . "</p>
                       ";
                     }
