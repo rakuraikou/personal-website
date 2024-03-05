@@ -157,8 +157,14 @@
           $sql_protag = "SELECT * FROM characters WHERE type = 'protag'";
           $result_protag = $conn->query($sql_protag);
           
-          $sql_antag = "SELECT * FROM characters WHERE type = 'antag'";
-          $result_antag = $conn->query($sql_antag);
+          $sql_nox = "SELECT * FROM characters WHERE type = 'nox'";
+          $result_nox = $conn->query($sql_nox);
+
+          $sql_linked = "SELECT * FROM characters WHERE type = 'linked'";
+          $result_linked = $conn->query($sql_linked);
+
+          $sql_other = "SELECT * FROM characters WHERE type = 'other'";
+          $result_other = $conn->query($sql_other);
 
           function genCharIndex($result) {
             if ($result->num_rows > 0) {
