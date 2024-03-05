@@ -154,25 +154,29 @@
                 echo "Invalid character ID!";
             }
         } else {
-          //include 'character_index.html';
-          $sql = "SELECT * FROM characters";
-          $result = $conn->query($sql);
-          if ($result->num_rows > 0) {
-            echo "<h1>Characters</h1><hr>
-            <h2 style='text-align: center'>Main Characters</h2>
-            <div class='char-select'>";
-            while ($row = $result->fetch_assoc()) {
-              echo "
-              <a href='" . $row["id"] . "' class='char-link protag'>
-                <img src='res/200.jpg'>
-                " . $row["name"] . "
-              </a>
-              ";
+          $sql_protag = "SELECT * FROM characters WHERE type = 'protag'";
+          $result_protag = $conn->query($sql_protag);
+          
+          $sql_antag = "SELECT * FROM characters WHERE type = 'antag'";
+          $result_antag = $conn->query($sql_antag);
+
+          function genCharIndex($result) {
+            if ($result->num_rows > 0) {
+              echo "<div class='char-select'>";
+              while ($row = $result->fetch_assoc()) {
+                echo "
+                <a href='" . $row["id"] . "' class='char-link protag'>
+                  <img src='" . $row["icon"] . "'>
+                  " . $row["name"] . "
+                </a>
+                ";
+              }
+              echo "</div>";
+            } else {
+              echo "No characters found";
             }
-            echo "</div>";
-          } else {
-            echo "No characters found";
           }
+          include 'character_index.php';
         }
         $conn->close();
         ?>
