@@ -58,6 +58,7 @@ footer {
   box-shadow: -10px 10px 5px rgba(13, 9, 10, 0.5);
   text-align: center;
 }
+
 /* HEADINGS */
 h1 {
   color: var(--header);
@@ -80,62 +81,29 @@ h3 {
   font-weight: normal;
   font-variant-caps: all-small-caps;
 }
-h4 {
-  color: #c77314;
-  font-size: 1.7rem;
-  margin: 0;
-  font-weight: normal;
-  font-variant-caps: all-small-caps;
-}
-h5 {
-  color: #d9aa29;
-  font-size: 1.4rem;
-  margin: 0;
-  font-weight: normal;
-  font-variant-caps: all-small-caps;
-}
-h2.page-heading {
-  text-align:center;
-  letter-spacing:0.8rem;
-  font-size: 1.8rem;
-  text-shadow: 0.5px 0.5px 3px #ad7f6f, -0.5px -0.5px 3px #ad7f6f, 0.5px -0.5px 3px #ad7f6f, -0.5px 0.5px 3px #ad7f6f;
-  font-variant-caps: normal;
-  z-index:11;
-  position:relative;
-  top:0px;
-  left:0px;
-  color: #593d20;
-}
+/* HORIZONTAL LINE / DIVIDER */
 hr {
   color: var(--field);
 }
-.grid-main h2, .grid-main h3, .grid-main h4, .grid-main h5 {
-  color: #593d20;
-}
+
 /* LINKS */
 h1 a {
   color: var(--header);
 }
+h1 a:hover {
+  color: var(--link);
+}
 h2 a {
-  color: #2b71d9;
+  color: var(--header2);
 }
 h2 a:hover {
-  color: #6287ff;
+  color: var(--linkhover);
 }
 h3 a {
   color: var(--field);
 }
-h4 a {
-  color: #c77314;
-}
-h4 a:hover {
-  color: #da9d2d;
-}
-h5 a {
-  color: #d9aa29;
-}
-h5 a:hover {
-  color: #f5e451;
+h3 a:hover {
+  color: var(--linkhover);
 }
 nav a {
   color: var(--navlink);
@@ -146,10 +114,9 @@ a {
 a:hover {
   color: var(--linkhover);
 }
-.site-head a:hover {
-  color: #ffbd38;
-}
+
 /* DETAILS + SUMMARY TOGGLE */
+/* CURRENTLY UNUSED BUT MAYBE I'LL FIND A USE FOR THEM... */
 .toggle-header {
   color: #593d20;
   font-size: 1.7rem;
@@ -163,32 +130,21 @@ details > summary {
 details[open] > summary {
   list-style-type: '✧';
 }
-/* CUSTOM CLASSES */
-/* TOP OF PAGE */
-.top-link {
-  color: #f7cc65;
-}
-.top-link:hover {
-  cursor: pointer;
-  color: #b5e3f5;
-}
-/* HEADER CLASSES */
-.georgia {
-  font-family: Georgia;
-}
+
+/* HEADER CONTENT */
 .header-line {
   background:linear-gradient(to right, var(--field) 0%, rgba(0, 0, 0, 0) 60%);
   height: 2px;
   margin-bottom: 10px;
 }
-/* FOOTER CLASSES */
+/* FOOTER CONTENT */
 .signature {
   margin-bottom: 0;
   color: var(--header);
   text-align: center;
 }
 
-/* TOP CRUMB */
+/* LINKS CRUMB */
 .crumb {
   list-style: none;
   padding: 0px;
@@ -203,6 +159,7 @@ details[open] > summary {
   padding:5px;
 }
 
+/* FIELD WITH HEADING BOX */
 .field {
   margin: auto;
   border: 2px solid var(--field);
@@ -220,6 +177,7 @@ details[open] > summary {
   margin: 0;
 }
 
+/* OTHER FORMATTING CLASSES */
 .notebox {
   max-width: 80%;
   margin: auto;
@@ -238,6 +196,7 @@ details[open] > summary {
 }
 
 /* CHARACTER PAGES */
+/* index page */
 .char-select {
   display: flex;
   flex-direction: row;
@@ -253,9 +212,11 @@ details[open] > summary {
 .char-link img {
   max-height: 140px;
 }
+/* distinguish protagonists from other character links ? */
 .protag {
   max-height: 160px !important;
 }
+/* individual pages */
 .char-toc {
   display: flex;
   flex-direction: column;
@@ -287,9 +248,8 @@ details[open] > summary {
   border-bottom: 2px solid var(--field);
   padding: 5px;
 }
+
 /* ARACELI'S JOURNAL */
-
-
 .secret-link {
   text-decoration: none !important;
   color: inherit !important;
@@ -337,8 +297,6 @@ details[open] > summary {
 .lunar-page p {
   margin: 0px;
 }
-
-
 .lunar-lined {
   background: linear-gradient(0deg, rgba(92, 57, 30, 0.7) 1.92%, transparent 1.92%, transparent 50%, rgba(92, 57, 30, 0.7) 50%, rgba(92, 57, 30, 0.7) 51.92%, transparent 51.92%, transparent 100%);
   background-size: 60.00px 60.00px;
@@ -351,7 +309,6 @@ details[open] > summary {
   grid-template-columns: auto auto;
   gap: 10px
 }
-
 /* GALLERY */
 .gallery {
   display: flex;
@@ -458,37 +415,6 @@ details[open] > summary {
   justify-content: space-between;
 }
 
-img.hover-shadow {
-  transition: 0.3s;
-}
-
-.hover-shadow:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-/* WORLD PAGE */
-.world-index {
-  padding: 10px 30px;
-  background-color: #d1c9a7;
-  box-shadow:inset 0px 0px 40px #7d6b45;
-  border-radius: 5px 5px 0px 0px;
-  outline: 1px solid #2e281e;
-  outline-offset: -5px;
-  max-width: 900px;
-  margin: auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  color:#47221a;
-  font-size: 1.2rem;
-  font-variant: small-caps;
-}
-.world-main-box {
-  width: 900px;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 0px 0px 5px 5px;
-}
 /* SPOILER TEXT SWAP */
 .spoiler {
   display: none;
@@ -509,6 +435,12 @@ img.hover-shadow {
     flex-direction: column;
     gap: 10px
   }
+  h1 {
+    font-size: 2.3rem;
+  }
+  h2 {
+    font-size: 2.15rem;
+  }
   .char-toc {
     margin: auto;
   }
@@ -516,36 +448,7 @@ img.hover-shadow {
     margin: auto;
     float: initial;
   }
-  h1 {
-    font-size: 2.3rem;
-  }
-  h2 {
-    font-size: 2.15rem;
-  }
   
-  .world-index {
-    flex-direction: column;
-    align-items: center;
-    border-radius: 5px 5px 0px 0px;
-  }
-  .world-main-box {
-    border-radius: 0px 0px 5px 5px;
-    width: initial
-  }
-  .right-decor, .right-decor.larger {
-    left: 65%;
-    top: 15px;
-    width: 110px;
-  }
-  .left-decor, .left-decor.larger {
-    right: 65%;
-    top: 15px;
-    width: 110px;
-  }
-  .splash-shadow {
-    height: 100%;
-    width: 100%;
-  }
   .gallery-img {
     height: 110px;
   }

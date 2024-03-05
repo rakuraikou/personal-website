@@ -4,13 +4,6 @@ var spoilers = document.getElementsByClassName("spoiler");
 //var that tracks if spoilers are currently on
 var spoilersOn;
 
-var links = [
-  "raiden",
-  "araceli",
-  "saffron",
-  "cole"
-];
-
 function checkSpoilers(){
   //set spoilersOn based on the local storage on page load
   if (localStorage.getItem("spoilers") == "on"){
@@ -29,7 +22,6 @@ function checkSpoilers(){
 	spoilersOn = false;
   };
 };
-
 
  function toggleSpoilers(){
 	if (spoilersOn) {
@@ -66,38 +58,6 @@ function checkSpoilers(){
     document.getElementById("spoiler-button").style.color = "#f15b5b";
   };
 };
-
-function openCollapse() {
-  var coll = document.querySelectorAll(".sidebar-collapse");
-  var i;
-
-  for (i = 0; i < coll.length; i++) {
-    coll[i].addEventListener("click", function() {
-      this.classList.toggle("active");
-      var content = this.nextElementSibling;
-      if (content.style.maxHeight){
-        content.style.maxHeight = null;
-      } else {
-        content.style.maxHeight = content.scrollHeight + "px";
-        } 
-      }
-    );
-  }
-}
-
-function openChar(evt, charName) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tab-content");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("sidebar-link");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  document.getElementById(charName).style.display = "block";
-  evt.currentTarget.className += " active";
-}
 
 function goToTop() {
   document.body.scrollTop = 0;
@@ -136,39 +96,4 @@ function showSlides(id, n) {
     slides[i].style.display = "none";
   }
   slides[slideIndex-1].style.display = "block";
-}
-
-function randomChar() {
-  var random = Math.random() * links.length;
-  random = parseInt(random, 10);
-  //console.log(random)
-  var link = links[random] + '.html';
-  parent.location = link
-}
-
-function nextChar() {
-  var link = window.location.href;
-  var last = link.split("/").at(-1);
-  var index = last.replace(".html", "");
-  var next = links.indexOf(index) + 1;
-  if (links[next]) {
-    link = links[next] + '.html';
-    parent.location = link;
-  } else {
-    link = links[0] + '.html';
-    parent.location = link;
-  }
-}
-
-function prevChar() {
-  var link = window.location.href;
-  var last = link.split("/").at(-1);
-  var index = last.replace(".html", "");
-  var prev = links.indexOf(index) - 1;
-  if (links[prev]) {
-    link = links[prev] + '.html';
-    parent.location = link;
-  } else {
-    parent.location = links.pop() + '.html';
-  } 
 }
