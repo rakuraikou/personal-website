@@ -126,8 +126,8 @@
                   if ($rel_result->num_rows > 0) {
                     while ($rel_row = $rel_result->fetch_assoc()) {
                       echo "
-                      <h3>" . $row["rel_name"] . "</h3>
-                      <p>" . $row["rel_info"] . "</p>
+                      <h3>" . $rel_row["rel_name"] . "</h3>
+                      <p>" . $rel_row["rel_info"] . "</p>
                       ";
                     }
                   } else {
