@@ -129,7 +129,7 @@ h3 a {
   color: var(--field);
 }
 h3 a:hover {
-  color: #76e9fd;
+  text-decoration: none;
 }
 h4 a {
   color: #c77314;
