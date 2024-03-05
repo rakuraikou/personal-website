@@ -1,3 +1,7 @@
+<ul class="crumb">
+        <li><a href="index">Home</a></li>
+        <li><a href="character">Characters</a></li>
+      </ul>
 <h1>
   Characters
 </h1>

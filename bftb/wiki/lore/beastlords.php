@@ -30,7 +30,7 @@
       </h1>
       <hr>
       <p>
-        Four unfathomably magnificent creatures "rule" Luxos' natural world, also known as the Beastlords of Storm, Tide, Ash and Wild. Each Beastlord is known to gift one of three <a href="magic.html">aspects</a> to an individual:
+        Four unfathomably magnificent creatures "rule" Luxos' natural world, also known as the Beastlords of Storm, Tide, Ash and Wild. Each Beastlord is known to gift one of three <a href="magic">aspects</a> to an individual:
       </p>
       <ul>
         <li>

@@ -23,7 +23,7 @@
       <ul class="crumb">
         <li><a href="../index">Home</a></li>
         <li><a href="index">Lore</a></li>
-        <li><a href="people">people</a></li>
+        <li><a href="people">People</a></li>
       </ul>
       <h1>
         People
@@ -40,7 +40,7 @@
       </h2>
       <hr>
       <p>
-        Though not formal organizations, there are certain classes of people recognized through particular status or culture. These terms and roles attached to them are considered common knowledge in Luxos, but their reputations vary. Information about keepers and Champions can be found <a href="keepers.php">here</a>.
+        Though not formal organizations, there are certain classes of people recognized through particular status or culture. These terms and roles attached to them are considered common knowledge in Luxos, but their reputations vary. Information about keepers and Champions can be found <a href="keepers">here</a>.
       </p>
       <h3>
         Adventurers
