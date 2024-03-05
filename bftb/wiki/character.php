@@ -107,7 +107,7 @@
                   while ($rel_row = $rel_result->fetch_assoc()) {
                     echo "
                         <li>
-                          <a href='" . $rel_row["rel_link"] . "'>" . $rel_row["rel_name"] . "</a>
+                          <a href='#" . $rel_row["rel_link"] . "'>" . $rel_row["rel_name"] . "</a>
                         </li>
                     ";
                   }
