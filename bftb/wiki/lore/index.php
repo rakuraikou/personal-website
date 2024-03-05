@@ -37,7 +37,7 @@
           Light (WIP)
         </li>
         <li>
-          <a href="magic.php">Magic</a>
+          <a href="magic">Magic</a>
         </li>
       </ul>
       <h2>
@@ -46,17 +46,17 @@
       <hr>
       <ul>
         <li>
-          <a href="beastlords.php">Beastlords</a>
+          <a href="beastlords">Beastlords</a>
         </li>
         <li>
-          <a href="biota.php">Biota</a>
+          <a href="biota">Biota</a>
         </li>
         <li>
-          <a href="people.php">People</a>
+          <a href="people">People</a>
         </li>
         <ul>
           <li>
-            <a href="keepers.php">Keepers</a>
+            <a href="keepers">Keepers</a>
           </li>
         </ul>
       </ul>
