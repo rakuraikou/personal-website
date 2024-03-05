@@ -116,14 +116,14 @@
                   <h3 id='storybefore'>Prior to Story</h3>
                   <p>" . $row["story_before"] . "</p>
                   <h3 id='storymain'><i>Bolt from the Blue</i></h3>
-                  <p>" . $row["story_main"] . "</p>";
+                  <p>" . $row["story_main"] . "</p>
+                  <h2 id='rel'>Relationships</h2>
+                  <hr>
+                  ";
 
-                  $rel_sql = "SELECT * FROM relationships WHERE character_id = '$id'";
+                  $rel_sql = "SELECT * FROM relationships WHERE char_id = '$char_id'";
                   $rel_result = $conn->query($rel_sql);
                   if ($rel_result->num_rows > 0) {
-                    echo "
-                    <h2 id='rel'>Relationships</h2>
-                    <hr>";
                     while ($rel_row = $rel_result->fetch_assoc()) {
                       echo "
                       <h3>" . $row["rel_name"] . "</h3>
