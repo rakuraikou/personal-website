@@ -181,8 +181,8 @@
                   }
               }
             } else {
-              header("Location: /not_found.html", true, 404);
-              exit; 
+              header("Location: https://rkrk.dev/not_found", true, 404);
+              exit;
             }
         } else {
           $sql_protag = "SELECT * FROM characters WHERE type = 'protag'";
