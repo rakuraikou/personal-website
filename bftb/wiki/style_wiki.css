@@ -222,7 +222,6 @@ details[open] > summary {
   flex-direction: column;
   padding: 5px;
   border: 2px solid var(--field);
-  width: 350px;
 }
 .char-toc ul{
   list-style: lower-roman;
@@ -239,6 +238,7 @@ details[open] > summary {
   border: 2px solid var(--field);
   margin-left: 5px;
   margin-bottom: 5px;
+  width: 350px;
 }
 .side-table {
   border-bottom: 2px solid var(--field);
@@ -443,11 +443,11 @@ details[open] > summary {
   }
   .char-toc {
     margin: auto;
-    max-width: initial;
   }
   .char-side {
     margin: auto;
     float: initial;
+    max-width: 100%;
   }
   
   .gallery-img {
