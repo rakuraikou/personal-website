@@ -201,7 +201,7 @@
               echo "<div class='char-select'>";
               while ($row = $result->fetch_assoc()) {
                 echo "
-                <a href='?id=" . $row["id"] . "' class='char-link protag'>
+                <a href='?id=" . $row["id"] . "' class='char-link'>
                   <img src='" . $row["icon"] . "'>
                   " . $row["name"] . "
                 </a>

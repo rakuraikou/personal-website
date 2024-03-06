@@ -211,6 +211,7 @@ details[open] > summary {
 }
 .char-link img {
   max-height: 140px;
+  max-width: 140px;
 }
 /* distinguish protagonists from other character links ? */
 .protag {
