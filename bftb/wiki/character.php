@@ -40,7 +40,7 @@
             <ul class='crumb'>
               <li><a href='index'>Home</a></li>
               <li><a href='character'>Characters</a></li>
-              <li><a href='?id=" . $row["id"] . "'>" . $row["display_name"] . "</a></li>
+              <li><a href='?id=" . $row["id"] . "'>" . ucfirst($row["id"]) . "</a></li>
             </ul>
 
             <h1 style='font-style: italic'>" . $row["alias"] . "</h1>
