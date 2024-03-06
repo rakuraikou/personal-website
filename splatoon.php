@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>the thunder guy or whatever</title>
 
-    <!-- discord embed -->
-        <meta content="the thunder guy or whatever" property="og:site_name">
-        <meta content="THUNDERSWAG!!! - Splatoon" property="og:title">
-        <meta content="LEN's Splatoon 3 page!" property="og:description">
-        <meta content='https://rkrk.dev/res/splatoon/dapple_dualies_nouveau.png' property='og:image'>
-        <meta name="theme-color" content="#ff9114">
+<!-- discord embed -->
+    <meta content="the thunder guy or whatever" property="og:site_name">
+    <meta content="THUNDERSWAG!!! - Splatoon" property="og:title">
+    <meta content="LEN's Splatoon 3 page!" property="og:description">
+    <meta content='https://rkrk.dev/res/splatoon/dapple_dualies_nouveau.png' property='og:image'>
+    <meta name="theme-color" content="#ffe524">
 
 <!-- css sheet and javascript-->
     <link href="style.css" rel="stylesheet" type="text/css" media="all">
@@ -19,10 +19,7 @@
   </head>
 
   <body>
-
-    <div include-header-html="header_content.html"></div>
-    <script>insertHeader();</script>
-
+    <?php include 'header_content.html'; ?>
     <main>
       <h2>SPLATOON!!!!!!!</h2>
       <h3>I'M TRYING MY BEST...</h3>
@@ -218,8 +215,6 @@
       </div>
 
     </main>
-
-    <p style="margin-top:25px; color:#16A6FF; text-align: center;">&#169; rakuraikou | <a href="sitemap.html">sitemap</a></p>
-
+    <?php include 'footer_content.html'; ?>
   </body>
 </html>

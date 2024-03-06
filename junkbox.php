@@ -7,10 +7,10 @@
 
 <!-- discord embed -->
     <meta content="the thunder guy or whatever" property="og:site_name">
-    <meta content="THUNDERSWAG!!! - Junkbox" property="og:title">
+    <meta content="THUNDERSWAG!!! - junkbox" property="og:title">
     <meta content="LEN's personal site for oc/worldbuilding, gamedev, hobbies, and other self-indulgent stuff." property="og:description">
     <meta content='https://rkrk.dev/res/embed_sprite.png' property='og:image'>
-    <meta name="theme-color" content="#ff9114">
+    <meta name="theme-color" content="#ffa114">
 
 <!-- css sheet and javascript -->
     <link href="style.css" rel="stylesheet" type="text/css" media="all">
@@ -18,10 +18,7 @@
   </head>
 
   <body>
-
-    <div include-header-html="header_content.html"></div>
-    <script>insertHeader();</script>
-
+    <?php include 'header_content.html'; ?>
     <main>
       <h2>Party time!!!</h2>
       <h3>Self-indulgent pages and media shrines</h3>
@@ -130,6 +127,6 @@
         </li>
       </ul>
     </main>
-    <p style="margin-top:25px; color:#16A6FF; text-align: center;">&#169; rakuraikou | <a href="sitemap.html">sitemap</a></p>
+    <?php include 'footer_content.html'; ?>
   </body>
 </html>
