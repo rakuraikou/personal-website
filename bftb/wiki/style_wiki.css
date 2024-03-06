@@ -222,7 +222,7 @@ details[open] > summary {
   flex-direction: column;
   padding: 5px;
   border: 2px solid var(--field);
-  width: fit-content;
+  width: 350px;
 }
 .char-toc ul{
   list-style: lower-roman;
@@ -443,6 +443,7 @@ details[open] > summary {
   }
   .char-toc {
     margin: auto;
+    max-width: initial;
   }
   .char-side {
     margin: auto;
