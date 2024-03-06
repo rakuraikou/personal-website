@@ -38,8 +38,8 @@
           while ($row = $result->fetch_assoc()) {
             echo "
             <ul class='crumb'>
-              <li><a href='index.html'>Home</a></li>
-              <li><a href='character.php'>Characters</a></li>
+              <li><a href='index'>Home</a></li>
+              <li><a href='character'>Characters</a></li>
               <li><a href='?id=" . $row["id"] . "'>" . $row["name"] . "</a></li>
             </ul>
 
@@ -93,6 +93,20 @@
                       <li>
                         <a href='#abilities'>Abilities</a>
                       </li>
+                      <ul>";
+                      $abi_sql = "SELECT * FROM abilities WHERE char_id = '$id'";
+                      $abi_result = $conn->query($abi_sql);
+                      if ($abi_result->num_rows > 0) {
+                        while ($abi_row = $abi_result->fetch_assoc()) {
+                          echo "
+                          <li>
+                            <a href='#" . $row["ability_link"] . "'>" . $row["ability_name"] . "</a>
+                          </li>
+                          ";
+                        }
+                      }
+                      echo "
+                      </ul>
                       <li>
                         <a href='#story'>History</a>
                       </li>
@@ -133,9 +147,18 @@
                   <h2 id='abilities'>Abilities</h2>
                   <hr>
                   <p>" . $row["abilities"] . "</p>
-                  <h3 id='" . $row["sub_ability_1"] . "'>" . $row["sub_ability_1"] . "</h3>
-                  <p>" . $row["sub_ability_1_desc"] . "</p>
-                  <h2 id='story'>History</h2>
+                  ";
+                  if ($abi_result->num_rows > 0) {
+                    $abi_result->data_seek(0);
+                    while ($abi_row = $abi_result->fetch_assoc()) {
+                      echo "
+                      <h3 id='" . $row["ability_link"] . "'>" . $row["ability_name"] . "</h3>
+                      <p>" . $row["ability_desc"] . "</p>
+                      ";
+                    }
+                  }
+
+                  echo "<h2 id='story'>History</h2>
                   <hr>
                   <h3 id='storybefore'>Prior to Story</h3>
                   <p>" . $row["story_before"] . "</p>
