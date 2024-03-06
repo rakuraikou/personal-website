@@ -203,7 +203,7 @@
                 echo "
                 <a href='?id=" . $row["id"] . "' class='char-link'>
                   <img src='" . $row["icon"] . "'>
-                  " . $row["display_name"] . "
+                  " . ucfirst($row["id"]) . "
                 </a>
                 ";
               }
