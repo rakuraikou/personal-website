@@ -40,7 +40,7 @@
             <ul class='crumb'>
               <li><a href='index'>Home</a></li>
               <li><a href='character'>Characters</a></li>
-              <li><a href='?id=" . $row["id"] . "'>" . $row["name"] . "</a></li>
+              <li><a href='?id=" . $row["id"] . "'>" . $row["display_name"] . "</a></li>
             </ul>
 
             <h1 style='font-style: italic'>" . $row["alias"] . "</h1>
@@ -50,7 +50,7 @@
                   <table class='side-table'>
                     <tr>
                       <td>Full Name</td>
-                      <td>" . $row["name"] . "</td>
+                      <td>" . $row["full_name"] . "</td>
                     </tr>
                     <tr>
                       <td>Gender</td>
@@ -203,7 +203,7 @@
                 echo "
                 <a href='?id=" . $row["id"] . "' class='char-link'>
                   <img src='" . $row["icon"] . "'>
-                  " . $row["name"] . "
+                  " . $row["display_name"] . "
                 </a>
                 ";
               }
