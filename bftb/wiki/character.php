@@ -141,19 +141,19 @@
                   <h2 id='profile'>Profile</h2>
                   <hr>
                   <h3 id='appearance'>Appearance</h3>
-                  <p>" . $row["appearance"] . "</p>
+                  " . $row["appearance"] . "
                   <h3 id='personality'>Personality</h3>
-                  <p>" . $row["personality"] . "</p>
+                  " . $row["personality"] . "
                   <h2 id='abilities'>Abilities</h2>
                   <hr>
-                  <p>" . $row["abilities"] . "</p>
+                  " . $row["abilities"] . "
                   ";
                   if ($abi_result->num_rows > 0) {
                     $abi_result->data_seek(0);
                     while ($abi_row = $abi_result->fetch_assoc()) {
                       echo "
                       <h3 id='" . $abi_row["ability_link"] . "'>" . $abi_row["ability_name"] . "</h3>
-                      <p>" . $abi_row["ability_desc"] . "</p>
+                      " . $abi_row["ability_desc"] . "
                       ";
                     }
                   }
@@ -161,9 +161,9 @@
                   echo "<h2 id='story'>History</h2>
                   <hr>
                   <h3 id='storybefore'>Prior to Story</h3>
-                  <p>" . $row["story_before"] . "</p>
+                  " . $row["story_before"] . "
                   <h3 id='storymain'><i>Bolt from the Blue</i></h3>
-                  <p>" . $row["story_main"] . "</p>
+                  " . $row["story_main"] . "
                   <h2 id='rel'>Relationships</h2>
                   <hr>
                   ";
@@ -173,7 +173,7 @@
                     while ($rel_row = $rel_result->fetch_assoc()) {
                       echo "
                       <h3><a id='" . $rel_row["rel_link"] . "' class='rel_link' href='?id=" . $rel_row["rel_link"] . "'>" . $rel_row["rel_name"] . "</a></h3>
-                      <p>" . $rel_row["rel_info"] . "</p>
+                      " . $rel_row["rel_info"] . "
                       ";
                     }
                   } else {
