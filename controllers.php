@@ -7,10 +7,10 @@
 
 <!-- discord embed -->
     <meta content="the thunder guy or whatever" property="og:site_name">
-    <meta content="THUNDERSWAG!!! - Controllers Collection" property="og:title">
+    <meta content="THUNDERSWAG!!! - controllers collection" property="og:title">
     <meta content="LEN's personal site for oc/worldbuilding, gamedev, hobbies, and other self-indulgent stuff." property="og:description">
     <meta content='https://rkrk.dev/res/embed_sprite.png' property='og:image'>
-    <meta name="theme-color" content="#ff9114">
+    <meta name="theme-color" content="#ffa114">
 
 <!-- css sheet and javascript -->
     <link href="style.css" rel="stylesheet" type="text/css" media="all">
@@ -18,12 +18,8 @@
   </head>
 
   <body>
-
-    <div include-header-html="header_content.html"></div>
-    <script>insertHeader();</script>
-
+    <?php include 'header_content.html'; ?>
     <main>
-
       <h2>My <span style="font-size:1.7rem; color:#50cdff">(Expensive Ass)</span> Controller Collection</h2>
       <p>Vaguely, I've tried to order this list from most to least treasured, but they're all very important to me as pieces of my collection LOL. Click any image to view the store link (except for the Joy-cons, the cat controller, and the controller at the bottom - I cannot for the life of me find the original listing for the latter two). I'm not sponsored by any of these guys, I just like spreading the love of a horrifically pricey hobby.</p>
       <p style="margin-bottom: 25px">YES, I did a whole photoshoot for my controllers. What's it to you.</p>
@@ -113,8 +109,6 @@
       </div>
 
     </main>
-    
-    <p style="margin-top:25px; color:#16A6FF; text-align: center;">&#169; rakuraikou | <a href="sitemap.html">sitemap</a></p>
-
+    <?php include 'footer_content.html'; ?>
   </body>
 </html>

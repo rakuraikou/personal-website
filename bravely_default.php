@@ -10,7 +10,7 @@
     <meta content="THUNDERSWAG!!! - Bravely Default" property="og:title">
     <meta content="LEN's Bravely Default web shrine!!" property="og:description">
     <meta content='https://rkrk.dev/res/bravely/edea_face.png' property='og:image'>
-    <meta name="theme-color" content="#ff9114">
+    <meta name="theme-color" content="#292322">
 
 <!-- css sheet and javascript-->
     <link href="style.css" rel="stylesheet" type="text/css" media="all">
@@ -19,10 +19,7 @@
   </head>
 
   <body>
-
-    <div include-header-html="header_content.html"></div>
-    <script>insertHeader();</script>
-
+    <?php include 'header_content.html'; ?>
     <main>
       <h2 class="tab-link" onClick="openTab(event, 'home')">Bravely Default Web Shrine!!!</h2>
       <p>
@@ -295,8 +292,6 @@
         </p>
       </div>
     </main>
-
-    <p style="margin-top:25px; color:#16A6FF; text-align: center;">&#169; rakuraikou | <a href="sitemap.html">sitemap</a></p>
-
+    <?php include 'footer_content.html'; ?>
   </body>
 </html>

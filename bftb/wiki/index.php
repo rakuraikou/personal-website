@@ -33,8 +33,6 @@
       </div>
     
     </main>
-    
     <?php include 'footer_content.html'; ?>
-
   </body>
 </html>

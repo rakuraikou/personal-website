@@ -10,7 +10,7 @@
     <meta content="THUNDERSWAG!!! - about" property="og:title">
     <meta content="LEN's personal site for oc/worldbuilding, gamedev, hobbies, and other self-indulgent stuff." property="og:description">
     <meta content='https://rkrk.dev/res/embed_sprite.png' property='og:image'>
-    <meta name="theme-color" content="#ff9114">
+    <meta name="theme-color" content="#ffa114">
 
 <!-- css sheet and javascript -->
     <link href="style.css" rel="stylesheet" type="text/css" media="all">
@@ -19,12 +19,8 @@
   </head>
 
   <body>
-
-    <div include-header-html="header_content.html"></div>
-    <script>insertHeader();</script>
-
+    <?php include 'header_content.html'; ?>
     <main>
-
       <h2>LEN (in all caps)*</h2>
       <h5>*(or, you know, one of some billion other names)</h5>
       <a href="https://bsky.app/profile/rkrk.dev" target="_blank" style="font-variant:small-caps">bluesky</a> .
@@ -63,27 +59,13 @@
           </div>
           <div class="interests-bottom">
             <ul style="margin:0px;">
-              <li>
-                👑 Bravely Default: Flying Fairy
-              </li>
-              <li>
-                Monster Hunter Rise
-              </li>
-              <li>
-                👑 Octopath Traveler 2
-              </li>
-              <li>
-                Splatoon 3
-              </li>
-              <li>
-                Taiko no Tatsujin
-              </li>
-              <li>
-                Tetris 99
-              </li>
-              <li>
-                👑 The Legend of Zelda: Tears of the Kingdom
-              </li>
+              <li>👑 Bravely Default: Flying Fairy</li>
+              <li>Monster Hunter Rise</li>
+              <li>👑 Octopath Traveler 2</li>
+              <li>Splatoon 3</li>
+              <li>Taiko no Tatsujin</li>
+              <li>Tetris 99</li>
+              <li>👑 The Legend of Zelda: Tears of the Kingdom</li>
             </ul>
           </div>
         </div>
@@ -93,36 +75,15 @@
           </div>
           <div class="interests-bottom">
             <ul style="margin:0px;">
-              <li>
-                ¿?shimon
-              </li>
-              <li>
-                Ado
-              </li>
-              <li>
-                Eve
-              </li>
-              <li>
-                FAKE TYPE
-              </li>
-              <li>
-                Jin/Kagerou Project
-              </li>
-              <li>
-                👑 Tatsuya Kitani
-              </li>
-              <li>
-                TOPHAMHAT-KYO
-              </li>
-              <li>
-                👑 Rib
-              </li>
-              <li>
-                syudou
-              </li>
-              <li>
-                ...and lots of video game OSTs lol
-              </li>
+              <li>¿?shimon</li>
+              <li>Ado</li>
+              <li>Eve</li>
+              <li>Jin/Kagerou Project</li>
+              <li>👑 Tatsuya Kitani</li>
+              <li>TOPHAMHAT-KYO / FAKE TYPE</li>
+              <li>👑 Rib</li>
+              <li>syudou</li>
+              <li>...and lots of video game OSTs lol</li>
             </ul>
           </div>
         </div>
@@ -132,24 +93,12 @@
           </div>
           <div class="interests-bottom">
             <ul style="margin:0px;">
-              <li>
-                👑 Bánh xèo
-              </li>
-              <li>
-                👑 Bò nhúng giấm
-              </li>
-              <li>
-                Mogu mogu
-              </li>
-              <li>
-                Pandan flavor (especially tea)
-              </li>
-              <li>
-                Phở tái
-              </li>
-              <li>
-                👑 Sushi
-              </li>
+              <li>👑 Bánh xèo</li>
+              <li>👑 Bò nhúng giấm</li>
+              <li>Mogu mogu</li>
+              <li>Pandan flavor (especially tea)</li>
+              <li>Phở tái</li>
+              <li>👑 Sushi</li>
             </ul>
           </div>
         </div>
@@ -159,35 +108,18 @@
           </div>
           <div class="interests-bottom">
             <ul style="margin:0px;">
-              <li>
-                👑 "CBS hit reality TV show Survivor"
-              </li>
-              <li>
-                Entomology
-              </li>
-              <li>
-                👑 Game development
-              </li>
-              <li>
-                Mycology
-              </li>
-              <li>
-                Playing piano
-              </li>
-              <li>
-                Skateboarding
-              </li>
-              <li>
-                👑 Worldbuilding
-              </li>
+              <li>👑 "CBS hit reality TV show Survivor"</li>
+              <li>Entomology</li>
+              <li>👑 Game development</li>
+              <li>Mycology</li>
+              <li>Playing piano</li>
+              <li>Skateboarding</li>
+              <li>👑 Worldbuilding</li>
             </ul>
           </div>
         </div>
       </div>
-
     </main>
-    
-    <p style="margin-top:25px; color:#16A6FF; text-align: center;">&#169; rakuraikou | <a href="sitemap.html">sitemap</a></p>
-
+    <?php include 'footer_content.html'; ?>
   </body>
 </html>
