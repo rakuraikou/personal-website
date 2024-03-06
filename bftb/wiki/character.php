@@ -100,7 +100,7 @@
                         while ($abi_row = $abi_result->fetch_assoc()) {
                           echo "
                           <li>
-                            <a href='#" . $row["ability_link"] . "'>" . $row["ability_name"] . "</a>
+                            <a href='#" . $abi_row["ability_link"] . "'>" . $abi_row["ability_name"] . "</a>
                           </li>
                           ";
                         }
@@ -152,8 +152,8 @@
                     $abi_result->data_seek(0);
                     while ($abi_row = $abi_result->fetch_assoc()) {
                       echo "
-                      <h3 id='" . $row["ability_link"] . "'>" . $row["ability_name"] . "</h3>
-                      <p>" . $row["ability_desc"] . "</p>
+                      <h3 id='" . $abi_row["ability_link"] . "'>" . $abi_row["ability_name"] . "</h3>
+                      <p>" . $abi_row["ability_desc"] . "</p>
                       ";
                     }
                   }
