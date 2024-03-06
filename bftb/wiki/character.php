@@ -181,7 +181,8 @@
                   }
               }
             } else {
-                echo "Invalid character ID!";
+              header("Location: /not_found.html", true, 404);
+              exit; 
             }
         } else {
           $sql_protag = "SELECT * FROM characters WHERE type = 'protag'";
