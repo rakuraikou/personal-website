@@ -181,8 +181,7 @@
                   }
               }
             } else {
-              header("Location: https://rkrk.dev/not_found", true, 404);
-              exit;
+              echo "Invalid character ID";
             }
         } else {
           $sql_protag = "SELECT * FROM characters WHERE type = 'protag'";
