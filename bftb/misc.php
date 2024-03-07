@@ -13,11 +13,11 @@
     <meta name="theme-color" content="#23c4ff">
 
 <!-- css sheet and javascript -->
-    <link href="style_wiki.css" rel="stylesheet" type="text/css" media="all">
-    <script src="script_wiki.js"></script>
+    <link href="style_bftb.css" rel="stylesheet" type="text/css" media="all">
+    <script src="script_bftb.js"></script>
 
   </head>
-  <body>    
+  <body>
     <?php include 'header_content.html'; ?>
     <main>
       <h1>
