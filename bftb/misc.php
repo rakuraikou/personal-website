@@ -29,10 +29,10 @@
       </h2>
       <ul>
         <li>
-          <a href="../tvt/index">TVTropes</a> - a funny TVTropes page for this game that doesn't yet exist
+          <a href="tvt/index">TVTropes</a> - a funny TVTropes page for this game that doesn't yet exist
         </li>
         <li>
-          <a href="../lunchtime.html">Lunchtime</a> - the self-indulgent page for Raiden x Araceli. lols.
+          <a href="lunchtime.html">Lunchtime</a> - the self-indulgent page for Raiden x Araceli. lols.
         </li>
         <li>
           <a href="https://toyhou.se/charge/characters/folder:1796863" target="_blank">TOYHOU.SE folder</a> - Charming little profiles for the characters that you can comment on and enjoy from the comfort of TOYHOU.SE.

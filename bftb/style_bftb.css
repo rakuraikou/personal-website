@@ -3,6 +3,7 @@
 	--link: #ffbb00;
 	--linkhover: #df710a;
   --header: #ffbb00;
+  --subheader: #fff458;
   --title: #23c4ff;
 	
 	--mainbg: #2364a0;
@@ -82,7 +83,7 @@ h1 {
   font-variant-caps: all-small-caps;
 }
 h2 {
-  color: #2b71d9;
+  color: var(--subheader);
   font-size: 2.3rem;
   margin-bottom: 5px;
   margin-top: 5px;
