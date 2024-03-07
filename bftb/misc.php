@@ -3,14 +3,14 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bolt from the Blue Wiki</title>
+    <title>Bolt from the Blue</title>
 
 <!-- discord embed -->
     <meta content="the thunder guy or whatever" property="og:site_name">
     <meta content="Bolt from the Blue - Misc" property="og:title">
-    <meta content="The 'official' wiki for LEN's worldbuilding and RPG project, Bolt from the Blue." property="og:description">
+    <meta content="Lore and development site for LEN's worldbuilding and RPG project, Bolt from the Blue." property="og:description">
     <meta content='https://rkrk.dev/bftb/wiki/res/icon.png' property='og:image'>
-    <meta name="theme-color" content="#0036cc">
+    <meta name="theme-color" content="#23c4ff">
 
 <!-- css sheet and javascript -->
     <link href="style_wiki.css" rel="stylesheet" type="text/css" media="all">
@@ -20,10 +20,6 @@
   <body>    
     <?php include 'header_content.html'; ?>
     <main>
-      <ul class="crumb">
-        <li><a href="index">Home</a></li>
-        <li><a href="misc">Misc</a></li>
-      </ul>
       <h1>
         Miscellaneous
       </h1>
@@ -31,7 +27,6 @@
       <h2>
         Extra Content
       </h2>
-      <hr>
       <ul>
         <li>
           <a href="../tvt/index">TVTropes</a> - a funny TVTropes page for this game that doesn't yet exist
@@ -49,7 +44,6 @@
       <h2>
         Inspirations
       </h2>
-      <hr>
       <p>
         Behind every "very bad but very good" RPG is an "even worse but even better" RPG.
       </p>
@@ -82,7 +76,6 @@
       <h2>
         Credits/Acknowledgements
       </h2>
-      <hr>
       <p>
         Pretty much all the art and writing on this site is my own, unless I say elsewhere. The website coding, however, is a bit harder to pull out of my ass lol.
       </p>

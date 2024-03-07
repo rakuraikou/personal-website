@@ -10,7 +10,7 @@
     <meta content="Bolt from the Blue - Index" property="og:title">
     <meta content="Lore and development site for LEN's worldbuilding and RPG project, Bolt from the Blue." property="og:description">
     <meta content='https://rkrk.dev/bftb/wiki/res/icon.png' property='og:image'>
-    <meta name="theme-color" content="#34c3ff">
+    <meta name="theme-color" content="#23c4ff">
 
 <!-- css sheet and javascript -->
     <link href="style_bftb.css" rel="stylesheet" type="text/css" media="all">
@@ -18,29 +18,7 @@
 
   </head>
   <body>
-    <header>
-      <h1 class="text-outline">
-        <a href="/bftb/index" class="header-link">
-          Bolt from the Blue
-        </a>
-      </h1>
-      <div class="header-link-container">
-        <a href="" class="header-link">
-          FAQ
-        </a>
-        <a href="" class="header-link">
-          STORY
-        </a>
-        <a href="wiki/index" class="header-link">
-          WIKI
-        </a>
-      </div>
-      <div style="position: relative">
-        <a href="/abt" style="position: absolute; top: -60px; left: -90px">
-          <img class="raku" src="/res/raku.png" style="max-height: 150px">
-        </a>
-      </div>
-    </header>
+    <?php include 'header_content.html'; ?>
     <div class="index-img">
       <img src="res/spread.png">
     </div>
@@ -51,12 +29,10 @@
       <p>
         <i>Bolt from the Blue</i> is a worldbuilding and RPG gamedev project that I (<a href="/abt">LEN</a>) am developing. This part of the website serves as a simple overview of what it's all about. If you'd like a more in-depth look at the characters, lore and narrative, please check out <a href="wiki/index">the wiki</a>. Thanks for stopping by!
       </p>
+      <p>
+        ... oh, and I'm hoping to replace that image soon lol. I just needed a placeholder there.
+      </p>
     </main>
-    
-    <footer>
-        <a href="/index" class="header-link">BACK TO MAIN PAGE</a>
-        <span>&#169; rakuraikou</span>
-        <a href="/sitemap" class="header-link">SITEMAP</a>
-    </footer>
+    <?php include 'footer_content.html'; ?>
   </body>
 </html>
