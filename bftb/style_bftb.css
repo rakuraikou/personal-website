@@ -243,16 +243,8 @@ details[open] > summary {
 }
 .blockquote {
   border-left: 3px var(--quote) solid;
-  font-style: italic;
   padding-left: 10px;
-}
-
-.index-body {
-  background-image: url('res/sanvenbg.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
+  margin: 10px 5px;
 }
 
 .grid-index {
