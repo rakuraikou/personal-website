@@ -25,7 +25,7 @@
           Welcome to the Bolt from the Blue wiki!
         </h2>
         <p class="field-body">
-          Bolt from the Blue is a worldbuilding and RPG gamedev project that I (<a href="../../abt.html">Len</a>) am developing. It is mostly solo - currently, I am the only person doing the writing, programming and music composition. My girlfriend is assisting me with creation of 3D character assets, and I intend on bringing one or two more people into the team to help with other assets.
+          Bolt from the Blue is a worldbuilding and RPG gamedev project that I (<a href="/abt">LEN</a>) am developing. It is mostly solo - currently, I am the only person doing the writing, programming and music composition. My girlfriend is assisting me with creation of 3D character assets, and I intend on bringing one or two more people into the team to help with other assets.
         </p>
         <p class="field-body">
           There is no release date currently, but the feature test ("alpha") demo is in development! Thanks for stopping by!

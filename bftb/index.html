@@ -17,72 +17,46 @@
     <script src="script_bftb.js"></script>
 
   </head>
-  <body class="index-body">
-    <header style="background-image:url('res/sanven.png'); background-position: top">
-      <h1 class="text-outline site-head" style="padding-bottom: 10px;">
-        <a href="index.html" style="text-decoration:none">
-        <b>Bolt from the Blue</b>
+  <body>
+    <header>
+      <h1 class="text-outline">
+        <a href="/bftb/index" class="header-link">
+          Bolt from the Blue
         </a>
       </h1>
+      <div class="header-link-container">
+        <a href="" class="header-link">
+          FAQ
+        </a>
+        <a href="" class="header-link">
+          STORY
+        </a>
+        <a href="wiki/index" class="header-link">
+          WIKI
+        </a>
+      </div>
+      <div style="position: relative">
+        <a href="/abt" style="position: absolute; top: -60px; left: -90px">
+          <img class="raku" src="/res/raku.png" style="max-height: 150px">
+        </a>
+      </div>
     </header>
-    <div id="spoilerBox" style="position: fixed; top: 10px; right: 10px; z-index: 15; cursor: pointer; height: 110px; width: 110px; border:2px #ffffff solid">
-      <div id="spoilerbtn" onClick="toggleSpoilers()" style="height: 100%; background-image:url('/bftb/res/spoilers_off.png'); background-size: cover; background-position: center; background-repeat: no-repeat"></div>
+    <div class="index-img">
+      <img src="res/spread.png">
     </div>
-
-    <main>    
-      <h2>
-        Walking into San Ven...
-      </h2>
-      <div class="blockquote">
-        <p>
-          The evening breeze is cool but comforting. It catches you at just the right angle, soothing your skin and keeping hair out of your eyes. This is certainly the best weather that San Ven has to offer, and you fully intend on making the most of it on your visit.
-        </p>
-        <p>
-          A few of the city's highlights await you, and you stop to decide which sight you'd like to visit first. 
-          <ul>
-            <li>
-              Just down the path is <u>Eliteca's campus</u>, where a grand library houses <u>complete knowledge of Luxos, the realm of light</u>.
-            </li>
-            <li>
-              <u>Castle Cieliso</u> towers over the highest point in the city. It's the perfect place to familiarize yourself the most <u>important and notable figures</u>.
-            </li>
-            <li>
-              If you're looking to <u>hear adventurer's tales</u>, look no further than the <u>Skysea Port</u> to satisfy your thirst for thrills.
-            </li>
-            <li>
-              Finally, you may find any <u>miscellaneous curiosities</u> satisfied in the busy and ever-evolving <u>Tradewinds Marketplace</u>.
-            </li>
-          </ul>
-        </p>
-      </div>
-      <div class="grid-index">
-        <!-- eliteca : learn everything there is to know about the realm of light : lore repository -->
-        <a href="lore/index.html">
-          <img style="max-height: 500px; max-width: 100%" src="res/index_lore.png" alt="lore page">
-        </a>
-        <!-- castle cieliso : familiarize yourself with the key figures : characters -->
-        <a href="char/index.html">
-          <img style="max-height: 500px; max-width: 100%" src="res/index_char.png" alt="characters page">
-        </a>
-        <!-- the skysea : embark on a journey : story/gamedev/meta -->
-        <a>
-          <img style="max-height: 500px; max-width: 100%" src="res/index_story.png" alt="story page">
-        </a>
-        <!-- tradewinds : satisfy any miscellaneous curiosities : misc/extra/credits -->
-        <a href="misc.html">
-          <img style="max-height: 500px; max-width: 100%" src="res/index_misc.png" alt="miscellaneous page">
-        </a>
-      </div>
-    
+    <main>
+      <h1>
+        Bite your friends and let them bite you back!
+      </h1>
+      <p>
+        <i>Bolt from the Blue</i> is a worldbuilding and RPG gamedev project that I (<a href="/abt">LEN</a>) am developing. This part of the website serves as a simple overview of what it's all about. If you'd like a more in-depth look at the characters, lore and narrative, please check out <a href="wiki/index">the wiki</a>. Thanks for stopping by!
+      </p>
     </main>
     
     <footer>
-      <div style="text-align:center; padding:5px">
-        <a href="../index.html">Back to main page</a>
-      </div>
+        <a href="/index" class="header-link">BACK TO MAIN PAGE</a>
+        <span>&#169; rakuraikou</span>
+        <a href="/sitemap" class="header-link">SITEMAP</a>
     </footer>
-
-    <p class="signature">&#169; rakuraikou | <a href="../sitemap.html">sitemap</a></p>
-
   </body>
 </html>
