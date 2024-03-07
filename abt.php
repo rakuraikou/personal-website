@@ -31,7 +31,7 @@
       <div>
         <span>
           <a href="https://twitter.com/violetchio" target="_blank" title="art by violetchio on Twitter">
-            <img src="res/raku.png" style="float: right; max-width: 30%" alt="raku, my sona/mascot">
+            <img src="res/raku_ango.png" style="float: right; max-width: 30%" alt="raku, my sona/mascot">
           </a>
           <p>
             23 year old asian american lesbian demon thing riding the pipe dream of developing a meaningful video game someday. No preference in pronouns, but these days most people use she/her for me. I have a wonderful girlfriend who does not use social media so I can't link anything... but I promise she exists lol.
