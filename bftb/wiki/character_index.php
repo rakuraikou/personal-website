@@ -13,12 +13,12 @@
 <h2 style="text-align: center">
   Linked Characters
 </h2>
-<?php genCharIndex($results_linked); ?>
+<?php genCharIndex($result_linked); ?>
 <h2 style="text-align: center">
   Nox Noctis
 </h2>
-<?php genCharIndex($results_nox); ?>
+<?php genCharIndex($result_nox); ?>
 <h2 style="text-align: center">
   Other Characters
 </h2>
-<?php genCharIndex($results_other); ?>
+<?php genCharIndex($result_other); ?>

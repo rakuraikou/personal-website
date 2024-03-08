@@ -31,14 +31,13 @@
           die("Connection failed: " . $conn->connect_error);
       }
       
-      $sql_myart = "SELECT * FROM lunchtime-gallery WHERE artist = 'me'";
+      $sql_myart = "SELECT * FROM lunchtime-gallery WHERE artist IN ('me')";
       $result_myart = $conn->query($sql_myart);
-      $sql_othersart = "SELECT * FROM lunchtime-gallery WHERE artist = 'other'";
+      $sql_othersart = "SELECT * FROM lunchtime-gallery WHERE artist IN ('other')";
       $result_othersart = $conn->query($sql_othersart);
 
       function genArtThumbnails($result) {
         if ($result->num_rows > 0) {
-          echo "hi";
           echo "<div class='gallery'>";
           while ($row = $result->fetch_assoc()) {
             echo "<img class='gallery-img thumbnail' src='" . $row["thumbnail"] . "'>";
@@ -46,13 +45,17 @@
           echo "</div>";
         }
       }
-      ?>
 
+      echo "
       <h1>Lunchtime</h1>
       <hr>
       <h2>Art by me</h2>
-      <?php genArtThumbnails($result_myart); ?>
-      <hr>
+      ";
+      genArtThumbnails($result_myart);
+
+      ?>
+
+      <p>end</p>
 
     <!-- thumbnails gallery -->
       <div class="gallery">
