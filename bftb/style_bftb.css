@@ -335,7 +335,7 @@ details[open] > summary {
   background-color: var(--mainbg);
   padding: 10px;
   color: var(--bodytxt);
-  max-width: 70%;
+  width: 70%;
   margin: 10px auto;
   border-radius: 10px;
   border: 2px solid var(--charbg);
@@ -425,6 +425,7 @@ details[open] > summary {
     height: 110px;
   }
   .modal-caption {
+    width: 100%;
     max-width: 100%;
   }
   .modal-content {
