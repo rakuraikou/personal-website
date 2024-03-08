@@ -31,9 +31,9 @@
           die("Connection failed: " . $conn->connect_error);
       }
       
-      $sql_myart = "SELECT * FROM lunchtime_gallery WHERE artist = 'me'";
+      $sql_myart = "SELECT * FROM lunchtime_gallery WHERE artist = 'me' ORDER BY id DESC";
       $result_myart = $conn->query($sql_myart);
-      $sql_othersart = "SELECT * FROM lunchtime_gallery WHERE artist = 'others'";
+      $sql_othersart = "SELECT * FROM lunchtime_gallery WHERE artist = 'others' ORDER BY id DESC";
       $result_othersart = $conn->query($sql_othersart);
 
       function genArtThumbnails($result) {
