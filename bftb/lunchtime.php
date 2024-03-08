@@ -106,8 +106,8 @@
             modal.style.display = 'flex';
             modalImage.src = thumbnail.dataset.full;
             modalImage.alt = thumbnail.dataset.alt;
-            artistCredit.href = thumbnail.dataset.artist_link;
-            artistCredit.innerText = thumbnail.dataset.artist_name;
+            artistCredit.href = thumbnail.dataset.artist-link;
+            artistCredit.innerText = thumbnail.dataset.artist-name;
             document.getElementById('caption').innerText = thumbnail.dataset.caption;
             document.getElementById('view-full').href = thumbnail.dataset.full;
 
