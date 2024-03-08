@@ -20,10 +20,44 @@
   <body>
     <?php include 'header_content.html'; ?>
     <main>
+      <?php
+      $servername = "localhost:3306";
+      $username = "rkrkidgb_user";
+      $password = "XSR%2T%)c%Wk";
+      $database = "rkrkidgb_bftb";
+
+      $conn = new mysqli($servername, $username, $password, $database);
+      if ($conn->connect_error) {
+          die("Connection failed: " . $conn->connect_error);
+      }
+      
+      $sql_myart = "SELECT * FROM lunchtime-gallery WHERE artist = 'me'";
+      $result_myart = $conn->query($sql_myart);
+      $sql_othersart = "SELECT * FROM lunchtime-gallery WHERE artist = 'other'";
+      $result_othersart = $conn->query($sql_othersart);
+
+      function genArtThumbnails($result) {
+        if ($result->num_rows > 0) {
+          echo "<div class='gallery'>";
+          while ($row = $result->fetch_assoc()) {
+            echo "<img class='gallery-img thumbnail' src='" . $row["thumbnail"] . "'>";
+          }
+          echo "</div>";
+        }
+      }
+      ?>
+
+      <h1>Lunchtime</h1>
+      <hr>
+      <h2>Art by me</h2>
+      <?php genArtThumbnails($result_myart); ?>
+
+    <!-- thumbnails gallery -->
       <div class="gallery">
         <img class="gallery-img thumbnail" src="res/lunchtime/angogo9.png">
       </div>
 
+    <!-- modal popup-->
       <div id="lt-modal" class="modal">
         <div class="modal-overlay"></div>
         <span class="close text-outline modal-btn">&times;</span>
