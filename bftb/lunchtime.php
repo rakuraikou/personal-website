@@ -41,11 +41,8 @@
           echo "<div class='gallery'>";
           while ($row = $result->fetch_assoc()) {
             echo "
-            <a href='?id=" . $row["id"] . "'>
-              <img class='gallery-img thumbnail' src='res/lunchtime/thumb/" . $row["artist"] . "/" . $row["thumbnail"] . "' alt='" . $row["thumbnail"] . " thumbnail'>
-            </a>
+            <img class='gallery-img thumbnail' src='res/lunchtime/thumb/" . $row["artist"] . "/" . $row["thumbnail"] . "' alt='" . $row["thumbnail"] . " thumbnail'>
             ";
-            // data-full='" . $row["full"] . "' data-alt='" . $row["alt"] . "' data-artist-link='" . $row["artist-link"] . "' data-artist-name='" . $row["artist-name"] . "'
           }
           echo "</div>";
         } else {
@@ -66,43 +63,36 @@
       genArtThumbnails($result_othersart);
 
       // modal popup
-      $id = mysqli_real_escape_string($conn, $_GET['id']);
-      $sql = "SELECT * FROM characters WHERE id = '$id'";
-      $result = $conn->query($sql);
-      if ($result->num_rows > 0) {
-        while ($row = $result->fetch_assoc()) {
-          echo "
-          <div id='lt-modal' class='modal'>
-            <div class='modal-overlay'></div>
-            <span class='close text-outline modal-btn'>&times;</span>
-            <div class='modal-content'>
-              <span id='prev-btn' class='text-outline modal-btn'>
-                <span>
-                  &lt;
-                </span>
-              </span>
-              <img id='modal-image' src='' alt='" . $row["alt"] . "'>
-              <span id='next-btn' class='text-outline modal-btn'>
-                <span>
-                  &gt;
-                </span>
-              </span>
-            </div>
-            <div class='modal-caption'>
-              <div class='modal-credit'>
-                <span>by <a href='" . $row["artist_link"] . "'>" . $row["artist_name"] . "</a></span>
-                <a href='" . $row["full"] . "'>View full image</a>
-              </div>
-              <hr style='width: 100%'>
-              <span>
-              " . $row["caption"] . "
-              </span>
-            </div>
+      echo "
+      <div id='lt-modal' class='modal'>
+        <div class='modal-overlay'></div>
+        <span class='close text-outline modal-btn'>&times;</span>
+        <div class='modal-content'>
+          <span id='prev-btn' class='text-outline modal-btn'>
+            <span>
+              &lt;
+            </span>
+          </span>
+          <img id='modal-image' src='' alt='" . $row["alt"] . "'>
+          <span id='next-btn' class='text-outline modal-btn'>
+            <span>
+              &gt;
+            </span>
+          </span>
+        </div>
+        <div class='modal-caption'>
+          <div class='modal-credit'>
+            <span>by <a href='" . $row["artist_link"] . "'>" . $row["artist_name"] . "</a></span>
+            <a href='" . $row["full"] . "'>View full image</a>
           </div>
-          ";
-        }
-      }
-      
+          <hr style='width: 100%'>
+          <span>
+          " . $row["caption"] . "
+          </span>
+        </div>
+      </div>
+      ";
+
       ?>
 
       <script>
