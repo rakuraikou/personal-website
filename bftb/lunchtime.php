@@ -40,7 +40,7 @@
         if ($result->num_rows > 0) {
           echo "<div class='gallery'>";
           while ($row = $result->fetch_assoc()) {
-            echo "<img class='gallery-img thumbnail' src='res/lunchtime/thumb/{$row['artist']}/{$row['thumbnail']}' alt='{$row['thumbnail']} thumbnail' data-full='{$row['full']}' data-alt='{$row['alt']}' data-artist-link='{$row['artist_link']}' data-artist-name='{$row['artist_name']}' data-caption='{$row['caption']}'>";
+            echo "<img class='gallery-img thumbnail' src='res/lunchtime/thumb/{$row['artist']}/{$row['thumbnail']}' alt='{$row['thumbnail']} thumbnail' data-full='{$row['full']}' data-alt='{$row['alt']}' data-artistlink='{$row['artist_link']}' data-artistname='{$row['artist_name']}' data-caption='{$row['caption']}'>";
           }
           echo "</div>";
         } else {
@@ -106,8 +106,8 @@
             modal.style.display = 'flex';
             modalImage.src = thumbnail.dataset.full;
             modalImage.alt = thumbnail.dataset.alt;
-            artistCredit.href = thumbnail.dataset.artist-link;
-            artistCredit.innerText = thumbnail.dataset.artist-name;
+            artistCredit.href = thumbnail.dataset.artistlink;
+            artistCredit.innerText = thumbnail.dataset.artistname;
             document.getElementById('caption').innerText = thumbnail.dataset.caption;
             document.getElementById('view-full').href = thumbnail.dataset.full;
 
