@@ -40,7 +40,7 @@
         if ($result->num_rows > 0) {
           echo "<div class='gallery'>";
           while ($row = $result->fetch_assoc()) {
-            echo "<img class='gallery-img thumbnail' src='" . $row["thumbnail"] . "'>";
+            echo "<img class='gallery-img thumbnail' src='res/lunchtime/thumb/" . $row["artist"] . "/" . $row["thumbnail"] . "'>";
           }
           echo "</div>";
         } else {
