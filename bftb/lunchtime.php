@@ -38,6 +38,7 @@
 
       function genArtThumbnails($result) {
         if ($result->num_rows > 0) {
+          echo "hi";
           echo "<div class='gallery'>";
           while ($row = $result->fetch_assoc()) {
             echo "<img class='gallery-img thumbnail' src='" . $row["thumbnail"] . "'>";
@@ -51,6 +52,7 @@
       <hr>
       <h2>Art by me</h2>
       <?php genArtThumbnails($result_myart); ?>
+      <hr>
 
     <!-- thumbnails gallery -->
       <div class="gallery">
