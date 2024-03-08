@@ -40,7 +40,7 @@
         if ($result->num_rows > 0) {
           echo "<div class='gallery'>";
           while ($row = $result->fetch_assoc()) {
-            echo "<img class='gallery-img thumbnail' src='res/lunchtime/thumb/" . $row["artist"] . "/" . $row["thumbnail"] . "' alt='" . $row["thumbnail"] . " thumbnail' data-full='" . $row["full"] . "' data-alt='" . $row["alt"] . "' data-artist-link='" . $row["artist-link"] . "' data-artist-name='" . $row["artist-name"] . "' data-caption='" . $row["caption"] . "'>";
+            echo "<img class='gallery-img thumbnail' src='res/lunchtime/thumb/" . $row["artist"] . "/" . $row["thumbnail"] . "' alt='" . $row["thumbnail"] . " thumbnail' data-full='" . $row["full"] . "' data-alt='" . $row["alt"] . "' data-artist-link='" . $row["artist_link"] . "' data-artist-name='" . $row["artist_name"] . "' data-caption='" . $row["caption"] . "'>";
           }
           echo "</div>";
         } else {
