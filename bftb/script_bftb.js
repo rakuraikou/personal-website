@@ -101,7 +101,7 @@ function openModal(id) {
   document.getElementById("spoilerBox").style.display = "none";
 }
 // Close the Modal
-function closeModal(id) {
+function invcloseModal(id) {
   document.getElementById(id).style.display = "none";
   document.getElementById("spoilerBox").style.display = "block";
 }
