@@ -54,10 +54,11 @@
       <h2>Art by me</h2>
       ";
       genArtThumbnails($result_myart);
-
+      echo "
+      <h2>Art by others</h2>
+      ";
+      genArtThumbnails($result_othersart);
       ?>
-
-      <p>end</p>
 
     <!-- thumbnails gallery -->
       <div class="gallery">
