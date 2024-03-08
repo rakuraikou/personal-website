@@ -40,7 +40,7 @@
         if ($result->num_rows > 0) {
           echo "<div class='gallery'>";
           while ($row = $result->fetch_assoc()) {
-            echo "<img class='gallery-img thumbnail' src='res/lunchtime/thumb/" . $row["artist"] . "/" . $row["thumbnail"] . "'>";
+            echo "<img class='gallery-img thumbnail' src='res/lunchtime/thumb/" . $row["artist"] . "/" . $row["thumbnail"] . "' alt='" . $row["thumbnail"] . " thumbnail' data-full='" . $row["full"] . "' data-alt='" . $row["alt"] . "' data-artist-link='" . $row["artist-link"] . "' data-artist-name='" . $row["artist-name"] . "'>";
           }
           echo "</div>";
         } else {
@@ -48,51 +48,50 @@
         }
       }
 
+      // thumbnails gallery
       echo "
       <h1>Lunchtime</h1>
       <hr>
-      <h2>Art by me</h2>
+      <h2>My art</h2>
       ";
       genArtThumbnails($result_myart);
       echo "
-      <h2>Art by others</h2>
+      <h2>Gift art / Commissions</h2>
       ";
       genArtThumbnails($result_othersart);
-      ?>
 
-    <!-- thumbnails gallery -->
-      <div class="gallery">
-        <img class="gallery-img thumbnail" src="res/lunchtime/angogo9.png">
-      </div>
-
-    <!-- modal popup-->
-      <div id="lt-modal" class="modal">
-        <div class="modal-overlay"></div>
-        <span class="close text-outline modal-btn">&times;</span>
-        <div class="modal-content">
-          <span id="prev-btn" class="text-outline modal-btn">
+      // modal popup
+      echo "
+      <div id='lt-modal' class='modal'>
+        <div class='modal-overlay'></div>
+        <span class='close text-outline modal-btn'>&times;</span>
+        <div class='modal-content'>
+          <span id='prev-btn' class='text-outline modal-btn'>
             <span>
               &lt;
             </span>
           </span>
-          <img id="modal-image" src="res/ex.png" alt="">
-          <span id="next-btn" class="text-outline modal-btn">
+          <img id='modal-image' src='' alt='" . $row["alt"] . "'>
+          <span id='next-btn' class='text-outline modal-btn'>
             <span>
               &gt;
             </span>
           </span>
         </div>
-        <div class="modal-caption">
-          <div class="modal-credit">
-            <span>by <a href="">USERNAME @ SOCMED</a></span>
-            <a href="">View full image</a>
+        <div class='modal-caption'>
+          <div class='modal-credit'>
+            <span>by <a href='" . $row["artist_link"] . "'>" . $row["artist_name"] . "</a></span>
+            <a href='" . $row["full"] . "'>View full image</a>
           </div>
-          <hr style="width: 100%">
+          <hr style='width: 100%'>
           <span>
-            This is a caption where I put things and stuff. Ango made this drawing and it's awesome!
+          " . $row["caption"] . "
           </span>
         </div>
       </div>
+      ";
+
+      ?>
 
       <script>
         const modal = document.getElementById('lt-modal');
@@ -105,7 +104,7 @@
         thumbnails.forEach(thumbnail => {
           thumbnail.addEventListener('click', () => {
             modal.style.display = 'flex';
-            //modalImage.src = thumbnail.dataset.full;
+            modalImage.src = thumbnail.dataset.full;
           });
         });
 
