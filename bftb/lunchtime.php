@@ -43,6 +43,8 @@
             echo "<img class='gallery-img thumbnail' src='" . $row["thumbnail"] . "'>";
           }
           echo "</div>";
+        } else {
+          echo "No images found";
         }
       }
 
