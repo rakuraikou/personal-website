@@ -429,7 +429,7 @@ details[open] > summary {
   }
   .modal-content {
     max-width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     margin-top: 70px;
     display: grid !important;
     grid-template-columns: auto auto;
