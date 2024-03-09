@@ -17,9 +17,22 @@
     <script src="script_bftb.js"></script>
 
   </head>
+  <style>
+    body {
+      background-image: url('res/lunchtime/ltbg.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+  </style>
   <body>
     <?php include 'header_content.html'; ?>
     <main>
+      <div style="text-align: center">
+        <audio controls style="background-color:#62709c; padding: 3px; width: 50%;">
+          <source src="res/lunchtime/Great_Fairy_Fountain_25.mp3">
+        </audio>
+      </div>
       <h1>Lunchtime</h1>
       <hr>
       <p>
