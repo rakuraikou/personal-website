@@ -104,7 +104,7 @@
                 Bites her knuckles as a nervous tick
               </li>
               <li>
-                Keeps a <a href="lunar/one.html" class="secret-link">diary</a> that no one else - not even Raiden - is allowed to peek in
+                Keeps a <a href="lunar/index" class="secret-link">diary</a> that no one else - not even Raiden - is allowed to peek in
               </li>
             </ul>
           </div>
