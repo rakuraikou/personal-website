@@ -169,6 +169,7 @@
         const prevBtn = document.getElementById('prev-btn');
         const nextBtn = document.getElementById('next-btn');
         const modalOverlay = document.querySelector('.modal-overlay');
+        let currentIndex = 0;
 
         thumbnails.forEach(thumbnail => {
           thumbnail.addEventListener('click', () => {
