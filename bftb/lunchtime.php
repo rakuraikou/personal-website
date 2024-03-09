@@ -193,11 +193,11 @@
           }
         });
         prevBtn.addEventListener('click', () => {
-          currentIndex = (currentIndex - 1 + images.length) % images.length;
+          currentIndex = (currentIndex - 1 + thumbnails.length) % thumbnails.length;
           updateModal();
         });
         nextBtn.addEventListener('click', () => {
-          currentIndex = (currentIndex + 1) % images.length;
+          currentIndex = (currentIndex + 1) % thumbnails.length;
           updateModal();
         });
         function closeModal() {
