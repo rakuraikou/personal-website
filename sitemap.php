@@ -76,8 +76,26 @@
 
         <span>
           <h4><a href="bftb/index">Bolt from the Blue</a></h4>
-          <!--<h5><a href="bftb/wiki/index">Wiki</a></h5>-->
-          <h5>Wiki</h5>
+          <ul>
+            <li>
+              <a href="bftb/faq">FAQ</a>
+            </li>
+            <li>
+              <a href="bftb/story">Story</a>
+            </li>
+            <li>
+              <a href="bftb/misc">Misc</a>
+            </li>
+            <ul>
+              <li>
+                <a href="bftb/tvt/index">TVTropes</a>
+              </li>
+              <li>
+                <a href="bftb/lunchtime">Lunchtime</a>
+              </li>
+            </ul>
+          </ul>
+          <h5><a href="bftb/wiki/index">Wiki</a></h5>
           <ul>
             <li>
               <a href="bftb/wiki/lore/index">Lore</a>
@@ -104,20 +122,9 @@
             <li>
               <a href="bftb/wiki/character">Characters</a>
             </li>
-            <li>
-              <a href="bftb/wiki/misc">Misc</a>
-            </li>
           </ul>
           <!--<h5><a href="bftb/char/index.html">Characters</a></h5>
           <h5>Story</h5> -->
-          <ul>
-            <li>
-              <a href="bftb/tvt/index">TVTropes</a>
-            </li>
-            <li>
-              <a href="bftb/lunchtime">Lunchtime</a>
-            </li>
-          </ul>
         </span>
         
         <span>
