@@ -171,7 +171,7 @@
         const modalOverlay = document.querySelector('.modal-overlay');
         let currentIndex = 0;
 
-        thumbnails.forEach(thumbnail => {
+        thumbnails.forEach((thumbnail, index) => {
           thumbnail.addEventListener('click', () => {
             modalImage.src = thumbnail.dataset.full;
             modalImage.alt = thumbnail.dataset.alt;
@@ -180,6 +180,7 @@
             document.getElementById('caption').innerText = thumbnail.dataset.caption;
             document.getElementById('view-full').href = thumbnail.dataset.full;
             modal.style.display = 'flex';
+            currentIndex = index;
 
           });
         });
