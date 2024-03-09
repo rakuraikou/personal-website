@@ -76,7 +76,7 @@
             <b><span style="color: #b4b4b4">5</span>:</b> Intensely powerful. This being has the potential to cause significant damage.
           </li>
           <li>
-            <b><span style="color: #b4b4b4">6</span>:</b> Impossible to defeat or control - usually reserved for Beastlords.
+            <b><span style="color: #b4b4b4">6</span>:</b> Impossible to defeat or control - usually reserved for <a href="beastlords">Beastlords</a>.
           </li>
         </ul>
       <p>

@@ -30,7 +30,7 @@
       </h1>
       <hr>
       <p>
-        Linked from birth, keepers are people with a special "bond" to their respective Beastlords. This bond allows them access to their Beastlord's "thoughts," as well as potential to utilize all three of its governed aspects. The main duty of a Keeper is to facilitate communication between the people and their linked Beastlord. The way this responsibility manifests varies between relationships, but generally pertains to the following:
+        Linked from birth, keepers are people with a special "bond" to their respective <a href="beastlords">Beastlords</a>. This bond allows them access to their Beastlord's "thoughts," as well as potential to utilize all three of its governed <a href="magic">aspects</a>. The main duty of a Keeper is to facilitate communication between the people and their linked Beastlord. The way this responsibility manifests varies between relationships, but generally pertains to the following:
       </p>
       <ul>
         <li>

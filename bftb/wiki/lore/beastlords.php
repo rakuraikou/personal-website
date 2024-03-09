@@ -47,7 +47,7 @@
         </li>
       </ul>
       <p class="notebox">
-        In addition to the four known Beastlords, there is one additional Beastlord that has rested dormant since the creation of Luxos. Governing the very light that unites all entities, the aptly named Beastlord of Light was awakened in recent years due to a mysterious disturbance threatening the realm's stability.
+        In addition to the four known Beastlords, there have been repots of a fifth Beastlord that's rested dormant within the core of Luxos since the world's creation. Governing the very light that unites all entities, the aptly-named Beastlord of Light is said to be the source of the Azure Chasm's opening 10 years ago.
       </p>
       <p>
         Luxos was more or less created by these beings. Everything on Luxos - animals, plants, soil, and more - were forged with influence by the Beastlords, and they all have some level of light from these Beastlords embedded into them. This influence is what allows the sentient life on Luxos to utilize an aspect.
@@ -60,7 +60,7 @@
         The Beastlords themselves move from place to place in somewhat predictable manners, frequently returning to their dens. Though they can generally be found in these dens, it's quite dangerous to enter one. Beastlords constantly emit an aura ("pressure") that shifts the atmospheric light around them, making it strenuous and difficult for anyone to get near. It is this pressure that also shapes the world and its natural phenomena, such as weather, nutrient cycling and the flow of atmospheric light.
       </p>
       <p>
-        Beastlords are closer to animals than people in terms of behavior, acting on habit or instinct rather than complex logical deduction. They don't seem to be influenced or particularly concerned with the affairs of people or other beings, save for the Keepers connected to them. Likewise, most people don't worship the Beastlords, instead reserving their reverence for the Champions. That being said, people generally know not to "cross" one, both literally and figuratively, as they are highly powerful beings that don't necessarily listen to reason.
+        Beastlords are closer to animals than people in terms of behavior, acting on habit or instinct rather than complex logical deduction. They don't seem to be influenced or particularly concerned with the affairs of people or other beings, save for the <a href="keepers">keepers</a> connected to them. Likewise, most people don't worship the Beastlords, instead reserving their reverence for the Champions. That being said, people generally know not to "cross" one, both literally and figuratively, as they are highly powerful beings that don't necessarily listen to reason.
       </p>
       <h2>
         Talismans
