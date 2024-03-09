@@ -24,16 +24,16 @@
       <h3>Self-indulgent pages and media shrines</h3>
       <h4 style="margin-bottom:10px">("shrines"...? huh? anyway...)</h4>
       <p>
-        <a href="controllers.html">controller collection</a> : well SOMEONE has to see it.
+        <a href="controllers">controller collection</a> : well SOMEONE has to see it.
       </p>
       <p>
-        <a href="figurines.html">blind box figurine collection</a> : someone has to see this too.
+        <a href="figurines">blind box figurine collection</a> : someone has to see this too.
       </p>
       <p>
-        <a href="splatoon.html">splatoon</a> : i like this game
+        <a href="splatoon">splatoon</a> : i like this game
       </p>
       <p>
-        <a href="bravely_default.html">bravely default</a> : I REALLY LIKE THIS GAME
+        <a href="bravely_default">bravely default</a> : I REALLY LIKE THIS GAME
       </p>
       <hr>
       <h3>Links and Buttons</h3>
@@ -123,7 +123,7 @@
           Images in the Bravely Default and Splatoon pages are official assets from Square Enix / Team Asano and Nintendo, respectively.
         </li>
         <li>
-          The image map generated on the <a href="index.html">main page</a> is by <a href="http://www.image-map.net/">http://www.image-map.net/</a>, and the responsive resizer is by <a href="https://github.com/davidjbradshaw/image-map-resizer">davidjbradshaw</a> on GitHub
+          The image map generated on the <a href="index">main page</a> is by <a href="http://www.image-map.net/">http://www.image-map.net/</a>, and the responsive resizer is by <a href="https://github.com/davidjbradshaw/image-map-resizer">davidjbradshaw</a> on GitHub
         </li>
       </ul>
     </main>

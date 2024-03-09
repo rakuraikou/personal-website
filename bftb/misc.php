@@ -81,13 +81,13 @@
       </p>
       <ul>
         <li>
-          hours of popping open the inspector on <a href="https://squidknees.neocities.org/" target="_blank">squid's</a> site lols and also their <a href="https://squidknees.neocities.org/themes/tvtropes-preview/">TVTropes template</a>
+          squid made the <a href="https://squidknees.neocities.org/themes/tvtropes-preview/">TVTropes template</a>!
         </li>
         <li>
           Marvin over at <a href="https://numbersstory.com/" target="_blank">Numbers Story</a> for advice on database organization and .htaccess stuff...thanks dude!
         </li>
         <li>
-          gf for sniffing everything I write and making sure it's decent
+          gf for sniffing everything I write and making sure it's decent. included her here because i love her sooo much
         </li>
         <li>
           Part of this site uses the <a href="https://fonts.google.com/specimen/Caveat">Caveat</a> font under the <a href="https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL">Open Font Licence</a>
