@@ -1,0 +1,89 @@
+:root{
+	--bodytxt: #291d17;
+
+
+	--link: #ffbf0f;
+	--linkhover: #f37b0b;
+	
+  --bodybg: #454a61;
+	--mainbg: #491e29;
+  --pagebg: #d8d3c5;
+
+  --shadow: rgba(0, 0, 0, 0.7);
+  --boxshadow: #200716;
+}
+body {
+  background-color: var(--bodybg);
+  color: var(--bodytxt);
+  font-family: Verdana;
+  width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  background-color: var(--mainbg);
+  padding: 5px;
+  color: #ffffff;
+  filter: drop-shadow(5px 3px 7px var(--shadow));
+  box-shadow:inset 0px 0px 20px var(--boxshadow);
+}
+.book {
+  width: 550px;
+  background-color: var(--pagebg);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  border-radius: 5px;
+  height: 650px;
+  filter: drop-shadow(5px 3px 7px var(--shadow));
+}
+a {
+  color: var(--link);
+}
+a:hover {
+  color: var(--linkhover);
+}
+.cover {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--mainbg);
+  background-image: url("/bftb/res/lunar.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.page {
+  display: none;
+  box-shadow:inset 0px 0px 30px var(--boxshadow);
+  height: inherit;
+  width: inherit;
+  border-radius: 5px;
+  font-family: Caveat;
+  font-size: 1.5em;
+}
+.page-content {
+  height: inherit;
+  width: inherit;
+}
+.page p {
+  margin: 0
+}
+
+.lined {
+  background: linear-gradient(0deg, rgba(92, 57, 30, 0.7) 1.92%, transparent 1.92%, transparent 50%, rgba(92, 57, 30, 0.7) 50%, rgba(92, 57, 30, 0.7) 51.92%, transparent 51.92%, transparent 100%);
+  background-size: 60.00px 60.00px;
+  line-height: 30px;
+}
+
+/* MOBILE ONLY */
+@media (max-width: 768px) {
+}
+
+/* FONT */
+@font-face {
+  font-family: Caveat;
+  src: url(lunar/font_caveat/Caveat-VariableFont_wght.ttf);
+}

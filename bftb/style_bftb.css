@@ -213,57 +213,6 @@ details[open] > summary {
   display: grid;
 }
 
-/* ARACELI'S JOURNAL */
-
-.lunar-body {
-  background-image: none;
-  background-color: #454a61;
-}
-.lunar-main {
-  background-color: initial;
-  box-shadow: initial;
-  max-width: 550px;
-}
-.lunar-page {
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 5px;
-  height: 650px;
-  overflow: auto;
-  scrollbar-width: none;
-  filter: drop-shadow(5px 3px 7px rgba(0, 0, 0, 0.7));
-  box-shadow:inset 0px 0px 30px #200716;
-  background-color: #c0ad98;
-  box-shadow: initial;
-  max-width: 550px;
-  color: #593d20;
-  font-family: Caveat;
-  font-size: 1.5em;
-}
-.lunar-cover {
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #491e29;
-  background-image: url("res/lunar.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  border-radius: 5px;
-  height: 650px;
-  filter: drop-shadow(5px 3px 7px rgba(0, 0, 0, 0.7));
-  box-shadow:inset 0px 0px 30px #200716;
-}
-.lunar-page p {
-  margin: 0px;
-}
-
-
-.lunar-lined {
-  background: linear-gradient(0deg, rgba(92, 57, 30, 0.7) 1.92%, transparent 1.92%, transparent 50%, rgba(92, 57, 30, 0.7) 50%, rgba(92, 57, 30, 0.7) 51.92%, transparent 51.92%, transparent 100%);
-  background-size: 60.00px 60.00px;
-  line-height: 30px
-}
-
 /* LUNCHTIME */
 .lunchtime-char {
   display: grid;
@@ -376,10 +325,6 @@ details[open] > summary {
   top: 10px;
   left: 10px;
 }
-/* SPOILER TEXT SWAP */
-.spoiler {
-  display: none;
-}
 
 /* MOBILE ONLY */
 @media (max-width: 768px) {
@@ -485,11 +430,4 @@ details[open] > summary {
   rgb(0, 0, 0) 1.74541px -2.43999px 0px, 
   rgb(0, 0, 0) 2.44769px -1.73459px 0px, 
   rgb(0, 0, 0) 2.88051px -0.838247px 0px;
-}
-
-
-/* FONT */
-@font-face {
-  font-family: Caveat;
-  src: url(lunar/font_caveat/Caveat-VariableFont_wght.ttf);
 }

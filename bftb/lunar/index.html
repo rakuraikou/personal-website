@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bolt from the Blue</title>
+
+<!-- discord embed -->
+    <meta content="the thunder guy or whatever" property="og:site_name">
+    <meta content="Bolt from the Blue - Lunar" property="og:title">
+    <meta content="...Is this someone's diary?" property="og:description">
+    <meta content='https://rkrk.dev/bftb/wiki/res/icon.png' property='og:image'>
+    <meta name="theme-color" content="#6e0f2c">
+
+<!-- css sheet -->
+    <link href="style_lunar.css" rel="stylesheet" type="text/css" media="all">
+
+  </head>
+  <body>
+    <main>
+
+      <div class="book">
+
+        <div class="page page-content cover" onclick="nextPage()" id="page1">
+        </div>
+
+        <div class="page" onclick="nextPage()" id="page2">
+          <div class="page-content" style="display: flex; justify-content: center; align-items: center;">
+            <p style="font-style: italic">
+              Para los condenados a muerte
+              <br>
+              y para los condenados a vida
+              <br>
+              no hay mejor estimulante que la luna
+              <br>
+              en dosis precisas y controladas
+            </p>
+          </div>
+        </div>
+
+        <div class="page" onclick="nextPage()" id="page3">
+          <div class="page-content lined">
+            <div style="margin: 10px">
+              <p style="text-align: right">
+                2
+              </p>
+              <p>
+                Today, Roga gave me this journal to use as I please!!! I really like how soft the cover is, so I'll keep it protected by never taking it out of my room!
+              </p>
+              <p>
+                Next month, I'm going to Embra for a big event: Night of the Stars. My father tells me they only have it once every 10 years, which means the last time was right before I was born. That is really interesting, and I wonder how long they've been doing this?? He also said that I can get my future read here by the Head of House Infiaco herself, which also sounds interesting.
+              </p>
+              <p>
+                Before we go, I have to go see Ms. Verona for a check-up. I have to see her a lot to make sure I'm healthy. Because my aspect. I'm not actually sick. Well, not that sick. Ms. Verona just says that I am a late bloomer, and that's why my aspect isn't strong yet. I will be strong though!! On my birthday.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="page" onclick="nextPage()" id="page4">
+          <div class="page-content lined">
+            <div style="margin: 10px">
+              <p style="text-align: right">
+                3
+              </p>
+              <p>
+                I got to see Lady Catherine, who is the Head of House Infiaco, and she told me that I would get to meet a new friend soon! Isn't that wonderful?? Then she went to speak with my father, and I spent the rest of the night with Young Lord Saffron. He's only a little bit annoying, but it's okay. The night was pretty nice, and a lot of people complimented my dress.
+              </p>
+              <p>
+                Now that I'm home, my father wants me to visit the church sometimes to see Loni. One day I'm going to have a pact with her!! I go there twice a week with one of the Windknights. The church isn't that far so he should just let me go alone but he says it's safer this way. I think he is worrying over nothing! But I still listen to him because that's the right thing to do.
+              </p>
+              <p>
+                The church is really big...and old??? There's a really really big bell on top, but I've never seen them ring it. I asked one of the Windknights why they don't and he said he didn't know. I asked if I could go see it and he said no. I really want to see it though!!!
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+    </main>
+    <footer>
+      <div style="display: flex; justify-content: space-between; color: #fff; height: 50px; margin: 10px;">
+        <button onclick="prevPage()" style="width: 50px; font-size: 1.7rem;">☾</button>
+        <button onclick="nextPage()" style="width: 50px; font-size: 1.7rem;">☽</button>
+      </div>
+
+      <hr style="width: 100%">
+
+      <div style="display: flex; flex-direction: row; justify-content: space-between; margin-left: 10px; margin-right: 10px">
+        <a href="/bftb/story">BACK</a>
+        <a href="/index">HOME</a>
+      </div>
+      <span style="text-align: center;">&#169; rakuraikou | <a href="/sitemap">sitemap</a></span>
+    </footer>
+
+    <script>
+      let currentPage = 0;
+      const pages = document.querySelectorAll('.page');
+
+      showPage(currentPage);
+
+      function showPage(index) {
+        pages.forEach(page => {
+          page.style.display = 'none';
+        });
+        pages[index].style.display = 'block';
+      }
+
+      function prevPage() {
+        currentPage = Math.max(currentPage - 1, 0);
+        showPage(currentPage);
+      }
+      function nextPage() {
+        currentPage = Math.min(currentPage + 1, pages.length - 1);
+        showPage(currentPage);
+      }
+    </script>
+  </body>
+</html>
