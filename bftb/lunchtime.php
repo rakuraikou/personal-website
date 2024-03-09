@@ -172,13 +172,7 @@
 
         thumbnails.forEach(thumbnail => {
           thumbnail.addEventListener('click', () => {
-            modal.style.display = 'flex';
-            modalImage.src = thumbnail.dataset.full;
-            modalImage.alt = thumbnail.dataset.alt;
-            artistCredit.href = thumbnail.dataset.artistlink;
-            artistCredit.innerText = thumbnail.dataset.artistname;
-            document.getElementById('caption').innerText = thumbnail.dataset.caption;
-            document.getElementById('view-full').href = thumbnail.dataset.full;
+            updateModal(thumbnail)
 
           });
         });
@@ -199,6 +193,15 @@
         });
         function closeModal() {
           modal.style.display = 'none';
+        }
+        function updateModal(thumbnail) {
+          modalImage.src = thumbnail.dataset.full;
+          modalImage.alt = thumbnail.dataset.alt;
+          artistCredit.href = thumbnail.dataset.artistlink;
+          artistCredit.innerText = thumbnail.dataset.artistname;
+          document.getElementById('caption').innerText = thumbnail.dataset.caption;
+          document.getElementById('view-full').href = thumbnail.dataset.full;
+          modal.style.display = 'flex';
         }
       </script>
 
