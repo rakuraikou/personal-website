@@ -172,7 +172,7 @@
 
         thumbnails.forEach(thumbnail => {
           thumbnail.addEventListener('click', () => {
-            updateModal(thumbnail)
+            updateModal()
 
           });
         });
@@ -186,7 +186,8 @@
           }
         });
         prevBtn.addEventListener('click', () => {
-          console.log("prev")
+          currentIndex = (currentIndex - 1 + images.length) % images.length;
+          updateModal();
         });
         nextBtn.addEventListener('click', () => {
 
@@ -194,7 +195,7 @@
         function closeModal() {
           modal.style.display = 'none';
         }
-        function updateModal(thumbnail) {
+        function updateModal() {
           modalImage.src = thumbnail.dataset.full;
           modalImage.alt = thumbnail.dataset.alt;
           artistCredit.href = thumbnail.dataset.artistlink;
