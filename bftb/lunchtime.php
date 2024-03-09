@@ -172,7 +172,13 @@
 
         thumbnails.forEach(thumbnail => {
           thumbnail.addEventListener('click', () => {
-            updateModal()
+            modalImage.src = thumbnail.dataset.full;
+            modalImage.alt = thumbnail.dataset.alt;
+            artistCredit.href = thumbnail.dataset.artistlink;
+            artistCredit.innerText = thumbnail.dataset.artistname;
+            document.getElementById('caption').innerText = thumbnail.dataset.caption;
+            document.getElementById('view-full').href = thumbnail.dataset.full;
+            modal.style.display = 'flex';
 
           });
         });
@@ -190,19 +196,19 @@
           updateModal();
         });
         nextBtn.addEventListener('click', () => {
-
+          currentIndex = (currentIndex + 1) % images.length;
+          updateModal();
         });
         function closeModal() {
           modal.style.display = 'none';
         }
         function updateModal() {
-          modalImage.src = thumbnail.dataset.full;
-          modalImage.alt = thumbnail.dataset.alt;
-          artistCredit.href = thumbnail.dataset.artistlink;
-          artistCredit.innerText = thumbnail.dataset.artistname;
-          document.getElementById('caption').innerText = thumbnail.dataset.caption;
-          document.getElementById('view-full').href = thumbnail.dataset.full;
-          modal.style.display = 'flex';
+          modalImage.src = thumbnails[currentIndex].dataset.full;
+          modalImage.alt = thumbnails[currentIndex].dataset.alt;
+          artistCredit.href = thumbnails[currentIndex].dataset.artistlink;
+          artistCredit.innerText = thumbnails[currentIndex].dataset.artistname;
+          document.getElementById('caption').innerText = thumbnails[currentIndex].dataset.caption;
+          document.getElementById('view-full').href = thumbnails[currentIndex].dataset.full;
         }
       </script>
 
