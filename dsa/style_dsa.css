@@ -6,9 +6,9 @@ body {
 }
 header {
   max-width: 1200px;
-  background-image: url('https://cdn.discordapp.com/attachments/1005534288609022013/1096656019708461184/Untitled.png');
+  background-image: url('res/dsa_collab_2023.png');
   background-size: cover;
-  background-position: bottom;
+  background-position: top;
   background-repeat: no-repeat;
   margin-top: 25px;
   margin-left: auto;
@@ -37,12 +37,15 @@ nav {
 
 /* HEADINGS */
 h1, h1 a {
-  color: #e23f3f;
+  color: #fcfca4;
   font-size: 2.5rem;
   margin-bottom: 5px;
   margin-top: 5px;
   font-weight: normal;
   font-variant-caps: all-small-caps;
+}
+h1 a:hover {
+  color: #fdbd8f;
 }
 h2 {
   color: #ff6c52;

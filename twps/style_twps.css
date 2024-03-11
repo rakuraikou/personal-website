@@ -50,23 +50,6 @@ h3 {
   font-weight: normal;
   font-variant-caps: all-small-caps;
 }
-h4 {
-  color: #50cdff;
-  font-size: 1.7rem;
-  margin-bottom: 5px;
-  margin-top: 5px;
-  font-weight: normal;
-  font-variant-caps: all-small-caps;
-}
-h5 {
-  color: #8fffdd;
-  font-size: 1.4rem;
-  margin-bottom: 5px;
-  margin-top: 5px;
-  font-weight: normal;
-  font-variant-caps: all-small-caps;
-}
-
 /* HEADER */
 header a {
   color: #ffffff;
@@ -91,7 +74,6 @@ a:hover {
   flex-direction:row;
   justify-content:space-around;
 }
-
 .highlight {
   font-weight: bold;
   color: #411157;
@@ -106,7 +88,6 @@ a:hover {
   max-width: 50%;
   border: 3px solid #411157;
 }
-
 /* MOBILE ONLY */
 @media (max-width: 768px) {
   .navlinks {

@@ -1,14 +1,12 @@
-.content {
-  box-shadow: -10px 10px 5px rgba(13, 9, 10, 0.5);
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-}
 body {
   background-color: #7e6c3b;
   font-family: Ubuntu-Mono;
   font-size: 1.1em;
   color: #4e3c1a;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: -10px 10px 5px rgba(13, 9, 10, 0.5);
+  max-width: 1000px;
 }
 header {
   background-color: #b8b6aa;
