@@ -12,9 +12,8 @@
     <meta content='https://rkrk.dev/bftb/wiki/res/icon.png' property='og:image'>
     <meta name="theme-color" content="#23c4ff">
 
-<!-- css sheet and javascript -->
+<!-- css sheet -->
     <link href="style_bftb.css" rel="stylesheet" type="text/css" media="all">
-    <script src="script_bftb.js"></script>
 
   </head>
   <body>
@@ -186,7 +185,21 @@
           </p>
         </div>
       </div>
-
+      <script>
+        function openChar(evt, charName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("char-tab");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("char-link");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(charName).style.display = "grid";
+        evt.currentTarget.className += " active";
+        }
+      </script>
     </main>
     <?php include 'footer_content.html'; ?>
   </body>
