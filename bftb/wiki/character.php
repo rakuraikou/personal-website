@@ -49,7 +49,7 @@
                   <img src='" . $row["image"] . "' style='max-height: 400px; margin: auto'>
                   <table class='side-table'>
                     <tr>
-                      <td>Full Name</td>
+                      <td>Name</td>
                       <td>" . $row["full_name"] . "</td>
                     </tr>
                     <tr>
