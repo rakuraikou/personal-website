@@ -46,7 +46,7 @@
             <h1 style='font-style: italic'>" . $row["alias"] . "</h1>
               <hr>
                 <div class='char-side'>
-                  <img src='" . $row["image"] . "' style='max-height: 300px; margin: auto'>
+                  <img src='" . $row["image"] . "' style='max-height: 400px; margin: auto'>
                   <table class='side-table'>
                     <tr>
                       <td>Full Name</td>
