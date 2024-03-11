@@ -37,10 +37,10 @@
             23 year old asian american lesbian demon thing riding the pipe dream of developing a meaningful video game someday. No preference in pronouns, but these days most people use she/her for me. I have a wonderful girlfriend who does not use social media so I can't link anything... but I promise she exists lol.
           </p>
           <p>
-            I REALLY love collecting <a href="figurines.html">blind box figurines</a> and <a href="controllers.html">video game controllers</a>. My favorite video game genre is "modern JRPG that's clearly trying to appeal to the classic/golden-age fans," so a lot of my top games (as well as the inspiration for my primary worldbuilding project) will reflect this weird niche.
+            I REALLY love collecting <a href="figurines">blind box figurines</a> and <a href="controllers">video game controllers</a>. My favorite video game genre is "modern JRPG that's clearly trying to appeal to the classic/golden-age fans," so a lot of my top games (as well as the inspiration for my primary worldbuilding project) will reflect this weird niche.
           </p>
           <p>
-            I have an enormous passion for worldbuilding and project development, and I love seeing what others are up to. I have a Discord server centered around it, you can check out more information about that <a href="dsa/index.html" target="_blank">here</a>.
+            I have an enormous passion for worldbuilding and project development, and I love seeing what others are up to. I have a Discord server centered around it, you can check out more information about that <a href="dsa/index" target="_blank">here</a>.
           </p>
           <h4>
             Why Rakuraikou / RKRK?
