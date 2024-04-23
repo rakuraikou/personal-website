@@ -46,7 +46,7 @@
             <h1 style='font-style: italic'>" . $row["alias"] . "</h1>
               <hr>
                 <div class='char-side'>
-                  <img src='" . $row["image"] . "' style='max-height: 400px; margin: auto'>
+                  <img src='res/fb/" . $row["id"] . ".png' style='max-height: 400px; margin: auto'>
                   <table class='side-table'>
                     <tr>
                       <td>Name</td>
@@ -202,7 +202,7 @@
               while ($row = $result->fetch_assoc()) {
                 echo "
                 <a href='?id=" . $row["id"] . "' class='char-link'>
-                  <img src='" . $row["icon"] . "'>
+                  <img src='res/icon/" . $row["id"] . ".png'>
                   " . ucfirst($row["id"]) . "
                 </a>
                 ";
