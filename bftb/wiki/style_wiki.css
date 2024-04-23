@@ -16,7 +16,7 @@
 body {
   background-color: var(--bodybg);
   background: url('res/sanvenbg.png');
-  background-size: cover;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   color: var(--bodytxt);
   font-family: Verdana;
