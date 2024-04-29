@@ -28,7 +28,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: end;
-  background:linear-gradient(to right, var(--mainbg) 0%, rgba(0, 0, 0, 0) 40%), url('https://f2.toyhou.se/file/f2-toyhou-se/images/74660393_wAGTSoUJuvB03Ri.png');
+  background:linear-gradient(to right, var(--mainbg) 0%, rgba(0, 0, 0, 0) 40%), url('../res/cover.png');
   background-size: 50%;
   background-position: right 30%;
   background-color: var(--mainbg);
