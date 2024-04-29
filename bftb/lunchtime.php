@@ -101,7 +101,7 @@
       if ($conn->connect_error) {
           die("Connection failed: " . $conn->connect_error);
       }
-      
+      $conn->set_charset('utf8mb4');
       $sql_myart = "SELECT * FROM lunchtime_gallery WHERE artist = 'me' ORDER BY id DESC";
       $result_myart = $conn->query($sql_myart);
       $sql_othersart = "SELECT * FROM lunchtime_gallery WHERE artist = 'others' ORDER BY id DESC";
