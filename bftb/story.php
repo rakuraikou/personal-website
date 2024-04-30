@@ -73,7 +73,7 @@
           </div>
           <hr>
           <p class="blockquote" style="font-style: italic; margin: 5px 15px">
-            "I know you're hurt, I really do. But, I want to ask you to trust in me - just this once, let my heart reach you!"
+            "I know you're hurt, but can I ask you to trust me? Just this once—let my heart reach you!"
           </p>
         </div>
       </div>
@@ -109,7 +109,7 @@
           </div>
           <hr>
           <p class="blockquote" style="font-style: italic; margin: 5px 15px">
-            "Should you challenge my resolve, know that it is unbending. I'll show you the true might of the Kingdom of Winds!”
+            "I am the princess of prophecy, and the fate of the Kingdom of Winds rests in my hands. I'll not bend to you!”
           </p>
         </div>
       </div>
@@ -145,7 +145,7 @@
           </div>
           <hr>
           <p class="blockquote" style="font-style: italic; margin: 5px 15px">
-            "Excuse me as I question your judgement for a moment - just WHAT were you thinking?! Do you have even a touch of logical reasoning in you? No, of course you don't! Why do I even ask...”
+            "Excuse me as I question your judgement for a moment—just WHAT were you thinking?! Do you have even a touch of logical reasoning in you? No, of course you don't! Why do I even ask...”
           </p>
         </div>
       </div>
