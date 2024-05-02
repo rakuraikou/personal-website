@@ -11,6 +11,7 @@
 	--bodybg: #29191f;
 	--mainbg: #242b42;
   --notebg: #404f81;
+  --lennotebg: #3a84a7;
 }
 
 body {
@@ -184,6 +185,9 @@ details[open] > summary {
   background-color: var(--notebg);
   padding: 10px;
   border: 2px solid var(--field);
+}
+.len-notebox {
+  background-color: var(--lennotebg) !important;
 }
 .whisper {
   color: #bfbdcc;
