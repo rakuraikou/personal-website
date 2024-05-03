@@ -58,7 +58,7 @@
         Most enlisted windknights are positioned in San Ven (and other parts of Cieliso), but there are some occupying the various Cielisono embassies across Luxos.
       </p>
       <p class="notebox">
-        Despite the volume of windknights positioned in San Ven, some pirate activity still takes place in the Skysea Port and Tradewinds areas. The occupation of pirate crews doesn't seem to pose much of a threat to the well-being of the people however, so it's assumed that the windknights and any pirates in the area have some kind of deal in place.
+      Despite the volume of windknights positioned in San Ven, some pirate activity still takes place in the Skysea Port and Tradewinds areas. It's assumed that the windknights and pirates in the area have some kind of deal in place.
       </p>
       <h3>
         Shadows
@@ -68,6 +68,12 @@
       </p>
       <p>
         In the case that the shadow does not step down after the heir succeeds, they continue to fulfill the same responsibilities to the rey. In these cases, the rey's child (aka new heir) will sometimes "inherit" their parent's shadow.
+      </p>
+      <p>
+        All shadows are bound by a strict oath and undergo specialized training for their role. During this training, the shadow is isolated from their family and friends for an extended period of time, and is given a basic education and taught advanced combat techniques. Most importantly, the shadow is repeatedly tested on loyalty to the heir they are assigned to.
+      </p>
+      <p class="notebox">
+        The role of shadow is deeply rooted in tradition, beginning with Loniles herself. In order to ensure the safety of her lineage and kingdom, she personally trained a guardian for her child. This was the first shadow, and every heir afterwards would be assigned a similarly-trained companion!
       </p>
       <h2>
         Ties to Loniles
