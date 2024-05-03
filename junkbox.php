@@ -35,6 +35,9 @@
       <p>
         <a href="bravely_default">bravely default</a> : I REALLY LIKE THIS GAME
       </p>
+      <p>
+        <a href="bravelymarle">bravely marle</a> : in fact... i like it so much that i made... ocs...
+      </p>
       <hr>
       <h3>Links and Buttons</h3>
       <h4>My stuff!</h4>
