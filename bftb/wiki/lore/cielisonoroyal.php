@@ -7,7 +7,7 @@
 
 <!-- discord embed -->
     <meta content="the thunder guy or whatever" property="og:site_name">
-    <meta content="Bolt from the Blue - Beastlords" property="og:title">
+    <meta content="Bolt from the Blue - Cielisono Royal Family" property="og:title">
     <meta content="The 'official' wiki for LEN's worldbuilding and RPG project, Bolt from the Blue." property="og:description">
     <meta content='https://rkrk.dev/bftb/wiki/res/icon.png' property='og:image'>
     <meta name="theme-color" content="#0036cc">
