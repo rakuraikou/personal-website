@@ -191,9 +191,9 @@ a:hover {
 }
 .grid-index {
   display: grid;
-  grid-template-columns: 60% 40%;
+  grid-template-columns: 65% 35%;
   gap: 10px;
-  align-items: center;
+  padding-bottom: 20px;
 }
 .grid-bravelymarle {
   display: grid;
@@ -232,11 +232,72 @@ a:hover {
   translate: 0px 2px;
 }
 
+.home-links {
+  position: relative
+}
+.home-btn {
+  width: 20%;
+  position: absolute;
+  z-index: 2;
+  transition: transform .2s;
+}
+.btn-abt {
+  width: 21% !important;
+  left: 62%;
+}
+.btn-prj {
+  left: 72%;
+  top: 25%;
+}
+.btn-jkb {
+  left: 75%;
+  top: 50%;
+}
+.home-btn:hover {
+  transform: scale(1.2);
+}
+#tagline {
+  font-size: 1.1em;
+  text-align: center;
+  color: #50cdff;
+  font-variant: small-caps;
+  position: absolute;
+  top: 75%;
+  left: 5%;
+  width: 28%;
+  font-style: italic
+}
+
 /* MOBILE ONLY */
 @media (max-width: 768px) {
 .grid-mobile-col,.grid-notfound,.grid-index,.bm-1,.bm-2 {
     grid-template-columns: auto;
   }
+.home-links {
+  margin-bottom: 82%;
+  margin-top: -5%;
+}
+#tagline {
+  margin-top: 63%;
+  font-size: 1.0em;
+}
+.home-btn {
+  width: 25%;
+  top: 0;
+}
+.btn-abt {
+  width: 26% !important;
+  left: 64%;
+}
+.btn-prj {
+  left: 74%;
+  margin-top: 26%;
+}
+.btn-jkb {
+  left: 79%;
+  margin-top: 52%;
+}
+
 .bm-1-img {
   order: 1;
 }

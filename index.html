@@ -25,32 +25,23 @@
   <body>
     <header>
       <h1 style="padding-bottom: 10px; text-align: center">
-        <a href="index" style="text-decoration:none">
-          <b style="text-shadow:-3px 3px #423E3B;">THUNDERSWAG!!!</b>
-          <span>🌩️</span>
-        </a>
+        <b style="text-shadow:-3px 3px #423E3B;">WELCOME TO THUNDERSWAG!!!</b>
+        <span>🌩️</span>
       </h1>
     </header>
     <main>
-      <p id="tagline" style="text-align: center; color: #50cdff; font-variant: small-caps; margin-top: 0px"></p>
-
       <div class="grid-index">
-        <div>
-          <div style="width: 100%; text-align: center">
-            <img src="res/home.png" usemap="#image-map" class="index-image" alt="Navigation menu">
-          </div>
-          <map name="image-map" style="width: 100%; text-align: center">
-            <area title="ABOUT" href="abt" coords="299,82,558,194" shape="rect">
-            <area title="PROJECTS" href="projects" coords="54,300,388,410" shape="rect">
-            <area title="JUNKBOX" href="junkbox" coords="1219,1250,1526,1360" shape="rect">
-            <area title="PROJECTS" href="projects" coords="141,558,196,732,257,742,322,773,360,811,384,791,460,793,515,814,528,827,624,916,743,903,739,882,641,875,573,605,153,541" shape="poly">
-            <area title="ABOUT" href="abt" coords="169,742,121,858,128,1036,173,1136,93,1143,50,1269,48,1327,292,1383,351,1321,511,1328,880,1311,1047,1366,913,1403,881,1361,689,1362,682,1472,852,1472,917,1427,1054,1423,1092,1386,1064,1327,936,1277,384,1288,524,1232,614,1278,826,1229,1120,932,1117,833,1144,808,1054,709,1042,641,1024,593,1008,422,965,286,927,262,928,156,839,136,840,242,737,220,739,157,654,143,569,386,628,620,744,675,607,706,647,866,748,877,751,907,623,923,502,813,392,796,358,821,322,779,247,744" shape="poly">
-            <area title="JUNKBOX" href="junkbox" coords="868,1198,1549,1200,1549,323,1413,322,1437,80,1275,80,1087,111,1106,325,986,325,1024,452,1030,576,1072,711,1155,804,1134,844,1131,932" shape="poly">
-          </map>
+        <div class="home-links">
+          <img src="res/home/title.png" style="width: 41%; position: absolute;">
+          <img src="res/home/raku.png" style="width: 45%; position: absolute; z-index: 1; left: 34%; top: 4%">
+          <a href="abt"><img class="home-btn btn-abt" src="res/home/btn_about.png"></a>
+          <a href="projects"><img class="home-btn btn-prj" src="res/home/btn_projects.png"></a>
+          <a href="junkbox"><img class="home-btn btn-jkb" src="res/home/btn_junkbox.png"></a>
+          <p id="tagline"></p>
         </div>
         <div>
           <h2 style="text-align: center">(crash! boom! zap!)</h2>
-          <p>i'm <a href="abt">LEN</a>, but sometimes lenny, but also sometimes icarus or raku or thunder. this website holds my ocverses, projects, and other braindents! i don't have any big plans for this site, or any special reasons for having it. regardless, i hope you enjoy your stay [:</p>
+          <p>i'm <a href="abt">LEN</a>, but sometimes lenny, but also sometimes icarus or raku or thunder. this is my personal website for my OCs, projects, interests, and more! i don't have any big plans for this site, or any special reasons for having it. enjoy your stay! [:</p>
           <p><span style="text-decoration: underline">this site uses javascript for navigation.</span> if you've got it disabled (which i totally understand lols), here's a <a href="sitemap">sitemap</a>!</p>
 
           <div style="margin: 20px 0px; display: flex; flex-direction: column; justify-content: center">
@@ -62,21 +53,18 @@
             </div>
           </div>
 
-<!-- CHANGELOGGY -->
           <p>
             <span style="color: #bbffbb">3 MAY 2024 :</span> I made a small page for my <a href="https://rkrk.dev/bravelymarle">Bravely Default OCs...</a> for fun...
           </p>
           <a href="changelog" style="font-style: italic">View the full changelog</a>
         </div>
       </div>
-
     </main>
 
     <p style="margin-top:25px; color:#16A6FF; text-align: center;">&#169; rakuraikou | <a href="sitemap">sitemap</a></p>
 
     <script type="text/javascript" src="https://squidknees.net/squidring/onionring-variables.js"></script>
     <script type="text/javascript" src="https://squidknees.net/squidring/onionring-widget.js"></script>
-    <script>imageMapResize();</script>
     <script>taglines();</script>
   </body>
 </html>

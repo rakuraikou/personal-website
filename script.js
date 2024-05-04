@@ -73,7 +73,16 @@ function taglines() {
     'hrghhh',
     'scamp/butch enjoyer',
     'how to charge?',
-    'shrimpgame survivor'
+    'shrimpgame survivor',
+    'here for a good time AND a long time',
+    'what did she mean by that...',
+    'number one guydude',
+    'the dent consumes...!',
+    'dubiously engaged in a psychic battle',
+    'godkiller for hire',
+    'sometimes you just have to :raku_guh: and move on',
+    'wouldn&apos;t you like to know...',
+    'he&apos;s like if they made an italian boy french and then put him in spain'
   ];
 
   var picktag = Math.floor(Math.random() * tags.length);
