@@ -273,6 +273,9 @@ a:hover {
 .grid-mobile-col,.grid-notfound,.grid-index,.bm-1,.bm-2 {
     grid-template-columns: auto;
   }
+.grid-index {
+  padding-bottom: 10px;
+}
 .home-links {
   margin-bottom: 82%;
   margin-top: -5%;
