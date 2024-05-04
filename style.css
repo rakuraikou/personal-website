@@ -193,7 +193,7 @@ a:hover {
   display: grid;
   grid-template-columns: 65% 35%;
   gap: 10px;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 .grid-bravelymarle {
   display: grid;
@@ -233,7 +233,7 @@ a:hover {
 }
 
 .home-links {
-  position: relative
+  position: relative;
 }
 .home-btn {
   width: 20%;
