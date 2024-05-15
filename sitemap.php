@@ -114,7 +114,7 @@
                 <a href="bftb/wiki/lore/people">People</a>
                 <ul>
                   <li>
-                    <a href="bftb/wiki/lore/keepers">Keepers</a>
+                    <a href="bftb/wiki/lore/champions">Champions</a>
                   </li>
                 </ul>
               </li>

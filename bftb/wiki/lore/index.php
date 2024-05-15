@@ -59,7 +59,7 @@
             <a href="cielisonoroyal">Cielisono Royal Family</a>
           </li>
           <li>
-            <a href="keepers">Keepers</a>
+            <a href="champions">Champions</a>
           </li>
         </ul>
       </ul>

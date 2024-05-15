@@ -23,59 +23,41 @@
       <ul class="crumb">
         <li><a href="../index">Home</a></li>
         <li><a href="index">Lore</a></li>
-        <li><a href="keepers">Keepers</a></li>
+        <li><a href="champions">Champions</a></li>
       </ul>
       <h1>
-        Keepers
+        Champions
       </h1>
       <hr>
       <p>
-        Linked from birth, keepers are people with a special "bond" to their respective <a href="beastlords">Beastlords</a>. This bond allows them access to their Beastlord's "thoughts," as well as potential to utilize all three of its governed <a href="magic">aspects</a>. The main duty of a Keeper is to facilitate communication between the people and their linked Beastlord. The way this responsibility manifests varies between relationships, but generally pertains to the following:
-      </p>
-      <ul>
-        <li>
-          Delivering messages between the Beastlord and region's people
-        </li>
-        <li>
-          Rituals to sate/appease the Beastlord
-        </li>
-        <li>
-          Helping out townspeople and investigating dangerous requests ("Hometown Hero" tasks)
-        </li>
-        <li>
-          Warning people of certain (otherwise unexpected) events caused by the Beastlord
-        </li>
-      </ul>
-      <p>
-        Technically, keepers don't <i>need</i> to do anything. Their connection to their Beastlord and the extra magic power isn't inherently tied to the effort (or lack thereof) put into maintaining the connection. However, a negligent Keeper may find that a displeased or unmonitored Beastlord can unleash catastrophe on the world and the people who inhabit it.
+        When a person dies, their light is released from their body and becomes a part of the world around them. If enough people hold onto the memory of the dying person's legacy, then they can offer their light to preserve that person's own existence. People who persist after death in this way are considered divine beings and referred to as "Champions."
       </p>
       <p>
-        Personal attitudes towards this involuntary responsibility vary, but most keepers seem to enjoy the role and the sense of heroic purpose it implies. By default, most keepers have a positive reputation with the community thanks to both their duties and their power.
+        Champions exist as a "soul" present in the atmospheric light of Luxos, and their identity is kept distinct and preserved through the aforementioned regular light offerings. With an intrinsically direct tie to the world's purest form of light, Champions are able to access special powers and grant them to people on Luxos.
       </p>
-      <h2>
-        Champions
-      </h2>
-      <hr>
-      <p>
-        When a keeper dies, another is born (or, in rare cases, chosen) immediately after. If enough people hold a late keeper's legacy in high regards, then they can offer their light to preserve that keeper's own existence. Keepers who persist after death in this way are considered divine beings and referred to as "Champions." Champions can act completely on their own whim and desire, but can only exist in and interact with Luxos with consistent, voluntary offerings of light. It's common for Champions to grant natural miracles - such as sparks to provide flame on a cold night or richer soils for a fruitful harvest - in exchange for offerings. Though they don't have a permanent physical state of their own, Champions can temporarily manifest in areas where substantial amounts of light have been collected.
+      <p class="notebox">
+        It's often thought that the Champion's soul has a "core." Some say tha this core is affixed to the body, and moves along with the corpse when it's transported. Others say that a Champion's core is permanently chained to the place where the person died. Neither of these theories have been proven true or false, and people tend to believe in whichever brings them a greater sense of pride for their hometown or current residency.
       </p>
       <p>
-        A person can decide to give a small portion of their light to a Champion at any given point in their life. This act yields similar effects to using an aspect - specifically, the individual making the sacrifice accumulates cael. Because of the strain one risks by offering light, most people only go out of their way to offer light a couple times in their lives or for specific occasions (if ever).
+        Champions can act completely on their own whim and desire, but can only exist in and interact with Luxos with consistent, voluntary offerings of light. It's common for Champions to grant natural miracles—such as sparks to provide flame on a cold night or richer soils for a fruitful harvest—in exchange for offerings. Though they don't have a permanent physical state of their own, Champions can temporarily manifest in areas where substantial amounts of light have been collected.
+      </p>
+      <p>
+        A person can decide to give a small portion of their light to a Champion at any given point in their life. This act yields similar effects to using an aspect—specifically, the individual making the sacrifice accumulates cael. Because of the strain one risks by offering light, most people only go out of their way to offer light a couple times in their lives or for specific occasions (if ever). A stronger connection to a Champion is directly correlated to access to that Champion's power. People seeking anything from favorable weather to a traveler's blessing to salvation for a devasatated land will seek out and offer light to a Champion—to what degree depends on how willing the person is to offer light. 
       </p>
       <p class="notebox">
         Sometimes, people will "swear" to a Champion (e.g. "Loni of Tenacity," "do the Ignited Eyes deceive me?"). This language is usually specific to a particular region or culture, and is considered a telltale way to recognize where someone may be from.
       </p>
-      <h3>
+      <h2>
         Pacts
-      </h3>
+      </h2>
       <p>
-        In order to guarantee a more consistent flow of light offerings, Champions can form pacts with people on Luxos. The basic structure of a pact is between one Champion and one acolyte (person) - the Champion receives regular offerings of light and a point to manifest (i.e. speaking/acting through the acolyte), and the acolyte gains access to some of the Champion's power. Like keepers, acolytes are also well-respected in society for their clear devotion to their pacts.
+        In order to guarantee a more consistent flow of light offerings, Champions can form pacts with people on Luxos. The basic structure of a pact is between one Champion and one acolyte (person)—the Champion receives regular offerings of light and a point to manifest (i.e. speaking/acting through the acolyte), and the acolyte gains access to a significant portion of the Champion's power. Like keepers, acolytes are also well-respected in society for their clear devotion to their pacts.
       </p>
       <p>
         There are strict conditions and guidelines to follow with a pact, and failure to keep one's end of the bargain results in immediate, dramatic consequence. These guidelines are consistent across pacts, but the details may vary slightly depending on the individuals involved.
       </p>
       <p>
-        In every arrangement, the acolyte's aspect must be the same as one of the Champion's. Between the Champion and acolyte, a specific "routine" for light offering is agreed upon (i.e. how much light, and how often it is offered). This practice is generally done in private and cannot be "rescheduled" once established. The light-drawing procedure itself renders the acolyte temporarily immobile and unaware of their surroundings. The amount of light offered shouldn't pose a risk for caelism for the acolyte - though it may cause fatigue or weakness, the process is otherwise painless. However, it is important to note that there have been instances of careless acolytes accumulating a significant amount of cael prior to a light-drawing session who end up quite ill after the procedure.
+        In every arrangement, the acolyte's aspect must be the same as one of the Champion's. Between the Champion and acolyte, a specific "routine" for light offering is agreed upon (i.e. how much light, and how often it is offered). This practice is generally done in private and cannot be "rescheduled" once established. The light-drawing procedure itself renders the acolyte temporarily immobile and unaware of their surroundings. The amount of light offered shouldn't pose a risk for caelism for the acolyte—though it may cause fatigue or weakness, the process is otherwise painless. However, it is important to note that there have been instances of careless acolytes accumulating a significant amount of cael prior to a light-drawing session who end up quite ill after the procedure.
       </p>
       <h3>
         Breaking a Pact
