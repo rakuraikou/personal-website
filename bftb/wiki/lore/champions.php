@@ -7,7 +7,7 @@
 
 <!-- discord embed -->
     <meta content="the thunder guy or whatever" property="og:site_name">
-    <meta content="Bolt from the Blue - Keepers" property="og:title">
+    <meta content="Bolt from the Blue - Champions" property="og:title">
     <meta content="The 'official' wiki for LEN's worldbuilding and RPG project, Bolt from the Blue." property="og:description">
     <meta content='https://rkrk.dev/bftb/wiki/res/icon.png' property='og:image'>
     <meta name="theme-color" content="#0036cc">
@@ -51,7 +51,7 @@
         Pacts
       </h2>
       <p>
-        In order to guarantee a more consistent flow of light offerings, Champions can form pacts with people on Luxos. The basic structure of a pact is between one Champion and one acolyte (person)—the Champion receives regular offerings of light and a point to manifest (i.e. speaking/acting through the acolyte), and the acolyte gains access to a significant portion of the Champion's power. Like keepers, acolytes are also well-respected in society for their clear devotion to their pacts.
+        In order to guarantee a more consistent flow of light offerings, Champions can form pacts with people on Luxos. The basic structure of a pact is between one Champion and one acolyte (person)—the Champion receives regular offerings of light and a point to manifest (i.e. speaking/acting through the acolyte), and the acolyte gains access to a significant portion of the Champion's power. Acolytes are also well-respected in society for their clear devotion to their pacts.
       </p>
       <p>
         There are strict conditions and guidelines to follow with a pact, and failure to keep one's end of the bargain results in immediate, dramatic consequence. These guidelines are consistent across pacts, but the details may vary slightly depending on the individuals involved.
