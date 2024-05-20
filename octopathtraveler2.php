@@ -43,7 +43,7 @@
         No, really. I love video games, and I love thinking about them as a storytelling device and art form. This is fun for me.
       </p>
       <p>
-        It also helped reshape the way I thought about video game stories, since I was really struggling with writing my own (yeah, I'm working on a game lol...). I highly recommend doing a study like this if you're working on your own game!
+        It also helped reshape the way I thought about video game stories, since I was really struggling with writing my own (yeah, I'm working on a game lol...). I highly recommend doing a study like this if you're working on your own game, or just want to gain a better understanding of game narrative and game design!
       </p>
       <h3>
         Other Notes
