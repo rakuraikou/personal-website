@@ -39,7 +39,7 @@
         <a href="bravelymarle">bravely marle</a> : in fact... i like it so much that i made... ocs...
       </p>
       <p>
-        <a href="splatoon">octopath traveler II narrative flowchart</a> : a completed map of how ot2's gameplay guides its narrative
+        <a href="octopathtraveler2">octopath traveler II narrative flowchart</a> : a completed map of how ot2's gameplay guides its narrative
       </p>
       <hr>
       <h3>Links and Buttons</h3>
