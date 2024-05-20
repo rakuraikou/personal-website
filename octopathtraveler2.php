@@ -23,10 +23,7 @@
     <main>
       <h2>Octopath Traveler II Narrative Flowchart</h2>
       <p>
-        Welcome to the Octopath Traveler II narrative flowchart! This was an exercise I did in my free time to study video game narrative—more specifically, how a video game's narrative intersects with its gameplay. It took, literally, hundreds of hours.
-      </p>
-      <p>
-        The intent of this flowchart is to illustrate how player input pushes the story from one plot point to the next. When I first made this chart, I did not put any narrative information that wasn't directly attached to player input (i.e. a flashback cutscene revealing a plot twist). I've decided to retroactively add this information in just for the sake of providing a comprehensive documentation of Octopath Traveler 2's story.
+        Welcome to the Octopath Traveler II narrative flowchart! This was an exercise I did in my free time to study video game narrative—more specifically, how a video game's narrative intersects with its gameplay. It took, literally, hundreds of hours. The intent of this flowchart is to illustrate how player input pushes the story from one plot point to the next.
       </p>
       <h3>
         Understanding the format
