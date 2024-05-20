@@ -68,6 +68,9 @@
       <h3>
         The flowchart!
       </h3>
+      <p>
+        This flowchart was made using <a href="https://app.diagrams.net/">draw.io</a>. If you're on a PC, you can <b>CTRL+SCROLL</b> to zoom in and out, and navigate the zoomed-in chart by clicking and dragging. Mobile users should be able to pinch to zoom and drag to navigate. All characters (and the final chapter) are in their own separate tabs
+      </p>
       <iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Octopath%20Traveler%20II%20Narrative%20Flowchart.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1piADCcZgTejjn1eXZIZQPrJ6kBQOAMNN%26export%3Ddownload"></iframe>
     </main>
     <?php include 'footer_content.html'; ?>
