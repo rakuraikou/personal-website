@@ -7,10 +7,10 @@
 
 <!-- discord embed -->
     <meta content="the thunder guy or whatever" property="og:site_name">
-    <meta content="THUNDERSWAG!!! - Bravely Default" property="og:title">
-    <meta content="LEN's Bravely Default web shrine!!" property="og:description">
-    <meta content='https://rkrk.dev/res/bravely/edea_face.png' property='og:image'>
-    <meta name="theme-color" content="#292322">
+    <meta content="THUNDERSWAG!!! - Octopath Traveler II" property="og:title">
+    <meta content="Octopath Traveler II Narrative Flowchart" property="og:description">
+    <meta content='https://rkrk.dev/res/ot2.png' property='og:image'>
+    <meta name="theme-color" content="#967526">
 
 <!-- css sheet and javascript-->
     <link href="style.css" rel="stylesheet" type="text/css" media="all">
