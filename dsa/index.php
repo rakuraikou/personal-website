@@ -26,7 +26,7 @@
       </h2>
       <div class="grid-home">
         <div>
-          <p> <b>I'm currently working on transferring the resources on this page (particularly the event page stuff)! Images may be broken for the time being.</b>
+          <p>
             Deep Sea Artscape (DSA) is an art Discord server specifically centered around OC (original character) and original worldbuilding discussion. The server aims to create a fun and friendly sea-themed space to encourage creators to work on and share their projects, as well as bring together like-minded artists to talk about original characters and stories.
           </p>
           <p>

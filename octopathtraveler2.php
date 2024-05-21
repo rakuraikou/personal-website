@@ -29,7 +29,7 @@
         Understanding the format
       </h3>
       <p>
-        I've taken a lot of inspiration from <a href="https://cocoatoucher.github.io/earthbound-narrative/">this Earthbound narrative flowchart</a>. Each cell is split into three parts: situation, solution, and conclusion. The situation is the problem presented by the game's story, the solution is the player action required to resolve the problem, and the conclusion is the result of the player action as it impacts the story.
+        I've taken a lot of inspiration from <a href="https://cocoatoucher.github.io/earthbound-narrative/" target="_blank">this Earthbound narrative flowchart</a>. Each cell is split into three parts: situation, solution, and conclusion. The situation is the problem presented by the game's story, the solution is the player action required to resolve the problem, and the conclusion is the result of the player action as it impacts the story.
       </p>
       <p>
         <span style="color: #B09500">Yellow</span> text indicates a path action, talent, etc., and <span style="color: #B20000">red</span> text indicates an area with enemy encounters
@@ -66,7 +66,7 @@
         The flowchart!
       </h3>
       <p>
-        This flowchart was made using <a href="https://app.diagrams.net/">draw.io</a>. If you're on a PC, you can <b>CTRL+SCROLL</b> to zoom in and out, and navigate the zoomed-in chart by clicking and dragging. Mobile users should be able to pinch to zoom and drag to navigate. All characters (and the final chapter) are in their own separate tabs
+        This flowchart was made using <a href="https://app.diagrams.net/" target="_blank">draw.io</a>. In case you don't want to use the on-screen UI for navigation...If you're on a PC, you can <b>CTRL+SCROLL</b> to zoom in and out, and navigate the zoomed-in chart by clicking and dragging. Mobile users should be able to pinch to zoom and drag to navigate. All characters (and the final chapter) are in their own separate tabs
       </p>
       <iframe frameborder="0" style="width:100%;height:600px;" src="https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Octopath%20Traveler%20II%20Narrative%20Flowchart.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1piADCcZgTejjn1eXZIZQPrJ6kBQOAMNN%26export%3Ddownload"></iframe>
     </main>

@@ -36,9 +36,6 @@
         <a href="bravely_default">bravely default</a> : I REALLY LIKE THIS GAME
       </p>
       <p>
-        <a href="bravelymarle">bravely marle</a> : in fact... i like it so much that i made... ocs...
-      </p>
-      <p>
         <a href="octopathtraveler2">octopath traveler II narrative flowchart</a> : a completed map of how ot2's gameplay guides its narrative
       </p>
       <hr>

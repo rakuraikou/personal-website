@@ -22,26 +22,34 @@
   <body>
     <?php include 'header_content.html'; ?>
     <main>
+      <h2>Projects/Worlds</h2>
+      <p style="margin-bottom: 25px">I do stuff sometimes. It's a lot of fun! Except for when it isn't.</p>
 
-      <h2>Stuff I'm working on!!</h2>
-      <p style="margin-bottom: 25px">I do stuff sometimes. It's a lot of fun!</p>
-
+      <h3>Original characters and stories</h3>
       <h4><a href="bftb/index">Bolt from the Blue</a></h4>
-      <p>Rotating in my head at a constant velocity is my silly worldbuilding/gamedev project started in December 2020. Inspired by silly classic JRPGs about little guys going on big adventures. There's also a <a href="https://toyhou.se/charge/characters/folder:1796863" target="_blank">TOYHOU.SE folder</a> for this project that I'm currently working on.</p>
+      <p>A worldbuilding/gamedev project started in December 2020 inspired by silly classic JRPGs about little guys going on big adventures. There's also a <a href="https://toyhou.se/charge/characters/folder:1796863" target="_blank">TOYHOU.SE folder</a> for this project that I'm currently working on.</p>
 
       <h4><a href="twps/index">The Witch-Patron Society</a></h4>
-      <p>Also rotating in my head at a constant velocity is a collaborative OCverse I have with my friends. TWPS takes place in a nebulously-located but strictly-modern university setting and follows a group of losers banded under Osis, The Dark Overlord. Lot of funny stuff going on there, check out the <a href="https://toyhou.se/~world/159188.the-witch-patron-society">TOYHOU.SE world</a> while you're at it.</p>
+      <p>A collaborative OCverse I have with my friends. TWPS takes place in a nebulously-located but strictly-modern university setting and follows a group of losers banded under Osis, The Dark Overlord. Lot of funny stuff going on there, check out the <a href="https://toyhou.se/~world/159188.the-witch-patron-society">TOYHOU.SE world</a> while you're at it.</p>
 
       <h4><a href="dsa/index">DEEP SEA ARTSCAPE</a></h4>
-      <p>Just a Discord server I spend way too much time polishing + managing (I say this lovingly. The people in there make it worth going this hard for). It's designed with OC/worldbuilding/projectdev in mind, so there's channels for people's projects, monthly events/prompts, etc. <b>I'm currently working on the resource on this page somewhere safe! Images may be broken for the time being.</b></p>
+      <p>Just a Discord server I spend way too much time polishing + managing (I say this lovingly. The people in there make it worth going this hard for). It's designed with OC/worldbuilding/projectdev in mind, so there's channels for people's projects, monthly events/prompts, etc. The site isn't updated, but the server is still running, so come hang out with us!</p>
 
+      <h3>Fan characters and projects</h3>
+      <h4><a href="bravelymarle">Bravely Marle</a></h4>
+      <p>
+        My <a href="https://en.wikipedia.org/wiki/Bravely_Default">Bravely Default</a> fan OCs. They exist in the world of Luxendarc, but one that's a little more developed with concepts by my friend <a href="https://twitter.com/chuunicherry" target="_blank">Fio</a>.
+      </p>
+
+      <h3>Other personal works</h3>
+      <h4><a href="https://rakuraikou.itch.io/stardust-trinity-ltd">Stardust Trinity, LTD</a></h4>
+      <p>
+        A quick and dirty kinetic novel that my girlfriend and I put together in about a week for a game jam.
+      </p>
       <h4><a href="cfb/index">Chalk For Bones</a></h4>
       <p>
         It's just a personal writing collection. Poetry, letters, prose... Whatever lols. Any necessary content warnings will be noted on the page itself.
       </p>
-
-      <h4 style="color: #80949c">Mintyverse <span style="font-style: italic; font-size: 0.8em">(currently retired!)</span></h4>
-      <p>What was originally supposed to be a "break" from the heavy worldbuilding of BftB gradually became a bit of a reflection on my adolescence, weirdly enough. It's a really lame story about a giga chuuni birdgirl determined to save the world from its inevitable end. I plan on turning this into a game as well, albeit a much smaller one than BftB. There's also a <a href="https://toyhou.se/charge/characters/folder:1608819" target="_blank">TOYHOU.SE folder</a> for this, but it's disgustingly outdated.</p>
 
     </main>
     <?php include 'footer_content.html'; ?>
