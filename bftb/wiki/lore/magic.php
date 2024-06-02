@@ -34,14 +34,14 @@
       </h2>
       <hr>
       <p>
-        Everything on Luxos is made of "light," a compound and force colloquially referred to as "life force" or "magical energy." Light is not only present in every entity and lifeform, but it also flows in a "pure" state in the atmosphere. All sentient beings can manipulate one type of light through the favor of a <a href="beastlords">Beastlord</a>. This "type" is known as an aspect.
+        Everything on Luxos is made of "light," a compound and force colloquially referred to as "life force" or "magical energy." Light is not only present in every entity and lifeform, but it also flows in a "pure" state in the atmosphere. All sentient beings can manipulate a magical element, known as an "aspect" of light.
       </p>
       <h2>
         Aspects
       </h2>
       <hr>
       <p>
-        Aspects are defined as the specific type of light a <a href="people">person</a> (or other sentient being) can conjure or manipulate. For example, someone with a water aspect is able to transmute pure light into water and control it. This person could also control water that is already present, such as from rivers and oceans. Aspects are obtained from one of the four Beastlords, and each aspect is specific to a certain Beastlord. Generally decided at the moment of birth, the reasons one receives a particular Beastlord's favor are rather arbitrary. The majority of Luxos' population are only able to use one aspect. Certain individuals known as <a href="keepers">keepers</a> are born with special bonds to the Beastlords, and they are able to use up to three depending on the Beastlord that they are linked to.
+        Aspects are defined as the specific type of light a <a href="people">person</a> (or other sentient being) can conjure or manipulate. For example, someone with a water aspect is able to transmute pure light into water and control it. This person could also control water that is already present, such as from rivers and oceans. Each person is born with the potential to manipulate a single aspect, and it cannot be changed.
       </p>
       <p>
         Aspects are powerful and versatile, and society has explored many applications and techniques over time. However, despite its great potential, there is a limit to one's ability to use an aspect: as one uses it, a dangerous waste byproduct called "cael" is collected in the bloodstream where light once flowed. High cael buildup can lead to serious consequences (and ultimately death) if left untreated or unaccounted for.
