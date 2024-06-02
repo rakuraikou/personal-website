@@ -80,7 +80,7 @@
       </h2>
       <hr>
       <p>
-        Loniles was the first ruler of the Cieliso Kingdom, and her descendants have inherited the throne for countless generations. She was a <a href="keepers">keeper</a> for the Beastlord of Tide, and was the one to seal away Fenrir, the Luminescent Devourer. Her legacy is well-honored by the people of Cieliso, and her spirit continues to live on as a Champion—her posthumous title is "Champion Loniles of Tenacity."
+        Loniles was the first ruler of the Cieliso Kingdom, and her descendants have inherited the throne for countless generations. She was the one to seal away Fenrir, the Luminescent Devourer. Her legacy is well-honored by the people of Cieliso, and her spirit continues to live on as a Champion—her posthumous title is "Champion Loniles of Tenacity."
       </p>
       <p>
         In the center of San Ven lies the Church of Loni, one of the largest buildings in the entire kingdom. It is frequented by locals and tourists alike, most of whom offer some small contribution of light to the Champion. In addition to these offerings, a congregation of acolytes devote a greater portion of themselves to Loniles in exchange for her strength and guidance. As a tradition, Cielisono heirs also pact with Loniles shortly before succeeding the throne. The only exception to this pattern is <a href="../character?id=araceli">Araceli</a>, who pacted with her extremely early as a desperate attempt to alleviate her curse. Evidently, it would seem that Loniles is completely unable to communicate with Araceli.

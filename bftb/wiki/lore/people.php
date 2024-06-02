@@ -40,7 +40,7 @@
       </h2>
       <hr>
       <p>
-        Though not formal organizations, there are certain classes of people recognized through particular status or culture. These terms and roles attached to them are considered common knowledge in Luxos, but their reputations vary. Information about keepers and Champions can be found <a href="keepers">here</a>.
+        Though not formal organizations, there are certain classes of people recognized through particular status or culture. These terms and roles attached to them are considered common knowledge in Luxos, but their reputations vary.
       </p>
       <h3>
         Adventurers
@@ -52,7 +52,7 @@
         In recent years, pursuing an adventuring career has become rather popular, and several locales have been shaped by this growing trend. For example, many treasure-hunting adventurers make sure to visit Deep Umisuu's ruins. Because of its proximity to Deep Umisuu's coast, Buragee is a common spot for these adventurers to rest, with many of its amenities designed with them in mind. Sinocrast is an entire island in the middle of the Luxic Sea recognized as a popular checkpoint for those looking to cross the sea. It's since grown into a culinary paradise where well-seasoned adventurers visit to expand their palate.
       </p>
       <p>
-        It's not easy to leave home and travel with such confidence, so most people tend to have some level of respect for adventurers. Popularity scales with strength or accolade -  most "renown" ones were keepers or those with heroic deeds under their belts. That being said, most people don't give them any special treatment unless they're doing business in a town already geared towards adventurers.
+        It's not easy to leave home and travel with such confidence, so most people tend to have some level of respect for adventurers. Popularity scales with strength or accolade -  most "renown" ones being those with particularly heroic deeds under their belts. That being said, most people don't give them any special treatment unless they're doing business in a town already geared towards adventurers.
       </p>
       <h3>
         Pirates
