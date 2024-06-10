@@ -30,10 +30,6 @@
       </h1>
       <hr>
       <h2>
-        Light
-      </h2>
-      <hr>
-      <h2>
         Aspects
       </h2>
       <hr>
