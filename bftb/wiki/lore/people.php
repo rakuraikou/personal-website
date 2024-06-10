@@ -33,7 +33,7 @@
         People in Luxos share the same biological foundations. They are humanoid and bipedal, and may have a pair of horns or a tail. Few possess the physiological features needed to fly or breathe underwater - those fortunate to be born with wings or gills require extensive physical training to utilize them without magic. Generally, these features are inherited, but ability or aptitude to make convenient use of them is not.
       </p>
       <p>
-        Like all other things, people are composed of "light." Also known as "life force" or "magical energy," light is constantly flowing, occassionally pooling in certain places. In the context of people, it is entwined with their molecular structure, and commands life, growth and <a href="magic">magic</a>. As long as light is present, a great number of both physical and magical attacks can be endured before serious or lasting conditions occur. The recovery of injuries is carried out by the light within one's body drawing in untethered light that permeates the atmosphere.
+        Like all other things, people are composed of "light." It is entwined with their molecular structure, and commands life, growth and <a href="magic">magic</a>. As long as light is present, a great number of both physical and magical attacks can be endured before serious or lasting conditions occur. The recovery of injuries is carried out by the light within one's body drawing in untethered light that permeates the atmosphere.
       </p>
       <h2>
         Factions

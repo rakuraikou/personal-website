@@ -34,7 +34,7 @@
       <hr>
       <ul>
         <li>
-          Light (WIP)
+          <a href="light">Light</a>
         </li>
         <li>
           <a href="magic">Magic</a>

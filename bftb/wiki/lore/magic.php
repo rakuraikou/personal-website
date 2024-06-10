@@ -33,15 +33,15 @@
         Light
       </h2>
       <hr>
-      <p>
-        Everything on Luxos is made of "light," a compound and force colloquially referred to as "life force" or "magical energy." Light is not only present in every entity and lifeform, but it also flows in a "pure" state in the atmosphere. All sentient beings can manipulate a magical element, known as an "aspect" of light.
-      </p>
       <h2>
         Aspects
       </h2>
       <hr>
       <p>
-        Aspects are defined as the specific type of light a <a href="people">person</a> (or other sentient being) can conjure or manipulate. For example, someone with a water aspect is able to transmute pure light into water and control it. This person could also control water that is already present, such as from rivers and oceans. Each person is born with the potential to manipulate a single aspect, and it cannot be changed.
+        An "aspect" is defined as a specific type of light, manifesting as a single (magical) element. All sentient beings, including <a href="people">people</a>, can conjure or manipulate an aspect. For example, someone with a water aspect is able to transmute pure light into water and control it at will. This person could also control water that is already present, such as from nearby rivers and oceans. Each person is born with the potential to manipulate a single aspect, and it cannot be changed.
+      </p>
+      <p>
+        There are nine aspects of light present in Luxos—earth, fire, water, wind, thunder, ice, bloom, radiance, and shadow. What aspect a person has can only be determined when it is casted, and generally cannot be "read" through other means.
       </p>
       <p>
         Aspects are powerful and versatile, and society has explored many applications and techniques over time. However, despite its great potential, there is a limit to one's ability to use an aspect: as one uses it, a dangerous waste byproduct called "cael" is collected in the bloodstream where light once flowed. High cael buildup can lead to serious consequences (and ultimately death) if left untreated or unaccounted for.
