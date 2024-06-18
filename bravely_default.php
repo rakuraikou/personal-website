@@ -110,6 +110,67 @@
         <p>
           (more to come on this ... i still have a lot more to talk about)
         </p>
+        <h4>Narrative</h4>
+        <p>
+          Bravely Default's story begins with Tiz Arrior, whose village (Norende) is swallowed up by a giant chasm in the opening cutscene. Though he's told to not hold out hope for any other survivors, Tiz immediately runs over to his old home to do something, *anything*. There, he meets Agnes, a vestal to the Wind Crystal (basically...an acolyte to a conduit of natural magic) who is visiting the ruined village. The two find hope within each other and set off to find answers and close the chasm. Soon after they begin, they're joined by Ringabel (a flirty amnesiac with a journal that tells future events, rather than past events) and Edea Lee (defector of the Eternian Forces, an organization that is seeking to capture Agnes). The four work together to find the answers to their own personal questions, awaken the four Crystals, and save Luxendarc from ruin.
+        </p>
+        <p>
+          Bravely Default's story is... incredibly dense and detailed, but also incredibly well-told and utilizes <i>every</i> aspect of the game. Yes, it tells its stories in dramatic cutscenes and strings of textboxes. But its storytelling is further enhanced through its visuals, soundtrack, and lore.
+        </p>
+        <details>
+          <summary>
+          <u>MAJOR SPOILERS AHEAD</u> - Click here to open text
+          </summary>
+          <p>
+            ... Except they don't actually save Luxendarc—at least... not at first. It turns out that Agnes' cryst-fairy companion, Airy, was an evil plant. She secretly served the big bad (Ouroboros), and in awakening the Crystals again (and again (and again (and again))), the party has cleared a neat and tidy path for Ouroboros to cross through various worlds and consume them. Oopsies! If only someone warned us about that.
+          </p>
+          <p>
+            The beautiful part is we <i>were</i> warned. By the exposition vampire and the shit-mouthed sage. Sorry. I like Bravely Default's characters, I'm just being flippant. Bravely Default does warn its players of danger in more subtle and interesting ways. Everyone knows about Airy's wing patterns shifting with each "loop"—the patterns resembling a number counting down to 0. 
+          </p>
+          <p>
+            That's not all, though. A friend pointed out an interesting detail in Chapter 2's dialogue. The party met with Olivia Oblige, the Water Crystal's vestal, in a secret location. Olivia tells Agnes that the vestal of fire has been killed, and Airy exclaims:
+          </p>
+          <p>
+            "No! Then that means you two are the only ones still able to awaken the crystals!"
+          </p>
+          <p>
+            Which is something that adds up perfectly fine with the player. Yep, vestals awaken crystals to save the world and keep the natural order, that's their job, and that's what we've been doing and what we need to keep doing. Except Olivia replies:
+          </p>
+          <p>
+            "Awaken...? What does she mean? And what...what is she?"
+          </p>
+          <p>
+            A single line of dialogue that's soon glazed over and "forgotten" by Airy's exclamation ("I'm not a monster. I'm a cryst-fairy!") and Agnes' explanation ("We must awaken all four crystals to dispel the evil shadow spreading over the land"). And then Olivia shrugs and is like "wow Agnes you've really grown!" and... that's that. Olivia doesn't know what a cryst-fairy is. She doesn't know what "awakening" a crystal means or does, or why it needs to be done. And she's supposed to be at the same "rank" as Agnes—why do they not know the same things? It's so quick, and so easy to miss that I missed it <i>twice.</i> If my friend hadn't pointed it out, I probably would've missed it again. And that's the beauty of Bravely Default's narratives. Its storytelling is found in every layer of subtlety and every aspect of the game. Yes, Bravely Default will slam you over the head with the Story Hammer(TM), but it sneaks these little details in that really sell the twists. 
+          </p>
+          <p>
+            So much of Bravely Default's story is also told through its music. During my second playthrough, I'd often stop after entering each town and carefully listen to the composition. Caldisla's slow and familiar fanfare (which includes harmonic/rhythmic callbacks to Bravely Default's main theme), Ancheim's theme wrapped around the perfect ticking of a clock, Hartschild's marching rhythm that devolves into a chaotic gatling of strings, Eternia's delicate twinkles that lead into a bright woodwind melody (an instrument often paired with Tiz his thematic associations: hope and clarity). Revo's careful placement of instrumental/melodic motifs tell Bravely's story for itself. I can't tell you how many times I've listened to Bravely Default's OST in order and felt like the story was playing out before me.
+          </p>
+          <p>
+            The environments are no less careful in detail. In Eternia, vein-like cables are sprawled along the city's infrastructure. When Tiz questions what they're for, Edea explains that they siphon energy from the Earth Crystal to amplify white (restorative) magic. Of course, Edea knows this because she literally grew up here and her mom (Mahzer) has always benefitted from Eternian healthcare. We learn pieces of Edea through her knowledge of this lore, and we learn about her priorities and conflict of interests when she realizes what that means with respect to helping Agnes awaken the crystals.
+          </p>
+          <p>
+            It was actually Edea's father (Braev) who pushed forward the developments to healthcare—he did so because he loved Mazher. Once a cleric for the Crystal Orthodoxy, he aligned himself with anticrystalism in order to gain control of the Earth Crystal's power to save the love of his life. "Have the courage to disobey." Braev literally carved his own right and wrong, ripping himself from his upbringing in order to do what he felt was the right thing to do. Sounds familiar? His story is a "completed" parallel version of Edea's.
+          </p>
+        </details>
+        <p>
+          Everything ties together so nicely in Bravely Default's narrative. Though the world leaves some questions (helloooo Bravely Second), the narrative of the game itself feels complete and whole. Bravely Default is more than just a world full of meaningful lore, it's a story full of meaningful themes and explorations.
+        </p>
+        <p>
+          <i>(I have a lot more to say here, and honestly I need to proofread what's already said pretty hard. But I just wanted to upload this piece because I didn't want to leave this page blank for so long!)</i>
+        </p>
+        <h4>Personal Experience</h4>
+        <p>
+          I'll be honest, I don't remember the first time I played Bravely Default. I don't even remember how I got my hands on the game. The same friend from before told me a really touching story of how he learned about the game and received it as a holiday gift... Kinda makes me wish I remembered my "origin story" LOL... Unfortunately it's locked away in the black box of memories from this period of my life. Maybe one day I'll remember, and I can update this page.
+        </p>
+        <details>
+          <summary><u>MAJOR PLOT SPOILERS AHEAD - Click here to open text</u></summary>
+          <p>
+            Anyway, this also means I have no idea what my initial reactions were to this game. I would check my journals and sketchbooks from this period, but a lot of them were lost due to a flood and I haven't had the chance to check if there's anything left to glean. All I know is I *really* liked this game. Every time I think about it, I get this really strong emotional reaction—even if I don't fully understand why. I did end up replaying the game in college and it felt nice to go through the story. Bravely Default is ridiculously fun to play. The game provided me with so many toys to mess around with, and I never grew bored. Yes, even through the second half of the game that's so dreaded and dogged on by fans. I think part of the reason why I still enjoyed the game even when it got "repetitive" was because there was still something new for me. Learning more about the asterisk bearers' lives across different timelines helped me gain a stronger understanding of their character and the world around them. The world of Luxendarc was a fun one to explore—there is more than meets the eye!
+          </p>
+        </details>
+        <p>
+          Currently, I am doing a third playthrough (technically fourth, if you count the separate playthrough that I'm streaming to some friends) in order to 100% D's journal. Did you know there are some enemies that can only be encountered in earlier chapters of the game? I can't believe Bravely did that. Well, any excuse I can take to replay it all over again...
+        </p>
       </div>
       <div id="bsel" class="tab-content">
         ... i'm workin on it
