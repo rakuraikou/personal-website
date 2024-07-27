@@ -34,7 +34,7 @@
             <img src="res/raku_ango.png" style="float: right; max-width: 30%" alt="raku, my sona/mascot">
           </a>
           <p>
-            23 year old asian american lesbian demon thing riding the pipe dream of developing a meaningful video game someday. No preference in pronouns, but these days most people use she/her for me. I have a wonderful girlfriend who does not use social media so I can't link anything... but I promise she exists lol.
+            24 year old asian american lesbian demon thing riding the pipe dream of developing a meaningful video game someday. No preference in pronouns, but these days most people use she/her for me. I have a wonderful girlfriend who does not use social media so I can't link anything... but I promise she exists lol.
           </p>
           <p>
             I REALLY love collecting <a href="figurines">blind box figurines</a> and <a href="controllers">video game controllers</a>. My favorite video game genre is "modern JRPG that's clearly trying to appeal to the classic/golden-age fans," so a lot of my top games (as well as the inspiration for my primary worldbuilding project) will reflect this weird niche.
@@ -65,7 +65,7 @@
               <li>Splatoon 3</li>
               <li>Taiko no Tatsujin</li>
               <li>Tetris 99</li>
-              <li>👑 The Legend of Zelda: Tears of the Kingdom</li>
+              <li>👑 The Legend of Zelda: BOTW/TOTK</li>
             </ul>
           </div>
         </div>
