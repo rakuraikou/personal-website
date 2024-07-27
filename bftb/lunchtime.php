@@ -46,7 +46,7 @@
         <div>
           <h3>Raiden</h3>
           <p>
-            A friendly amnesiac who was brought into Castle Cieliso by the Rey. Raiden spent her "new life" with Araceli, mostly serving as her attendant (in official terms, her "shadow"). She's not totally oblivious to the concept of romance, but seems to have no idea of Araceli's feelings for her. If asked, she wouldn't be opposed to dating Araceli - actually, she'd be quite eager! Her only condition is that she'd like to resign from her position first, just to keep things professional (though, their lives and interactions would likely remain unchanged).
+            A friendly amnesiac who was brought into Castle Cieliso by the Rey. Raiden spent her "new life" with Araceli, mostly serving as her attendant (in official terms, her "shadow"). She's not totally oblivious to the concept of romance, and has some vague idea of Araceli's feelings towards her, but she doesn't really have any desire to act on this hunch. If asked, she wouldn't be opposed to dating Araceli - actually, she'd be quite eager! Her only condition is that she'd like to resign from her position first, just to keep things professional (though, their lives and interactions would likely remain unchanged).
           </p>
           <p>
             Raiden likes everything about Araceli, which is saying a lot, because she more or less knows everything about her. She would say that her favorite thing about Araceli is how strong she is.
