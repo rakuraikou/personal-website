@@ -55,7 +55,7 @@
               </ul>
             </li>
             <li>
-              <a href="junkbox">Junkbox</a>
+              <a href="junkbox/index">Junkbox</a>
               <ul>
                 <li>
                   <a href="controllers">Controller Collection</a>
@@ -68,6 +68,9 @@
                 </li>
                 <li>
                   <a href="bravely_default">Bravely Default</a>
+                </li>
+                <li>
+                  <a href="octopathtraveler2">Octopath Traveler 2</a>
                 </li>
               </ul>
             </li>
@@ -123,8 +126,6 @@
               <a href="bftb/wiki/character">Characters</a>
             </li>
           </ul>
-          <!--<h5><a href="bftb/char/index.html">Characters</a></h5>
-          <h5>Story</h5> -->
         </span>
         
         <span>
@@ -167,9 +168,6 @@
             </li>
             <li>
               <a href="dsa/events">Events</a>
-            </li>
-            <li>
-              <a href="dsa/trophies">Trophies</a>
             </li>
           </ul>
         </span>
