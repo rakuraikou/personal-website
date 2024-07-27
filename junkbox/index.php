@@ -18,7 +18,7 @@
   </head>
 
   <body>
-    <?php include '/header_content.html'; ?>
+    <?php include '../header_content.html'; ?>
     <main>
       <h2>Party time!!!</h2>
       <h3>Self-indulgent pages and media shrines</h3>
@@ -130,6 +130,6 @@
         </li>
       </ul>
     </main>
-    <?php include '/footer_content.html'; ?>
+    <?php include '../footer_content.html'; ?>
   </body>
 </html>
