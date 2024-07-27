@@ -81,7 +81,7 @@
           <img src="res/controllers/afterglow.jpg" height="130" alt="Afterglow Wireless Deluxe Controller for Switch">
         </a>
         <span style="margin-left: 10px">
-          I got this while I was at the mall with my girlfriend during our first meetup. I love it, I'm even willing to forgive the lack of rumble support, but the charger port is positioned in a sort of tunnel, so it's hard to find a charger that can fit. <a href="https://cdn.discordapp.com/attachments/1005534288609022013/1054635956042465340/IMG_1922.gif" target="_blank">Here's</a> a gif of the controller cycling colors.
+          I got this while I was at the mall with my girlfriend during our first meetup. I love it, I'm even willing to forgive the lack of rumble support, but the charger port is positioned in a sort of tunnel, so it's hard to find a charger that can fit. The lights change color, but I don't have a good gif handy atm!
         </span>
       </div>
 
