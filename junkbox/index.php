@@ -18,7 +18,7 @@
   </head>
 
   <body>
-    <?php include 'header_content.html'; ?>
+    <?php include '/header_content.html'; ?>
     <main>
       <h2>Party time!!!</h2>
       <h3>Self-indulgent pages and media shrines</h3>
@@ -45,21 +45,21 @@
         Let me know if you threw my buttons on your site, I'll link back [:
       </p>
       <p>
-        <img src="res/buttons/btn_rkrk.png" alt="rakuraikou site button">
-        <img src="res/buttons/btn_rkrk_anim.gif" alt="animated rakuraikou site button">
+        <img src="/res/buttons/btn_rkrk.png" alt="rakuraikou site button">
+        <img src="/res/buttons/btn_rkrk_anim.gif" alt="animated rakuraikou site button">
       </p>
       <p>
-        <img src="res/buttons/btn_bftb.png" alt="bolt from the blue site button">
-        <img src="res/buttons/btn_bftb_anim.gif" alt="animated bolt from the blue site button">
+        <img src="/res/buttons/btn_bftb.png" alt="bolt from the blue site button">
+        <img src="/res/buttons/btn_bftb_anim.gif" alt="animated bolt from the blue site button">
       </p>
       <p>
         ...And if for some reason you want my old buttons, here you go:
       </p>
       <p>
-        <img src="res/buttons/btn_rkrk_old.png" alt="rakuraikou old site button">
-        <img src="res/buttons/btn_rkrk_anim_old.gif" alt="rakuraikou old site button">
-        <img src="res/buttons/btn_bftb_old.png" alt="bolt from the blue old site button">
-        <img src="res/buttons/btn_bftb_anim_old.gif" alt="animated bolt from the blue old site button">
+        <img src="/res/buttons/btn_rkrk_old.png" alt="rakuraikou old site button">
+        <img src="/res/buttons/btn_rkrk_anim_old.gif" alt="rakuraikou old site button">
+        <img src="/res/buttons/btn_bftb_old.png" alt="bolt from the blue old site button">
+        <img src="/res/buttons/btn_bftb_anim_old.gif" alt="animated bolt from the blue old site button">
       </p>
       <h4>Other people's stuff!</h4>
       <p>
@@ -67,54 +67,54 @@
       </p>
       <p class="btn-link">
         <a href="https://guymeats.neocities.org/" style="text-decoration:none">
-          <img src="res/buttons/btn_guymeats.png" alt="guymeats site button">
+          <img src="/res/buttons/btn_guymeats.png" alt="guymeats site button">
         </a>
         <a href="https://squidknees.neocities.org/" style="text-decoration:none">
-          <img src="res/buttons/btn_squidknees.png" alt="squidknees site button">
+          <img src="/res/buttons/btn_squidknees.png" alt="squidknees site button">
         </a>
         <a href="https://squidknees.neocities.org/empyria/" style="text-decoration:none">
-          <img src="res/buttons/btn_empyria.png" alt="empyria site button">
+          <img src="/res/buttons/btn_empyria.png" alt="empyria site button">
         </a>
         <a href="https://magicartthings.neocities.org/" style="text-decoration:none">
-          <img src="res/buttons/btn_magic.png" alt="magic site button">
+          <img src="/res/buttons/btn_magic.png" alt="magic site button">
         </a>
         <a href="https://limegreen.neocities.org/" style="text-decoration:none">
-          <img src="res/buttons/btn_janisite.png" alt="janisite site button">
+          <img src="/res/buttons/btn_janisite.png" alt="janisite site button">
         </a>
         <a href="https://limegreen.neocities.org/yemaja/" style="text-decoration:none">
-          <img src="res/buttons/btn_yemaja.png" alt="yemaja site button">
+          <img src="/res/buttons/btn_yemaja.png" alt="yemaja site button">
         </a>
         <a href="https://synoicus.neocities.org/" style="text-decoration:none">
-          <img src="res/buttons/btn_synoicus.png" alt="synoicus site button">
+          <img src="/res/buttons/btn_synoicus.png" alt="synoicus site button">
         </a>
         <a href="https://desperados.neocities.org/" style="text-decoration:none">
-          <img src="res/buttons/btn_rads.gif" alt="desperados site button">
+          <img src="/res/buttons/btn_rads.gif" alt="desperados site button">
         </a>
         <a href="https://helv.neocities.org/" style="text-decoration:none">
-          <img src="res/buttons/btn_helv.png" alt="yuyuko's field site button">
+          <img src="/res/buttons/btn_helv.png" alt="yuyuko's field site button">
         </a>
         <a href="https://zelkova.neocities.org/" style="text-decoration:none">
-          <img src="res/buttons/btn_zelkova.png" alt="zelkova site button">
+          <img src="/res/buttons/btn_zelkova.png" alt="zelkova site button">
         </a>
         <a href="https://hikatamika.com" style="text-decoration: none">
-          <img src="res/buttons/btn_hikatamika.png" alt="hikatamika site button">
+          <img src="/res/buttons/btn_hikatamika.png" alt="hikatamika site button">
         </a>
         <a href="https://seaslug.party/" style="text-decoration: none">
-          <img src="res/buttons/btn_nightbug.png" alt="nightbug site button">
+          <img src="/res/buttons/btn_nightbug.png" alt="nightbug site button">
         </a>
       </p>
       <p class="btn-link">
         <a href="https://terrortooth.carrd.co/" style="text-decoration:none">
-          <img src="res/buttons/spsjs/kinsey.png" alt="terrortooth sprite button" onmouseover="spsjsGif(this)" onmouseout="spsjsPng(this)">
+          <img src="/res/buttons/spsjs/kinsey.png" alt="terrortooth sprite button" onmouseover="spsjsGif(this)" onmouseout="spsjsPng(this)">
         </a>
         <a href="https://milkflys.tumblr.com/" style="text-decoration:none">
-          <img src="res/buttons/spsjs/cele.png" alt="milkflys sprite button" onmouseover="spsjsGif(this)" onmouseout="spsjsPng(this)">
+          <img src="/res/buttons/spsjs/cele.png" alt="milkflys sprite button" onmouseover="spsjsGif(this)" onmouseout="spsjsPng(this)">
         </a>
         <a href="https://epoxyoxen.carrd.co/" style="text-decoration:none">
-          <img src="res/buttons/spsjs/west.png" alt="epoxyoxen sprite button" onmouseover="spsjsGif(this)" onmouseout="spsjsPng(this)">
+          <img src="/res/buttons/spsjs/west.png" alt="epoxyoxen sprite button" onmouseover="spsjsGif(this)" onmouseout="spsjsPng(this)">
         </a>
         <a href="https://seraphore.tumblr.com/" style="text-decoration:none">
-          <img src="res/buttons/spsjs/xirsys.png" alt="seraphore sprite button" onmouseover="spsjsGif(this)" onmouseout="spsjsPng(this)">
+          <img src="/res/buttons/spsjs/xirsys.png" alt="seraphore sprite button" onmouseover="spsjsGif(this)" onmouseout="spsjsPng(this)">
         </a>
       </p>
       <h3>Credits and Acknowledgements</h3>
@@ -130,6 +130,6 @@
         </li>
       </ul>
     </main>
-    <?php include 'footer_content.html'; ?>
+    <?php include '/footer_content.html'; ?>
   </body>
 </html>

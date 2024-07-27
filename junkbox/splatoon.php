@@ -9,7 +9,7 @@
     <meta content="the thunder guy or whatever" property="og:site_name">
     <meta content="THUNDERSWAG!!! - Splatoon" property="og:title">
     <meta content="LEN's Splatoon 3 page!" property="og:description">
-    <meta content='https://rkrk.dev/res/splatoon/dapple_dualies_nouveau.png' property='og:image'>
+    <meta content='https://rkrk.dev//res/splatoon/dapple_dualies_nouveau.png' property='og:image'>
     <meta name="theme-color" content="#ffe524">
 
 <!-- css sheet and javascript-->
@@ -19,7 +19,7 @@
   </head>
 
   <body>
-    <?php include 'header_content.html'; ?>
+    <?php include '/header_content.html'; ?>
     <main>
       <h2>SPLATOON!!!!!!!</h2>
       <h3>I'M TRYING MY BEST...</h3>
@@ -33,7 +33,7 @@
         These are all slayer and slayer-adjacent kits/playstyles. When I'm looking to play a more supportive role for my team, I play the vanilla Dapple Dualies. Sloshing Machine also has some solid support potential, but again I haven't really used it since the update that killed it lol.
       </p>
 
-      <div class="text-center" style="height:200px;background-image:url(res/splatoon/splashtag.png);background-repeat:no-repeat;background-size:contain;background-position:center;">
+      <div class="text-center" style="height:200px;background-image:url(/res/splatoon/splashtag.png);background-repeat:no-repeat;background-size:contain;background-position:center;">
       </div>
 
 <!-- summary -->
@@ -63,7 +63,7 @@
 <!-- x rank stats -->
         <div class="xrank">
           <span>
-            <img src="res/splatoon/sz.png" width="64" alt="splat zones">
+            <img src="/res/splatoon/sz.png" width="64" alt="splat zones">
             <p style="margin-bottom:0px; margin-top:0px">
             19608
             </p>
@@ -79,7 +79,7 @@
           </span>
 
           <span>
-          <img src="res/splatoon/tc.png" width="64" alt="tower control">
+          <img src="/res/splatoon/tc.png" width="64" alt="tower control">
             <p style="margin-bottom:0px; margin-top:0px">
             14256
             </p>
@@ -95,7 +95,7 @@
           </span>
 
           <span>
-            <img src="res/splatoon/rm.png" width="64" alt="rainmaker">
+            <img src="/res/splatoon/rm.png" width="64" alt="rainmaker">
             <p style="margin-bottom:0px; margin-top:0px">
             26758
             </p>
@@ -111,7 +111,7 @@
           </span>
 
           <span>
-            <img src="res/splatoon/cb.png" width="64" alt="clam blitz">
+            <img src="/res/splatoon/cb.png" width="64" alt="clam blitz">
             <p style="margin-bottom:0px; margin-top:0px">
             -
             </p>
@@ -133,23 +133,23 @@
 
 <!-- .52 gal -->
         <div class="grid-item" style="background-color:#3A414A; border-radius: 5px; border: 3px #292E35 solid; margin-top:10px">
-          <img src="res/splatoon/52_gal.png" height="128" alt=".52 gal">
+          <img src="/res/splatoon/52_gal.png" height="128" alt=".52 gal">
           <p style="margin-top:0px; margin-bottom:0px">⭐⭐⭐⭐</p>
           <div class="grid-box" style="margin-left:5px;margin-right:5px">
             <div class="grid-item">
-            <img src="res/splatoon/takoroka_visor.png" width="50" alt="takoroka visor">
+            <img src="/res/splatoon/takoroka_visor.png" width="50" alt="takoroka visor">
             <br>
-            <img src="res/splatoon/lde.png" width="40" alt="last ditch effort">
+            <img src="/res/splatoon/lde.png" width="40" alt="last ditch effort">
             </div>
             <div class="grid-item">
-            <img src="res/splatoon/matcha_down_jacket.png" width="50" alt="matcha down jacket">
+            <img src="/res/splatoon/matcha_down_jacket.png" width="50" alt="matcha down jacket">
             <br>
-            <img src="res/splatoon/ns.png" width="40" alt="ninja squid">
+            <img src="/res/splatoon/ns.png" width="40" alt="ninja squid">
             </div>
             <div class="grid-item">
-            <img src="res/splatoon/red_and_black_squidkid_iv.png" width="50" alt="red and black squidkid IV">
+            <img src="/res/splatoon/red_and_black_squidkid_iv.png" width="50" alt="red and black squidkid IV">
             <br>
-            <img src="res/splatoon/sj.png" width="40" alt="stealth jump">
+            <img src="/res/splatoon/sj.png" width="40" alt="stealth jump">
             </div>
           </div>
           <h5>Filthy front-liner and not sorry about it</h5>
@@ -160,23 +160,23 @@
 
 <!-- dapple dualies nouveau -->
         <div class="grid-item" style="background-color:#3A414A; border-radius: 5px; border: 3px #292E35 solid; margin-top:10px">
-          <img src="res/splatoon/dapple_dualies_nouveau.png" height="128" alt="dapple dualies nouveau">
+          <img src="/res/splatoon/dapple_dualies_nouveau.png" height="128" alt="dapple dualies nouveau">
           <p style="margin-top:0px; margin-bottom:0px">⭐⭐⭐⭐</p>
           <div class="grid-box" style="margin-left:5px;margin-right:5px">
             <div class="grid-item">
-            <img src="res/splatoon/boss_floss.png" width="50" alt="boss floss">
+            <img src="/res/splatoon/boss_floss.png" width="50" alt="boss floss">
             <br>
-            <img src="res/splatoon/comeback.png" width="40" alt="comeback">
+            <img src="/res/splatoon/comeback.png" width="40" alt="comeback">
             </div>
             <div class="grid-item">
-            <img src="res/splatoon/schoolyard_scrap_jack.png" width="50" alt="schoolyard scrap jack">
+            <img src="/res/splatoon/schoolyard_scrap_jack.png" width="50" alt="schoolyard scrap jack">
             <br>
-            <img src="res/splatoon/haunt.png" width="40" alt="haunt">
+            <img src="/res/splatoon/haunt.png" width="40" alt="haunt">
             </div>
             <div class="grid-item">
-            <img src="res/splatoon/blue_shrimpsiders.png" width="50" alt="blue shrimpsiders">
+            <img src="/res/splatoon/blue_shrimpsiders.png" width="50" alt="blue shrimpsiders">
             <br>
-            <img src="res/splatoon/sj.png" width="40" alt="stealth jump">
+            <img src="/res/splatoon/sj.png" width="40" alt="stealth jump">
             </div>
           </div>
           <h5>Dapples nouveau are good in meta?</h5>
@@ -187,23 +187,23 @@
 
 <!-- sloshing machine -->
         <div class="grid-item" style="background-color:#3A414A; border-radius: 5px; border: 3px #292E35 solid; margin-top:10px;">
-          <img src="res/splatoon/sloshing_machine.png" height="128" alt="sloshing machine">
+          <img src="/res/splatoon/sloshing_machine.png" height="128" alt="sloshing machine">
           <p style="margin-top:0px; margin-bottom:0px">⭐⭐⭐⭐</p>
           <div class="grid-box" style="margin-left:5px;margin-right:5px">
             <div class="grid-item">
-            <img src="res/splatoon/studio_headphones.png" width="50" alt="studio headphones">
+            <img src="/res/splatoon/studio_headphones.png" width="50" alt="studio headphones">
             <br>
-            <img src="res/splatoon/lde.png" width="40" alt="last ditch effort">
+            <img src="/res/splatoon/lde.png" width="40" alt="last ditch effort">
             </div>
             <div class="grid-item">
-            <img src="res/splatoon/airflow_and_hustle_jacket.png" width="50" alt="airflow and hustle jacket">
+            <img src="/res/splatoon/airflow_and_hustle_jacket.png" width="50" alt="airflow and hustle jacket">
             <br>
-            <img src="res/splatoon/ns.png" width="40" alt="ninja squid">
+            <img src="/res/splatoon/ns.png" width="40" alt="ninja squid">
             </div>
             <div class="grid-item">
-            <img src="res/splatoon/zebrafish_hi_tops.png" width="50" alt="zebrafish hi tops">
+            <img src="/res/splatoon/zebrafish_hi_tops.png" width="50" alt="zebrafish hi tops">
             <br>
-            <img src="res/splatoon/ssu.png" width="40" alt="swim speed up">
+            <img src="/res/splatoon/ssu.png" width="40" alt="swim speed up">
             </div>
           </div>
           <h5>Post-1.2.0 certified girl help moment</h5>
@@ -215,6 +215,6 @@
       </div>
 
     </main>
-    <?php include 'footer_content.html'; ?>
+    <?php include '/footer_content.html'; ?>
   </body>
 </html>

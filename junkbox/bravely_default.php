@@ -19,26 +19,26 @@
   </head>
 
   <body>
-    <?php include 'header_content.html'; ?>
+    <?php include '/header_content.html'; ?>
     <main>
       <h2 class="tab-link" onClick="openTab(event, 'home')">Bravely Default Web Shrine!!!</h2>
       <p>
         This is my favorite game / game series ever. Sorry if I lose the hash tag subscribers (not actually sorry). Click on any of the game covers to open up my brain.
       </p>
       <div class="tab-row">
-        <img src="res/bravely/bravely_default_sq.png" class="tab-link bd-tab-img" onClick="openTab(event, 'bdff')" alt="Bravely Default: Flying Fairy review tab">
-        <img src="res/bravely/bravely_second_sq.png" class="tab-link bd-tab-img" onClick="openTab(event, 'bsel')" alt="Bravely Second: End Layer review tab">
-        <img src="res/bravely/bravely_default_ii_sq.png" class="tab-link bd-tab-img" onClick="openTab(event, 'bdii')" alt="Bravely Default II review tab">
+        <img src="/res/bravely/bravely_default_sq.png" class="tab-link bd-tab-img" onClick="openTab(event, 'bdff')" alt="Bravely Default: Flying Fairy review tab">
+        <img src="/res/bravely/bravely_second_sq.png" class="tab-link bd-tab-img" onClick="openTab(event, 'bsel')" alt="Bravely Second: End Layer review tab">
+        <img src="/res/bravely/bravely_default_ii_sq.png" class="tab-link bd-tab-img" onClick="openTab(event, 'bdii')" alt="Bravely Default II review tab">
       </div>
       <div id="home" class="tab-content active" style="text-align: center; margin: 10px">
         <a href="https://twitter.com/fullbrave/status/1596596998207320064" target="_blank">
-          <img src="res/bravely/greatgames.png" style="max-width: 500px; width: 100%" alt="Tweet about how the Bravely series is both perfect but also deeply flawed">
+          <img src="/res/bravely/greatgames.png" style="max-width: 500px; width: 100%" alt="Tweet about how the Bravely series is both perfect but also deeply flawed">
         </a>
       </div>
       <div id="bdff" class="tab-content">
         <h3>Bravely Default: Flying Fairy</h3>
         <p style="color:#5f98b9">
-          <img src="res/bravely/bravely_cover.png" style="float: right; width: 30%; margin:10px" alt="Bravely Default cover art">
+          <img src="/res/bravely/bravely_cover.png" style="float: right; width: 30%; margin:10px" alt="Bravely Default cover art">
           <i>
             Bravely Default, known in Japan as Bravely Default: Flying Fairy, is a role-playing video game developed by Silicon Studio for the Nintendo 3DS handheld console. Bravely Default was originally released in 2012 and later rereleased as an expanded edition in 2013 subtitled For the Sequel in Japan. For the Sequel was later released in Europe, Australia, and North America in 2014 simply titled as Bravely Default. This expanded edition used the subtitle Where The Fairy Flies in territories outside of Japan. Square Enix published the game in Japan, while Nintendo handled publishing duties overseas. The gameplay uses a turn-based battle system and job system, in addition to incorporating options to combine job abilities and adjust battle speed and random encounter rates.
           </i>
@@ -61,13 +61,13 @@
           Every Bravely character is endearing to me - I could go on and on about any of the protagonists or antagonists/asterisk holders. My favorite protagonist is Edea Lee, and my favorite asterisk holder is The Jackal.
         </p>
         <p>
-          <img src="res/bravely/edea_lee.png" style="float: left; width: 40%; margin:10px" alt="Edea Lee from Bravely Default">
+          <img src="/res/bravely/edea_lee.png" style="float: left; width: 40%; margin:10px" alt="Edea Lee from Bravely Default">
           Edea Lee is a tomboy with a temper. Driven by heroism and morality, Edea wants to do what she believes is just and right. This presents itself as the statement/question she repeats throughout the game - to be "black or white." Her father, Braev Lee, is the Duchy of Eternia, leader of the Eternian forces. Trained under a powerful swordsmaster, Edea was raised to respect and honor both her allies and her enemies. Quickly rising in power, Edea took on a mission to capture the Wind Vestal in Caldisla to win her father's pride and respect.
           <br>
            After watching her commanding officer, Ominas Crowe, set Caldislan homes ablaze on his search for the Wind Vestal, Edea has an alarming change of heart. She takes a leap of faith and defects from the Eternian Sky Knights, believing that anyone who would harm innocent lives could not possibly be of good morals ("white"). Though her resolve is strengthened as she witnesses more and more Eternian Knights commit needlessly cruel acts in pursuit of their goals, Edea's later adversaries prove that perhaps morality is a bit more "gray" than she thought...
         </p>
         <p>
-          <img src="res/bravely/the_jackal.png" style="float: right; width: 20%; margin:10px" alt="The Jackal from Bravely Default">
+          <img src="/res/bravely/the_jackal.png" style="float: right; width: 20%; margin:10px" alt="The Jackal from Bravely Default">
           The Jackal is the holder of the Thief asterisk and the leader of a band of countless cold-hearted thieves. He and his bandits were hired by Khamer & Profiteur Merchantry to attack any Ancheim citizens that try to approach the nearby oasis. The Jackal is an extremely irritable and violent boy due to a harsh upbringing - he strongly believes that there are only two types of people in the world: those who take and those who lose. Though he guards an oasis, he often reports his throat feeling painful or sore from thirst. This parched feeling a chronic and traumagenic symptom stemming from being abandoned as a child and suffering from dehydration as he wandered the desert. The Jackal is easily manipulated, and will swing wherever he feels benefits him the best.
           <br>
           After the events of Bravely Default: Where the Fairy Flies, The Jackal is moved by Edea's statements about doing the right thing and has reformed him and his group. Now, instead of cold-hearted bandit work, his band serves as vigilante for the desert, helping those who are vulnerable. He also goes out of his way to raise orphans with "good" thieving morals - telling them to ONLY steal from rich people, and never from old or weak people.
@@ -178,7 +178,7 @@
       <div id="bdii" class="tab-content">
         <h3>Bravely Default II</h3>
         <p style="color:#5f98b9">
-          <img src="res/bravely/bravely_ii_cover.png" style="float: right; width: 30%; margin:10px" alt="Bravely Default II cover art">
+          <img src="/res/bravely/bravely_ii_cover.png" style="float: right; width: 30%; margin:10px" alt="Bravely Default II cover art">
           <i>
             Bravely Default II is the third main game in the Bravely series, following the original game Bravely Default and its sequel Bravely Second: End Layer. While Second was a direct story continuation from the original, Bravely Default II features a new story and cast of characters. Similar to prior titles, the game plays as a role-playing video game with turn-based battles. The game contains an updated variant of the prior games' "Brave Point" system and use of collecting different "asterisks" to change a character's job class. 
           </i>
@@ -198,20 +198,20 @@
           Dev Team
         </h4>
         <p>
-          <img src="res/bravely/bdii_end.png" style="float: right; width: 40%; margin:10px" alt="Bravely Default II ending card">
+          <img src="/res/bravely/bdii_end.png" style="float: right; width: 40%; margin:10px" alt="Bravely Default II ending card">
           Just like the previous titles, Bravely Default II was produced by Tomoya Asano (and Team Asano) in addition to Masashi Takahashi, who'd also worked with Asano on Octopath Traveler. Later on, the two would also produce Octopath Traveler II together. This time around, Akihiko Yoshida would not take part as an art lead, replaced by Hajime Onuma (another Bravely Default: Where the Fairy Flies artist) and more notably Naoki Ikushima. This is reflected in much of the concept artwork for the game, as it resembles Ikushima's other work with Team Asano's other Nintendo Switch titles (Octopath Traveler, Triangle Strategy, Live A Live, and Octopath Traveler II). Returning as the game's composer was Revo, which was an exciting surprise for many (if not all) Bravely fans. Bravely Default II's writing team would again change significantly from previous titles, with lead writers Yura Kubota and Tomoyoshi Nagai. The former is also known for his work with action RPG Trinity Trigger.
         </p>
         <h4>
           Favorite Characters
         </h4>
-        <p><img src="res/bravely/gloria.png" style="float: left; width: 15%; margin:10px" alt="Gloria Neu Musa from Bravely Default II">
+        <p><img src="/res/bravely/gloria.png" style="float: left; width: 15%; margin:10px" alt="Gloria Neu Musa from Bravely Default II">
           Continuing the pattern of selecting one protagonist and one antagonist/asterisk holder to spare myself, my favorite protagonist would be Gloria Neu Musa (though it's a close one with Adelle Ein), and my favorite antagonist would be Gladys Kelly.
         </p>
         <p>
           My fondness for both of these characters is wickedly self-indulgent. Gloria Neu Musa is STUPIDLY similar to <a href="/bftb/char/araceli.html">one of my own OCs</a>, and it's by sheer coincidence. I had most of her character/lore written before getting super into Bravely Default II (see: Personal Experience), and playing that game was like getting it in the head with a ton of bricks.
         </p>
         <p>
-          Gloria is like a White Girl Wednesday to me. If you don't know what that is, it's a meaningless joke term that I use to refer to female characters that I enjoy who also happen to be caucasian (or appear such). I love failprincesses. I love women with a (self-proclaimed) duty that consumes their entire sense of self and directly affects their self-worth. I like to imagine girls like this snapping. I think Gloria should get to snap more, honestly. I think Bravely Default II should've let her blow up, but I'll get more into that at another point.<img src="res/bravely/gladys.png" style="float: right; width: 20%; margin:10px" alt="Gladys Kelly from Bravely Default II">
+          Gloria is like a White Girl Wednesday to me. If you don't know what that is, it's a meaningless joke term that I use to refer to female characters that I enjoy who also happen to be caucasian (or appear such). I love failprincesses. I love women with a (self-proclaimed) duty that consumes their entire sense of self and directly affects their self-worth. I like to imagine girls like this snapping. I think Gloria should get to snap more, honestly. I think Bravely Default II should've let her blow up, but I'll get more into that at another point.<img src="/res/bravely/gladys.png" style="float: right; width: 20%; margin:10px" alt="Gladys Kelly from Bravely Default II">
         </p>
         <p>
           Gladys, on the other hand, is the masculine woman I've been begging Team Asano to grant me for many years. I actually first saw her on the Bravely Default II wiki while looking for something else. It was during my "hiatus" from the game, and it was (I say this with completely zero shame) one of the main reasons I got back into the game. I like to joke that Team Asano made that character for me, personally.
@@ -268,7 +268,7 @@
           The Demos
         </h5>
         <p>
-          Before we get to the actual game, though, let's talk about the demos. Bravely Default II had two demos. I only had the opportunity to play the second one, but I was keeping close tabs on how things went with the first one. I will say that I think it was an amazing idea for Team Asano to push these demos out to people and ACTUALLY take in feedback. The first demo revealed that the battle system in Bravely Default II would be slightly different from its predecessors - instead of planning and executing all of your party members' moves at the same time, you would only be able to plan one before executing. <img src="res/bravely/bravely_2_demo.jpg" style="float: right; width: 40%; margin:10px" alt="Bravely Default II Final Demo promo image">This made the series' titular BRAVE and DEFAULT system difficult to manage (as one unit could potentially act twice before another thanks to some arbitrary speed calculations), and it took away some of the tactical charm that was present in the older titles.
+          Before we get to the actual game, though, let's talk about the demos. Bravely Default II had two demos. I only had the opportunity to play the second one, but I was keeping close tabs on how things went with the first one. I will say that I think it was an amazing idea for Team Asano to push these demos out to people and ACTUALLY take in feedback. The first demo revealed that the battle system in Bravely Default II would be slightly different from its predecessors - instead of planning and executing all of your party members' moves at the same time, you would only be able to plan one before executing. <img src="/res/bravely/bravely_2_demo.jpg" style="float: right; width: 40%; margin:10px" alt="Bravely Default II Final Demo promo image">This made the series' titular BRAVE and DEFAULT system difficult to manage (as one unit could potentially act twice before another thanks to some arbitrary speed calculations), and it took away some of the tactical charm that was present in the older titles.
         </p>
         <p>
           Team Asano was made very well aware of these issues by testers, but it wasn't feasible to completely change the system at this point. They weren't going to ignore this feedback though, and moving into the second demo they would integrate new UI hinting at turn order. I still think they could've improved on this further (perhaps having a turn order bar, similar to Octopath Traveler), or perhaps unifying what the marker actually is (for players it's a meter that charges after any given unit performs an action, and for enemies it's an exclamation point when they are going to act soon) but I appreciate the effort to improve player experience nonetheless.
@@ -297,7 +297,7 @@
             Turns out that even though the game IS harder to cheese than its predecessors, it is also kinda easier. I'd learn of ways to build my party to cooperate with the new systems thanks to the help of an early-game JP grinding spot (that would actually become useful in my late-game grinding as well... which is insane). It wasn't long before my party was the one doing the sewage sweeping.
           </p>
           <p>
-            The story would only climb in favor from there. Bravely-brand drama and trauma, failed love stories, successful love stories, fairy intervention, mindblowing meta narratives... This was it. One of my favorite cutscenes was the scene with <a href="https://youtu.be/wR32fsYdEwA">Martha's trial</a> where Adelle transforms into her fairy form in order to rescue her. Sure, this WAS the yuri scene. I mean, Martha was CLEARLY head over heels, and what was Adelle's "don't talk, you'll bite your tongue?" IS ANYONE ELSE SEEING THIS? HELLO? Martha literally looked at a being that everyone saw as a wretched demon, hideous and unholy and deserving of no more than a painful death, and said "YOU'RE BEAUTIFUL"?!!?!? IS ANYONE ELSE SEEING THISSSS!!!!???! (Image on the right was taken from a Reddit thread on r/bravelydefault. I need to go back and take my own screenshot soon because I actually don't like this one so much)<img src="res/bravely/martha_and_adelle.png" style="float: right; width: 40%; margin:10px" alt="Martha and Adelle yuri">
+            The story would only climb in favor from there. Bravely-brand drama and trauma, failed love stories, successful love stories, fairy intervention, mindblowing meta narratives... This was it. One of my favorite cutscenes was the scene with <a href="https://youtu.be/wR32fsYdEwA">Martha's trial</a> where Adelle transforms into her fairy form in order to rescue her. Sure, this WAS the yuri scene. I mean, Martha was CLEARLY head over heels, and what was Adelle's "don't talk, you'll bite your tongue?" IS ANYONE ELSE SEEING THIS? HELLO? Martha literally looked at a being that everyone saw as a wretched demon, hideous and unholy and deserving of no more than a painful death, and said "YOU'RE BEAUTIFUL"?!!?!? IS ANYONE ELSE SEEING THISSSS!!!!???! (Image on the right was taken from a Reddit thread on r/bravelydefault. I need to go back and take my own screenshot soon because I actually don't like this one so much)<img src="/res/bravely/martha_and_adelle.png" style="float: right; width: 40%; margin:10px" alt="Martha and Adelle yuri">
           </p>
           <p>
             Ahem. I also liked this scene because in past Bravely games, the fairy was always the bad guy. The fairy was the twist villain that was manipulating the puppet villain (but also... ended up being a puppet villain to some interdimensional eldritch terror? Team Asano, what's up with this pattern anyway?). But, in Bravely Default II, the fairy was in your party, the fairy was your friend. The fairy revealed herself to be a fairy, potentially sacrificing everything (including her friendships and trusted allies) to do something good. Bravely Default II had reinforced the classic Bravely formula well, but to take something so fundamental to the past two games and shake it up like this was just so awesome.
@@ -305,7 +305,7 @@
           <p>
             The Rimedhal chapter in general was very well written, in my opinion. To open things succinctly: it's written like how I felt all of Bravely Default: Where the Fairy Flies was written. There were real, permanent consequences of the events that occurred within the chapter. During the fairy trials, countless innocent people were killed at the hands of the Rimedhal Orthodoxy. Few of these innocents have names or stories written out in the game, but the impact is very apparent in scenes such as where Father Rhydion peers at the corpses inside the Jaws of Judgement. Here, he confirms what he's always known deep down: that his daughter, Margeret, is dead - and so is everyone else that was thrown down the Jaws.
           </p>
-          <p><img src="res/bravely/rimedhal.jpg" style="float: left; width: 30%; margin:10px" alt="Rimedhal chapter key image">
+          <p><img src="/res/bravely/rimedhal.jpg" style="float: left; width: 30%; margin:10px" alt="Rimedhal chapter key image">
             Gladys has a very compelling arc in this chapter that is remniscent of the character/antagonist writing in the original Bravely Default. A woman who was separated from her only other kin (Galahad) after their parents died, she had nobody to look to for guidance but the Rimedhal Orthodoxy. She would be raised as their sword (where Galahad was Wiswald's stalwart shield), instructed to spearhead the slaughter of these very innocent people in the name of eradicating fairies (where Galahad's only order was to protect the knowledge of the Institute and the scholars that studied it).
           </p>
           <p>
@@ -341,7 +341,7 @@
           <p>
             I was also somewhat confused with the nature of Elvis' book / the Night's Nexus. It was a book that contains all knowledge of the world, which is how it was able to show Elvis and the rest of the party snippets of the past (i.e. snippets of the last four heroes of light). Part of me wonders if "all knowledge" apparently applied to future / alternate timelines as well, since it was able to show Gloria's and Adelle's sacrifices to the party. Maybe Bravely Default II was doing a Bravely Second, and treating the subsequent loads after the fake endings as "turning back time," except in this case the past sacrifices weren't necessarily erased from history. Sort of like if the timeline from past to present (to future) was more of a zig-zag? I can somehow wrap my head around this more than a handwave of "the book can read the future, too!" because I felt like the game had established that the book strictly read into the past (somewhat to contrast Bravely Default: Where the Fairy Flies's future-writing book).
           </p>
-          <p><img src="res/bravely/thanks_ikusy.jpg" style="float: left; width: 20%; margin:10px" alt="Ikusy 1,000,000 sales drawing">
+          <p><img src="/res/bravely/thanks_ikusy.jpg" style="float: left; width: 20%; margin:10px" alt="Ikusy 1,000,000 sales drawing">
             A lot of intriguing lore details are kept ambiguous like this. It's not necessarily a bad thing, leaving a couple strings untied keeps the players curious (and perhaps wanting a sequel), but I felt like a little too much was kept vague, and I was more lost than anything else. The most egregious of this vagueness is Seth's character. From the start, the player can name him. I gave him my own name, "Len," because I thought it'd be cool. It wasn't really. This feature comes at the cost of other characters carefully dodging the need to say Seth's name (most obviously in voice-acted scenes). I was hoping there'd be some insane moment at the end of the game where Seth would say something like "oh, I remember that my name is actually Seth!" ...but that doesn't happen. In addition, his backstory is completely blank. He's a wash-up through an unexplained shipwreck, his homeland is (presumably) in a realm outside of Excillant (and again there are very few details about this world), and his desire to help Gloria, Elvis and Adelle is... kinda contrived? Like he truly doesn't have a reason to follow any of these people.
           </p>
           <p>
@@ -353,6 +353,6 @@
         </p>
       </div>
     </main>
-    <?php include 'footer_content.html'; ?>
+    <?php include '/footer_content.html'; ?>
   </body>
 </html>
