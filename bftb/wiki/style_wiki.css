@@ -455,6 +455,7 @@ details[open] > summary {
     margin: auto;
     float: initial;
     max-width: 100%;
+    width: initial;
   }
   
   .gallery-img {
