@@ -13,8 +13,8 @@
     <meta name="theme-color" content="#ffa114">
 
 <!-- css sheet and javascript -->
-    <link href="style.css" rel="stylesheet" type="text/css" media="all">
-    <script src="script.js"></script>
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <script src="/script.js"></script>
   </head>
 
   <body>
