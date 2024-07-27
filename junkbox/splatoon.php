@@ -19,7 +19,7 @@
   </head>
 
   <body>
-    <?php include '/header_content.html'; ?>
+    <?php include '../header_content.html'; ?>
     <main>
       <h2>SPLATOON!!!!!!!</h2>
       <h3>I'M TRYING MY BEST...</h3>
@@ -215,6 +215,6 @@
       </div>
 
     </main>
-    <?php include '/footer_content.html'; ?>
+    <?php include '../footer_content.html'; ?>
   </body>
 </html>

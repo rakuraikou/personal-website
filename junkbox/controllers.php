@@ -18,7 +18,7 @@
   </head>
 
   <body>
-    <?php include '/header_content.html'; ?>
+    <?php include '../header_content.html'; ?>
     <main>
       <h2>My <span style="font-size:1.7rem; color:#50cdff">(Expensive Ass)</span> Controller Collection</h2>
       <p>Vaguely, I've tried to order this list from most to least treasured, but they're all very important to me as pieces of my collection LOL. Click any image to view the store link (except for the Joy-cons, the cat controller, and the controller at the bottom - I cannot for the life of me find the original listing for the latter two). I'm not sponsored by any of these guys, I just like spreading the love of a horrifically pricey hobby.</p>
@@ -118,6 +118,6 @@
       </div>
 
     </main>
-    <?php include '/footer_content.html'; ?>
+    <?php include '../footer_content.html'; ?>
   </body>
 </html>

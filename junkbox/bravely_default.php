@@ -19,7 +19,7 @@
   </head>
 
   <body>
-    <?php include '/header_content.html'; ?>
+    <?php include '../header_content.html'; ?>
     <main>
       <h2 class="tab-link" onClick="openTab(event, 'home')">Bravely Default Web Shrine!!!</h2>
       <p>
@@ -353,6 +353,6 @@
         </p>
       </div>
     </main>
-    <?php include '/footer_content.html'; ?>
+    <?php include '../footer_content.html'; ?>
   </body>
 </html>

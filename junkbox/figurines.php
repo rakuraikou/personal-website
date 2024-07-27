@@ -18,7 +18,7 @@
   </head>
 
   <body>
-    <?php include '/header_content.html'; ?>
+    <?php include '../header_content.html'; ?>
     <main>
 
       <h2>My Blind Box Figurine Collection</h2>
@@ -76,6 +76,6 @@
       </div>
 
     </main>
-    <?php include '/footer_content.html'; ?>
+    <?php include '../footer_content.html'; ?>
   </body>
 </html>
