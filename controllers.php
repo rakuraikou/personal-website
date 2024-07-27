@@ -29,7 +29,16 @@
           <img src="res/controllers/lunchtime_pro.jpg" height="130" alt="Custom OC-themed Nintendo Switch pro controller">
         </a>
         <span style="margin-left: 10px">
-          THE RAICELI CONTROLLER... This baby is so everything. I got it commissioned, it's so beautiful. The paint does have an awkward matte texture (especially compared to the nice grip of the base Pro Controller), but it's not too bad.
+          THE RAICELI CONTROLLER... This baby is so everything. I got it commissioned, it's so beautiful. The paint does have an awkward matte texture (especially compared to the nice grip of the base Pro Controller), but it's not too bad. Mostly my display baby.
+        </span>
+      </div>
+
+      <div class="collect-item">
+        <a href="https://www.8bitdo.com/ultimate-bluetooth-controller/" target="_blank">
+          <img src="res/controllers/8bitdo_ultimate.png" height="130" alt="8BitDo Ultimate Bluetooth Controller">
+        </a>
+        <span style="margin-left: 10px">
+          This was my dream controller and I got it for my birthday from my girlfriend! It is super ergonomic and light. The grip texture and button resistance is to die for. Still getting used to the analog triggers but I am already in love and use it for anything I can. Came with an awesome charging dock that just looks way too cool.
         </span>
       </div>
 
