@@ -28,18 +28,18 @@
       if ($conn->connect_error) {
           die("Connection failed: " . $conn->connect_error);
       }
-      if(isset($_GET['link'])) {
+      if(isset($_GET['id'])) {
         $conn->set_charset('utf8mb4');
-        $id = mysqli_real_escape_string($conn, $_GET['link']);
-        $sql = "SELECT * FROM travelers WHERE link = '$id'";
+        $id = mysqli_real_escape_string($conn, $_GET['id']);
+        $sql = "SELECT * FROM travelers WHERE id = '$id'";
         $result = $conn->query($sql);
         if ($result->num_rows > 0) {
           while ($row = $result->fetch_assoc()) {
             echo "
-            <img class='img-large' style='position: absolute; max-height: 450px; margin-left:" . $row["pagedoll_margin"] . "' src='res/fb/" . $row["link"] . ".png'>
-            <img class='img-small' src=' src='res/fb/" . $row["link"] . ".png'>
+            <img class='img-large' style='position: absolute; max-height: 450px; margin-left:" . $row["pagedoll_margin"] . "' src='res/fb/" . $row["id"] . ".png'>
+            <img class='img-small' src=' src='res/fb/" . $row["id"] . ".png'>
 
-            <h1 class='text-outline left-margin' style='font-style: italic'>" . $row["link"] . ", THE " . $row["job"] . "</h1>
+            <h1 class='text-outline left-margin' style='font-style: italic'>" . $row["id"] . ", THE " . $row["job"] . "</h1>
             <div class='container left-margin' style='padding: 10px'>
               <div class='traveler-grid celt-border'>
                 <div>
@@ -81,8 +81,8 @@
                 <div class='traveler-index celt-border'>";
                 while ($row = $result->fetch_assoc()) {
                   echo "
-                    <a class='traveler-item' href='?id=" . $row["link"] . "'>
-                      <img src='res/icon/" . $row["link"] . ".png'>
+                    <a class='traveler-item' href='?id=" . $row["id"] . "'>
+                      <img src='res/icon/" . $row["id"] . ".png'>
                       <span style='color: #e0a751'>" . $row["name"] . "</span>
                       <span style='color: #d6c6ae'>The " . ucfirst($row["job"]) . "</span>
                     </a>";
@@ -99,7 +99,7 @@
         ?>
     </main>
     <?php
-      if(isset($_GET['link'])) {
+      if(isset($_GET['id'])) {
         echo "
         <footer class='left-margin'>
           <div style='display: flex; gap: 10px; align-items: center;'>
