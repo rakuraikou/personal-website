@@ -36,7 +36,7 @@
         if ($result->num_rows > 0) {
           while ($row = $result->fetch_assoc()) {
             echo "
-            <img class='img-large' style='position: absolute; max-height: 450px; margin-left:" . $row["pagedoll_margin"] . "' src='res/fb/" . $row["id"] . ".png'>
+            <img class='img-large' style='position: absolute; max-height: 450px; margin-left:" . $row["pagedoll_margin"] . "px' src='res/fb/" . $row["id"] . ".png'>
             <img class='img-small' src=' src='res/fb/" . $row["id"] . ".png'>
 
             <h1 class='text-outline left-margin' style='font-style: italic'>" . $row["id"] . ", THE " . $row["job"] . "</h1>
