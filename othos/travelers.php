@@ -28,7 +28,7 @@
       if ($conn->connect_error) {
           die("Connection failed: " . $conn->connect_error);
       }
-      if(isset($_GET['id'])) {
+      if(isset($_GET['link'])) {
         $conn->set_charset('utf8mb4');
         $id = mysqli_real_escape_string($conn, $_GET['link']);
         $sql = "SELECT * FROM travelers WHERE link = '$id'";
@@ -99,7 +99,7 @@
         ?>
     </main>
     <?php
-      if(isset($_GET['id'])) {
+      if(isset($_GET['link'])) {
         echo "
         <footer class='left-margin'>
           <div style='display: flex; gap: 10px; align-items: center;'>
