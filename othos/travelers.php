@@ -67,63 +67,50 @@
           } else {
             echo "Invalid character";
           }
+          echo "
+          <footer class='left-margin'>
+            <div style='display: flex; gap: 10px; align-items: center;'>
+              <a href='travelers'>BACK</a>
+              <img src='res/ui/decor/celt.png' style='height: 2.0em; max-height: 2.0em'>
+              <a href='/index'>HOME</a>
+            </div>
+            <a href='/sitemap'>SITEMAP</a>
+            <span style='margin-left: auto'>&#169; rakuraikou</span>
+          </footer>
+          ";
         } else {
-          $sql_travelers = "SELECT * FROM travelers WHERE id = '$id'";
+          $sql_travelers = "SELECT * FROM travelers";
           $result_travelers = $conn->query($sql_travelers);
 
           function genCharIndex($result) {
             if ($result->num_rows > 0) {
-              echo "
-              <div class='container'>
-                <h1 class='text-outline' style='text-align: center; margin-top: 0px;'>
-                  Travelers
-                </h1>
-                <div class='traveler-index celt-border'>";
-                while ($row = $result->fetch_assoc()) {
-                  echo "
-                    <a class='traveler-item' href='?id=" . $row["id"] . "'>
-                      <img src='res/icon/" . $row["id"] . ".png'>
-                      <span style='color: #e0a751'>" . $row["name"] . "</span>
-                      <span style='color: #d6c6ae'>The " . ucfirst($row["job"]) . "</span>
-                    </a>";
-                  }
-                  echo "
-                  </div>
-                </div>";
+              while ($row = $result->fetch_assoc()) {
+                echo "
+                  <a class='traveler-item' href='?id=" . $row["id"] . "'>
+                    <img src='res/icon/" . $row["id"] . ".png'>
+                    <span style='color: #e0a751'>" . $row["name"] . "</span>
+                    <span style='color: #d6c6ae'>The " . ucfirst($row["job"]) . "</span>
+                  </a>";
+                }
               } else {
               echo "No characters found";
               }
             }
+            include 'travelers_index.php';
+            echo "
+            <footer>
+              <div style='display: flex; gap: 10px; align-items: center;'>
+                <a href='index'>BACK</a>
+                <img src='res/ui/decor/celt.png' style='height: 2.0em; max-height: 2.0em'>
+                <a href='/index'>HOME</a>
+              </div>
+              <a href='/sitemap'>SITEMAP</a>
+              <span style='margin-left: auto'>&#169; rakuraikou</span>
+            </footer>
+            ";
           }
           $conn->close();
         ?>
     </main>
-    <?php
-      if(isset($_GET['id'])) {
-        echo "
-        <footer class='left-margin'>
-          <div style='display: flex; gap: 10px; align-items: center;'>
-            <a href='travelers'>BACK</a>
-            <img src='res/ui/decor/celt.png' style='height: 2.0em; max-height: 2.0em'>
-            <a href='/index'>HOME</a>
-          </div>
-          <a href='/sitemap'>SITEMAP</a>
-          <span style='margin-left: auto'>&#169; rakuraikou</span>
-        </footer>
-        ";
-      } else {
-        echo "
-        <footer>
-          <div style='display: flex; gap: 10px; align-items: center;'>
-            <a href='index'>BACK</a>
-            <img src='res/ui/decor/celt.png' style='height: 2.0em; max-height: 2.0em'>
-            <a href='/index'>HOME</a>
-          </div>
-          <a href='/sitemap'>SITEMAP</a>
-          <span style='margin-left: auto'>&#169; rakuraikou</span>
-        </footer>
-        ";
-      }
-    ?>
   </body>
 </html>
