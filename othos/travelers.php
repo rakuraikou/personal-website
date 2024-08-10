@@ -68,7 +68,7 @@
             echo "Invalid character";
           }
         } else {
-          $sql_travelers = "SELECT * FROM travelers";
+          $sql_travelers = "SELECT * FROM travelers WHERE id = '$id'";
           $result_travelers = $conn->query($sql_travelers);
 
           function genCharIndex($result) {
