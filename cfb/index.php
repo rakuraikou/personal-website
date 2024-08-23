@@ -25,25 +25,25 @@
       </p>
       <div style="max-width: 650px; text-align: center; margin-left: auto; margin-right: auto">
         <div>
-          <h4 style="text-align: center"><a href="gkpb.html">The Godkiller's Prayer Book</a></h4>
+          <h4 style="text-align: center"><a href="gkpb">The Godkiller's Prayer Book</a></h4>
           <p>
             A lot of my more emo stuff is in here lols. <b>General content warning for religious themes and existential loser nonsense.</b> I'll note more warnings as I go.
           </p>
         </div>
         <div>
-          <h4 style="text-align: center"><a href="msfn.html">Mesofauna</a></h4>
+          <h4 style="text-align: center"><a href="msfn">Mesofauna</a></h4>
           <p>
             World is so jamournis. World is also bitty. These are small journal entries about people I've met (so... not really poems). Locations and other private information have been edited out.
           </p>
         </div>
         <div>
-          <h4 style="text-align: center"><a href="stcr.html">Stay Curious</a></h4>
+          <h4 style="text-align: center"><a href="stcr">Stay Curious</a></h4>
           <p>
             Whatever isn't emoguy nonsense or heartfelt recollection of random people goes here. Positive or neutral reflection on things in my life, kinda.
           </p>
         </div>
         <div>
-          <h4 style="text-align: center"><a href="ru.html">"The Peanut Butter Story"</a></h4>
+          <h4 style="text-align: center"><a href="ru">"The Peanut Butter Story"</a></h4>
           <p>
             A long overdue tribute (euology? I've never really had to use these words before, so I don't know what they mean) to someone who meant a lot to me when I was much younger, written sleeplessly in the early morning of November 15th, 2023 (or the late night of November 14th, 2023, depending on who you're asking)
           </p>
