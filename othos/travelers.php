@@ -9,10 +9,9 @@
     <meta content="the thunder guy or whatever" property="og:site_name">
     <meta content="Octopath Traveler: House of Stars - Travelers" property="og:title">
     <meta content="Lore site for LEN's Octopath Traveler fan project" property="og:description">
-    <meta content='https://rkrk.dev/bftb/wiki/res/icon.png' property='og:image'>
-    <meta name="theme-color" content="#23c4ff">
+    <meta content='https://rkrk.dev/othos/res/ui/decor/celt.png' property='og:image'>
+    <meta name="theme-color" content="#6b5c31">
 
-<!-- css sheet and javascript -->
     <link href="style_othos.css" rel="stylesheet" type="text/css" media="all">
 
   </head>
