@@ -24,10 +24,13 @@
       <h3>Self-indulgent pages and media shrines</h3>
       <h4 style="margin-bottom:10px">("shrines"...? huh? anyway...)</h4>
       <p>
-        <a href="controllers">controller collection</a> : well SOMEONE has to see it.
+        <a href="artfight">art fight 2024</a> : reflections on my personal "20 animated attacks" challenge!
       </p>
       <p>
         <a href="figurines">blind box figurine collection</a> : someone has to see this too.
+      </p>
+      <p>
+        <a href="controllers">controller collection</a> : well SOMEONE has to see it.
       </p>
       <p>
         <a href="splatoon">splatoon</a> : i like this game
