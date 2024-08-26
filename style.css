@@ -267,6 +267,29 @@ a:hover {
   width: 28%;
   font-style: italic
 }
+.af-table {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 10px;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.af-table img, .af-table video {
+  width: 100%;
+}
+.af-table-right {
+  border: 2px solid #ffc94d;
+  padding: 5px;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto
+}
+.af-table-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
 /* MOBILE ONLY */
 @media (max-width: 768px) {
@@ -336,6 +359,10 @@ a:hover {
   }
   .collect-item {
     justify-content: center
+  }
+  .af-table {
+    grid-template-columns: auto;
+    max-width: initial;
   }
 }
 
