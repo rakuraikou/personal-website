@@ -663,7 +663,7 @@
       <h4 id="twenty">Attack 20 - ART TENNIS!!!!</h4>
       <div class="af-table">
         <video controls>
-          <source src="/res/af/17_kinsey.mp4" type="video/mp4">
+          <source src="/res/af/20_tennis.mp4" type="video/mp4">
           Your browser doesn't support video tags, watch from <a href="https://www.youtube.com/watch?v=iqBrHekHhtQ">YouTube</a> instead!
         </video>
         <div class="af-table-right">
