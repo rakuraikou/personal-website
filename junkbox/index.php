@@ -48,21 +48,15 @@
         Let me know if you threw my buttons on your site, I'll link back [:
       </p>
       <p>
-        <img src="/res/buttons/btn_rkrk.png" alt="rakuraikou site button">
         <img src="/res/buttons/btn_rkrk_anim.gif" alt="animated rakuraikou site button">
-      </p>
-      <p>
-        <img src="/res/buttons/btn_bftb.png" alt="bolt from the blue site button">
         <img src="/res/buttons/btn_bftb_anim.gif" alt="animated bolt from the blue site button">
       </p>
       <p>
-        ...And if for some reason you want my old buttons, here you go:
-      </p>
-      <p>
-        <img src="/res/buttons/btn_rkrk_old.png" alt="rakuraikou old site button">
-        <img src="/res/buttons/btn_rkrk_anim_old.gif" alt="rakuraikou old site button">
-        <img src="/res/buttons/btn_bftb_old.png" alt="bolt from the blue old site button">
-        <img src="/res/buttons/btn_bftb_anim_old.gif" alt="animated bolt from the blue old site button">
+        <img src="/res/buttons/btn_rkrk.png" alt="static rakuraikou site button">
+        <img src="/res/buttons/btn_bftb_raiden.png" alt="static bolt from the blue site button, raiden version">
+        <img src="/res/buttons/btn_bftb_araceli.png" alt="static bolt from the blue site button, araceli version">
+        <img src="/res/buttons/btn_bftb_saffron.png" alt="static bolt from the blue site button, saffron version">
+        <img src="/res/buttons/btn_bftb_cole.png" alt="static bolt from the blue site button, cole version">
       </p>
       <h4>Other people's stuff!</h4>
       <p>
@@ -72,11 +66,14 @@
         <a href="https://guymeats.neocities.org/" style="text-decoration:none">
           <img src="/res/buttons/btn_guymeats.png" alt="guymeats site button">
         </a>
-        <a href="https://squidknees.neocities.org/" style="text-decoration:none">
+        <a href="https://squidknees.net/" style="text-decoration:none">
           <img src="/res/buttons/btn_squidknees.png" alt="squidknees site button">
         </a>
-        <a href="https://squidknees.neocities.org/empyria/" style="text-decoration:none">
+        <a href="https://squidknees.net/empyria/" style="text-decoration:none">
           <img src="/res/buttons/btn_empyria.png" alt="empyria site button">
+        </a>
+        <a href="https://squidknees.net/oneiropedia/" style="text-decoration:none">
+          <img src="/res/buttons/btn_oneirosea.png" alt="oneirosea site button">
         </a>
         <a href="https://magicartthings.neocities.org/" style="text-decoration:none">
           <img src="/res/buttons/btn_magic.png" alt="magic site button">
@@ -87,11 +84,11 @@
         <a href="https://limegreen.neocities.org/yemaja/" style="text-decoration:none">
           <img src="/res/buttons/btn_yemaja.png" alt="yemaja site button">
         </a>
-        <a href="https://synoicus.neocities.org/" style="text-decoration:none">
+        <a href="https://synoic.us/" style="text-decoration:none">
           <img src="/res/buttons/btn_synoicus.png" alt="synoicus site button">
         </a>
         <a href="https://desperados.neocities.org/" style="text-decoration:none">
-          <img src="/res/buttons/btn_rads.gif" alt="desperados site button">
+          <img src="/res/buttons/btn_desperados.png" alt="desperados site button">
         </a>
         <a href="https://helv.neocities.org/" style="text-decoration:none">
           <img src="/res/buttons/btn_helv.png" alt="yuyuko's field site button">
@@ -104,6 +101,9 @@
         </a>
         <a href="https://seaslug.party/" style="text-decoration: none">
           <img src="/res/buttons/btn_nightbug.png" alt="nightbug site button">
+        </a>
+        <a href="https://gross-galaxy.neocities.org/" style="text-decoration: none">
+          <img src="/res/buttons/btn_grossgalaxy.png" alt="grossgalaxy site button">
         </a>
       </p>
       <p class="btn-link">
