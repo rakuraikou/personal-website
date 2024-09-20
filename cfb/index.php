@@ -25,9 +25,12 @@
       </p>
       <div style="max-width: 650px; text-align: center; margin-left: auto; margin-right: auto">
         <div>
-          <h4 style="text-align: center"><a href="gkpb">The Godkiller's Prayer Book</a></h4>
+          <h4 style="text-align: center">The Godkiller's Prayer Book</h4>
           <p>
             A lot of my more emo stuff is in here lols. <b>General content warning for religious themes and existential loser nonsense.</b> I'll note more warnings as I go.
+          </p>
+          <p>
+            I'm shy now, so it's hidden. lol
           </p>
         </div>
         <div>
