@@ -25,7 +25,7 @@
       </h1>
       <b>Q. When is the game getting released? / When is the demo?</b>
       <p class="blockquote">
-        A. Whenever it is released. In all seriousness, BFTB does not have a solid release date currently. My goal is to have a polished demo up to the end the game's first chapter by February 2025 in time for Steam Next Fest, but I am really hoping to have a playable feature test / alpha much, much sooner!
+        A. Whenever it is released. In all seriousness, BFTB does not have a solid release date currently. Development on the game itself is not a top priority at the moment. While I AM writing and doing quite a bit of design work, most of my "game dev" energy is going to some smaller projects.
       </p>
       <b>Q. What engine is BFTB being made in?</b>
       <p class="blockquote">

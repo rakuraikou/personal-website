@@ -36,7 +36,7 @@
         Champions exist as a "soul" present in the atmospheric light of Luxos, and their identity is kept distinct and preserved through the aforementioned regular light offerings. With an intrinsically direct tie to the world's purest form of light, Champions are able to access special powers and grant them to people on Luxos.
       </p>
       <p class="notebox">
-        It's often thought that the Champion's soul has a "core." Some say tha this core is affixed to the body, and moves along with the corpse when it's transported. Others say that a Champion's core is permanently chained to the place where the person died. Neither of these theories have been proven true or false, and people tend to believe in whichever brings them a greater sense of pride for their hometown or current residency.
+        It's often thought that the Champion's soul has a "core." Some say that this core is affixed to the body, and moves along with the corpse when it's transported. Others say that a Champion's core is permanently chained to the place where the person died. Neither of these theories have been proven true or false, and people tend to believe in whichever brings them a greater sense of pride for their hometown or current residency.
       </p>
       <p>
         Champions can act completely on their own whim and desire, but can only exist in and interact with Luxos with consistent, voluntary offerings of light. It's common for Champions to grant natural miracles—such as sparks to provide flame on a cold night or richer soils for a fruitful harvest—in exchange for offerings. Though they don't have a permanent physical state of their own, Champions can temporarily manifest in areas where substantial amounts of light have been collected.

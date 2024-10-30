@@ -28,147 +28,77 @@
         <span>
           <h4><a href="index">Main</a></h4>
           <ul>
-            <li>
-              <a href="changelog">Changelog</a>
-            </li>
-            <li>
-              <a href="sitemap">Sitemap</a>
-            </li>
-            <li>
-              <a href="abt">About Me</a>
-            </li>
-            <li>
-              <a href="projects">Projects/Worlds</a>
-              <ul>
-                <li>
-                  <a href="bftb/index">Bolt from the Blue</a>
-                </li>
-                <li>
-                  <a href="twps/index">The Witch-Patron Society</a>
-                </li>
-                <li>
-                  <a href="dsa/index">Deep Sea Artscape</a>
-                </li>
-                <li>
-                  <a href="cfb/index">Chalk for Bones</a>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <a href="junkbox/index">Junkbox</a>
-              <ul>
-                <li>
-                  <a href="controllers">Controller Collection</a>
-                </li>
-                <li>
-                  <a href="figurines">Blind Box Figurine Collection</a>
-                </li>
-                <li>
-                  <a href="splatoon">Splatoon 3</a>
-                </li>
-                <li>
-                  <a href="bravely_default">Bravely Default</a>
-                </li>
-                <li>
-                  <a href="octopathtraveler2">Octopath Traveler 2</a>
-                </li>
-              </ul>
-            </li>
+            <li><a href="changelog">Changelog</a></li>
+            <li><a href="sitemap">Sitemap</a></li>
+            <li><a href="abt">About Me</a></li>
+            <li><a href="projects">Projects/Worlds</a></li>
+            <ul>
+              <li><a href="bftb/index">Bolt from the Blue</a></li>
+              <li><a href="twps/index">The Witch-Patron Society</a></li>
+              <li><a href="dsa/index">Deep Sea Artscape</a></li>
+              <li><a href="cfb/index">Chalk for Bones</a></li>
+            </ul>
+
+            <li><a href="junkbox/index">Junkbox</a></li>
+            <ul>
+              <li><a href="controllers">Controller Collection</a></li>
+              <li><a href="figurines">Blind Box Figurine Collection</a></li>
+              <li><a href="splatoon">Splatoon 3</a></li>
+              <li><a href="bravely_default">Bravely Default</a></li>
+              <li><a href="octopathtraveler2">Octopath Traveler 2</a></li>
+              <li><a href="artfight">Art Fight 2024 Journal</a></li>
+            </ul>
           </ul>
         </span>
 
         <span>
           <h4><a href="bftb/index">Bolt from the Blue</a></h4>
           <ul>
-            <li>
-              <a href="bftb/faq">FAQ</a>
-            </li>
-            <li>
-              <a href="bftb/story">Story</a>
-            </li>
-            <li>
-              <a href="bftb/misc">Misc</a>
-            </li>
+            <li><a href="bftb/faq">FAQ</a></li>
+            <li><a href="bftb/story">Story</a></li>
+            <li><a href="bftb/misc">Misc</a></li>
             <ul>
-              <li>
-                <a href="bftb/tvt/index">TVTropes</a>
-              </li>
-              <li>
-                <a href="bftb/lunchtime">Lunchtime</a>
-              </li>
+              <li><a href="bftb/tvt/index">TVTropes</a></li>
+              <li><a href="bftb/lunchtime">Lunchtime</a></li>
             </ul>
           </ul>
           <h5><a href="bftb/wiki/index">Wiki</a></h5>
           <ul>
-            <li>
-              <a href="bftb/wiki/lore/index">Lore</a>
-            </li>
+            <li><a href="bftb/wiki/lore/index">Lore</a></li>
             <ul>
-              <li>
-                <a href="bftb/wiki/lore/magic">Magic</a>
-              </li>
-              <li>
-                <a href="bftb/wiki/lore/beastlords">Beastlords</a>
-              </li>
-              <li>
-                <a href="bftb/wiki/lore/biota">Biota</a>
-              </li>
-              <li>
-                <a href="bftb/wiki/lore/people">People</a>
+              <li><a href="bftb/wiki/lore/light">Light</a></li>
+              <li><a href="bftb/wiki/lore/magic">Magic</a></li>
+              <li><a href="bftb/wiki/lore/beastlords">Beastlords</a></li>
+              <li><a href="bftb/wiki/lore/biota">Biota</a></li>
+              <li><a href="bftb/wiki/lore/people">People</a></li>
                 <ul>
-                  <li>
-                    <a href="bftb/wiki/lore/champions">Champions</a>
-                  </li>
+                  <li><a href="bftb/wiki/lore/champions">Champions</a></li>
+                  <li><a href="bftb/wiki/lore/cielisonoroyal">Cielisono Royal Family</a></li>
                 </ul>
-              </li>
             </ul>
-            <li>
-              <a href="bftb/wiki/character">Characters</a>
-            </li>
+            <li><a href="bftb/wiki/character">Characters</a></li>
           </ul>
         </span>
         
         <span>
           <h4><a href="twps/index">The Witch-Patron Society</a></h4>
           <ul>
-            <li>
-              <a href="twps/about">About</a>
-            </li>
-            <li>
-              <a href="twps/misc">Extra/Misc</a>
-            </li>
+            <li><a href="twps/about">About</a></li>
+            <li><a href="twps/misc">Extra/Misc</a></li>
           </ul>
 
           <h4><a href="cfb/index">Chalk for Bones</a></h4>
           <ul>
-            <li>
-              <a href="cfb/gkpb">The Godkiller's Prayer Book</a>
-            </li>
-            <li>
-              <a href="cfb/msfn">Mesofauna</a>
-            </li>
-            <li>
-              <a href="cfb/stcr">Stay Curious</a>
-            </li>
-            <li>
-              <a href="cfb/ru">"The Peanut Butter Story"</a>
-            </li>
-            <li>
-              <a href="cfb/extra">Extra/Misc</a>
-            </li>
+            <li><a href="cfb/msfn">Mesofauna</a></li>
+            <li><a href="cfb/stcr">Stay Curious</a></li>
+            <li><a href="cfb/ru">"The Peanut Butter Story"</a></li>
+            <li><a href="cfb/extra">Extra/Misc</a></li>
           </ul>
 
           <h4><a href="dsa/index">DEEP SEA ARTSCAPE</a></h4>
           <ul>
-            <li>
-              <a href="dsa/features">Features</a>
-            </li>
-            <li>
-              <a href="dsa/shoalshares">Shoal Shares</a>
-            </li>
-            <li>
-              <a href="dsa/events">Events</a>
-            </li>
+            <li><a href="dsa/features">Features</a></li>
+            <li><a href="dsa/shoalshares">Shoal Shares</a></li>
           </ul>
         </span>
       </div>

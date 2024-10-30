@@ -120,6 +120,9 @@
           <img src="/res/buttons/spsjs/xirsys.png" alt="seraphore sprite button" onmouseover="spsjsGif(this)" onmouseout="spsjsPng(this)">
         </a>
       </p>
+      <p>
+        <a href="https://tenicola.carrd.co/">Tenicola</a>
+      </p>
       <h3>Credits and Acknowledgements</h3>
       <ul>
         <li>
