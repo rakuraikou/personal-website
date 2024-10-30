@@ -106,7 +106,7 @@
         <div class="grid-minecraft" style="gap: 15px">
           <img src="https://file.garden/ZRerbDGLwX_OLW5G/DSA%20Forum%20Post/mc1.png" class="grid-mc-side img-border">
           <p class="grid-mc-text">
-            SEA CUBES is DSA's official Minecraft server. It is modless, meaning players do NOT need to download or set up anything before joining. Here, server-side plugins are used to create custom content - most notably custom gear inspired by the OCs of the server's members. It's also running a few plugins for quality-of-life mechanics such as a chest-sorting tool and waypoints. Additionally, there are some "entertainment" plugins in place to provide functions including sitting/laying anywhere and ...mob disguising?!
+            SEA CUBES is DSA's official Minecraft server. Currently, it is inactive, but we anticipate reviving it in the near future!
           </p>
           <img src="https://file.garden/ZRerbDGLwX_OLW5G/DSA%20Forum%20Post/mc4.png" class="grid-mc-img-1 img-border">
           <img src="https://file.garden/ZRerbDGLwX_OLW5G/DSA%20Forum%20Post/mc5.png" class="grid-mc-img-2 img-border">
