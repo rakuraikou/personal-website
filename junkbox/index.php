@@ -24,6 +24,9 @@
       <h3>Self-indulgent pages and media shrines</h3>
       <h4 style="margin-bottom:10px">("shrines"...? huh? anyway...)</h4>
       <p>
+        <a href="/plug">plugged in</a> : my blog lol. eventually this will be a little icon on the main page, but for now...
+      </p>
+      <p>
         <a href="artfight">art fight 2024</a> : reflections on my personal "20 animated attacks" challenge!
       </p>
       <p>
