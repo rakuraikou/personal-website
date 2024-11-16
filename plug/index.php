@@ -37,6 +37,7 @@
       if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);
       }
+
       
       if(isset($_GET['id'])) {
         $conn->set_charset('utf8mb4');
@@ -44,21 +45,20 @@
         $sql = "SELECT * FROM post WHERE id = '$id'";
         $result = $conn->query($sql);
         if ($result->num_rows > 0) {
+          echo "
+          <div class='toc'>
+            <img src='res/raku_thing.png'>
+            <div class='links'>";
           while ($row = $result->fetch_assoc()) {
-
             echo "
-            <div class='toc'>
-              <img src='res/raku_thing.png'>
-              <div class='links'>";
-            while ($row = $result->fetch_assoc()) {
-              echo "
-                <a href='?id=" . $row["id"] . "'>" . $row["date"] . "</a>
-              ";
-            }
-            echo "
-              </div>
-            </div>
+              <a href='?id=" . $row["id"] . "'>" . $row["date"] . "</a>
             ";
+          }
+          echo "
+            </div>
+          </div>
+          ";
+          while ($row = $result->fetch_assoc()) {
           
           echo "
           <div class='post'>
