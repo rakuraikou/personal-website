@@ -100,7 +100,7 @@
           </div>
           ";
       }
-
+      $conn->close();
       ?>
     </main>
 
