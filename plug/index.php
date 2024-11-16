@@ -38,7 +38,6 @@
         die("Connection failed: " . $conn->connect_error);
       }
 
-      if ($result->num_rows > 0) {
         echo "
         <div class='toc'>
           <img src='res/raku_thing.png'>
@@ -52,7 +51,6 @@
           </div>
         </div>
         ";
-      }
       
       if(isset($_GET['id'])) {
         $conn->set_charset('utf8mb4');
