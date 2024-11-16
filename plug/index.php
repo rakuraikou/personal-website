@@ -42,23 +42,25 @@
       $id = mysqli_real_escape_string($conn, $_GET['id']);
       $sql = "SELECT * FROM post WHERE id = '$id'";
       $result = $conn->query($sql);
+
+      echo "
+      <div class='toc'>
+        <img src='res/raku_thing.png'>
+        <div class='links'>";
+      if ($result->num_rows > 0) {
+        while ($row = $result->fetch_assoc()) {
+          echo "
+            <a href='?id=" . $row["id"] . "'>" . $row["date"] . "</a>
+          ";
+        }
+      }
+      echo "
+        </div>
+      </div>
+      ";
       
       if(isset($_GET['id'])) {
         if ($result->num_rows > 0) {
-
-            echo "
-            <div class='toc'>
-              <img src='res/raku_thing.png'>
-              <div class='links'>";
-            while ($row = $result->fetch_assoc()) {
-              echo "
-                <a href='?id=" . $row["id"] . "'>" . $row["date"] . "</a>
-              ";
-            }
-            echo "
-              </div>
-            </div>
-            ";
 
           while ($row = $result->fetch_assoc()) {
           echo "
@@ -77,20 +79,6 @@
         }
 
       } else {
-        if ($result->num_rows > 0) {
-        echo "
-        <div class='toc'>
-          <img src='res/raku_thing.png'>
-          <div class='links'>";
-        while ($row = $result->fetch_assoc()) {
-          echo "
-            <a href='?id=" . $row["id"] . "'>" . $row["date"] . "</a>
-          ";
-        }
-        echo "
-          </div>
-        </div>";
-        }
         echo "
         
           <div class='post'>
