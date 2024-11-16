@@ -45,6 +45,7 @@
         $sql = "SELECT * FROM post WHERE id = '$id'";
         $result = $conn->query($sql);
         if ($result->num_rows > 0) {
+          
           echo "
           <div class='toc'>
             <img src='res/raku_thing.png'>
@@ -58,6 +59,7 @@
             </div>
           </div>
           ";
+
           while ($row = $result->fetch_assoc()) {
           
           echo "
@@ -76,6 +78,19 @@
         }
 
       } else {
+        echo "
+        <div class='toc'>
+          <img src='res/raku_thing.png'>
+          <div class='links'>";
+        while ($row = $result->fetch_assoc()) {
+          echo "
+            <a href='?id=" . $row["id"] . "'>" . $row["date"] . "</a>
+          ";
+        }
+        echo "
+          </div>
+        </div>
+        ";
         echo "
           <div class='post'>
             <h2 style='text-align: center'> Welcome to my stupid baka life</h2>
