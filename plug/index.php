@@ -89,9 +89,7 @@
         echo "
           </div>
         </div>
-        ";
-
-        echo "
+        
           <div class='post'>
             <h2 style='text-align: center'> Welcome to my stupid baka life</h2>
             <p>
