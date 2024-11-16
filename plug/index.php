@@ -19,7 +19,7 @@
   <body>
     <header>
       <h1>
-        Plugging In!
+        <a href="/plug/index">Plugging In!</a>
       </h1>
       <h4 style="font-style: italic">
         My little blogging corner where I talk about my life and interests...freely!
