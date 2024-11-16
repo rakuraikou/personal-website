@@ -24,7 +24,7 @@
       <h4 style="font-style: italic">
         My little blogging corner where I talk about my life and interests...freely!
       </h4>
-      <p style="margin: 0"><a href=/index">...back to main site!</a></p>
+      <p style="margin: 0"><a href="/index">...back to main site!</a></p>
     </header>
     <main>
       <?php
