@@ -37,20 +37,6 @@
       if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);
       }
-
-        echo "
-        <div class='toc'>
-          <img src='res/raku_thing.png'>
-          <div class='links'>";
-        while ($row = $result->fetch_assoc()) {
-          echo "
-            <a href='?id=" . $row["id"] . "'>" . $row["date"] . "</a>
-          ";
-        }
-        echo "
-          </div>
-        </div>
-        ";
       
       if(isset($_GET['id'])) {
         $conn->set_charset('utf8mb4');
