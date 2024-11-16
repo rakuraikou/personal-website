@@ -38,31 +38,26 @@
         die("Connection failed: " . $conn->connect_error);
       }
       
-      $result = $conn->query($sql);
-      if ($result->num_rows > 0) {
-        echo "
-        <div class='toc'>
-          <img src='res/raku_thing.png'>
-          <div class='links'>";
-        while ($row = $result->fetch_assoc()) {
-          echo "
-            <a href='?id=" . $row["id"] . "'>" . $row["date"] . "</a>
-          ";
-        }
-        echo "
-          </div>
-        </div>
-        ";
-      }
-
-      
       if(isset($_GET['id'])) {
         $conn->set_charset('utf8mb4');
         $id = mysqli_real_escape_string($conn, $_GET['id']);
         $sql = "SELECT * FROM post WHERE id = '$id'";
         $result = $conn->query($sql);
         if ($result->num_rows > 0) {
-          
+
+            echo "
+            <div class='toc'>
+              <img src='res/raku_thing.png'>
+              <div class='links'>";
+            while ($row = $result->fetch_assoc()) {
+              echo "
+                <a href='?id=" . $row["id"] . "'>" . $row["date"] . "</a>
+              ";
+            }
+            echo "
+              </div>
+            </div>
+            ";
 
           while ($row = $result->fetch_assoc()) {
           echo "
