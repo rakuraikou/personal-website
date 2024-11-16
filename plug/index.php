@@ -62,8 +62,8 @@
       if($id) {
         $post_sql = "SELECT * FROM post WHERE id = '$id'";
         $post_result = $conn->query($post_sql);
-        if ($result->num_rows > 0) {
-          while ($row = $result->fetch_assoc()) {
+        if ($post_result->num_rows > 0) {
+          while ($row = $post_result->fetch_assoc()) {
           echo "
           <div class='post'>
             <h2 style='text-align: center'>" . $row["title"] . "</h2>
