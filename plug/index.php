@@ -45,6 +45,20 @@
         $result = $conn->query($sql);
         if ($result->num_rows > 0) {
           while ($row = $result->fetch_assoc()) {
+
+            echo "
+            <div class='toc'>
+              <img src='res/raku_thing.png'>
+              <div class='links'>";
+            while ($row = $result->fetch_assoc()) {
+              echo "
+                <a href='?id=" . $row["id"] . "'>" . $row["date"] . "</a>
+              ";
+            }
+            echo "
+              </div>
+            </div>
+            ";
           
           echo "
           <div class='post'>
