@@ -37,18 +37,18 @@
       if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);
       }
-      
+
       $conn->set_charset('utf8mb4');
-      $id = mysqli_real_escape_string($conn, $_GET['id']);
-      $sql = "SELECT * FROM post WHERE id = '$id'";
-      $result = $conn->query($sql);
+      $id = isset($_GET['id']) ? mysqli_real_escape_string($conn, $_GET['id']) : null;
+      $sidebar_sql = "SELECT date FROM post";
+      $sidebar_result = $conn->query($sql);
 
       echo "
       <div class='toc'>
         <img src='res/raku_thing.png'>
         <div class='links'>";
-      if ($result->num_rows > 0) {
-        while ($row = $result->fetch_assoc()) {
+      if ($sidebar_result->num_rows > 0) {
+        while ($row = $sidebar_result->fetch_assoc()) {
           echo "
             <a href='?id=" . $row["id"] . "'>" . $row["date"] . "</a>
           ";
@@ -59,9 +59,10 @@
       </div>
       ";
       
-      if(isset($_GET['id'])) {
+      if($id) {
+        $post_sql = "SELECT * FROM post WHERE id = '$id'";
+        $post_result = $conn->query($post_sql);
         if ($result->num_rows > 0) {
-
           while ($row = $result->fetch_assoc()) {
           echo "
           <div class='post'>
@@ -77,7 +78,6 @@
         } else {
           echo "Invalid post ID";
         }
-
       } else {
         echo "
         
