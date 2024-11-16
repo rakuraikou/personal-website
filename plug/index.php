@@ -37,6 +37,7 @@
       if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);
       }
+      
       $conn->set_charset('utf8mb4');
       $id = mysqli_real_escape_string($conn, $_GET['id']);
       $sql = "SELECT * FROM post WHERE id = '$id'";
@@ -76,7 +77,7 @@
         }
 
       } else {
-
+        if ($result->num_rows > 0) {
         echo "
         <div class='toc'>
           <img src='res/raku_thing.png'>
@@ -88,7 +89,9 @@
         }
         echo "
           </div>
-        </div>
+        </div>";
+        }
+        echo "
         
           <div class='post'>
             <h2 style='text-align: center'> Welcome to my stupid baka life</h2>
