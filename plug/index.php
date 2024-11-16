@@ -38,6 +38,7 @@
         die("Connection failed: " . $conn->connect_error);
       }
       
+      $result = $conn->query($sql);
       if ($result->num_rows > 0) {
         echo "
         <div class='toc'>
