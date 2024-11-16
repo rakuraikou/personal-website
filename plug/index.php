@@ -39,9 +39,9 @@
       }
 
       $conn->set_charset('utf8mb4');
-      $id = isset($_GET['id']) ? mysqli_real_escape_string($conn, $_GET['id']) : null;
-      $sidebar_sql = "SELECT date FROM post";
-      $sidebar_result = $conn->query($sql);
+      $id = mysqli_real_escape_string($conn, $_GET['id']);
+      $sidebar_sql = "SELECT * FROM post";
+      $sidebar_result = $conn->query($sidebar_sql);
 
       echo "
       <div class='toc'>
