@@ -37,12 +37,12 @@
       if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);
       }
+      $conn->set_charset('utf8mb4');
+      $id = mysqli_real_escape_string($conn, $_GET['id']);
+      $sql = "SELECT * FROM post WHERE id = '$id'";
+      $result = $conn->query($sql);
       
       if(isset($_GET['id'])) {
-        $conn->set_charset('utf8mb4');
-        $id = mysqli_real_escape_string($conn, $_GET['id']);
-        $sql = "SELECT * FROM post WHERE id = '$id'";
-        $result = $conn->query($sql);
         if ($result->num_rows > 0) {
 
             echo "
