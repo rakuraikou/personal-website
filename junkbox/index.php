@@ -108,6 +108,9 @@
         <a href="https://gross-galaxy.neocities.org/" style="text-decoration: none">
           <img src="/res/buttons/btn_grossgalaxy.png" alt="grossgalaxy site button">
         </a>
+        <a href="https://noctivagant.net/" style="text-decoration: none">
+          <img src="/res/buttons/btn_noctivagant.png" alt="noctivagant site button">
+        </a>
       </p>
       <p class="btn-link">
         <a href="https://terrortooth.carrd.co/" style="text-decoration:none">
