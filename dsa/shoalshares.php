@@ -143,11 +143,6 @@
           </a>
         </div>
         <div class="gallery-img">
-          <a href="https://file.garden/ZRerbDGLwX_OLW5G/DSA%20Forum%20Post/ss5.png" target="_blank">
-            <img src="https://file.garden/ZRerbDGLwX_OLW5G/DSA%20Forum%20Post/ss5.png">
-          </a>
-        </div>
-        <div class="gallery-img">
           <a href="https://file.garden/ZRerbDGLwX_OLW5G/DSA%20Forum%20Post/ss6.png" target="_blank">
             <img src="https://file.garden/ZRerbDGLwX_OLW5G/DSA%20Forum%20Post/ss6.png">
           </a>
