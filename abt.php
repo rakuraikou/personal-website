@@ -30,7 +30,7 @@
       <a href="https://twitter.com/obleeflu" target="_blank" style="font-variant:small-caps">twitter</a>
       <div>
         <span>
-          <a href="https://twitter.com/violetchio" target="_blank" title="art by violetchio on Twitter">
+          <a href="https://bsky.app/profile/violetchio.bsky.social" target="_blank" title="art by violetchio.bsky.social">
             <img src="res/raku_ango.png" style="float: right; max-width: 30%" alt="raku, my sona/mascot">
           </a>
           <p>

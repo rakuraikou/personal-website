@@ -23,11 +23,11 @@
         Wherever you go, light follows.
       </h1>
       <hr>
-      <a href="https://twitter.com/violetchio" target="_blank" title="art by violetchio on Twitter">
+      <a href="https://bsky.app/profile/violetchio.bsky.social" target="_blank" title="art by violetchio.bsky.social">
         <img src="res/ango_lt.png" style="float: right; max-height: 250px" alt="Raiden comforting Araceli">
       </a>
       <p>
-        Embark on an epic journey where the strength of one's bonds has the power to overcome even prophecy. <i>Bolt from the Blue</i> is a character-driven RPG following the story of Araceli Fuentes de Luna, princess of a kingdom that's just been brought to ruin by a powerful, dark entity - one that she was destined to stop, but couldn't due to a mysterious curse that's plagued her for her entire life. Araceli's story is shown through the perspective of Raiden, her kind attendant with no recollection of her own past, devoting herself entirely to Araceli's safety and well-being.
+        Embark on an epic journey where the strength of one's bonds has the power to overcome even prophecy. <i>Bolt from the Blue</i> is a character-driven RPG following the story of Araceli Almador de Luna, princess of a kingdom that's just been brought to ruin by a powerful, dark entity - one that she was destined to stop, but couldn't due to a mysterious curse that's plagued her for her entire life. Araceli's story is shown through the perspective of Raiden, her kind attendant with no recollection of her own past, devoting herself entirely to Araceli's safety and well-being.
       </p>
       <p>
         Accompanied by over-ambitious noble Saffron and the notorious solo pirate Cole, the duo set out on a quest to lift Araceli's curse and return home and fulfill her destiny as her kingdom's hero. The party is threatened at every turn by the perpetrators of the destruction: Nox Noctis, a mysterious organization seeking to control the Beastlords. Together, these four will put a stop to Nox Noctis' plans, uncover ancient secrets, and bring light to a world succumbed to darkness.

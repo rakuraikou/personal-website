@@ -53,7 +53,7 @@
             The journey is bigger than the two of them, however, and they'll need to bring on more allies before they can take on Rudiment...I'll get to the rest of this eventually lol. Sorry haha
           </p>
         </div>
-        <a href="https://twitter.com/violetchio" target="_blank" title="art by violetchio on Twitter">
+        <a href="https://bsky.app/profile/violetchio.bsky.social" target="_blank" title="art by violetchio.bsky.social">
           <div style="display: grid; grid-template-columns: 59% 41%; align-items: center;">
             <img src="res/marle/ango_marle.png" alt="Marle by violetchio" style="width: 100%">
             <img src="res/marle/ango_sorrell.png" alt="Sorrell by violetchio" style="width: 100%">
