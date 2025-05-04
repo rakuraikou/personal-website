@@ -84,7 +84,7 @@
           <div class='post'>
             <h2 style='text-align: center'> Welcome to my stupid baka life</h2>
             <p>
-            This is where I talk about what I'm up to, how I'm doing, etc... Right now my goal is to touch this once every week or two, but I'm still feeling it out!
+            This is where I talk about what I'm up to, how I'm doing, etc... I just post whenever I feel like it!
             </p>
           </div>
           ";
