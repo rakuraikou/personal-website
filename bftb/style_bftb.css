@@ -16,9 +16,9 @@
 }
 body {
   background-color: #29191f;
-  background-image: url('res/tiled_bg.png');
-  background-repeat: repeat;
-  background-size: 300px;
+  background-image: url('res/bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
   color: var(--bodytxt);
   font-family: Verdana;
   max-width: 1200px;
