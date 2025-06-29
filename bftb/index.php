@@ -29,9 +29,6 @@
       <p>
         <i>Bolt from the Blue</i> is a worldbuilding and RPG gamedev project that I (<a href="/abt">LEN</a>) am developing. This part of the website serves as a simple overview of what it's all about. If you'd like a more in-depth look at the characters, lore and narrative, please check out <a href="wiki/index">the wiki</a>. Thanks for stopping by!
       </p>
-      <p>
-        ... oh, and I'm hoping to replace that image soon lol. I just needed a placeholder there.
-      </p>
     </main>
     <?php include 'footer_content.html'; ?>
   </body>

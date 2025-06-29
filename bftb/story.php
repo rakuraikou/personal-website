@@ -30,7 +30,7 @@
         Embark on an epic journey where the strength of one's bonds has the power to overcome even prophecy. <i>Bolt from the Blue</i> is a character-driven RPG following the story of Araceli Almador de Luna, princess of a kingdom that's just been brought to ruin by a powerful, dark entity—one that she was destined to stop, but couldn't due to a mysterious curse that's plagued her for her entire life. Araceli's story is shown through the perspective of Raiden, her kind attendant with no recollection of her own past, devoting herself entirely to Araceli's safety and well-being.
       </p>
       <p>
-        Accompanied by over-ambitious noble Saffron and the boisterous pirate Cole, the duo set out on a quest to lift Araceli's curse and return home and fulfill her destiny as her kingdom's hero. The party is threatened at every turn by the perpetrators of the destruction: Nox Noctis, a mysterious organization seeking to seize control of a mythical power. Together, these four will put a stop to Nox Noctis' plans, uncover ancient secrets, and bring light to a world succumbed to darkness.
+        Accompanied by over-ambitious noble Saffron and the boisterous pirate Cole, the duo set out on a quest to lift Araceli's curse and return home and fulfill her destiny as her kingdom's hero. The party is threatened at every turn by the perpetrators of the destruction: Nox Noctis, a mysterious organization seeking to seize control of mythical powers from Luxos' ancient past. Together, these four will put a stop to Nox Noctis' plans and bring light to a world succumbed to darkness.
       </p>
       <h1 style="text-align: center">
         Main Characters
