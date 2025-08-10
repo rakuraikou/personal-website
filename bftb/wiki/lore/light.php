@@ -30,17 +30,22 @@
       </h1>
       <hr>
       <p>
-        (wip page...soz)
+        Within every living or nonliving being on Luxos, there is light. It is even present in the air. A nebulous compound and force summarized as "life force" or "magical entity," its presence is what everything in the world has in common.
       </p>
       <p>
-        Everything on Luxos is made of "light," a compound and force colloquially referred to as "life force" or "magical energy." Light is not only present in every entity and lifeform, but it also flows in a "pure" state in the atmosphere.
+        Light itself is well-understood on a foundational level. It is not actually a single particle, but a collective of nine aspects (or "elements"). Living organisms primarily have one aspect of light flowing within them, which also correlates to the aspect that they can manipulate through magic. 
       </p>
       <p class="notebox">
-        Though it is constantly flowing, light will occasionally pool in certain places. For example, a dense cluster of light forms in South Pyrus once every ten years. Members of House Infiaco take advantage of this phenomenon by amplifying their precognitive abilities through this cluster, allowing them to see much further into the future.
+        While the aspect of light within a person correlates to the aspect they can wield with magic, there is evidence to suggest that people also carry minute traces of other aspects with them.
       </p>
       <p>
-        It's generally agreed upon that sentience is determined through if the entity in question can't be manipulated by an <a href="magic">aspect</a>. That being said, scholars aren't quite sure what exactly makes up sentient beings (particularly <a href="people">people</a>) aside from the nebulous "light." 
+        The atmosphere in Luxos is filled with "pure" light, a homogenous blend of every aspect. This presence allows for magic to be cast even when there is nothing present—water can be extracted where there are no rivers, and fire ignited without embers or kindling.
       </p>
+      <p class="notebox">
+        Though it is constantly flowing, atmospheric light will occasionally pool in certain places. For example, a dense cluster of light forms in South Pyrus once every ten years. This phenomenon amplifies the precognitive abilities of House Infiaco members, allowing them to see much further into the future than usual.
+      </p>
+      <hr>
+
     </main>
     <?php include '../footer_content.html'; ?>
 

@@ -29,10 +29,13 @@
       </h1>
       <hr>
       <h2>
-        Fundamental Concepts
+        Base Concepts
       </h2>
       <hr>
       <ul>
+        <li>
+          <a href="curses">Curses</a>
+        </li>
         <li>
           <a href="light">Light</a>
         </li>
