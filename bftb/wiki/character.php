@@ -188,13 +188,13 @@
           $sql_protag = "SELECT * FROM characters WHERE type = 'protag'";
           $result_protag = $conn->query($sql_protag);
           
-          $sql_nox = "SELECT * FROM characters WHERE type = 'nox'";
+          $sql_nox = "SELECT * FROM characters WHERE type = 'nox' ORDER BY sort DESC";
           $result_nox = $conn->query($sql_nox);
 
-          $sql_linked = "SELECT * FROM characters WHERE type = 'linked'";
+          $sql_linked = "SELECT * FROM characters WHERE type = 'linked' ORDER BY id ASC";
           $result_linked = $conn->query($sql_linked);
 
-          $sql_other = "SELECT * FROM characters WHERE type = 'other'";
+          $sql_other = "SELECT * FROM characters WHERE type = 'other' ORDER BY id ASC";
           $result_other = $conn->query($sql_other);
 
           function genCharIndex($result) {
