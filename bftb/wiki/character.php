@@ -47,7 +47,7 @@
             <h1 style='font-style: italic'>" . $row["alias"] . "</h1>
               <hr>
                 <div class='char-side'>
-                  <img src='res/fb/" . $row["id"] . ".png' style='max-height: 400px; margin: auto'>
+                  <img src='res/fb/" . $row["id"] . ".png' style='max-height: 400px; max-width: 350px; margin: auto'>
                   <table class='side-table'>
                     <tr>
                       <td>Name</td>
