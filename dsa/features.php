@@ -80,22 +80,13 @@
         <p>
           DSA offers a variety of casual, cooperative and competitive events. The most popular of these are the monthly events, but the server also hosts "side events" in between to keep things alive. An archive of past events can be found <a href="events">here</a>.
         </p>
-        <h4>Monthly Events</h4>
+        <h4>Bimonthly Events</h4>
         <p>
-           Each month, members are prompted to create content of their characters according to a specific theme or challenge. While the events generally lend themselves to drawn artwork, many of them are also open to writing and other forms of submission. The monthly events are intended to be low-pressure, though some may have raffles for participation and/or prizes for the winner of a competitive event.
+           In these events, members are prompted to create content of their characters according to a specific theme or challenge. We like to implement game-like elements or prizes to make our events stand out beyond the typical "draw this prompt" challenge! While the events generally lend themselves to drawn artwork, many of them are also open to writing and other forms of submission. They're intended to be low-pressure, though some may have raffles for participation and/or prizes for the winner of a competitive event.
         </p>
-        <h4>Side Events</h4>
+        <h4>Outside Events</h4>
         <p>
-          DSA also hosts other events aside from the monthly ones (referred to as "side events"). Though they may not get a flashy banner and announcement, they are still enjoyed by the community. Examples of these smaller events include:
-        </p>
-        <ul>
-          <li>
-            Member-suggested events (e.g. "DeviantArt wolf base" design challenge)
-          </li>
-          <li>
-            Facilitative channels for external events (e.g. ArtFight)
-          </li>
-        </ul>
+          DSA also facilitates events and challenges enjoyed by creators in general, such as Art Fight and NaNoWriMo. At the very least, we make a channel to discuss, but we often also add custom roles, challenges and prizes!
       </div>
       <div id="minecraft" class="tab-content">
         <h3>Minecraft</h3>
@@ -103,14 +94,9 @@
           Many members of DSA enjoy playing video games. The server supports this by providing opt-in ping roles for finding people to play with, as well as its own Minecraft server.
         </p>
         <h4>SEA CUBES</h4>
-        <div class="grid-minecraft" style="gap: 15px">
-          <img src="https://file.garden/ZRerbDGLwX_OLW5G/DSA%20Forum%20Post/mc1.png" class="grid-mc-side img-border">
-          <p class="grid-mc-text">
-            SEA CUBES is DSA's official Minecraft server. Currently, it is inactive, but we anticipate reviving it in the near future!
-          </p>
-          <img src="https://file.garden/ZRerbDGLwX_OLW5G/DSA%20Forum%20Post/mc4.png" class="grid-mc-img-1 img-border">
-          <img src="https://file.garden/ZRerbDGLwX_OLW5G/DSA%20Forum%20Post/mc5.png" class="grid-mc-img-2 img-border">
-        </div>
+        <p>This is DSA's main Minecraft server! As of August 30th, 2025, it is currently offline as improvements/adjustments are being made to the server's hardware.</p>
+        <h4>SEA COBBLE</h4>
+        <p>DSA's Cobblemon server! As of August 30th, 2025, it is currently ONLINE and active!</p>
       </div>
     </main>
 
