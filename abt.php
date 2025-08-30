@@ -34,10 +34,10 @@
             <img src="res/raku_ango.png" style="float: right; max-width: 30%" alt="raku, my sona/mascot">
           </a>
           <p>
-            24 year old asian american lesbian demon thing riding the pipe dream of developing a meaningful video game someday. No preference in pronouns, but these days most people use she/her for me. I have a wonderful girlfriend who does not use social media so I can't link anything... but I promise she exists lol.
+            25 year old asian american lesbian demon thing riding the pipe dream of developing a meaningful video game someday. No preference in pronouns, but these days most people use she/her for me. I have a wonderful girlfriend who does not use social media so I can't link anything... but I promise she exists lol. That whole "all caps" thing in my name is optional, I just think it's funnier that way.
           </p>
           <p>
-            I REALLY love collecting <a href="figurines">blind box figurines</a> and <a href="controllers">video game controllers</a>. My favorite video game genre is "modern JRPG that's clearly trying to appeal to the classic/golden-age fans," so a lot of my top games (as well as the inspiration for my primary worldbuilding project) will reflect this weird niche.
+            I love video games! My favorite video game genre is "modern JRPG that's clearly trying to appeal to the classic/golden-age fans," so a lot of my top games (as well as the inspiration for my primary worldbuilding project) will reflect this weird niche. I also really enjoy listening to chorus battles, and have an embarrassingly encyclopedic knowledge on the scene.
           </p>
           <p>
             I have an enormous passion for worldbuilding and project development, and I love seeing what others are up to. I have a Discord server centered around it, you can check out more information about that <a href="dsa/index" target="_blank">here</a>.
@@ -60,12 +60,12 @@
           <div class="interests-bottom">
             <ul style="margin:0px;">
               <li>👑 Bravely Default: Flying Fairy</li>
+              <li>The Legend of Zelda: BOTW/TOTK</li>
               <li>Monster Hunter Rise</li>
               <li>👑 Octopath Traveler 2</li>
               <li>Splatoon 3</li>
-              <li>Taiko no Tatsujin</li>
+              <li>👑 Taiko no Tatsujin</li>
               <li>Tetris 99</li>
-              <li>👑 The Legend of Zelda: BOTW/TOTK</li>
             </ul>
           </div>
         </div>
@@ -83,7 +83,7 @@
               <li>TOPHAMHAT-KYO / FAKE TYPE</li>
               <li>👑 Rib</li>
               <li>syudou</li>
-              <li>...and lots of video game OSTs lol</li>
+              <li>👑 ...and lots of video game OSTs lol</li>
             </ul>
           </div>
         </div>
@@ -109,6 +109,7 @@
           <div class="interests-bottom">
             <ul style="margin:0px;">
               <li>👑 "CBS hit reality TV show Survivor"</li>
+              <li>👑 Chorus battles</li>
               <li>Entomology</li>
               <li>👑 Game development</li>
               <li>Mycology</li>

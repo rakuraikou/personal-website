@@ -90,9 +90,6 @@
         <a href="https://synoic.us/" style="text-decoration:none">
           <img src="/res/buttons/btn_synoicus.png" alt="synoicus site button">
         </a>
-        <a href="https://desperados.neocities.org/" style="text-decoration:none">
-          <img src="/res/buttons/btn_desperados.png" alt="desperados site button">
-        </a>
         <a href="https://helv.neocities.org/" style="text-decoration:none">
           <img src="/res/buttons/btn_helv.png" alt="yuyuko's field site button">
         </a>
@@ -122,7 +119,7 @@
         <a href="https://epoxyoxen.carrd.co/" style="text-decoration:none">
           <img src="/res/buttons/spsjs/west.png" alt="epoxyoxen sprite button" onmouseover="spsjsGif(this)" onmouseout="spsjsPng(this)">
         </a>
-        <a href="https://seraphore.tumblr.com/" style="text-decoration:none">
+        <a href="" style="text-decoration:none">
           <img src="/res/buttons/spsjs/xirsys.png" alt="seraphore sprite button" onmouseover="spsjsGif(this)" onmouseout="spsjsPng(this)">
         </a>
       </p>

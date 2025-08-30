@@ -24,7 +24,7 @@
       <p>Vaguely, I've tried to order this list from most to least treasured, but they're all very important to me as pieces of my collection LOL. Click any image to view the store link (except for the Joy-cons, the cat controller, and the controller at the bottom - I cannot for the life of me find the original listing for the latter two). I'm not sponsored by any of these guys, I just like spreading the love of a horrifically pricey hobby.</p>
       <p style="margin-bottom: 25px">YES, I did a whole photoshoot for my controllers. What's it to you.</p>
 
-      <div class="collect-item">
+      <div class="collect-controller">
         <a href="https://www.etsy.com/shop/XLTeam" target="_blank">
           <img src="/res/controllers/lunchtime_pro.jpg" height="130" alt="Custom OC-themed Nintendo Switch pro controller">
         </a>
@@ -33,7 +33,7 @@
         </span>
       </div>
 
-      <div class="collect-item">
+      <div class="collect-controller">
         <a href="https://www.8bitdo.com/ultimate-bluetooth-controller/" target="_blank">
           <img src="/res/controllers/8bitdo_ultimate.png" height="130" alt="8BitDo Ultimate Bluetooth Controller">
         </a>
@@ -42,7 +42,7 @@
         </span>
       </div>
 
-      <div class="collect-item">
+      <div class="collect-controller">
         <a href="https://www.nintendo.com/store/products/pro-controller/" target="_blank">
           <img src="/res/controllers/ns_pro.jpg" height="130" alt="Nintendo Switch pro controller">
         </a>
@@ -51,7 +51,7 @@
         </span>
       </div>
 
-      <div class="collect-item">
+      <div class="collect-controller">
         <a href="https://www.8bitdo.com/sn30-pro-plus/" target="_blank">
           <img src="/res/controllers/8bitdo_sn30_pro_plus.jpg" height="130" alt="8BitDo SN30 Pro+ controller">
         </a>
@@ -60,14 +60,14 @@
         </span>
       </div>
 
-      <div class="collect-item">
+      <div class="collect-controller">
         <img src="/res/controllers/joycons.jpg" height="130" alt="Animal Crossing New Horizons edition Nintendo Switch Joy-cons">
         <span style="margin-left: 10px">
           I use these to play Tetris 99. They do their one, single job very well. (I also have Joy-cons in red/blue, yellow, gray, and pink/green, but they're with my brother right now). I've had to repair these twice for drift, so that's funny.
         </span>
       </div>
 
-      <div class="collect-item">
+      <div class="collect-controller">
         <a href="https://www.8bitdo.com/sn30-pro-g-classic-or-sn30-pro-sn/" target="_blank">
           <img src="/res/controllers/8bitdo_pro_sn.jpg" height="130" alt="8BitDo SN30 Pro controller">
         </a>
@@ -76,7 +76,7 @@
         </span>
       </div>
 
-      <div class="collect-item">
+      <div class="collect-controller">
         <a href="https://www.nintendo.com/store/products/afterglow-wireless-deluxe-controller/" target="_blank">
           <img src="/res/controllers/afterglow.jpg" height="130" alt="Afterglow Wireless Deluxe Controller for Switch">
         </a>
@@ -85,7 +85,7 @@
         </span>
       </div>
 
-      <div class="collect-item">
+      <div class="collect-controller">
         <a href="https://www.powera.com/p/nintendo/nintendo-switch/controllers/wireless/enhanced-wireless-controller-rechargeable-for-nintendo-switch-pokemon-pikachu-retro-1518804-02/" target="_blank">
           <img src="/res/controllers/powera_retro_pikachu.jpg" height="130" alt="PowerA Wireless Controller for Nintendo Switch, Pikachu Retro colorway">
         </a>
@@ -94,14 +94,14 @@
         </span>
       </div>
 
-      <div class="collect-item">
+      <div class="collect-controller">
         <img src="/res/controllers/catroller.jpg" height="130" alt="Light green and white controller with cat ear-like bumpers">
         <span style="margin-left: 10px">
           The "cat" controller was supposed to be designed for people with smaller hands, so I thought I'd give it a try. I can confidently say it is very fucking small.
         </span>
       </div>
 
-      <div class="collect-item">
+      <div class="collect-controller">
         <a href="https://www.newegg.com/p/3BJ-0046-00002" target="_blank">
           <img src="/res/controllers/gamenir.jpg" height="130" alt="Black controller with gold and blue patterns">
         </a>
@@ -110,7 +110,7 @@
         </span>
       </div>
 
-      <div class="collect-item">
+      <div class="collect-controller">
         <img src="/res/controllers/offbrand.jpg" height="130" alt="Blue, black and red controller">
         <span style="margin-left: 10px">
           I think this was my first pro-styled controller. It was really cheap, and I just wanted to get it so my brother could play Minecraft on the Nintendo Switch with me (even though we could already play together on PC).

@@ -154,6 +154,12 @@ a:hover {
   display: grid;
   grid-template-columns: auto auto auto;
 }
+.collect-controller {
+  margin-bottom: 15px;
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+}
 .collect-item {
   margin-bottom: 15px;
   display: flex;
