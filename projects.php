@@ -26,6 +26,7 @@
       <p style="margin-bottom: 25px">I do stuff sometimes. It's a lot of fun! Except for when it isn't.</p>
 
       <h3>Original characters and stories</h3>
+
       <h4><a href="bftb/index">Bolt from the Blue</a></h4>
       <p>A worldbuilding/gamedev project started in December 2020 inspired by silly classic JRPGs about little guys going on big adventures. There's also a <a href="https://toyhou.se/charge/characters/folder:1796863" target="_blank">TOYHOU.SE folder</a> for this project that I'm currently working on.</p>
 
@@ -36,6 +37,10 @@
       <p>Just a Discord server I spend way too much time polishing + managing (I say this lovingly. The people in there make it worth going this hard for). It's designed with OC/worldbuilding/projectdev in mind, so there's channels for people's projects, monthly events/prompts, etc. The site isn't updated, but the server is still running, so come hang out with us!</p>
 
       <h3>Fan characters and projects</h3>
+
+      <h4><a href="othos/index">Octopath Traveler: House of Stars</a></h4>
+      <p>My Octopath Traveler fan characters! They're my little home away from home. I also have a <a href="https://toyhou.se/charge/characters/folder:5099812" target="_blank">TOYHOU.SE folder</a> for them.</p>
+
       <h4><a href="bravelymarle">Bravely Marle</a></h4>
       <p>
         My <a href="https://en.wikipedia.org/wiki/Bravely_Default">Bravely Default</a> fan OCs. They exist in the world of Luxendarc, but one that's a little more developed with concepts by my friend <a href="https://twitter.com/chuunicherry" target="_blank">Fio</a>.
