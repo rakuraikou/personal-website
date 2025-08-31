@@ -29,9 +29,6 @@
       </h2>
       <ul>
         <li>
-          <a href="tvt/index">TVTropes</a> - a funny TVTropes page for this game that doesn't yet exist
-        </li>
-        <li>
           <a href="lunchtime">Lunchtime</a> - the self-indulgent page for Raiden x Araceli. lols.
         </li>
         <li>
