@@ -26,8 +26,8 @@
       <a href="https://bsky.app/profile/rkrk.dev" target="_blank" style="font-variant:small-caps">bluesky</a> .
       <a href="https://discordapp.com/users/949944587210862593" target="_blank" style="font-variant:small-caps" title="@bravebearer">discord</a> . 
       <a href="https://toyhou.se/charge/" target="_blank" style="font-variant:small-caps">toyhou.se</a> . 
-      <a href="https://rakuraikou.tumblr.com/" target="_blank" style="font-variant:small-caps">tumblr</a> . 
-      <a href="https://twitter.com/obleeflu" target="_blank" style="font-variant:small-caps">twitter</a>
+      <a href="artfight.net/~charge" target="_blank" style="font-variant:small-caps">art fight</a> . 
+      <a href="https://rakuraikou.tumblr.com/" target="_blank" style="font-variant:small-caps">tumblr</a>
       <div>
         <span>
           <a href="https://bsky.app/profile/violetchio.bsky.social" target="_blank" title="art by violetchio.bsky.social">
