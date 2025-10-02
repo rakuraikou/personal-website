@@ -39,7 +39,7 @@
         Every person in Luxos has a heart. This is what makes living beings (not just people) "alive"—as long as it is present and beating, light will remain affixed to the body and flow through it. It also keeps one's light from being used by others for casting, and what allows someone to cast magic themself.
       </p>
       <p>
-        When someone dies, their heart ceases to function, and any light in their body will wash into the atmosphere, leaving behind an empty corpse. Should someone's memory and legacy be held onto by enough people, that person may become a <a href="champion">Champion</a>, and their intact light will persist onward.
+        When someone dies, their heart ceases to function, and any light in their body will wash into the atmosphere, leaving behind an empty corpse. Should someone's memory and legacy be held onto by enough people, that person may become a <a href="champions">Champion</a>, and their intact light will persist onward.
       </p>
       <h2>
         Factions
