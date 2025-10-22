@@ -47,7 +47,7 @@
       <?php include '../footer_content.html'; ?>
     </div>
     <div class="side">
-      <a href="../wiki/character?id=raiden">Beating, bleeding heart of Luxos—don't lose your way.</a>
+      <a href="../character?id=raiden">Beating, bleeding heart of Luxos—don't lose your way.</a>
     </div>
   </body>
 </html>
