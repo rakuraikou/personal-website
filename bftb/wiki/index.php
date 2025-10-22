@@ -37,7 +37,7 @@
       <?php include 'footer_content.html'; ?>
     </div>
     <div class="side">
-      <a href="../game/link">You are the collective of the heart. You are love in its truest, most unyielding form.</a>
+      <a href="game/link">You are the collective of the heart. You are love in its truest, most unyielding form.</a>
     </div>
   </body>
 </html>
