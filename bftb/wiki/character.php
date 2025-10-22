@@ -189,7 +189,7 @@
             $sql_protag = "SELECT * FROM characters WHERE type = 'protag'";
             $result_protag = $conn->query($sql_protag);
             
-            $sql_nox = "SELECT * FROM characters WHERE type = 'nox' ORDER BY sort DESC";
+            $sql_nox = "SELECT * FROM characters WHERE type = 'nox' ORDER BY sort ASC";
             $result_nox = $conn->query($sql_nox);
 
             $sql_linked = "SELECT * FROM characters WHERE type = 'linked' ORDER BY id ASC";
