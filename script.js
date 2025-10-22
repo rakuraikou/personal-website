@@ -52,7 +52,7 @@ function taglines() {
     'how did you get here??',
     '...',
     'they don&apos;t call me guy of the century for nothin&apos;...',
-    'guy of the century, awarded 00',
+    'guy of the century, awarded &apos;00',
     'the girlies in my stomach aren&apos;t going to like this one...',
     'hey, wait what?!',
     'certified girl help moment',
@@ -70,7 +70,6 @@ function taglines() {
     'america&apos;s next top guy!',
     'not immortal...but not quite mortal either',
     'eat eat eat',
-    'hrghhh',
     'scamp/butch enjoyer',
     'how to charge?',
     'shrimpgame survivor',
@@ -82,7 +81,11 @@ function taglines() {
     'godkiller for hire',
     'sometimes you just have to :raku_guh: and move on',
     'wouldn&apos;t you like to know...',
-    'he&apos;s like if they made an italian boy french and then put him in spain'
+    'he&apos;s like if they made an italian boy french and then put him in spain',
+    'they don&apos;t pay me enough for this.',
+    'you should listen to lunarvine by daydream!',
+    'have you seen my ocs? no, really. i can&apos;t find them. help!',
+    'what the. stop refreshing me!'
   ];
 
   var picktag = Math.floor(Math.random() * tags.length);
