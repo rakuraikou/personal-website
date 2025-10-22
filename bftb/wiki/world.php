@@ -18,6 +18,7 @@
 
   </head>
   <body>
+    <div class="all-content">
     <?php include 'header_content.html'; ?>
     <main>
       <ul class="crumb">
@@ -29,37 +30,16 @@
       </h1>
       <hr>
       <h2>
-        Great Regions
+        ...
       </h2>
       <p>
-        Luxos, also known as "the realm of light," is divided into four regions. Each of these regions is defined mainly by the migration path of its respective Beastlord.
-      </p>
-      <h3>
-        Cieliso
-      </h3>
-      <p>
-        This region is entirely suspended in mid-air. Highlighted in the central island lies the proud kingdom capital of San Ven. Most Cielisono citizens live here, but there are a few smaller villages along the outskirts and on close neighboring islands. The rest of the region is composed of plains and forests (though flora doesn't grow very tall). A constant breeze cycles throughout the region, and windstorms passes by on occasion. In order to reduce storm damage to infrastructure, tunnels have been constructed inside and around the archipelago to redirect and disperse the powerful gusts. Travel between the islands and beyond the country is typically accomplished through the use of skycrafts, though some intrepid (perhaps foolhardy) people will utilize the tunnels for travel in between storms.
-      </p>
-      <h3>
-        Umisuu
-      </h3>
-      <p>
-        Directly beneath the Cielisono Isles lies another set of islands - one speckled along the Luxic Sea. Umisuu is split into two main sections - Coastal Umisuu and Deep Umisuu. The former refers to the above-sea landforms, while the latter applies to the underwater depths left behind when Cieliso apparently rose from the sea. Though the majority of Umisuu's population resided in the Coastal region, Deep Umisuu was frequented by adventurers and the like. However, fewer and fewer people venture into Deep Umisuu due to increasing dangers in the sea. Both Coastal Umisuu and Deep Umisuu are under the authority of the Umisuan Council.
-      </p>
-      <h3>
-        Pyrus
-      </h3>
-      <p>
-        Pyrus is a large, terrestrial region characterized by extremely flat landscapes - the only notably elevated point being the Tapphaa Volcano in Asburj. The country is subdivided into three areas: North Pyrus, East Pyrus, and South Pyrus, each governed by a specific noble house. While they act independently of each other, the houses will occasionally congregate to decide on greater national affairs. Pyrus' climate generally runs dry, however South Pyrus has a short wet season because of its proximity to the Luxic Sea.
-      </p>
-      <h3>
-        Guashan
-      </h3>
-      <p>
-        The diverse Guashan region is made up of snowy mountains, dense forests, fertile plains, and a few sky islands not unlike the Cielisono Isles. Its capital, Da Qiu, is enshrouded by a treacherous range, with the only break in jagged mountains being a single, heavily-guarded path. It is closed off to outsiders without an entry permit. The island of Sinocrast, though technically under Guashan law, operates very differently from the rest of the country, and is generally considered a separate region entirely.
+        ... workin on it.
       </p>
     </main>
     <?php include 'footer_content.html'; ?>
-
+    </div>
+    <div class="side">
+      <a href="../game/link">You are the collective of the heart. You are love in its truest, most unyielding form.</a>
+    </div>
   </body>
 </html>

@@ -17,22 +17,27 @@
     <script src="script_wiki.js"></script>
 
   </head>
-  <body>    
-    <?php include 'header_content.html'; ?>
-    <main>
-      <div class="field">
-        <h2 class="field-heading">
-          Welcome to the Bolt from the Blue wiki!
-        </h2>
-        <p class="field-body">
-          Bolt from the Blue is a worldbuilding and RPG gamedev project that I (<a href="/abt">LEN</a>) am developing. It is mostly solo - currently, I am the only person doing the writing, programming and music composition. My girlfriend is assisting me with creation of 3D character assets, and I intend on bringing one or two more people into the team to help with other assets.
-        </p>
-        <p class="field-body">
-          There is no release date currently, but the feature test ("alpha") demo is in development! Thanks for stopping by!
-        </p>
-      </div>
-    
-    </main>
-    <?php include 'footer_content.html'; ?>
+  <body>
+    <div class="all-content">
+      <?php include 'header_content.html'; ?>
+      <main>
+        <div class="field">
+          <h2 class="field-heading">
+            Welcome to the Bolt from the Blue wiki!
+          </h2>
+          <p class="field-body">
+            Bolt from the Blue is a worldbuilding and RPG gamedev project that I (<a href="/abt">LEN</a>) am developing. It is mostly solo - currently, I am the only person doing the writing, programming and music composition. My girlfriend is assisting me with creation of 3D character assets, and I intend on bringing one or two more people into the team to help with other assets.
+          </p>
+          <p class="field-body">
+            There is no release date currently, but the feature test ("alpha") demo is in development! Thanks for stopping by!
+          </p>
+        </div>
+      
+      </main>
+      <?php include 'footer_content.html'; ?>
+    </div>
+    <div class="side">
+      <a href="../game/link">You are the collective of the heart. You are love in its truest, most unyielding form.</a>
+    </div>
   </body>
 </html>

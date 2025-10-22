@@ -18,56 +18,60 @@
 
   </head>
   <body>
-    <?php include '../header_content.html'; ?>
-    <main>
-      <ul class="crumb">
-        <li><a href="../index">Home</a></li>
-        <li><a href="index">Lore</a></li>
-      </ul>
-      <h1>
-        Lore
-      </h1>
-      <hr>
-      <h2>
-        Base Concepts
-      </h2>
-      <hr>
-      <ul>
-        <li>
-          <a href="curses">Curses</a>
-        </li>
-        <li>
-          <a href="light">Light</a>
-        </li>
-        <li>
-          <a href="magic">Magic</a>
-        </li>
-      </ul>
-      <h2>
-        Inhabitants
-      </h2>
-      <hr>
-      <ul>
-        <li>
-          <a href="beastlords">Beastlords</a>
-        </li>
-        <li>
-          <a href="biota">Biota</a>
-        </li>
-        <li>
-          <a href="people">People</a>
-        </li>
+    <div class="all-content">
+      <?php include '../header_content.html'; ?>
+      <main>
+        <ul class="crumb">
+          <li><a href="../index">Home</a></li>
+          <li><a href="index">Lore</a></li>
+        </ul>
+        <h1>
+          Lore
+        </h1>
+        <hr>
+        <h2>
+          Base Concepts
+        </h2>
+        <hr>
         <ul>
           <li>
-            <a href="cielisonoroyal">Cielisono Royal Family</a>
+            <a href="curses">Curses</a>
           </li>
           <li>
-            <a href="champions">Champions</a>
+            <a href="light">Light</a>
+          </li>
+          <li>
+            <a href="magic">Magic</a>
           </li>
         </ul>
-      </ul>
-    </main>
-    <?php include '../footer_content.html'; ?>
-
+        <h2>
+          Inhabitants
+        </h2>
+        <hr>
+        <ul>
+          <li>
+            <a href="beastlords">Beastlords</a>
+          </li>
+          <li>
+            <a href="biota">Biota</a>
+          </li>
+          <li>
+            <a href="people">People</a>
+          </li>
+          <ul>
+            <li>
+              <a href="cielisonoroyal">Cielisono Royal Family</a>
+            </li>
+            <li>
+              <a href="champions">Champions</a>
+            </li>
+          </ul>
+        </ul>
+      </main>
+      <?php include '../footer_content.html'; ?>
+    </div>
+    <div class="side">
+      <a href="../game/link">You are the collective of the heart. You are love in its truest, most unyielding form.</a>
+    </div>
   </body>
 </html>

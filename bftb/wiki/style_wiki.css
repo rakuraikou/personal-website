@@ -16,14 +16,16 @@
 
 body {
   background-color: var(--bodybg);
-  background: url('res/sanvenbg.png');
+  background: url('res/bg.png');
   background-attachment: fixed;
+  background-position: left bottom;
+  background-size: cover;
+  /* background-size: contain;
+  background-position: center;
+  background-color: #121524; */
   background-repeat: no-repeat;
   color: var(--bodytxt);
   font-family: Verdana;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
 }
 header {
   display: flex;
@@ -114,6 +116,24 @@ a {
 }
 a:hover {
   color: var(--linkhover);
+}
+.all-content {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.side {
+  margin-left: 0px;
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+  width: 300px;
+  text-align: center;
+  font-style: italic;
+}
+.side a {
+  color: var(--bodytxt);
+  text-decoration: unset;
 }
 
 /* DETAILS + SUMMARY TOGGLE */
@@ -431,6 +451,19 @@ details[open] > summary {
   color: var(--linkhover) !important;
 }
 
+@media (max-width: 1820px) {
+  .side {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    width: initial;
+    text-align: center;
+    position: relative;
+    left: initial;
+    bottom: initial;
+    margin-top: 20px;
+  }
+}
 /* MOBILE ONLY */
 @media (max-width: 768px) {
   header {
