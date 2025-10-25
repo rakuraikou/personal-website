@@ -31,7 +31,7 @@
         </h1>
         <hr>
         <p>
-          Link State (stylized as Link State) is a special ability exclusive to Raiden. Each type, known as a Link, is obtained as a reward for completing another character's Link Quest. When active, Raiden's aspect changes, and she receives a unique set of CAST skills to use in battle based on the respective character's own strengths. Additionally, if the character that the Link State originates from is also in the party, that character is then able to use a special combo CAST skill with Raiden.
+          Link State (aka the "LINK" action in combat) is a special ability exclusive to Raiden. Each type, known as a Link, is obtained as a reward for completing another character's Link Quest. When active, Raiden's aspect changes, and she receives a unique set of CAST skills to use in battle based on the respective character's own strengths. Additionally, if the character that the Link State originates from is also in the party, that character is then able to use a special combo CAST skill with Raiden.
         </p>
         <p>
           While being able to switch aspects and roles on the fly is powerful, Link State comes with a plethora of conditions and drawbacks. Raiden's Link meter is drained every time Link State is activated or a Link CAST skill is used. Additionally, activating a Link State slightly damages all other characters in the party (except for the character in the "on deck" position).
