@@ -48,7 +48,7 @@
       <h3>Links and Buttons</h3>
       <h4>My stuff!</h4>
       <p>
-        Let me know if you threw my buttons on your site, I'll link back [:
+        Let me know if you threw my buttons on your site, I'd be delighted to link back and grow my little button collection...
       </p>
       <p>
         <img src="/res/buttons/btn_rkrk_anim.gif" alt="animated rakuraikou site button">
@@ -108,6 +108,12 @@
         <a href="https://noctivagant.net/" style="text-decoration: none">
           <img src="/res/buttons/btn_noctivagant.png" alt="noctivagant site button">
         </a>
+        <a href="https://www.cinnamuff.space/" style="text-decoration: none">
+          <img src="/res/buttons/btn_cinnamuff.png" alt="cinnamuff site button">
+        </a>
+        <a href="https://lurizon.neocities.org/" style="text-decoration: none">
+          <img src="/res/buttons/btn_lurizon.png" alt="lurizon site button">
+        </a>
       </p>
       <p class="btn-link">
         <a href="https://terrortooth.carrd.co/" style="text-decoration:none">
@@ -135,7 +141,7 @@
           Images in the Bravely Default and Splatoon pages are official assets from Square Enix / Team Asano and Nintendo, respectively.
         </li>
         <li>
-          The image map generated on the <a href="index">main page</a> is by <a href="http://www.image-map.net/">http://www.image-map.net/</a>, and the responsive resizer is by <a href="https://github.com/davidjbradshaw/image-map-resizer">davidjbradshaw</a> on GitHub
+          I like my friends.
         </li>
       </ul>
     </main>
