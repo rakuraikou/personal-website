@@ -7,10 +7,10 @@
 
 <!-- discord embed -->
     <meta content="the thunder guy or whatever" property="og:site_name">
-    <meta content="THUNDERSWAG!!! - Octopath Traveler II" property="og:title">
-    <meta content="Octopath Traveler II Narrative Flowchart" property="og:description">
-    <meta content='https://rkrk.dev/res/ot2.png' property='og:image'>
-    <meta name="theme-color" content="#967526">
+    <meta content="THUNDERSWAG!!! - Clair Obscur: Expedition 33" property="og:title">
+    <meta content="Clair Obscur: Expedition 33 Narrative Flowchart" property="og:description">
+    <meta content='https://rkrk.dev/res/ex33.png' property='og:image'>
+    <meta name="theme-color" content="#cfc85aff">
 
 <!-- css sheet and javascript-->
     <link href="/style.css" rel="stylesheet" type="text/css" media="all">
