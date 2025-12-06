@@ -23,7 +23,7 @@
     <main>
       <h2>Clair Obscur: Expedition 33 Narrative Flowchart</h2>
       <p>
-        Welcome to the Clair Obscur: Expedition 33 narrative flowchart! This was an exercise I did in my free time to study video game narrative—more specifically, how a video game's narrative intersects with its gameplay. Unlike <a href="">the one I made for Octopath Traveler II</a>, this didn't take me hundreds of hours—mostly because the game is much shorter, but also because I was more efficient in how I made this. It's not my first rodeo. As usual, the intent of this flowchart is to illustrate how player input pushes the story from one plot point to the next.
+        Welcome to the Clair Obscur: Expedition 33 narrative flowchart! This was an exercise I did in my free time to study video game narrative—more specifically, how a video game's narrative intersects with its gameplay. Unlike <a href="octopathtraveler2">the one I made for Octopath Traveler II</a>, this didn't take me hundreds of hours—mostly because the game is much shorter, but also because I was more efficient in how I made this. It's not my first rodeo. As usual, the intent of this flowchart is to illustrate how player input pushes the story from one plot point to the next.
       </p>
       <h3>
         Understanding the format
