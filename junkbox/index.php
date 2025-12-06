@@ -41,6 +41,10 @@
       <p>
         <a href="bravely_default">bravely default</a> : I REALLY LIKE THIS GAME
       </p>
+      <h4 style="margin-bottom:10px">Narrative Flowcharts</h4>
+      <p>
+        <a href="expedition33">clair obscur: expedition 33 narrative flowchart</a> : a completed map of how ex33's gameplay guides its narrative
+      </p>
       <p>
         <a href="octopathtraveler2">octopath traveler II narrative flowchart</a> : a completed map of how ot2's gameplay guides its narrative
       </p>
