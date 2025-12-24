@@ -49,6 +49,7 @@
         <h2>
           Casting
         </h2>
+        <hr>
         <p>
           For most use cases, using magic is about as mundane and painless as any other chore. A fire aspect wielder may stoke a glowing ember to fill their fireplace, or a bloom aspect wielder may twist the youngest branches of their bonsai to perfection. In these use cases, the wielder is manipulating something that is already present, and thus does not need to exert much energy in doing so.
         </p>
