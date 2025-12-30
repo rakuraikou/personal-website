@@ -109,6 +109,12 @@
         <a href="https://gross-galaxy.neocities.org/" style="text-decoration: none">
           <img src="/res/buttons/btn_grossgalaxy.png" alt="grossgalaxy site button">
         </a>
+        <a href="https://gross-galaxy.neocities.org/demain/" style="text-decoration: none">
+          <img src="/res/buttons/btn_demain.png" alt="demain des l'aube site button">
+        </a>
+        <a href="https://gross-galaxy.neocities.org/nolight/" style="text-decoration:none">
+          <img src="/res/buttons/btn_nolight.png" alt="no light eternal site button">
+        </a>
         <a href="https://noctivagant.net/" style="text-decoration: none">
           <img src="/res/buttons/btn_noctivagant.png" alt="noctivagant site button">
         </a>
@@ -117,6 +123,12 @@
         </a>
         <a href="https://lurizon.neocities.org/" style="text-decoration: none">
           <img src="/res/buttons/btn_lurizon.png" alt="lurizon site button">
+        </a>
+        <a href="https://darwinigan.neocities.org/" style="text-decoration: none">
+          <img src="/res/buttons/btn_darwinigan.png" alt="darwin site button">
+        </a>
+        <a href="https://chimeras-blood.the-comic.org/" style="text-decoration: none">
+          <img src="/res/buttons/btn_chimerasblood.png" alt="chimera's blood site button">
         </a>
       </p>
       <p class="btn-link">
