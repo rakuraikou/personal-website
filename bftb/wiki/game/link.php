@@ -40,7 +40,7 @@
           Raiden's Link meter grows when Raiden heals or cures another ally.
         </p>
         <p class="notebox">
-          There are a total of 18 Links that can be obtained in <i>Bolt from the Blue.</i> Raiden's, of course, is unlocked from the very start of the game.
+          There are a total of 20 Links that can be obtained in <i>Bolt from the Blue,</i> not including those available in the post-game. Raiden's, of course, is unlocked from the very start of the game.
         </p>
         <hr>
       </main>
