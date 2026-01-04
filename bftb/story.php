@@ -18,188 +18,196 @@
   </head>
   <body>
     <?php include 'header_content.html'; ?>
-    <main>
-      <h1>
-        Wherever you go, light follows.
-      </h1>
-      <hr>
-      <a href="https://bsky.app/profile/violetchio.bsky.social" target="_blank" title="art by violetchio.bsky.social">
-        <img src="res/ango_lt.png" style="float: right; max-height: 250px" alt="Raiden comforting Araceli">
-      </a>
-      <p>
-        Embark on an epic journey where the strength of one's bonds has the power to overcome even prophecy. <i>Bolt from the Blue</i> is a character-driven RPG following the story of Araceli Almador de Luna, princess of a kingdom that's just been brought to ruin by a powerful, dark entity—one that she was destined to stop, but couldn't due to a mysterious curse that's plagued her for her entire life. Araceli's story is shown through the perspective of Raiden, her kind attendant with no recollection of her own past, devoting herself entirely to Araceli's safety and well-being.
-      </p>
-      <p>
-        Accompanied by over-ambitious noble Saffron and the boisterous pirate Cole, the duo set out on a quest to lift Araceli's curse and return home and fulfill her destiny as her kingdom's hero. The party is threatened at every turn by the perpetrators of the destruction: Nox Noctis, a mysterious organization seeking to seize control of mythical powers from Luxos' ancient past. Together, these four will put a stop to Nox Noctis' plans and bring light to a world succumbed to darkness.
-      </p>
-      <h1 style="text-align: center">
-        Main Characters
-      </h1>
-      <div class="eyes-grid">
-        <img class="char-link" src="res/eye_raiden.png" onClick="openChar(event, 'raiden')">
-        <img class="char-link" src="res/eye_araceli.png" onClick="openChar(event, 'araceli')">
-        <img class="char-link" src="res/eye_saffron.png" onClick="openChar(event, 'saffron')">
-        <img class="char-link" src="res/eye_cole.png" onClick="openChar(event, 'cole')">
-      </div>
+    <main class="landing-main">
+      <img id="overall-img" src="res/focus_overall.png" class="active index-img char-tab">
+      <img id="raiden-img" src="res/focus_raiden.png" class="index-img char-tab">
+      <img id="araceli-img" src="res/focus_araceli.png" class="index-img char-tab">
+      <img id="saffron-img" src="res/focus_saffron.png" class="index-img char-tab">
+      <img id="cole-img" src="res/focus_cole.png" class="index-img char-tab">
+      <div class="landing-container">
+        <?php include 'nav_content.html'; ?>
+        <div class="landing-textbox">
+          <div id="overall" class="active char-tab">
+            <div class="char-name">
+              <img src="res/decor.png">
+              <span class="overall-head">
+                WHEREVER YOU GO,<br>LIGHT FOLLOWS.
+              </span>
+              <img src="res/decor.png" style="transform: scaleX(-1)">
+            </div>
+            <hr>
+            <p style="margin: 5px">
+              Embark on a magical journey where the strength of one's bonds has the power to overcome even prophecy. <i>Bolt from the Blue</i> follows the story of Araceli Almador de Luna, princess of a kingdom that's just been brought to ruin by a powerful, dark entity—one that she was destined to stop, but couldn't due to a curse that's plagued her for her entire life. Araceli's story is shown through the perspective of Raiden, her kind attendant ("shadow") with no recollection of her own past, who devotes herself entirely to Araceli's safety and well-being. Little do they know, the destruction has spread far beyond their home.
+            </p>
+            <p style="margin-bottom: 0">
+              Accompanied by the ever-ambitious scion Saffron and the boisterous pirate Cole, the duo set out on a quest to lift Araceli's curse and return home—hopefully not too late for Araceli to fulfill her destiny as her kingdom's hero. At every turn, the party is threatened Nox Noctis, a mysterious organization seeking to seize control of mythical powers from Luxos' ancient past. Together, these four will put a stop to Nox Noctis' plans and bring light to a world succumbed to darkness.
+            </p>
+              <p style="text-align: center; font-size: 0.8rem; color: #a5a5a7">(img by <a href="https://bsky.app/profile/greypij.bsky.social">greypij.bsky.social</a>)</p>
+          </div>
 
-      <!-- raiden -->
-      <div id="raiden" class="char-grid char-tab">
-        <img src="wiki/res/focus_raiden.png" style="max-width: 100%">
-        <div class="char-right">
-          <div class="char-name">
-            <img src="res/decor.png">
-            <span>
-              RAIDEN
-            </span>
-            <img src="res/decor.png" style="transform: scaleX(-1)">
+          <!-- raiden -->
+          <div id="raiden" class="char-tab">
+              <div class="char-name">
+                <img src="res/decor.png">
+                <span>
+                  RAIDEN
+                </span>
+                <img src="res/decor.png" style="transform: scaleX(-1)">
+              </div>
+              <hr>
+              <p style="margin: 5px">
+                It's been six whole years since Raiden washed up in Bura Bay with nothing to her name, aside from her name itself. By some divine stroke of fate, she was taken in by the Cielisono Royal Family and has been serving as the princess' shadow, a role which entails more than enough knight-attendant duties to keep her busy. Though quiet, Raiden is extremely gentle and kind, inadvertently drawing people towards herself.
+              </p>
+              <p style="text-align: center; margin: 0; font-size: 0.8rem; color: #a5a5a7">(img by <a href="https://bsky.app/profile/alphajn.bsky.social">alphajn.bsky.social</a>)</p>
+              <hr>
+              <div style="margin: 5px">
+                <ul style="margin: 0px">
+                  <li>
+                    Most of her interests seem to line up with Araceli's
+                  </li>
+                  <li>
+                    Can't remove the bands around her wrists
+                  </li>
+                  <li>
+                    Suprisingly athletic and picks up most games/sports fairly easily
+                  </li>
+                </ul>
+              </div>
+              <hr>
+              <p class="blockquote" style="font-style: italic; margin: 10px">
+                "It's a good thing that you're alive. The princess can use your support!"
+              </p>
           </div>
-          <hr>
-          <p style="margin: 5px">
-            Six years ago, Raiden washed up on the shores of Ikoron with no recollection of her identity outside of her own name. Graciously, she was offered refuge with the Cielisono Royal Family and began serving as its princess' attendant—as her "shadow." She is deeply thankful for the family's kindness, repaying them with her unwavering dedication to the sole heiress.
-          </p>
-          <hr>
-          <div style="margin: 5px">
-            <ul style="margin: 0px">
-              <li>
-                Most of her interests seem to line up with Araceli's
-              </li>
-              <li>
-                Can't remove the bands around her wrists
-              </li>
-              <li>
-                Extremely awkward with weapons, and prefers to fight without them
-              </li>
-            </ul>
-          </div>
-          <hr>
-          <p class="blockquote" style="font-style: italic; margin: 5px 15px">
-            "I know you're hurt, but can I ask you to trust me? Just this once—let my heart reach you!"
-          </p>
-        </div>
-      </div>
 
-      <!-- araceli -->
-      <div id="araceli" class="char-grid char-tab">
-        <img src="wiki/res/focus_araceli.png" style="max-width: 100%">
-        <div class="char-right">
-          <div class="char-name">
-            <img src="res/decor.png">
-            <span>
-              ARACELI
-            </span>
-            <img src="res/decor.png" style="transform: scaleX(-1)">
+          <!-- araceli -->
+          <div id="araceli" class="char-tab">
+              <div class="char-name">
+                <img src="res/decor.png">
+                <span>
+                  ARACELI
+                </span>
+                <img src="res/decor.png" style="transform: scaleX(-1)">
+              </div>
+              <hr>
+              <p style="margin: 5px">
+                Princess of the Cielisono Royal Family and future ruler of its kingdom, Araceli spent most of her time studying under an Arcanican tutor, training with the Windknights in magic and swordplay, and trying to hone her pact with the Champion Loniles. To the rest of the world, Araceli was the picture-perfect heiress for the kingdom. Behind all of that façade, however, was a young girl cursed to fail everyone.
+              </p>
+              <p style="text-align: center; margin: 0; font-size: 0.8rem; color: #a5a5a7">(img by <a href="https://artfight.net/~cyberart">cyberart@AF</a>)</p>
+              <hr>
+              <div style="margin: 5px">
+                <ul style="margin: 0px">
+                  <li>
+                    Enjoys reading young adult adventuromance novels
+                  </li>
+                  <li>
+                    Bites her knuckles as a nervous tick
+                  </li>
+                  <li>
+                    Keeps a <a href="lunar/index" class="secret-link">diary</a> that no one else—not even Raiden—is allowed to peek in
+                  </li>
+                </ul>
+              </div>
+              <hr>
+              <p class="blockquote" style="font-style: italic; margin: 10px">
+                "As the princess of prophecy, I must do everything in my power to stand unbending against the ancient darkness and save the world."
+              </p>
           </div>
-          <hr>
-          <p style="margin: 5px">
-            Princess of the Cielisono Royal Family and future ruler of its kingdom, Araceli spent most of her time studying under an Arcanican tutor, training with the Windknights in magic and swordplay, and trying to hone her pact with the Champion Loniles. To the rest of the world, Araceli was the picture-perfect heiress for the kingdom. Behind all of that façade, however, was a young girl cursed to fail her kingdom.
-          </p>
-          <hr>
-          <div style="margin: 5px">
-            <ul style="margin: 0px">
-              <li>
-                Enjoys reading young adult adventuromance novels
-              </li>
-              <li>
-                Bites her knuckles as a nervous tick
-              </li>
-              <li>
-                Keeps a <a href="lunar/index" class="secret-link">diary</a> that no one else—not even Raiden—is allowed to peek in
-              </li>
-            </ul>
-          </div>
-          <hr>
-          <p class="blockquote" style="font-style: italic; margin: 5px 15px">
-            "I am the princess of prophecy, and the fate of the Kingdom of Winds rests in my hands. I'll not bend to you!”
-          </p>
-        </div>
-      </div>
 
-      <!-- saffron -->
-      <div id="saffron" class="char-grid char-tab">
-        <img src="wiki/res/focus_saffron.png" style="max-width: 100%">
-        <div class="char-right">
-          <div class="char-name">
-            <img src="res/decor.png">
-            <span>
-              SAFFRON
-            </span>
-            <img src="res/decor.png" style="transform: scaleX(-1)">
+          <!-- saffron -->
+          <div id="saffron" class="char-tab">
+              <div class="char-name">
+                <img src="res/decor.png">
+                <span>
+                  SAFFRON
+                </span>
+                <img src="res/decor.png" style="transform: scaleX(-1)">
+              </div>
+              <hr>
+              <p style="margin: 5px">
+                Saffron is the last of his prestigious family of diviners to catch wind of an impending catastrophe. Everyone else seems to have long-resolved themselves to this end—trying to change a forseen future would result in a more tragic outcome taking its place. However, as detached from fate as a member of House Infiaco could be, Saffron refuses to take this as an answer, embarking on a quest to make everyone listen to him.
+              </p>
+              <hr>
+              <div style="margin: 5px">
+                <ul style="margin: 0px">
+                  <li>
+                    Despite his envy and annoyance, he actually admires his brothers
+                  </li>
+                  <li>
+                    Horrible with animals and small children
+                  </li>
+                  <li>
+                    Can see a few moments into the future, but relies on his wits to "predict" any further than that
+                  </li>
+                </ul>
+              </div>
+              <hr>
+              <p class="blockquote" style="font-style: italic; margin: 10px">
+                "Just WHAT were you thinking?! Do you have even a touch of logical reasoning in you? No, no, of course you don't! Why do I even ask...”
+              </p>
           </div>
-          <hr>
-          <p style="margin: 5px">
-            Saffron is the second-born son of House Infiaco, and he is very proud of this fact. Upon warning his family of an impending catastrophe, he realizes that everyone has already long-resolved themselves to this end—it will happen, and trying to change fate could result in divine punishment. Saffron, detached from fate as a member of House Infiaco could be, refuses to take this as an answer, and embarks on a quest to make everyone listen to him.
-          </p>
-          <hr>
-          <div style="margin: 5px">
-            <ul style="margin: 0px">
-              <li>
-                Despite his envy and annoyance, he actually admires his brothers
-              </li>
-              <li>
-                Horrible with animals and small children
-              </li>
-              <li>
-                Has the ability to see up to a day into the future
-              </li>
-            </ul>
-          </div>
-          <hr>
-          <p class="blockquote" style="font-style: italic; margin: 5px 15px">
-            "Just WHAT were you thinking?! Do you have even a touch of logical reasoning in you? No, no, of course you don't! I am unsure why I even asked...”
-          </p>
-        </div>
-      </div>
 
-      <!-- cole -->
-      <div id="cole" class="char-grid char-tab">
-        <img src="wiki/res/focus_cole.png" style="max-width: 100%">
-        <div class="char-right">
-          <div class="char-name">
-            <img src="res/decor.png">
-            <span>
-              COLE
-            </span>
-            <img src="res/decor.png" style="transform: scaleX(-1)">
+          <!-- cole -->
+          <div id="cole" class="char-tab">
+              <div class="char-name">
+                <img src="res/decor.png">
+                <span>
+                  COLE
+                </span>
+                <img src="res/decor.png" style="transform: scaleX(-1)">
+              </div>
+              <hr>
+              <p style="margin: 5px">
+                After a falling out with her last crew, Cole has taken the Skysea by storm all on her own. With nobody but herself to worry about, Cole was looking forward to a lifetime of solo plundering. However, under all of that tough skin, Cole buries a tragic secret. Unbeknownst to her, accepting an interesting noble's request for an undercover means of travel will force Cole to face this trauma head-on.
+              </p>
+              <p style="text-align: center; margin: 0; font-size: 0.8rem; color: #a5a5a7">(img by <a href="https://toyhou.se/HatnBells">HatnBells@TH</a>)</p>
+              <hr>
+              <div style="margin: 5px">
+                <ul style="margin: 0px">
+                  <li>
+                    Won't attend social events if there's no alcohol involved
+                  </li>
+                  <li>
+                    Raised by a pair of butchers/steakhouse owners
+                  </li>
+                  <li>
+                    Frequently cheats at card games
+                  </li>
+                </ul>
+              </div>
+              <hr>
+              <p class="blockquote" style="font-style: italic; margin: 10px">
+                "Sometimes, it's not enough to just want something. Sometimes, you gotta take it with your bare fists and show the world you earned it!”
+              </p>
           </div>
-          <hr>
-          <p style="margin: 5px">
-            Cole's reputation as the renegade first mate of one of the most notorious bands of sky pirates, The Four Skulls, preceded her; few individuals of any faction were comfortable approaching her for any reason, and she preferred it that way. However, under all of that tough skin, Cole buries a tragic secret. When an interesting noble requests a means of travel, Cole is forced to face this trauma head-on.
-          </p>
-          <hr>
-          <div style="margin: 5px">
-            <ul style="margin: 0px">
-              <li>
-                Won't attend social events if there's no alcohol involved
-              </li>
-              <li>
-                Raised by two butchers/steakhouse owners
-              </li>
-              <li>
-                Frequently cheats at card games
-              </li>
-            </ul>
+
+          <div class="story-grid">
+            <img class="char-link" src="res/landing_raiden.png" onClick="openChar(event, 'raiden', 'raiden-img')">
+            <img class="char-link" src="res/landing_araceli.png" onClick="openChar(event, 'araceli', 'araceli-img')">
+            <img class="char-link" src="res/landing_overall.png" onClick="openChar(event, 'overall', 'overall-img')">
+            <img class="char-link" src="res/landing_saffron.png" onClick="openChar(event, 'saffron', 'saffron-img')">
+            <img class="char-link" src="res/landing_cole.png" onClick="openChar(event, 'cole', 'cole-img')">
           </div>
-          <hr>
-          <p class="blockquote" style="font-style: italic; margin: 5px 15px">
-            "Sometimes, it's not enough to just want something. Sometimes, you gotta take it with your bare fists and show the world you earned it!”
-          </p>
         </div>
+
+        <script>
+          function openChar(evt, charName, charImg) {
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("char-tab");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("char-link");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+          }
+          document.getElementById(charName).style.display = "grid";
+          evt.currentTarget.className += " active";
+          document.getElementById(charImg).style.display = "grid";
+          evt.currentTarget.className += " active";
+          }
+        </script>
+
       </div>
-      <script>
-        function openChar(evt, charName) {
-        var i, tabcontent, tablinks;
-        tabcontent = document.getElementsByClassName("char-tab");
-        for (i = 0; i < tabcontent.length; i++) {
-          tabcontent[i].style.display = "none";
-        }
-        tablinks = document.getElementsByClassName("char-link");
-        for (i = 0; i < tablinks.length; i++) {
-          tablinks[i].className = tablinks[i].className.replace(" active", "");
-        }
-        document.getElementById(charName).style.display = "grid";
-        evt.currentTarget.className += " active";
-        }
-      </script>
     </main>
     <?php include 'footer_content.html'; ?>
   </body>
