@@ -208,10 +208,6 @@ details[open] > summary {
   padding: 10px;
   border: 2px solid var(--field);
 }
-.whisper {
-  color: #bfbdcc;
-  font-style: italic;
-}
 .blockquote {
   border-left: 3px #62709c solid;
   font-style: italic;

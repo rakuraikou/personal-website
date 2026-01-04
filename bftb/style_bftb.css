@@ -172,10 +172,6 @@ details[open] > summary {
   text-align: center;
   filter: drop-shadow(2px 2px 4px rgb(0, 0, 0));
 }
-.whisper {
-  color: #bfbdcc;
-  font-style: italic;
-}
 .blockquote {
   border-left: 3px var(--quote) solid;
   padding-left: 10px;

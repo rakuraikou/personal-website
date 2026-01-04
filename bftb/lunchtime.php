@@ -108,7 +108,7 @@
           </h1>
           <hr>
           <p>
-            Art has been categorized by origin and organized in reverse-chronological order (to the best of my ability). Enjoy!
+            This gallery hasn't been updated since like January 2025, and I've been too lazy to update it since. I plan on reworking it to only include some of my favorite Lunchtime artwork, since I have way too much for this website, so please stay tuned for that! In the meantime... Art has been categorized by origin and organized in reverse-chronological order (to the best of my ability). Enjoy!
           </p>
           <p>
             Click on the image to view the full-size version!
