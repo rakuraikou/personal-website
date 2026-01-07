@@ -21,8 +21,7 @@ body {
   background-size: cover;
   color: var(--bodytxt);
   font-family: Verdana;
-  width: 1200px;
-  max-width: 100%;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -383,6 +382,9 @@ details[open] > summary {
 
 /* MOBILE ONLY */
 @media (max-width: 768px) {
+  body {
+    background-image: none;
+  }
   header {
     flex-direction: column;
     height: auto;
