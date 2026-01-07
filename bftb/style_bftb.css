@@ -19,8 +19,12 @@ body {
   background-image: url('res/bg.png');
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
   color: var(--bodytxt);
   font-family: Verdana;
+}
+.body-container {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
@@ -381,9 +385,6 @@ details[open] > summary {
 
 /* MOBILE ONLY */
 @media (max-width: 768px) {
-  body {
-    background-image: none;
-  }
   header {
     flex-direction: column;
     height: auto;
