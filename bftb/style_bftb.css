@@ -63,7 +63,7 @@ main {
   flex-direction: column;
   margin-top: auto;
   margin-bottom: auto;
-  width: 760px;
+  max-width: 760px;
 }
 .landing-textbox {
   margin-right: 20px;
@@ -72,7 +72,6 @@ main {
   padding: 15px;
   box-shadow: -10px 10px 5px var(--boxshadow);
   border-radius: 10px;
-  max-width: 100%;
 }
 .landing-navbox {
   display: flex;
@@ -388,24 +387,6 @@ details[open] > summary {
   }
   h1 {
     font-size: 2.2rem;
-  }
-  .landing-container {
-    width: 100%
-  }
-  .landing-main {
-    display: flex;
-    flex-direction: column-reverse
-  }
-  .index-img, .landing-textbox {
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 10;
-    margin-bottom: 10px;
-  }
-  .index-img {
-    max-width: 80%;
-    margin-left: auto;
-    margin-right: auto;
   }
   .landing-navbox {
     display: flex;
