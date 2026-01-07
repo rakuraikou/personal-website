@@ -52,8 +52,8 @@ header {
   box-shadow: initial;
   border-radius: initial;
   padding: initial;
-  display: grid;
-  grid-template-columns: auto auto
+  display: flex;
+  flex-direction: row-reverse;
 }
 main {
   background-color: var(--mainbg);

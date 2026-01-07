@@ -28,22 +28,6 @@
           $id = 'overall';
         }
         ?>
-        
-        <?php if ($id === 'overall'): ?>
-          <img src="res/focus_overall.png" class="index-img">
-        <?php endif; ?>
-        <?php if ($id === 'raiden'): ?>
-          <img src="res/focus_raiden.png" class="index-img">
-        <?php endif; ?>
-        <?php if ($id === 'araceli'): ?>
-          <img src="res/focus_araceli.png" class="index-img">
-        <?php endif; ?>
-        <?php if ($id === 'saffron'): ?>
-          <img src="res/focus_saffron.png" class="index-img">
-        <?php endif; ?>
-        <?php if ($id === 'cole'): ?>
-          <img src="res/focus_cole.png" class="index-img">
-        <?php endif; ?>
 
 
         <div class="landing-container">
@@ -229,6 +213,23 @@
 
           </div>
         </div>
+        
+        <?php if ($id === 'overall'): ?>
+          <img src="res/focus_overall.png" class="index-img">
+        <?php endif; ?>
+        <?php if ($id === 'raiden'): ?>
+          <img src="res/focus_raiden.png" class="index-img">
+        <?php endif; ?>
+        <?php if ($id === 'araceli'): ?>
+          <img src="res/focus_araceli.png" class="index-img">
+        <?php endif; ?>
+        <?php if ($id === 'saffron'): ?>
+          <img src="res/focus_saffron.png" class="index-img">
+        <?php endif; ?>
+        <?php if ($id === 'cole'): ?>
+          <img src="res/focus_cole.png" class="index-img">
+        <?php endif; ?>
+  
       </main>
     <?php include 'footer_content.html'; ?>
     </div>
