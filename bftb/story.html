@@ -194,16 +194,19 @@
           var i, tabcontent, tablinks;
           tabcontent = document.getElementsByClassName("char-tab");
           for (i = 0; i < tabcontent.length; i++) {
-            tabcontent[i].style.display = "none";
+            //tabcontent[i].style.display = "none";
+            tabcontent[i].classList.remove("active");
           }
           tablinks = document.getElementsByClassName("char-link");
           for (i = 0; i < tablinks.length; i++) {
             tablinks[i].className = tablinks[i].className.replace(" active", "");
           }
-          document.getElementById(charName).style.display = "grid";
-          evt.currentTarget.className += " active";
-          document.getElementById(charImg).style.display = "grid";
-          evt.currentTarget.className += " active";
+          document.getElementById(charName).classList.add("active");
+          document.getElementById(charImg).classList.add("active");
+          //document.getElementById(charName).style.display = "grid";
+          //evt.currentTarget.className += " active";
+          //document.getElementById(charImg).style.display = "grid";
+          //evt.currentTarget.className += " active";
           }
         </script>
 
