@@ -116,6 +116,7 @@ footer {
 }
 hr {
   color: var(--link);
+  width: 100%
 }
 .char-tab hr {
   width: 100%
@@ -242,9 +243,6 @@ details[open] > summary {
 
 /* TABS */
 .char-tab {
-  display: none;
-}
-.active.char-tab {
   display: flex;
   flex-direction: column;
 }
