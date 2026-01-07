@@ -385,6 +385,9 @@ details[open] > summary {
 
 /* MOBILE ONLY */
 @media (max-width: 768px) {
+  body {
+    background-image: none;
+  }
   header {
     flex-direction: column;
     height: auto;
