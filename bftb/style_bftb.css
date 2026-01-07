@@ -15,7 +15,7 @@
   --boxshadow: rgba(13, 9, 10, 0.7);
 }
 body {
-  background-color: #29191f;
+  background-color: #201a42;
   background-image: url('res/bg.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -234,8 +234,8 @@ details[open] > summary {
 }
 .overall-head {
   text-align: center;
-  font-size: 1.7rem !important;
-  letter-spacing: 0.1rem;
+  font-size: 1.6rem !important;
+  letter-spacing: 0.08rem;
 }
 .char-name img {
   max-width: 160px;
