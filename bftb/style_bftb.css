@@ -234,7 +234,7 @@ details[open] > summary {
 }
 .overall-head {
   text-align: center;
-  font-size: 1.8rem !important;
+  font-size: 1.7rem !important;
   letter-spacing: 0.1rem;
 }
 .char-name img {
@@ -246,7 +246,6 @@ details[open] > summary {
   display: flex;
   flex-direction: column;
 }
-
 /* LUNCHTIME */
 .lunchtime-char {
   display: grid;
@@ -366,7 +365,7 @@ details[open] > summary {
   }
   .landing-main {
     display: flex;
-    flex-direction: column-reverse
+    flex-direction: column
   }
   .index-img, .landing-textbox {
     margin-left: 0;
