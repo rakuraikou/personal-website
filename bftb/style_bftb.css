@@ -367,8 +367,10 @@ details[open] > summary {
     width: 100%
   }
   .landing-main {
-    display: flex;
-    flex-direction: column
+    flex-direction: column-reverse;
+  }
+  .story {
+    flex-direction: column;
   }
   .index-img, .landing-textbox {
     margin-left: 0;
