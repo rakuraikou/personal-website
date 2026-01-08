@@ -370,7 +370,7 @@ details[open] > summary {
     flex-direction: column-reverse;
   }
   .story {
-    flex-direction: column;
+    flex-direction: column !important;
   }
   .index-img, .landing-textbox {
     margin-left: 0;
