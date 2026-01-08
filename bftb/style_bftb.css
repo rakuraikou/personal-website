@@ -53,7 +53,10 @@ header {
   border-radius: initial;
   padding: initial;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
+}
+.story {
+  flex-direction: row-reverse !important;
 }
 main {
   background-color: var(--mainbg);

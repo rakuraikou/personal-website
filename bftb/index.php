@@ -20,7 +20,7 @@
   <body>
     <div class="body-container">
       <?php include 'header_content.html'; ?>
-      <main class="landing-main" style="flex-direction: row">
+      <main class="landing-main">
         <img src="res/main.png" class="index-img">
         <div class="landing-container">
           <?php include 'nav_content.html'; ?>

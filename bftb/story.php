@@ -19,7 +19,7 @@
   <body>
     <div class="body-container">
       <?php include 'header_content.html'; ?>
-      <main class="landing-main">
+      <main class="landing-main story">
 
         <?php
         $id = $_GET['id'] ?? 'overall';
