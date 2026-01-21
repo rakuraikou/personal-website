@@ -59,7 +59,6 @@
             <li><a href="bftb/story">Story</a></li>
             <li><a href="bftb/misc">Misc</a></li>
             <ul>
-              <li><a href="bftb/tvt/index">TVTropes</a></li>
               <li><a href="bftb/lunchtime">Lunchtime</a></li>
             </ul>
           </ul>
@@ -75,7 +74,9 @@
                 <ul>
                   <li><a href="bftb/wiki/lore/champions">Champions</a></li>
                   <li><a href="bftb/wiki/lore/cielisonoroyal">Cielisono Royal Family</a></li>
+                  <li><a href="bftb/wiki/lore/factions">Factions</a></li>
                 </ul>
+              <li><a href="bftb/wiki/lore/ageofheroes">Age of Heroes</a></li>
             </ul>
             <li><a href="bftb/wiki/character">Characters</a></li>
           </ul>

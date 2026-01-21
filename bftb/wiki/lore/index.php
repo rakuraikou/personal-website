@@ -60,12 +60,23 @@
           </li>
           <ul>
             <li>
+              <a href="champions">Champions</a>
+            </li>
+            <li>
               <a href="cielisonoroyal">Cielisono Royal Family</a>
             </li>
             <li>
-              <a href="champions">Champions</a>
+              <a href="factions">Factions</a>
             </li>
           </ul>
+        </ul>
+        <h2>
+          History
+        </h2>
+        <ul>
+          <li>
+            <a href="ageofheroes">Age of Heroes</a>
+          </li>
         </ul>
       </main>
       <?php include '../footer_content.html'; ?>
