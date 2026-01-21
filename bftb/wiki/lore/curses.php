@@ -31,13 +31,13 @@
         </h1>
         <hr>
         <p>
-          Just as illnesses can befall the physical body, there are certain conditions that infect and damage light. This is generally known as a curse. Curses affect a <a href="people">person's</a> heart, and as a result they are more difficult to treat. However, they don't transmit between people, and they often don't spread to different parts of the body once manifested.
+          Just as illnesses can befall the physical body, there are certain conditions that infect and damage light. This is generally known as a curse. In <a href="people">people</a>, curses manifest in the heart. However, they don't transmit between people, and they often don't spread to different parts of the body once manifested.
         </p>
         <p class="notebox">
           Curses don't only affect people—they can also be present in animals, plants and other lifeforms. Technically, they can even take hold of individual spells or fields of pure light in the atmosphere. Basically, wherever there's light, there's risk for damage by a curse!
         </p>
         <p>
-          Curses tend to be pretty rare. They're not the type of thing the average person can cast, and they're known come from things that can be prevented or avoided. Most curses are damages to a person's core caused by extreme cases of caelism or encounters with particularly dangerous monsters. Though less commonly seen, there are some curses that originate from failed Champion pacts.
+          Curses tend to be pretty rare. They're not the type of thing the average person can cast, and they're known come from things that can be prevented or avoided. Most curses are damages to a person's cor caused by extreme cases of caelism or encounters with particularly dangerous monsters. Though less commonly seen, there are some curses that originate from failed Champion pacts.
         </p>
         <p>
           In general, people of Luxos don't really know what exactly a curse is, but they are aware of the typical causes. It's considered common sense that people shouldn't over-cast magic or explore monster-infested areas without proper preparation. There are, however, a few eccentric scholars who seek to fully understand curses.
@@ -45,7 +45,6 @@
         <p>
           When it comes to living beings, curses themselves are incurable and untreatable, but most cases find that their symptoms can be alleviated through medicine and therapy.
         </p>
-        <hr>
 
       </main>
       <?php include '../footer_content.html'; ?>

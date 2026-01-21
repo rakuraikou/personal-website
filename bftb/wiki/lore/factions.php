@@ -36,6 +36,7 @@
         <h2>
           Adventurers
         </h2>
+        <hr>
         <p>
           The vastness of Luxos piques the curiosity of many brave ones. Those that act upon their courage and venture across the realm are known as "adventurers." Not every adventurer is a quest-stamping, dragon-slaying legend, but their stories are the loudest—thus, they are the stereotype. That being said, many adventurers pursue a specific mission or niche, such as treasure hunters looking to make money off relics (especially from the <a href="ageofheroes">Age of Heroes</a>), researchers digging for the unknown, or medical doctors providing their services as they pass through.
         </p>
@@ -48,6 +49,7 @@
         <h2>
           Pirates
         </h2>
+        <hr>
         <p>
           Technically, pirates are groups or networks of adventurers with a common goal or trade in mind and (more importantly) zero alignment to the nation that they operate within. The term is used colloquially to refer to those that pursue or command territory (aka "turf") and is rarely used outside of that context, despite its generic definition. These pirates tend to be extremely competitive.
         </p>
@@ -60,6 +62,7 @@
         <h3>
           Nobility
         </h3>
+        <hr>
         <p>
           While the term refers to anyone born into a family of affluent status in a given region, most people associate nobility with exceptional magical prowess—most noble families happen to have a strong tie with a Champion or have at least one <a href="beastlords">talisman</a> to their name. Noble families are present in every region, and their authority is typically reserved to the region in which they hail from.
         </p>

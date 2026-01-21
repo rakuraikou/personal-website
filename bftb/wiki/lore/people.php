@@ -37,11 +37,12 @@
           Like all other things, people are composed of "<a href="light">light</a>." It is entwined with their molecular structure, and commands life, growth and <a href="magic">magic</a>. As long as light is present, a great number of both physical and magical attacks can be endured before serious or lasting conditions occur. The recovery of injuries is carried out by the light within one's body drawing in untethered "pure" light that permeates the atmosphere.
         </p>
         <h2>Hearts</h2>
+        <hr>
         <p>
           Every person in Luxos has a heart. This is what makes living beings (not just people) "alive"—as long as it is present and beating, light will remain affixed to the body and flow through it. It also keeps one's light from being used by others for casting, and what allows someone to cast magic themself. When someone dies, their heart ceases to function, and any light in their body will wash into the atmosphere, leaving behind an empty corpse. Should someone's memory and legacy be held onto by enough people, that person may become a Champion, and their intact light will persist onward.
         </p>
         <p>
-          Each heart is made up of two main components—the cor and the shield. A heart's cor, sometimes referred to as the "true heart," is the source and conduit of light within an individual. In people, its appearance is completely unique to each person. By contrast, monsters and animals all have a similarly-shaped cor with minor variations based on what aspect it takes on.
+          Each heart is made up of two main components—the cor and the shield. A heart's cor, sometimes referred to as the "true heart," is the source and conduit of light within an individual. In people, its appearance is completely unique to each person. By contrast, monsters and animals all have a similarly-shaped cor with minor variations in hue or size.
         </p>
         <p>
           The cor is encased in a crystalline structure known as the shield. In all living beings, the shield takes on the same form (a solid prism), though color may vary. A heart's shield protects its cor from impact and casting.
