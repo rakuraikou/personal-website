@@ -34,10 +34,10 @@
           When a person dies, their light is released from their body and becomes a part of the world around them. If enough people hold onto the memory of the dying person's legacy, then they can offer their light to preserve that person's own existence. People who persist after death in this way are considered divine beings and referred to as "Champions."
         </p>
         <p>
-          Champions exist as a "soul" present in the atmospheric light of Luxos, and their identity is kept distinct and preserved through the aforementioned regular light offerings. With an intrinsically direct tie to the world's purest form of light, Champions are able to access special powers and grant them to people on Luxos.
+          Champions exist as a "soul" (aka a metaphysical cor) present in the atmospheric light of Luxos, and their identity is kept distinct and preserved through the aforementioned regular light offerings. With an intrinsically direct tie to the world's purest form of light, Champions are able to access special powers and grant them to people on Luxos.
         </p>
         <p class="notebox">
-          It's often thought that the Champion's soul has a "core." Some say that this core is affixed to the body, and moves along with the corpse when it's transported. Others say that a Champion's core is permanently chained to the place where the person died. Neither of these theories have been proven true or false, and people tend to believe in whichever brings them a greater sense of pride for their hometown or current residency.
+          It's often thought that the Champion's soul is anchored in a specific location. Some believe that the soul is affixed to the body, and moves along with the corpse when it's transported. Others say that a Champion's soul is permanently chained to the place where they originally died. Neither of these theories have been proven true or false, and people tend to believe in whichever brings them a greater sense of pride for their hometown or current residency.
         </p>
         <p>
           Champions can act completely on their own whim and desire, but can only exist in and interact with Luxos with consistent, voluntary offerings of light. It's common for Champions to grant natural miracles—such as sparks to provide flame on a cold night or richer soils for a fruitful harvest—in exchange for offerings. Though they don't have a permanent physical state of their own, Champions can temporarily manifest in areas where substantial amounts of light have been collected.
@@ -52,7 +52,7 @@
           Pacts
         </h2>
         <p>
-          In order to guarantee a more consistent flow of light offerings, Champions can form pacts with people on Luxos. The basic structure of a pact is between one Champion and one acolyte (person)—the Champion receives regular offerings of light and a point to manifest (i.e. speaking/acting through the acolyte), and the acolyte gains access to a significant portion of the Champion's power. Acolytes are also well-respected in society for their clear devotion to their pacts.
+          In order to guarantee a more consistent flow of light offerings, Champions can form pacts with people on Luxos by granting a person with a piece of their soul. The basic structure of a pact is between one Champion and one acolyte (person)—the Champion receives regular offerings of light, and the acolyte gains access to a significant portion of the Champion's power. Acolytes are also well-respected in society for their clear devotion to their pacts.
         </p>
         <p>
           There are strict conditions and guidelines to follow with a pact, and failure to keep one's end of the bargain results in immediate, dramatic consequence. These guidelines are consistent across pacts, but the details may vary slightly depending on the individuals involved.
