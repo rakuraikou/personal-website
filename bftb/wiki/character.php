@@ -114,10 +114,10 @@
                         </li>
                         <ul>
                           <li>
-                            <a href='#storybefore'>Prior to Story</a>
+                            <a href='#storybefore'>Background</a>
                           </li>
                           <li>
-                            <a href='#storymain'>During <i>Bolt from the Blue</i></a>
+                            <a href='#storymain'><i>Bolt from the Blue</i></a>
                           </li>
                         </ul>
                         <li>
