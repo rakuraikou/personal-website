@@ -24,6 +24,9 @@
       <h3>Self-indulgent pages and media shrines</h3>
       <h4 style="margin-bottom:10px">("shrines"...? huh? anyway...)</h4>
       <p>
+        <a href="fujimine">FUJIMINE!!</a> : this is the love of my life . 
+      </p>
+      <p>
         <a href="/plug">plugged in</a> : my blog lol. eventually this will be a little icon on the main page, but for now...
       </p>
       <p>
