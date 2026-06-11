@@ -67,6 +67,14 @@ h3 {
   font-weight: normal;
   font-variant-caps: small-caps;
 }
+h4 {
+  color: #f8428e;
+  font-size: 1.7rem;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-weight: normal;
+  font-variant-caps: small-caps;
+}
 /* LINKS */
 h1 a:hover {
   color: #ffa4ca;
@@ -98,6 +106,22 @@ a:hover {
     flex-direction:column;
     justify-content:space-around;
     text-align:center;
+  }
+  .fuji-img {
+    width: 100% !important;
+    float: initial !important;
+    padding-right: initial !important;
+    padding-left: initial !important;
+    padding-bottom: initial !important;
+    padding-top: initial !important;
+  }
+  .fuji-img-small {
+    width: 55% !important;
+    float: right !important;
+    padding-right: initial !important;
+    padding-left: 10px !important;
+    padding-bottom: initial !important;
+    padding-top: initial !important;
   }
 }
 
