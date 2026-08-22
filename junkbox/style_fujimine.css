@@ -97,6 +97,11 @@ a:hover {
   justify-content:space-around;
   padding:5px;
 }
+.blockquote {
+  border-left: 3px #ff5da0 solid;
+  padding-left: 10px;
+  margin: 10px 5px;
+}
 /* MOBILE ONLY */
 @media (max-width: 768px) {
   .wrapper {
