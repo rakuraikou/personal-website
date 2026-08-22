@@ -34,7 +34,7 @@
             <img src="res/raku_ango.png" style="float: right; max-width: 30%" alt="raku, my sona/mascot">
           </a>
           <p>
-            25 year old asian american lesbian demon thing riding the pipe dream of developing a meaningful video game someday. No preference in pronouns, but these days most people use she/her for me. I have a wonderful girlfriend who does not use social media so I can't link anything... but I promise she exists lol. That whole "all caps" thing in my name is optional, I just think it's funnier that way.
+            26 year old asian american lesbian demon thing riding the pipe dream of developing a meaningful video game someday. No preference in pronouns, but these days most people use she/her for me. I have a wonderful girlfriend who does not use social media so I can't link anything... but I promise she exists lol. That whole "all caps" thing in my name is optional, I just think it's funnier that way.
           </p>
           <p>
             By day, I make "fake" numbers go up in a doctor's office. By night, I go to karate training (4th kyu in shotokan, just beginning in uechi ryu), draw my OCs (or <a href="/junkbox/fujimine">Fujimine</a>), eat raw fish, or call my friends. I'm also a part of <a href="https://onegameamonth.itch.io/">OGAM</a> and Cerro Creativo. It's a lot.
@@ -80,11 +80,9 @@
               <li>¿?shimon</li>
               <li>👑 Azari</li>
               <li>👑 biz</li>
-              <li>The Flob</li>
               <li>Jin/Kagerou Project</li>
               <li>Tatsuya Kitani</li>
               <li>Rib</li>
-              <li>syudou</li>
               <li>t+pazolite</li>
               <li>👑 ...and lots of video game OSTs lol</li>
             </ul>
