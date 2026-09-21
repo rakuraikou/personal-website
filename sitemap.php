@@ -41,6 +41,7 @@
 
             <li><a href="junkbox/index">Junkbox</a></li>
             <ul>
+              <li><a href="junkbox/chochu/index">Fujimine/CHOCHU Shrine</a></li>
               <li><a href="plug/index">Plugged In - Personal Blog</a></li>
               <li><a href="junkbox/controllers">Controller Collection</a></li>
               <li><a href="junkbox/figurines">Blind Box Figurine Collection</a></li>
@@ -48,7 +49,6 @@
               <li><a href="junkbox/bravely_default">Bravely Default</a></li>
               <li><a href="junkbox/octopathtraveler2">Octopath Traveler 2</a></li>
               <li><a href="junkbox/artfight">Art Fight 2024 Journal</a></li>
-              <li><a href="junkbox/fujimine">Fujimine/CHOCHU Webpage</a></li>
             </ul>
           </ul>
         </span>
