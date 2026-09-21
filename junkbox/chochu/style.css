@@ -128,7 +128,8 @@ a:hover {
 .fuji-nav {
   display: flex;
   flex-direction: row;
-  justify-content: space-between
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
   .fuji-img {
     width: 100% !important;
