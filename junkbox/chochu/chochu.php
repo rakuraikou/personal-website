@@ -47,14 +47,17 @@
               to put things simply, shitsuren and fujimine are in a sort of situationship. shitsuren was on a date with a titled witch when fujimine suddenly appeared, murdering the other witch right in front of shitsuren. instead of being afraid of the cold-blooded killer in front of her or feeling frustrated at her date getting completely derailed, shitsuren was intrigued by fujimine's bloodlust and aptitude for killing. this, in addition to being smitten by fujimine's charm and grace, led to shitsuren's crush on fujimine.
             </p>
             <p>
-              as infatuation blended with her desire to experience death, shitsuren found herself overwhelmed by the butterflies in her stomach—if anyone could <span style="text-decoration: line-through; font-style: italic; color: #ff9ff2">make her fall in love</span> kill her, it must be fujimine. at the very least, shitsuren hopes that she can take some of fujimine's powerful life energy and use it to either complete her human form or kill herself.
+              as infatuation blended with her desire to experience death, shitsuren found herself overwhelmed by the butterflies in her stomach—if anyone could <span style="text-decoration: line-through" class="emphasis">make her fall in love</span> kill her, it must be fujimine. at the very least, shitsuren hopes that she can take some of fujimine's powerful life energy and use it to either complete her human form or kill herself.
             </p>
             <img src="res/cc_aquarium.png" style="width: 300px; max-width: 100%; float: left; padding-right: 10px">
             <p>
               on the other side, fujimine is on a personal mission to purge what makes her human and become a majik. she believes that shitsuren's abilities is the key to achieving this. unfortunately for her, fujimine's warped understanding of love leaves her just out of reach of acquiring shitsuren, for better or for worse.
             </p>
             <p>
-              though not in a committed relationship, fujimine and shitsuren always find their way back together. they can't stop being around each other, stuck in a will-they-won't-they game of trying to "catch" the other in a moment of vulnerability. they hopelessly gravitate around each other but are doomed to self-sabotage any and all opportunities for intimacy and true companionship. <span class="emphasis" style="text-decoration: line-through;">unless...?</span>
+              though not in a committed relationship, fujimine and shitsuren always find their way back together. they can't stop being around each other, stuck in a will-they-won't-they game of trying to "catch" the other in a moment of vulnerability. they hopelessly gravitate around each other but are doomed to self-sabotage any and all opportunities for intimacy and true companionship.
+            </p>
+            <p>
+              they do genuinely enjoy each other's company, for the record. they both find the dates and each other very, very fun... but it's a little more than that (or at least, it will be). fujimine doesn't have anyone else in her life who thoroughly adores and appreciates her <span class="emphasis" style="text-decoration: line-through">without using mind control</span>. while she doesn't realize it yet, her connection with shitsuren will develop into an important grounding force for her. likewise, shitsuren will discover through fujimine that the humanity she romanticizes is already within her. the uncomfortable but necessary truth for them both is that the other already sees them as human, and that's a lovely thing, and not much more matters. <span class="emphasis">but, uh, that's sappy, so back to the "toxic yuri" or whatever...</span>
             </p>
           </div>
         </div>
