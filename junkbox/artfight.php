@@ -499,7 +499,7 @@
         </div>
       </div>
       <p>
-        Another revenge! This time it's for ... a lot, actually. Like three <a href="https://artfight.net/attack/6259825.anyway">(1)</a> different <a href="https://artfight.net/attack/6259825.anyway">(2)</a> things <a href="https://artfight.net/attack/8149419.karma">(3)</a>. God.
+        Another revenge! This time it's for ... a lot, actually. Like three <a href="https://artfight.net/attack/6259825.anyway">(1)</a> different <a href="https://artfight.net/attack/7484330.lunchtime-already">(2)</a> things <a href="https://artfight.net/attack/8149419.karma">(3)</a>. God.
       </p>
       <p>
         Let it be known that there is no such thing as a "quick one" when it comes to these attacks. Lineart takes an insanely long time, what definitely could've taken about three hours tops took almost six thanks to lineart. I kept telling myself "wow, this is the fastest I've ever blasted through lineart!" which is... insane. Well, anyhow... I've done this type of attack before. Last year, I made a similar <a href="https://artfight.net/attack/5577992.ox-blasttt">default dance attack</a> for Ox's birthday. I have been wanting to clean up the base for a while, so I used this as an excuse to do so.
