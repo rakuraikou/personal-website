@@ -19,23 +19,10 @@
   </head>
 
   <body>
-    <header>
-      <h1>
-        <a href="index" style="text-decoration:none">
-          <b style="text-shadow:-3px 3px #1b0307; font-style: italic;">CHOCHU !! ౨ৎ</b>
-        </a>
-        <p style="font-size: 1.1rem; margin: 0; font-style: italic; color:#ff9ff2">❤ yes i'm selfshipping leave me alone ❤</p>
-      </h1>
-    </header>
+    <?php include 'header_content.html'; ?>
 
     <main>
-      <div class="fuji-nav">
-        <a href="index.html">overview</a>
-        <a href="fujimine.html">fujimine</a>
-        <a href="shitsuren.html">shitsuren</a>
-        <a href="chochu.html">chochu</a>
-        <a href="gallery.html">gallery</a>
-      </div>
+      <?php include 'nav_content.html'; ?>
       <div class="wrapper">
         <div style="height: 500px; overflow: auto;">
         <h2 style="letter-spacing: 0.5rem; text-align: center; margin-bottom: 0"><span style="color: #ff9ff2!important; font-size: 1.7rem">❤</span>OVERVIEW<span style="color: #ff9ff2!important; font-size: 1.7rem">❤</span></h2>
@@ -45,10 +32,10 @@
         <hr>
           <div style="display: flow-root">
             <img src="res/index_splash.png" style="width: 70%; display: block; margin: auto;">
-            <p>hey, this page is dedicated to fujimine from ichi the witch! i only got into selfship/yumeship/2d love/etc. relatively recently (as of writing this page, it's been about 5 months!), but it's been a lot of fun. i was interested in fujimine's character from her debut in chapter 79, but it was this specific panel from the chapter after that captured my heart.</p>
+            <p>hey, this page is dedicated to fujimine from <i>ichi the witch!</i> i only got into selfship/yumeship/2d love/etc. relatively recently (as of writing this page, it's been about 5 months!), but it's been a lot of fun. i was interested in fujimine's character from her debut in chapter 79, but it was this specific panel from the chapter after that captured my heart.</p>
             <img src="res/ch80_04.png" style="width: 70%; display: block; margin: auto;">
             <p><span style="color:#ff9ff2">what's so special about this panel?</span> um. she's really cute in it. duh.</p>
-            <p>ok actually, this panel was particularly appealing to me because this is when she acquired the toxiterror majik. in ichi the witch, witches obtain spells by capturing sentient beings known as majiks. after completing their "trial", the witch obtains proof of acquisition in the form of a "magic stone". most scenes depicting a magic stone have the witch simply holding or marveling it—the prize for a hard-earned victory. fujimine, however, is giving toxiterror's stone a kiss. when i saw this panel, my immediate thought was "i wish she'd do this to me". my next thought was "ohhh no".</p>
+            <p>ok actually, this panel was particularly appealing to me because this is when she acquired the toxiterror majik. in <i>ichi the witch,</i> witches obtain spells by capturing sentient beings known as majiks. after completing their "trial", the witch obtains proof of acquisition in the form of a "magic stone". most scenes depicting a magic stone have the witch simply holding or marveling it—the prize for a hard-earned victory. fujimine, however, is giving toxiterror's stone a kiss. when i saw this panel, my immediate thought was "i wish she'd do this to me". my next thought was "ohhh no".</p>
             <p>listen, i'm simple. i see a cute jirai girl and i'm like "wow. for me?" ... my feelings for her run way more deeply and i like her for more reasons than just her style, but we gotta get that out of the way first lol. i find fujimine's personality and motivations very attractive. she's cute! she's terrible! she's a serial killer who can't come to terms with her own humanity and expresses this through fucked up one-sided relationships/friendships!</p>
             <p>...but, in all honesty, she means a lot to me. there are parts of my personality/sexuality that i can only explore through her. like my ocs, she brings me a lot of joy just by existing. i look forward to seeing new content of her, whether official or fanwork. it's just fun to devote myself to a fictional character! idk! maybe i'm weird for it.</p>
             <hr>
@@ -67,6 +54,6 @@
         </div>
       </div>
     </main>
-    <p style="margin-top:25px; color:#ff9ff2; text-align: center;">&#169; rakuraikou | <a href="/sitemap">sitemap</a> | <a href="/index">home</a></p>
+    <?php include 'footer_content.html'; ?>
   </body>
 </html>

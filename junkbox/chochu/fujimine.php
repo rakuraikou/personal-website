@@ -19,23 +19,10 @@
   </head>
 
   <body>
-    <header>
-      <h1>
-        <a href="index" style="text-decoration:none">
-          <b style="text-shadow:-3px 3px #1b0307; font-style: italic;">CHOCHU !! ౨ৎ</b>
-        </a>
-        <p style="font-size: 1.1rem; margin: 0; font-style: italic; color:#ff9ff2">❤ yes i'm selfshipping leave me alone ❤</p>
-      </h1>
-    </header>
+    <?php include 'header_content.html'; ?>
 
     <main>
-      <div class="fuji-nav">
-        <a href="index.html">overview</a>
-        <a href="fujimine.html">fujimine</a>
-        <a href="shitsuren.html">shitsuren</a>
-        <a href="chochu.html">chochu</a>
-        <a href="gallery.html">gallery</a>
-      </div>
+      <?php include 'nav_content.html'; ?>
       <div class="wrapper">
         <div style="height: 500px; overflow: auto;">
         <h2 style="letter-spacing: 0.5rem; text-align: center; margin-bottom: 0"><span style="color: #ff9ff2!important; font-size: 1.7rem">❤</span>FUJIMINE<span style="color: #ff9ff2!important; font-size: 1.7rem">❤</span></h2>
@@ -44,7 +31,7 @@
         </p>
         <hr>
           <div style="display: flow-root">
-            <img src="res/ch85_09.png" style="width: 40%; float: left; padding-right: 10px; padding-bottom: 10px">
+            <img src="res/ch85_09.png" style="width: 300px; max-width: 100%; float: left; padding-right: 10px; padding-bottom: 10px">
             <p>
               fujimine is an arc villain from the manga <i>ichi the witch.</i> she debuts in chapter 79, during the magikeepers arc, where she singlehandedly (sorta...?) raids the mantinel witches association (a majik-hunting agency that she was once a part of) with the goal of killing chun, jikishirone, madoka, and ichi—and also tearing down the association in general. more importantly, <span class="emphasis">fujimine is the love of my life</span>.
             </p>
@@ -55,11 +42,11 @@
               as of september 20th, 2026, the latest chapter fujimine has appeared in is 93 (as a flashback. her actual most recent appearance chapter 92). between her debut and her most recent chapter, fujimine has made an appearance or has been mentioned in every chapter except for chapters 83 and 90. to my knowledge, there are two coloring errors. on page 17 of chaper 79, her right hand is misdrawn and uncolored. this error was not corrected in the official volume 9 print. in the first page of chapter 80, her moles are missing. volume 10 isn't out yet, so i'm not sure if this was corrected.
             </p>
             <h2>appearance</h2>
-            <img src="res/ch84_01-04.png" style="width: 45%; float: right; padding-left: 10px">
+            <img src="res/ch84_01-04.png" style="width: 360px; max-width: 100%; float: right; padding-left: 10px">
             <p>
-              fujimine has long, black hair—some of it is tied in pigtails, but most of it flows behind and around her. she has huge intense eyes that pull in her prey, and sharp fangs poking out of the smile she's always wearing—probably to bite those caught in her trap. what? who said that. not me. that's crazy. <span class="emphasis">anyway...</span> her irises are dark in color, with a slight bluish hue, and small white pupils. near each of her tear ducts is a small mole (which would be perfect to kiss tenderly if she was the type to be into that).
+              fujimine has long, black hair—some of it is tied in pigtails, but most of it flows behind and around her. she has huge intense eyes that pull in her prey, and sharp fangs poking out of the smile she's always wearing—probably to bite those caught in her trap. so prey animals like me. what? who said that. not me. that's crazy. <span class="emphasis">anyway...</span> her irises are dark in color, with a slight bluish hue, and small white pupils. near each of her tear ducts is a small mole (which would be perfect to kiss tenderly if she was the type to be into that).
             </p>
-            <img src="res/ch80_01.png" style="width: 20%; float: left; padding-right: 10px;">
+            <img src="res/ch80_01.png" style="width: 150px; max-width: 100%; float: left; padding-right: 10px;">
             <p>
               so far, fujimine has been depicted in two different outfits—one from her mantinel witches association days, and another from after she betrayed them. both of these fits are cutesy/girly, with plenty of frills and accessories. she's always seen with a frilly earring with short tassels in her left ear, and a choker with a ribbon-like tie attached to it. i think she looks equally adorable in both.
             </p>
@@ -67,18 +54,18 @@
               something interesting to note about her appearance is she's actually quite old. she's confirmed to at least be as old as tricaputo, an elderly witch aligned with the association. despite this, fujimine lacks the same wrinkles and signs of old age that tricaputo has—in fact, fujimine currently appears identical to her teenaged days when she was friends with tricaputo.
             </p>
             <h2>personality</h2>
-            <img src="res/ch87_30.png" style="width: 45%; float: left; padding-right: 10px;">
+            <img src="res/ch87_30.png" style="width: 300px; max-width: 100%; float: left; padding-right: 10px;">
             <p>
               on the surface, fujimine is overly cheerful and chummy. she speaks in a girly, childish way—always referring to others with nicknames like "haytee" for world-hater majik, softening words like "please" into "pwease", giggling over love/teasing subjects of her affection, and making dramatic noises when complaining like "hnnn!" and "waaa!". in japanese, she refers to herself with "ateshi" (あてし), a more childish version of "atashi"/"watashi" (私). she softens words similarly to the english translation—when saying "i love you", she uses "daaishuki" (だーいしゅき) instead of "daisuki" (大好き). her cutesy nicknames are also a staple of her lexicon in the original japanese ("hanse-chan" (反世ちゃん) for world-hater majik). additionally, she says "nya" (にゃ). i think this is very important.
             </p>
-            <img src="res/ch89_03-04.png" style="width: 40%; float: right; padding-left: 10px">
+            <img src="res/ch89_03-04.png" style="width: 250px; max-width: 100%; float: right; padding-left: 10px">
             <p>
               not deep underneath this cutesy personality lies a disturbingly bloodthirsty and obsessive sadist. fujimine loves to draw things out and make a huge impression. to her, doing things halfway or at the bare minimum is pointless, so she goes all-in with her acts of terror. she doesn't seem to care about human lives and easily forgets about those she kills/torments, and does not discriminate when it comes to her victims. when she confronts ichi and challenges his humanity with respect to his death-for-death trigger, she uses "omae" (お前) to refer to him, a very rude pronoun that completely contrasts her surface-level persona.
             </p>
             <p>
               interestingly enough, fujimine has a <span class="emphasis">third</span> side of her personality that only shows itself when she interacts with tricaputo. with her dearest friend from her younger years, fujimine speaks politely and somewhat warmly, replacing her usual cutesy tone with an air of elegance.
             </p>
-            <img src="res/ch85_19.png" style="width: 45%; float: left; padding-right: 10px;">
+            <img src="res/ch85_19.png" style="width: 300px; max-width: 100%; float: left; padding-right: 10px;">
             <p>
               fujimine spends her time with majiks, seeing herself as unfit for humanity. she has a very warped perception of love—to her, love is proportional to how much someone thinks/feels about another person, regardless of if it's positive or negative. thus, she considers those affected by her "love" spell (as well as those who feel resentment towards her after breaking free of her spell) to truly love her.
             </p>
@@ -122,10 +109,10 @@
               Contrary to what her musing in chapter 80 suggests, Fujimine's interest in Ichi is not one of romantic attraction. Fujimine has no intention of playing by human limitations or rules, and she sees Ichi as someone who effortless exists outside of these boundaries. Ichi is humanity's first male witch, and his death-for-death philosophy drives him to harm other humans without hesitation. Purging what makes her human is ultimately what fulfills Fujimine, and she assumes that Ichi is like her.
             </p>
             <p>
-              It's likely that this desire to be nonhuman and the inability to comprehend genuine relationships have been feeding into each other since Fujimine left the Mantinel Witches Association, but it's likely that she was already feeling ostracized from her peers before her revolt. In spite of this theory, however, Fujimine was portrayed with one meaningful connection—Tricaputo. A witch around Fujimine's age. Together, they formed a mentor-pupil blood contract—a magical bonding ritual between two people who wish to "become like family". It's not clear if this has always been the case, but the Mantinel Witches Association's members currently consider the contract to be a great taboo. When Desscaras announced hers with Ichi, her peers were shocked and very concerned.
+              This desire to become nonhuman and the inability to comprehend genuine relationships have been feeding into each other since Fujimine left the Mantinel Witches Association, and it's likely that she was already feeling ostracized from her peers before her revolt. In spite of this theory, however, Fujimine was portrayed with one meaningful connection—Tricaputo. A witch around Fujimine's age. Together, they formed a mentor-pupil blood contract—a magical bonding ritual between two people who wish to "become like family". It's not clear if this has always been the case, but the Mantinel Witches Association's members currently consider the contract to be a great taboo. When Desscaras announced hers with Ichi, her peers were shocked and very concerned.
             </p>
             <p>
-              Because of their proximity in age, the contract between Fujimine and Tricaputo comes across more convincingly as two teenagers running off to elope (or whatever other rash act to consummate their relationship). There was clearly a level of mutual trust and affection, because both parties had to put themselves at risk in order to form the contract. Tricaputo gave Fujimine her agency, and Fujimine put her life in Tricaputo's hands. Bear in mind that the risk of death doing go both ways—if Tricaputo dies, so does Fujimine, but Fujimine's death doesn't affect Tricaputo's life. The bottom line is that Fujimine risked everything to tie her heart to Tricaputo's.
+              Because of their proximity in age, the contract between Fujimine and Tricaputo comes across more convincingly as two teenagers running off to elope (or whatever other rash act to consummate their relationship). There was clearly a level of mutual trust and affection, because both parties had to put themselves at risk in order to form the contract. Tricaputo gave Fujimine her agency, and Fujimine put her life in Tricaputo's hands. Bear in mind that the risk of death doesn't go both ways—if Tricaputo dies, so does Fujimine, but Fujimine's death doesn't affect Tricaputo's life. The bottom line is that Fujimine risked everything to tie her heart to Tricaputo's.
             </p>
             <p>
               Assuming the mentor-pupil blood contract has always been seen as taboo makes the stakes of Fujimine and Tricaputo's bond even greater. It's not far-fetched to conclude that Fujimine sought a way to express her love to Tricaputo, and in doing so (further) ostracized herself from her peers, leading to her revolt. Years later, Fujimine had no idea that Tricaputo was hiding in the Association, which suggests that Tricaputo left with her back then. Regardless of the amount of time they spent together, Tricaputo ultimately abandoned Fujimine. After giving up everything for Tricaputo, it was likely at this point that Fujimine began her spiral into the love-obsessed mass murderer she is now.
@@ -139,6 +126,6 @@
         </div>
       </div>
     </main>
-    <p style="margin-top:25px; color:#ff9ff2; text-align: center;">&#169; rakuraikou | <a href="/sitemap">sitemap</a> | <a href="/index">home</a></p>
+    <?php include 'footer_content.html'; ?>
   </body>
 </html>
