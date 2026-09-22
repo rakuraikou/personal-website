@@ -7,7 +7,7 @@
 
 <!-- discord embed -->
     <meta content="the thunder guy or whatever" property="og:site_name">
-    <meta content="THUNDERSWAG!!! - Shitsuren" property="og:title">
+    <meta content="THUNDERSWAG!!! - Gallery" property="og:title">
     <meta content="FUJIMINE'S BUTTERFLY~!" property="og:description">
     <meta content='https://rkrk.dev/res/embed_sprite.png' property='og:image'>
     <meta name="theme-color" content="#967526">
