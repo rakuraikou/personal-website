@@ -100,8 +100,16 @@
               <span class="emphasis" style="font-size: 0.8em">art by <a href="https://toyhou.se/Nor">Nor</a></span>
             </div>
             <div style="display: flex; flex-direction: column; text-align: center; width: 45%">
+              <a href="res/cc_zokuzoku.png" style="max-width: 100%"><img src="res/cc_zokuzoku.png" style="max-width: 100%"></a>
+              <span class="emphasis" style="font-size: 0.8em">art by me</span>
+            </div>
+            <div style="display: flex; flex-direction: column; text-align: center; width: 45%">
               <a href="res/cc_salmonbit.png" style="max-width: 100%"><img src="res/cc_salmonbit.png" style="max-width: 100%"></a>
               <span class="emphasis" style="font-size: 0.8em">art by <a href="https://toyhou.se/Salmonbit">Salmonbit</a></span>
+            </div>
+            <div style="display: flex; flex-direction: column; text-align: center; width: 45%">
+              <a href="res/cc_aquarium.png" style="max-width: 100%"><img src="res/cc_aquarium.png" style="max-width: 100%"></a>
+              <span class="emphasis" style="font-size: 0.8em">art by me</span>
             </div>
             <div style="display: flex; flex-direction: column; text-align: center; width: 45%">
               <a href="res/cc_ash.png" style="max-width: 100%"><img src="res/cc_ash.png" style="max-width: 100%"></a>

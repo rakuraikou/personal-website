@@ -44,7 +44,7 @@
               <li>i'm fine with sharing fujimine. i'm also cool with talking about ships with her and other canon characters</li>
               <ul>
                 <li>i've actually never met another person who ships with fujimine, so this might change...? i'd like to think i'm secure enough to handle it, though</li>
-                <li>i do get a little peeved about interpretations of her character that strip her of her agencey (such as the theory that she is being controlled by toxiterrer), but i try not to shut people down or talk about it too much</li>
+                <li>i do get a little peeved about interpretations of her character that strip her of her agencey (such as the theory that she is being controlled by toxiterror), but i try not to shut people down or talk about it too much</li>
               </ul>
               <li>i use "selfship", "yumeship", and "oc x canon" interchangeably, and it depends on how i happen to feel about shitsuren in the moment. hope that's cool</li>
               <li>i get upset when people talk about wanting to harm her. i get she's a very bad person, but please be normal and don't reply to my art with a graphic description of how you want to kill her. yes this has happened</li>
